@@ -7,7 +7,7 @@ const dateFilter = require("./src/filters/date-filter.js");
 const w3DateFilter = require("./src/filters/w3-date-filter.js");
 const sortByDisplayOrder = require("./src/utils/sort-by-display-order.js");
 
-// Image shortcode
+// Async image shortcode
 async function imageShortcode(src, alt, sizes = "(min-width: 1024px) 50vw, 100vw") {
   let metadata = await Image(src, {
     widths: [300, 600, 1200],
@@ -27,35 +27,31 @@ async function imageShortcode(src, alt, sizes = "(min-width: 1024px) 50vw, 100vw
 }
 
 module.exports = function(eleventyConfig) {
-  // Compile Sass before build
+  // 🧶 Compile Sass before build
+  eleventyConfig.on("beforeBuild", () => {
+    console.log("🧶 Compiling Sass to _includes/css...");
+    execSync(
+      "npx sass src/scss:src/_includes/css --no-source-map --style=compressed",
+      { stdio: "inherit" }
+    );
+  });
 
-const { execSync } = require("child_process");
+  // ✅ Watch scss folder but ignore compiled CSS to avoid rebuild loops
+  eleventyConfig.addWatchTarget("src/scss/");
+  eleventyConfig.ignores.add("src/_includes/css/**");
 
-eleventyConfig.addWatchTarget("src/scss/");
-
-eleventyConfig.on("beforeBuild", () => {
-  console.log("🧶 Compiling Sass to _includes/css...");
-  execSync(
-    "npx sass src/scss:src/_includes/css --no-source-map --style=compressed",
-    { stdio: "inherit" }
-  );
-});
-
-
-
-
-  // Add filters
+  // Filters
   eleventyConfig.addFilter("dateFilter", dateFilter);
   eleventyConfig.addFilter("w3DateFilter", w3DateFilter);
   eleventyConfig.addFilter("sortByDisplayOrder", sortByDisplayOrder);
 
-  // Add plugins
+  // Plugins
   eleventyConfig.addPlugin(rssPlugin);
 
-  // Add image shortcode
+  // Shortcodes
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
 
-  // Pass-through copy
+  // Passthrough copy
   eleventyConfig.addPassthroughCopy("src/fonts");
   eleventyConfig.addPassthroughCopy("src/admin");
   eleventyConfig.addPassthroughCopy("._redirects");
@@ -65,10 +61,10 @@ eleventyConfig.on("beforeBuild", () => {
     return [...collection.getFilteredByGlob("./src/posts/*.md")].reverse();
   });
 
-  // Ignore .gitignore
+  // Use .eleventyignore, not .gitignore
   eleventyConfig.setUseGitIgnore(false);
 
-  // Directory settings
+  // Directory structure
   return {
     markdownTemplateEngine: "njk",
     dataTemplateEngine: "njk",
