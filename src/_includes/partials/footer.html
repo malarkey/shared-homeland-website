@@ -1,0 +1,22 @@
+<footer role="contentinfo">
+
+<div id="footer-logo">
+</div><!-- footer-logo -->
+
+<ul>
+{% for item in footer_navigation.items %}
+<li><a href="{{ item.url }}"{{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a></li>
+{% endfor %}
+</ul>
+
+<small>&#169; Copyright 2025&#8211;now. Copyright XXXXX.
+Design by <a href="https://stuffandnonsense.co.uk" target="_blank">Stuff &#38; Nonsense</a></small>
+
+</footer>
+
+<!-- ********************************************************
+Design: Andy Clarke • Stuff & Nonsense
+URL: https://stuffandnonsense.co.uk
+Development: Sush Kelly • Creativity & Code
+URL: https://sushkelly.co.uk
+******************************************************** -->

@@ -4,11 +4,8 @@
 
 {% block content %}
 
-{% include "partials/inner-header.html" %}
-<div class="grid serif-copy">
-    <article class="center-spread">
-        <h1>{{ title }}</h1>
-        {{ content | safe }}
-    </article>
-</div>
+<h1>{{ title }}</h1>
+
+{{ content | safe }}
+
 {% endblock %}

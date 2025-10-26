@@ -1,8 +1,8 @@
 {
-  "name": "Site name Here",
-  "url": "http://localhost:8080/",
-  "authorName": "Sush Kelly",
-  "authorEmail": "sush@creativityandcode.co.uk",
-  "telephone": "telephone number here",
-  "email": "email here"
+  "name": "Stuff Nonsense",
+  "url": "http://localhost:8080",
+  "authorName": "Andy Clarke, Stuff &#38; Nonsense",
+  "authorEmail": "andy.clarke@stuffandnonsense.co.uk",
+  "telephone": "07515 895903",
+  "email": "andy.clarke@stuffandnonsense.co.uk"
 }

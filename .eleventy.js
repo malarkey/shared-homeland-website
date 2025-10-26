@@ -26,24 +26,24 @@ async function imageShortcode(src, alt, sizes = "(min-width: 1024px) 50vw, 100vw
   return Image.generateHTML(metadata, imageAttributes);
 }
 
+// CSS inlining filter for Netlify CMS
+function inlineFilter(path) {
+  const fs = require("fs");
+  const filepath = `dist${path}`;
+
+  if (fs.existsSync(filepath)) {
+    const buffer = fs.readFileSync(filepath);
+    return buffer.toString('utf8').replace(/^\uFEFF/, '');
+  }
+  return `/* CSS file ${path} not found */`;
+}
+
 module.exports = function(eleventyConfig) {
-  // 🧶 Compile Sass before build
-  eleventyConfig.on("beforeBuild", () => {
-    console.log("🧶 Compiling Sass to _includes/css...");
-    execSync(
-      "npx sass src/scss:src/_includes/css --no-source-map --style=compressed",
-      { stdio: "inherit" }
-    );
-  });
-
-  // ✅ Watch scss folder but ignore compiled CSS to avoid rebuild loops
-  eleventyConfig.addWatchTarget("src/scss/");
-  eleventyConfig.ignores.add("src/_includes/css/**");
-
   // Filters
   eleventyConfig.addFilter("dateFilter", dateFilter);
   eleventyConfig.addFilter("w3DateFilter", w3DateFilter);
   eleventyConfig.addFilter("sortByDisplayOrder", sortByDisplayOrder);
+  eleventyConfig.addFilter("inline", inlineFilter);
 
   // Plugins
   eleventyConfig.addPlugin(rssPlugin);

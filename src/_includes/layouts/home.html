@@ -1,18 +1,14 @@
 {% extends "layouts/base.html" %}
+
 {% block content %}
 
-<h1 class="display">{{ title }}</h1>
+<h1>{{ title }}</h1>
 
 {{ content | safe }}
 
+<!-- FEATURE IMAGE -->
 {% if featureImage %}
 {{ featureImage | safe }}
 {% endif %}
-
-
-
-
-
-
 
 {% endblock %}

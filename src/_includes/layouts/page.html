@@ -4,29 +4,17 @@
 
 {% block content %}
 
-
-<div class="grid">
-
-<div class="a1-b4">
-	
+<!-- FEATURE IMAGE -->
 {% if featureImage %}
 {{ featureImage | safe }}
 {% endif %}
+
+<!-- TITLE -->
 {% if displayTitle %}
-<h1 class="display">{{ title }}</h1>
+<h1>{{ title }}</h1>
 {% else %}
 <h1>{{ title }}</h1>
 {% endif %}
  {{ content | safe }}
-
-
-</div>
-
-<div class="a5-a6 sidebar-container">
-{% include "partials/_sidebar.html" %}
-</div>
-
-</div><!-- grid-athens -->
-
 
 {% endblock %}

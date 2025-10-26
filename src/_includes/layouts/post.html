@@ -1,5 +1,4 @@
 {% extends "layouts/base.html" %}
-{% set pageCriticalStyles = ['css/post.css'] %}
 
 {# Grab other posts that aren't this one for the 'more from the blog' feed #}
 {% set recommendedPosts = helpers.getSiblingContent(collections.blog, page) %}
@@ -10,42 +9,42 @@
 {% if tags %}
 <p class="visually-hidden" id="tags-desc">Tags that this post has been filed under.</p>
 <ul class="tags-list" aria-describedby="tags-desc">
-  {% for tag in tags %}
-  <li>
-    <a href="/tag/{{ tag | slug }}/">#{{ tag | replace(' ', '') | capitalize }}</a>
-  </li>
-  {% endfor %}
+{% for tag in tags %}
+<li>
+<a href="/tag/{{ tag | slug }}/">#{{ tag | replace(' ', '') | capitalize }}</a>
+</li>
+{% endfor %}
 </ul>
 {% endif %}
 {% endset %}
 
 {% block content %}
 <article class="flow">
-  <div class="post-header">
-    <img src="{{ featureImage }}" alt="" class="left-big" />
-    <figcaption>
-      <p>{{ featureImageCaption }}</p>
-      <a href="/about-us/">What we do</a>
-    </figcaption>
+<div class="post-header">
+<img src="{{ featureImage }}" alt="" class="left-big" />
+<figcaption>
+<p>{{ featureImageCaption }}</p>
+<a href="/about-us/">What we do</a>
+</figcaption>
 
-  </div>
-  <div class="grid">
-    <div class="post-content flow">
-      {{ content | safe }}
-    </div>
-  </div>
-  {% if recommendedPosts %}
-  <footer class="grid recommended-posts">
-    {% set postListItems = recommendedPosts %}
-    {% set postListHeadline = 'More from the blog' %}
-    {% include "partials/post-list.html" %}
-  </footer>
-  {% endif %}
+</div>
+<div class="grid">
+<div class="post-content flow">
+{{ content | safe }}
+</div>
+</div>
+{% if recommendedPosts %}
+<footer class="grid recommended-posts">
+{% set postListItems = recommendedPosts %}
+{% set postListHeadline = 'More from the blog' %}
+{% include "partials/post-list.html" %}
+</footer>
+{% endif %}
 </article>
 <article class="grid">
-  <div class="center-spread">
+<div class="center-spread">
 
-  </div>
+</div>
 </article>
 
 {% endblock %}
