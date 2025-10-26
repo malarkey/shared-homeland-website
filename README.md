@@ -47,25 +47,8 @@ Includes compiled CSS, optimized images, and built templates
 Ready for deployment (e.g. Netlify, Vercel, or GitHub Pages)
 Edit any .njk, .md, .scss, or image — changes appear instantly.
 
-## Project Structure
+## Author
 
-11ty2025/
-├─ src/
-│  ├─ _includes/
-│  │  ├─ css/              # compiled CSS (from Sass)
-│  │  ├─ layouts/          # Nunjucks layouts
-│  │  └─ partials/         # template includes
-│  ├─ scss/                # Sass source files
-│  │  ├─ critical.scss
-│  │  ├─ _reset.scss
-│  │  ├─ blocks/
-│  │  └─ utilities/
-│  ├─ images/
-│  ├─ posts/
-│  └─ index.md
-├─ dist/                   # output folder (generated)
-├─ .eleventy.js            # Eleventy configuration
-├─ dev.js                  # custom dev server (Eleventy + Browsersync)
-├─ package.json
-└─ .eleventyignore
+Modernized & maintained by @maxray
 
+Originally inspired by the excellent Eleventy From Scratch starter by Andy B.
