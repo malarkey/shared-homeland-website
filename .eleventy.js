@@ -11,7 +11,7 @@ const sortByDisplayOrder = require("./src/utils/sort-by-display-order.js");
 async function imageShortcode(src, alt, sizes = "(min-width: 1024px) 50vw, 100vw") {
   let metadata = await Image(src, {
     widths: [300, 600, 1200],
-    formats: ["avif", "jpeg"],
+    formats: ["webp", "jpeg"],
     outputDir: "./dist/images/",
     urlPath: "/images/"
   });
