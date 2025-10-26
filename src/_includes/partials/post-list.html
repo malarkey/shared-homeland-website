@@ -1,0 +1,19 @@
+<div class="center-spread" id=" post-list">
+  <div class="flow">
+    {% if postListHeadline %}
+    <h2>
+      {{ postListHeadline }}
+    </h2>
+    {% endif %}
+    <div>
+      <ol class="flow ">
+        {% for item in postListItems %}
+        <li class="post-list-item">
+          <a href="{{ item.url }}" class="post-list-link">{{ item.data.title }}</a>
+          <p>{{item.data.featureImageCaption}}</p>
+        </li>
+        {% endfor %}
+      </ol>
+    </div>
+  </div>
+</div>

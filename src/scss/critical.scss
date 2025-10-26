@@ -1,0 +1,78 @@
+// First up: config and functions
+@import 'reset';
+
+// Global styles start
+:root {
+//   --flow-space: #{get-size('600')};
+}
+
+body {
+  line-height: 1.5;
+
+
+}
+
+a:not([class]) {
+  color: currentColor;
+}
+
+:focus {
+  outline: 2px dashed currentColor;
+  outline-offset: 0.25rem;
+}
+
+main:focus {
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+
+}
+
+// High contrast selection because it can help visually-impaired
+// folks read the text easier
+::selection {
+  color: get-color('light');
+
+  // We set this as an RGBA because that's how you get a solid color, by using 0.99
+  // alpha value. Browsers are wild.
+//   background: rgba(get-color('dark-shade'), 0.99);
+}
+
+// Scrollbar styles
+::-webkit-scrollbar {
+  height: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+//   border: 1px solid get-color('dark-glare');
+  border-radius: 0.25rem;
+}
+
+::-webkit-scrollbar-thumb {
+//   background-color: get-color('dark');
+  border-radius: 0.25rem;
+}
+
+// Import blocks
+@import 'blocks/button';
+// @import 'blocks/definition-group';
+@import 'blocks/site-foot';
+@import 'blocks/site-head';
+// @import 'blocks/tags-list';
+@import 'blocks/nav';
+@import 'blocks/skip-link';
+
+// Import utilities
+@import 'utilities/dot-shadow';
+@import 'utilities/flow';
+// @import 'utilities/frame';
+// @import 'utilities/panel';
+@import 'utilities/radius';
+@import 'utilities/site-wrap';
+@import 'utilities/visually-hidden';
+@import 'utilities/wrapper';

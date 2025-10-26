@@ -1,0 +1,269 @@
+backend:
+  name: git-gateway
+  branch: main
+publish_mode: editorial_workflow
+media_folder: "src/images"
+public_folder: "/images"
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "home"
+        label: "Homepage"
+        delete: false
+        file: "src/home.md"
+        slug: "{{slug}}"
+        create: false
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/base.html"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
+          - {label: "Sidebar Quote", name: "sideQuote", widget: "string", required: false}
+          - {label: "Sidebar Cite", name: "sideQuoteCite", widget: "string", required: false}
+          - {label: "Intro", name: "intro", widget: "markdown", required: false}
+          - {label: "Featured Image", name: "featureImage", widget: "markdown"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Text2", name: "text2", widget: "markdown"}
+          - {label: "Text3", name: "text3", widget: "markdown"}
+      - name: "about"
+        label: "About"
+        delete: false
+        file: "src/about.md"
+        slug: "{{slug}}"
+        create: false
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/about.html"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
+          - {label: "Sidebar Quote", name: "sideQuote", widget: "string", required: false}
+          - {label: "Sidebar Cite", name: "sideQuoteCite", widget: "string", required: false}
+          - {label: "Intro", name: "intro", widget: "markdown", required: false}
+          - {label: "Featured Image", name: "featureImage", widget: "markdown"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Text2", name: "text2", widget: "markdown"}
+      - name: "new-build-homes"
+        label: "New build homes"
+        delete: false
+        file: "src/new-builds.md"
+        slug: "{{slug}}"
+        create: false
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/service.html"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
+          - {label: "Sidebar Quote", name: "sideQuote", widget: "string", required: false}
+          - {label: "Sidebar Cite", name: "sideQuoteCite", widget: "string", required: false}
+          - {label: "Intro", name: "intro", widget: "markdown", required: false}
+          - {label: "Featured Image", name: "featureImage", widget: "markdown"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Text2", name: "text2", widget: "markdown"}
+          - {label: "Text3", name: "text3", widget: "markdown"}
+      - name: "refurbishment"
+        label: "Building Refurbishment"
+        delete: false
+        file: "src/refurbishment.md"
+        slug: "{{slug}}"
+        create: false
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/service.html"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
+          - {label: "Sidebar Quote", name: "sideQuote", widget: "string", required: false}
+          - {label: "Sidebar Cite", name: "sideQuoteCite", widget: "string", required: false}
+          - {label: "Intro", name: "intro", widget: "markdown", required: false}
+          - {label: "Featured Image", name: "featureImage", widget: "markdown", required: false}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Text2", name: "text2", widget: "markdown"}
+          - {label: "Text3", name: "text3", widget: "markdown"}
+      - name: "public-buildings"
+        label: "Public Buildings"
+        delete: false
+        file: "src/public-buildings.md"
+        slug: "{{slug}}"
+        create: false
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/service.html"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
+          - {label: "Sidebar Quote", name: "sideQuote", widget: "string", required: false}
+          - {label: "Sidebar Cite", name: "sideQuoteCite", widget: "string", required: false}
+          - {label: "Intro", name: "intro", widget: "markdown", required: false}
+          - {label: "Featured Image", name: "featureImage", widget: "markdown", required: false}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Text2", name: "text2", widget: "markdown"}
+          - {label: "Text3", name: "text3", widget: "markdown"}
+      - name: "planned-maintenance"
+        label: "Planned Maintenance"
+        delete: false
+        file: "src/planned-maintenance.md"
+        slug: "{{slug}}"
+        create: false
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/service.html"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
+          - {label: "Sidebar Quote", name: "sideQuote", widget: "string", required: false}
+          - {label: "Sidebar Cite", name: "sideQuoteCite", widget: "string", required: false}
+          - {label: "Intro", name: "intro", widget: "markdown", required: false}
+          - {label: "Featured Image", name: "featureImage", widget: "markdown", required: false}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Text2", name: "text2", widget: "markdown"}
+          - {label: "Text3", name: "text3", widget: "markdown"}
+      - name: "schools"
+        label: "Schools"
+        delete: false
+        file: "src/schools.md"
+        slug: "{{slug}}"
+        create: false
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/service.html"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
+          - {label: "Sidebar Quote", name: "sideQuote", widget: "string", required: false}
+          - {label: "Sidebar Cite", name: "sideQuoteCite", widget: "string", required: false}
+          - {label: "Intro", name: "intro", widget: "markdown", required: false}
+          - {label: "Featured Image", name: "featureImage", widget: "markdown", required: false}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Text2", name: "text2", widget: "markdown"}
+          - {label: "Text3", name: "text3", widget: "markdown"}
+      - name: "disaster-recovery"
+        label: "Disaster Recovery"
+        delete: false
+        file: "src/disaster-recovery.md"
+        slug: "{{slug}}"
+        create: false
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/service.html"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
+          - {label: "Sidebar Quote", name: "sideQuote", widget: "string", required: false}
+          - {label: "Sidebar Cite", name: "sideQuoteCite", widget: "string", required: false}
+          - {label: "Intro", name: "intro", widget: "markdown", required: false}
+          - {label: "Featured Image", name: "featureImage", widget: "markdown", required: false}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Text2", name: "text2", widget: "markdown"}
+          - {label: "Text3", name: "text3", widget: "markdown"}
+      - name: "large-scale-insurance"
+        label: "Large Scale Insurance"
+        delete: false
+        file: "src/large-scale-insurance.md"
+        slug: "{{slug}}"
+        create: false
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/service.html"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
+          - {label: "Sidebar Quote", name: "sideQuote", widget: "string", required: false}
+          - {label: "Sidebar Cite", name: "sideQuoteCite", widget: "string", required: false}
+          - {label: "Intro", name: "intro", widget: "markdown", required: false}
+          - {label: "Featured Image", name: "featureImage", widget: "markdown", required: false}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Text2", name: "text2", widget: "markdown"}
+          - {label: "Text3", name: "text3", widget: "markdown"}
+      - name: "new-homes"
+        label: "New Homes"
+        delete: false
+        file: "src/new-homes.md"
+        slug: "{{slug}}"
+        create: false
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/service.html"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
+          - {label: "Sidebar Quote", name: "sideQuote", widget: "string", required: false}
+          - {label: "Sidebar Cite", name: "sideQuoteCite", widget: "string", required: false}
+          - {label: "Intro", name: "intro", widget: "markdown", required: false}
+          - {label: "Featured Image", name: "featureImage", widget: "markdown", required: false}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Text2", name: "text2", widget: "markdown"}
+          - {label: "Text3", name: "text3", widget: "markdown"}
+      - name: "void-properties"
+        label: "Void Properties"
+        delete: false
+        file: "src/voids.md"
+        slug: "{{slug}}"
+        create: false
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/service.html"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
+          - {label: "Sidebar Quote", name: "sideQuote", widget: "string", required: false}
+          - {label: "Sidebar Cite", name: "sideQuoteCite", widget: "string", required: false}
+          - {label: "Intro", name: "intro", widget: "markdown", required: false}
+          - {label: "Featured Image", name: "featureImage", widget: "markdown", required: false}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Text2", name: "text2", widget: "markdown"}
+          - {label: "Text3", name: "text3", widget: "markdown"}
+  - name: "posts"
+    label: "Posts"
+    folder: "src/posts"
+    slug: "{{slug}}"
+    preview_path: "posts/{{slug}}"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Tags", name: "tags", widget: "list", allow_add: true}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "jobs"
+    label: "Jobs"
+    folder: "src/jobs"
+    slug: "{{slug}}"
+    preview_path: "jobs/{{slug}}"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Tags", name: "tags", widget: "list", allow_add: true}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "sponsors"
+    label: "Sponsors"
+    folder: "src/sponsors"
+    slug: "{{slug}}"
+    preview_path: "sponsors/{{slug}}"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Feature Image", name: "featureImage", widget: "image", required: false}
+      - {label: "Logo", name: "logo", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - label: "Globals"
+    name: "globals"
+    files:
+      - label: "Site Data"
+        name: "site_data"
+        delete: false
+        file: "src/_data/site.json"
+        fields:
+          - {label: "Site Name", name: "name", widget: "string"}
+          - {label: "Site Url", name: "url", widget: "string"}
+          - {label: "Author Name", name: "authorName", widget: "string"}
+          - {label: "Author Email Address", name: "authorEmail", widget: "string"}
+          - {label: "Telephone", name: "telephone", widget: "string", required: false}
+          - {label: "Email", name: "email", widget: "string", required: false}
+          - {label: "Twitter Handle", name: "twitter", widget: "string", required: false}
+          - {label: "Linkedin Handle", name: "linkedin", widget: "string", required: false}
+      - label: "Main Navigation"
+        name: "main nav"
+        delete: false
+        file: "src/_data/navigation.json"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Text", name: "text", widget: "string"}
+              - {label: "Url", name: "url", widget: "string"}
+      
+      - label: "Footer Navigation"
+        name: "bottom nav"
+        delete: false
+        file: "src/_data/footer_navigation.json"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Text", name: "text", widget: "string"}
+              - {label: "Url", name: "url", widget: "string"}

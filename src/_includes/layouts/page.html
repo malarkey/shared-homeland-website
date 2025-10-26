@@ -1,0 +1,32 @@
+{% extends "layouts/base.html" %}
+
+{% set pageHeaderTitle = title %}
+
+{% block content %}
+
+
+<div class="grid">
+
+<div class="a1-b4">
+	
+{% if featureImage %}
+{{ featureImage | safe }}
+{% endif %}
+{% if displayTitle %}
+<h1 class="display">{{ title }}</h1>
+{% else %}
+<h1>{{ title }}</h1>
+{% endif %}
+ {{ content | safe }}
+
+
+</div>
+
+<div class="a5-a6 sidebar-container">
+{% include "partials/_sidebar.html" %}
+</div>
+
+</div><!-- grid-athens -->
+
+
+{% endblock %}

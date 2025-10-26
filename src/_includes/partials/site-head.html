@@ -1,0 +1,18 @@
+<header role="banner">
+	
+<div class="a1-a2 banner__logo">
+<a href="/" title="NWPS Construction home page" rel="home">LOGO
+</a>
+</div><!-- banner__logo -->
+
+<div class="b3-a6 banner__nav">
+<ul role="navigation">
+ {% for item in navigation.items %}
+      <li>
+        <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a>
+      </li>
+      {% endfor %}
+</ul>
+</div><!-- banner__nav -->
+
+</header>
