@@ -4,3 +4,4 @@ layout: 'layouts/base.html'
 permalink: '/contact/index.html'
 featureImage:
 ---
+Contact thee

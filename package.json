@@ -4,12 +4,12 @@
   "description": "",
   "main": ".eleventy.js",
   "scripts": {
-    "start": "npx gulp && concurrently 'npx gulp watch' 'npx eleventy --serve'",
-    "production": "NODE_ENV=production npx gulp && NODE_ENV=production eleventy"
+    "start": "node dev.js",
+    "build": "ELEVENTY_ENV=production npx @11ty/eleventy"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hankchizljaw/eleventy-from-scratch.git"
+    "url": "git+https://github.com/maxray/11ty2025"
   },
   "keywords": [],
   "author": "",
@@ -19,18 +19,15 @@
   },
   "homepage": "https://github.com/hankchizljaw/eleventy-from-scratch#readme",
   "dependencies": {
-    "@11ty/eleventy": "^0.11.0",
     "@11ty/eleventy-cache-assets": "^2.0.2",
     "@11ty/eleventy-img": "^2.0.1",
     "@11ty/eleventy-plugin-rss": "^1.0.7",
-    "concurrently": "^5.2.0",
-    "get-google-fonts": "^1.2.2",
-    "gulp": "^4.0.2",
-    "gulp-clean-css": "^4.3.0",
-    "gulp-imagemin": "^7.1.0",
-    "gulp-sass": "^4.1.0",
     "linkedom": "^0.14.12",
     "moment": "^2.26.0",
     "sass": "^1.26.8"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "browser-sync": "^3.0.4"
   }
 }
