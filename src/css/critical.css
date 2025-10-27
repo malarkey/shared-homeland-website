@@ -1,0 +1,837 @@
+﻿:root {
+
+/*
+* TYPOGRAPHY SYSTEM
+* Uses fluid type scaling for responsive font sizes across viewports
+* Generated via: https://www.fluid-type-scale.com/
+*/
+
+--font-family-default: "Special Gothic", sans-serif;
+
+/* Fluid font scale - scales between min/max viewports */
+--font-size-xs: clamp(0.64rem, -0.01vi + 0.64rem, 0.63rem);
+--font-size-s: clamp(0.8rem, 0.08vi + 0.78rem, 0.84rem);
+--font-size-r: clamp(1rem, 0.23vi + 0.94rem, 1.13rem);
+--font-size-m: clamp(1.25rem, 0.45vi + 1.14rem, 1.5rem);
+--font-size-l: clamp(1.56rem, 0.79vi + 1.36rem, 2rem);
+--font-size-xl: clamp(1.95rem, 1.29vi + 1.63rem, 2.66rem);
+--font-size-2xl: clamp(2.44rem, 2.02vi + 1.94rem, 3.55rem);
+--font-size-3xl: clamp(3.05rem, 3.06vi + 2.29rem, 4.73rem);
+--font-size-4xl: clamp(4.8373rem, 3.9283rem + 4.5448vw, 7.4506rem);
+
+/* Font weights and line heights */
+--font-weight-l: 200;
+--font-weight-r: 400;
+--font-weight-m: 500;
+--font-weight-bd: 800;
+--lineheight-r: 1.5;
+--lineheight-s: 1.3;
+
+/*
+* COLOR SYSTEM
+* Dark theme with accent colors for visual hierarchy
+*/
+
+--color-accent: #7ec339; /* Primary brand accent (lime green) */
+--color-background-default: #212121; /* Main background */
+--color-base: #0d0d0d; /* Darker background for contrast */
+--color-border: #2896be; /* Border and secondary accent */
+--color-text-default: #deded3; /* Primary text color */
+--color-text-alt: #1a1a1a; /* Text on light backgrounds */
+--color-text-link: var(--color-accent);
+--color-text-link-hover: #7ec339;
+--color-text-link-decoration: #777;
+--color-button-background: var(--color-accent);
+--color-button-text: var(--color-text-alt);
+--color-input-background: #404040;
+
+/*
+* BORDER SYSTEM
+* Consistent border widths and radii
+*/
+
+--border-width-r: 1px;
+--border-width-l: 3px;
+--border-radius-s: 3px;
+--border-radius-r: 6px;
+--border-radius-l: 12px;
+
+/*
+* LAYOUT SYSTEM
+* Grid and spacing for consistent layouts
+*/
+
+--grid-12-col: repeat(12, 1fr); /* 12-column grid system */
+--grid-column-gap: clamp(1.6875rem, 1.6223rem + 0.3261vi, 1.875rem);
+--grid-row-gap: clamp(1.00rem, calc(0.89rem + 0.54vw), 1.31rem);
+--max-width: 85rem; /* Maximum content width */
+
+/*
+* SPACING SYSTEM
+* Fluid spacing scale for consistent vertical rhythm
+*/
+
+--spacing-s: clamp(0.5625rem, 0.5408rem + 0.1087vi, 0.625rem);
+--spacing-r: clamp(1.125rem, 1.0815rem + 0.2174vi, 1.25rem);
+--spacing-m: clamp(1.6875rem, 1.6223rem + 0.3261vi, 1.875rem);
+--spacing-l: clamp(2.25rem, 2.163rem + 0.4348vi, 2.5rem);
+--spacing-xl: clamp(4.5rem, 3.4565rem + 5.2174vi, 7.5rem);
+
+/* Sizing for SVG icons */
+--svg-width: clamp(1.50rem, calc(1.34rem + 0.80vw), 2.06rem);
+
+/*
+* ANIMATION SYSTEM
+* Standardized timing for consistent interactions
+*/
+
+--animate-duration: 1s;
+--animate-duration-fast: .5s;
+--animate-duration-faster: .25s;
+--animate-delay: 1s;
+--animate-function: ease-in;
+--animate-repeat: 1;
+
+/* Transform scales for interactive elements */
+--scale-up: 1.05;
+--scale-down: .98;
+
+/* Filter effects for hover states */
+--brightness-up: 1.15;
+--brightness-down: .85;
+--saturate-up: 1.25;
+--saturate-down: .85; }
+
+@supports (color: color(display-p3 1 1 1)) {
+:root {
+--color-accent: color(display-p3 0.555 0.758 0.314);
+--color-background-default: color(display-p3 0.129 0.129 0.129);
+--color-base: color(display-p3 0.051 0.051 0.051);
+--color-border: color(display-p3 0.297 0.58 0.73);
+--color-text-default: color(display-p3 0.871 0.871 0.831);
+--color-text-alt: color(display-p3 0.102 0.102 0.102);
+--color-text-link: var(--color-accent);
+--color-text-link-hover: color(display-p3 0.555 0.758 0.314);
+--color-button-background: var(--color-accent);
+--color-button-text: var(--color-text-alt);
+--color-input-background: color(display-p3 0.251 0.251 0.251);
+}
+}
+
+/* ==========================================================================
+UTILITY STYLES
+========================================================================== */
+
+/* Viewport configuration for responsive design */
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+
+/* CSS View Transitions API for page navigation animations */
+@view-transition { navigation: auto; }
+
+/* Text selection styling */
+::-moz-selection {
+background-color: #e0e8ef;
+text-shadow: none; }
+
+::selection {
+background-color: #e0e8ef;
+text-shadow: none; }
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+height: 6px;
+width: 6px; }
+
+::-webkit-scrollbar-thumb {
+background-color: var(--color-accent);
+border-radius: 6px;
+width: 6px; }
+
+::-webkit-scrollbar-track {
+background-color: var(--color-base);
+border-radius: 0; }
+
+/* Anchor positioning for jump links */
+[id] { scroll-margin-top: var(--spacing-l); }
+
+/* Visually hidden utility for accessibility */
+:is([data-visibility="hidden"], .visually-hidden) {
+-webkit-clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+border: 0;
+clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+height: 1px;
+margin: -1px;
+overflow: hidden;
+padding: 0;
+position: absolute;
+white-space: nowrap;
+width: 1px; }
+
+/*
+* LAYOUT UTILITIES
+* Helper classes for common layout patterns
+*/
+
+/* Horizontal alignment */
+[data-align-h="center"] {
+text-align: center;
+text-wrap: balance; /* Balances text for better readability */}
+[data-align-h="right"] { text-align: right; }
+
+/* Vertical alignment */
+[data-align-v="center"] { align-items: center; }
+
+/* Responsive visibility */
+[data-visibility="small"] { display: block; }
+[data-visibility="large"] { display: none; }
+
+/* ==========================================================================
+BASE ELEMENT STYLES
+========================================================================== */
+
+/* HTML base styles */
+/* ================================================
+   REDUCED MOTION — GLOBAL METHODOLOGY
+   ================================================ */
+
+@media (prefers-reduced-motion: reduce) {
+html { scroll-behavior: auto !important; }
+*, *::before, *::after {
+animation: none !important;
+transition: none !important;
+scroll-behavior: auto !important;
+}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+html { scroll-behavior: smooth; }
+}
+
+html {
+-moz-text-size-adjust: none;
+-webkit-text-size-adjust: 100%;
+background-color: var(--color-background-default);
+overflow-x: hidden;
+scroll-behavior: smooth;
+text-size-adjust: none; }
+
+/* Body base styles */
+body {
+-webkit-font-smoothing: auto;
+background-color: var(--color-background-default);
+color: var(--color-text-default);
+font-family: var(--font-family-default);
+font-feature-settings: liga 1;
+font-optical-sizing: auto;
+font-size: 1em;
+font-style: normal;
+font-weight: normal;
+line-height: var(--lineheight-r);
+margin: 0 auto;
+max-width: var(--max-width);
+padding-inline: var(--spacing-r); }
+
+/* Enhanced ligature support */
+@supports (font-variant-ligatures: common-ligatures) {
+
+body {
+font-feature-settings: normal;
+font-variant-ligatures: common-ligatures; }
+}
+
+/* ==========================================================================
+LINK STYLES
+========================================================================== */
+
+/* Base link styles */
+:is(a, a:visited) {
+color: var(--color-text-link);
+text-decoration: none;
+transform: translateY(0);
+transition: all 100ms var(--animate-function); }
+
+/* Link interaction states */
+a:is(:hover, :active, :focus-visible) {
+color: var(--color-text-link-hover);
+text-decoration: underline;
+text-decoration-color: var(--color-text-link-decoration);
+text-decoration-style: solid;
+text-decoration-thickness: .5px;
+text-underline-offset: .25em; }
+
+a:hover { text-decoration-color: var(--color-text-link-decoration); }
+a:is(:active, :focus-visible) { outline: none; }
+
+/* ==========================================================================
+TYPOGRAPHY COMPONENTS
+========================================================================== */
+
+/*
+* HEADING STYLES
+* Consistent heading hierarchy with variable font settings
+*/
+
+:is(h1, h2, h3, h4) {
+font-family: var(--font-family-default);
+font-style: normal;
+font-variation-settings: "wght" 500, "wdth" 40;
+font-weight: normal;
+line-height: var(--lineheight-s);
+margin-block: 0 var(--spacing-s);
+text-wrap: balance; /* Prevents single words on last line */}
+
+/* Heading size scale */
+h1 { font-size: var(--font-size-3xl); }
+h2 { font-size: var(--font-size-xl); }
+h3 { font-size: var(--font-size-l); }
+h4 { font-size: var(--font-size-m); }
+
+/* Heading link styles */
+:is(h2, h3) a:is(:hover, :active) {
+color: var(--color-text-link-hover);
+text-decoration: underline;
+text-decoration-color: var(--color-text-link-decoration);
+text-decoration-style: solid;
+text-decoration-thickness: .5px;
+text-underline-offset: .075em; }
+
+/* Accent color for headings */
+:heading .alt-accent { color: var(--color-accent); }
+
+/*
+* PARAGRAPH STYLES
+* Basic paragraph formatting with typographic refinements
+*/
+
+p {
+font-family: var(--font-family-default);
+font-size: var(--font-size-r);
+orphans: 3; }
+
+/* Heading + paragraph spacing */
+h3:has(+ p) { margin-block-end: 0; }
+
+h3 + p { margin-block-start: var(--spacing-s); }
+
+/* ==========================================================================
+TEXT TREATMENT CLASSES
+========================================================================== */
+
+/*
+* TEXT VARIANT CLASSES
+* Utility classes for specific text treatments
+*/
+
+.alt-accent { color: var(--color-accent); } /* Accent color text */
+
+/* ==========================================================================
+QUOTE COMPONENTS
+========================================================================== */
+
+/*
+* BLOCKQUOTE STYLES
+* Styled quote blocks with citation support
+*/
+
+blockquote {
+margin: 0;
+padding: 0;
+position: relative; }
+
+:is(blockquote p, blockquote footer) { padding: 0; }
+
+blockquote p {
+margin-block: 0 var(--spacing-xs); }
+
+blockquote footer {
+align-items: start;
+display: flex;
+font-size: var(--font-size-r);
+font-style: normal;
+gap: var(--spacing-s);
+margin-block-start: var(--spacing-r); }
+
+blockquote svg { margin: 0; }
+
+/* Medium quote variant */
+blockquote[data-variant="m"] {
+margin-block: var(--spacing-m); }
+
+blockquote[data-variant="m"] svg {
+display: block;
+inline-size: 48px;
+margin-block-end: var(--spacing-s); }
+
+blockquote[data-variant="m"] p {
+font-size: var(--font-size-m);
+line-height: 1.1; }
+
+/* Large quote variant */
+blockquote[data-variant="l"] {
+margin-block: var(--spacing-l);
+margin-inline: auto;
+max-width: 80ch; }
+
+blockquote[data-variant="l"] svg {
+display: block;
+inline-size: 64px;
+margin-block-end: var(--spacing-s); }
+
+blockquote[data-variant="l"] p {
+font-size: var(--font-size-l);
+line-height: 1.1; }
+
+/* ==========================================================================
+LIST COMPONENTS
+========================================================================== */
+
+/*
+* LIST STYLES
+* Various list types with custom markers
+*/
+
+/* Unordered lists with custom bullet */
+ul {
+list-style-type: none;
+margin-block: 0 var(--spacing-r);
+margin-inline: 0;
+padding-inline-start: 0; }
+
+ul li { font-size: var(--font-size-r); }
+ul li:before {
+color: var(--color-text-default);
+content: "• "; }
+
+/* Ordered lists */
+ol {
+margin-block: 0 var(--spacing-r);
+margin-inline: 0;
+padding-inline-start: 0; }
+
+ol li {
+font-size: var(--font-size-r);
+margin-block-end: var(--spacing-s); }
+
+/* Remove default markers from styled lists */
+:is(ul[class*="alt-"], ol[class*="alt-"]) li:before {
+content: "";
+display: none; }
+
+/* Inline list variant */
+.alt-inline { text-align: center; }
+.alt-inline li { display: inline-block; }
+.alt-inline li:not(:last-child) { margin-inline-end: var(--spacing-r); }
+
+/* ==========================================================================
+TEXT-LEVEL SEMANTICS
+========================================================================== */
+
+/* Small text for disclaimers, captions, etc. */
+small {
+display: block;
+font-size: var(--font-size-s);
+line-height: var(--lineheight-r); }
+
+/* Time element styling */
+time {
+display: block;
+font-size: var(--font-size-r);
+margin-block-end: 0;
+text-transform: uppercase; }
+
+/* ==========================================================================
+HORIZONTAL RULES
+========================================================================== */
+
+/* Base horizontal rule */
+hr {
+border: 0;
+border-block-start: var(--border-width-l) solid var(--color-border);
+clear: both;
+display: block;
+height: 1px;
+margin-block: var(--spacing-m);
+margin-inline: 0;
+padding: 0; }
+
+/* Width variants */
+[data-width="l"] { border-width: var(--border-width-l); }
+
+/* Functional variants */
+[data-function="spacer"] {
+border-block-start: 0;
+grid-column: 1 / -1;
+margin-block: var(--spacing-r);
+margin-inline: 0; }
+
+/* ==========================================================================
+MEDIA COMPONENTS
+========================================================================== */
+
+/*
+* FIGURE AND IMAGE STYLES
+* Responsive images with captions
+*/
+
+figure {
+margin-block: var(--spacing-m);
+margin-inline: 0;
+padding: 0; }
+
+figure img { margin-block: 0 var(--spacing-s); }
+
+figcaption {
+font-size: var(--font-size-s);
+font-style: normal; }
+
+/* Responsive media elements */
+:is(img, video) {
+block-size: auto;
+inline-size: 100%;
+max-inline-size: 100%; }
+
+img { border-width: 0; }
+
+video {
+border-radius: var(--border-radius-r);
+margin-bottom: var(--spacing-r); }
+
+/* ==========================================================================
+FORM COMPONENTS
+========================================================================== */
+
+/* Form base styles */
+form { margin: 0; padding: 0; }
+form [data-layout="row"] { margin-block: var(--spacing-r); }
+form [data-layout="row"]:nth-child(1) { margin-block-start: 0; }
+
+/* Label styles */
+label {
+display: inline-block;
+font-family: inherit;
+font-size: var(--font-size-r);
+line-height: 1;
+margin-block-end: var(--spacing-s);
+margin-block-start: 0;
+margin-inline: 0; }
+
+/* Form input styles */
+:is([type="email"], [type="password"], [type="search"], [type="tel"], [type="text"], [type="url"], textarea) {
+-webkit-appearance: none;
+appearance: none;
+background-color: var(--color-input-background);
+border: var(--border-width-l) solid var(--color-input-background);
+border-radius: 0;
+box-shadow: none;
+box-sizing: border-box;
+caret-color: var(--color-accent);
+color: var(--color-text-default);
+display: inline-block;
+font-family: var(--font-family-default);
+font-size: var(--font-size-s);
+inline-size: 100%;
+margin: 0;
+padding: var(--spacing-s);
+scale: 1;
+transition: all var(--animate-duration-faster) var(--animate-function); }
+
+/* Form input states */
+:is([type="email"], [type="password"], [type="search"], [type="tel"], [type="text"], [type="url"], textarea):hover {
+border-color: var(--color-border); }
+:is([type="email"], [type="password"], [type="search"], [type="tel"], [type="text"], [type="url"], textarea):focus {
+accent-color: var(--color-accent);
+background-color: var(--color-text-default);
+border-color: var(--color-accent);
+color: var(--color-text-alt);
+outline: 0; }
+
+textarea { min-height: 12rem; }
+
+/* Placeholder styling */
+input[type]::placeholder {
+color: var(--color-text-default);
+font-family: var(--font-family-default);
+font-size: var(--font-size-s); }
+
+input:focus::-webkit-input-placeholder {
+opacity: 0;
+transition: opacity .5s .25s ease !important; }
+
+input:focus::placeholder {
+opacity: 0;
+transition: opacity .5s .25s ease !important; }
+
+/* ==========================================================================
+BUTTON COMPONENTS
+========================================================================== */
+
+/*
+* BUTTON STYLES
+* Interactive button elements with variants
+*/
+
+:is(.btn, .btn:visited, button) {
+background-color: var(--color-button-background);
+border: none;
+border-radius: var(--border-radius-s);
+box-shadow: none;
+color: var(--color-button-text);
+cursor: pointer;
+font-family: var(--font-family-default);
+font-size: var(--font-size-r);
+inline-size: fit-content;
+line-height: 1;
+margin: 0;
+padding-block: 15px;
+padding-inline: var(--spacing-r);
+scale: 1;
+text-align: center;
+touch-action: manipulation;
+transition: scale var(--animate-duration-faster) var(--animate-function);
+-webkit-user-select: none;
+user-select: none;
+white-space: nowrap; }
+
+/* Button interaction states */
+.btn:is(:active, :focus, :hover) {
+background-color: var(--color-text-link-hover);
+color: var(--color-button-text);
+scale: var(--scale-down);
+text-decoration: none; }
+
+.btn[data-variant="s"] {
+padding-block: 7px;
+padding-inline: var(--spacing-s); }
+
+/* ==========================================================================
+FONT SIZE UTILITIES
+========================================================================== */
+
+/* Size utility classes for consistent typography */
+[data-size="2xs"] { font-size: var(--font-size-2xs); }
+[data-size="xs"] { font-size: var(--font-size-xs); }
+[data-size="s"] { font-size: var(--font-size-s); }
+[data-size="r"] { font-size: var(--font-size-r); }
+[data-size="m"] { font-size: var(--font-size-m); }
+[data-size="l"] { font-size: var(--font-size-l); }
+[data-size="xl"] { font-size: var(--font-size-xl); }
+[data-size="2xl"] { font-size: var(--font-size-2xl); }
+
+[data-size="3xl"] {
+font-size: var(--font-size-3xl);
+line-height: 1; }
+
+/* ==========================================================================
+TEXT COLUMN LAYOUT
+========================================================================== */
+
+/* Multi-column text layout */
+.alt-columns {
+column-width: 22em;
+gap: var(--grid-column-gap);
+margin-trim: block; /* Trims margin at block boundaries */}
+
+.alt-columns p {
+font-size: var(--font-size-s);
+margin-block-start: 0; }
+
+/* ==========================================================================
+NAVIGATION COMPONENTS
+========================================================================== */
+
+/* Main navigation */
+nav ul {
+align-items: center;
+display: flex;
+flex-wrap: wrap;
+font-size: var(--font-size-l);
+justify-content: center;
+margin: 0;
+color: var(--color-border); }
+
+nav li {
+margin: 0 var(--spacing-s); }
+
+nav li:before {
+content: "";
+display: none; }
+
+nav a,
+nav a:hover,
+nav a:focus { text-decoration: none; }
+
+nav a:not(.btn),
+nav a:not(.btn):visited,
+nav a:not(.btn):hover {
+color: var(--color-text-default);
+display: inline-block;
+font-family: var(--font-family-default);
+font-size: var(--font-size-r);
+padding-block-end: 4px;
+position: relative;
+text-align: center; }
+
+/* ============= BANNER COMPONENT ========== */
+
+#banner {}
+
+#banner-logo a {}
+
+#banner-logo path {}
+
+#banner-logo:hover path {}
+
+/* ============= HEADER COMPONENT ========== */
+
+[role="banner"] {}
+
+/* ============= FOOTER COMPONENT ========== */
+
+[role="contentinfo"] { }
+
+#footer-logo a { }
+
+/* ==========================================================================
+FLEX LAYOUT
+========================================================================== */
+
+[data-layout="flex"] { text-align: left; }
+[data-layout="flex"] > * { margin-block-end: var(--spacing-r); }
+
+/* ==========================================================================
+PAGE LAYOUTS
+========================================================================== */
+
+/* Section spacing */
+section { margin-block-end: var(--spacing-l); }
+
+/* Layout container */
+.layout > * {
+margin-block-end: var(--spacing-l);
+margin-trim: block; }
+
+/* ==========================================================================
+RESPONSIVE DESIGN - MEDIA QUERIES
+========================================================================== */
+
+/*
+* TABLET AND DESKTOP STYLES (48em+ / 768px+)
+*/
+
+@media screen and (min-width: 48em) {
+
+/* Enhanced textarea for larger screens */
+textarea {
+min-block-size: 12rem;
+resize: vertical;
+transition: min-height .5s ease-in-out; }
+}
+
+/*
+* DESKTOP STYLES (64em+ / 1024px+)
+* Comprehensive desktop layout enhancements
+*/
+
+@media screen and (min-width: 64em) {
+
+/* Responsive visibility */
+[data-visibility="small"] { display: none; }
+[data-visibility="large"] { display: block; }
+
+/* Body padding adjustment */
+body { padding-inline: var(--spacing-m); }
+
+/* Enhanced navigation */
+nav ul { justify-content: end; }
+
+nav li {
+margin: 0; }
+
+nav li:not(:last-of-type):after {
+content: " • ";
+color: var(--color-border);
+display: inline-block;
+font-size: var(--font-size-l);
+line-height: 1;
+margin: 0;
+padding-inline: var(--spacing-r);
+translate: 0 4px; }
+
+nav a:not(.btn)::after {
+background-color: var(--color-accent);
+border-radius: 3px;
+bottom: 0;
+content: '';
+height: 3px;
+left: 50%;
+position: absolute;
+transform: translateX(-50%) scaleX(0);
+transform-origin: center;
+transition: transform .5s ease;
+width: 100%; }
+
+nav a:not(.btn):hover::after,
+nav a:not(.btn):focus-visible::after {
+transform: translateX(-50%) scaleX(1); }
+
+nav a:not(.btn):focus-visible::after {
+background-color: var(--color-accent); }
+
+nav:has(a:hover) a:not(.btn):not(:hover) {
+opacity: .5; }
+
+/* Flex layout */
+[data-layout="flex"] {
+display: flex;
+gap: var(--spacing-l);
+margin-block-end: var(--spacing-r); }
+
+[data-layout="flex"] > * {
+flex: 1;
+margin-block-end: unset; }
+
+/* Main layout system */
+.layout {
+display: grid;
+gap: var(--grid-row-gap) var(--grid-column-gap);
+grid-template-columns: var(--grid-12-col); }
+
+.layout > * { margin-block-end: var(--spacing-r); }
+
+/* Form input states */
+:is([type="email"], [type="password"], [type="search"], [type="tel"], [type="text"], [type="url"], textarea):focus {
+scale: var(--scale-up); }
+
+.btn[data-variant="l"] {
+font-size: var(--font-size-r);
+padding-block: 20px;
+padding-inline: var(--spacing-m); }
+
+/* Size utilities */
+[data-size="xs"] { font-size: var(--font-size-xs); }
+
+[data-size="3xl"] {
+font-size: 5cqi; /* Container query units for responsive sizing */
+margin-block: 0 var(--spacing-r); }
+}
+
+/* ==========================================================================
+ACCESSIBILITY: REDUCED MOTION
+========================================================================== */
+
+/* Respect user motion preferences */
+@media screen and (prefers-reduced-motion: reduce) {
+
+html {
+animation-duration: 1ms !important;
+animation-iteration-count: 1 !important;
+scroll-behavior: auto;
+transition-duration: 1ms !important; }}
+
+@media (prefers-reduced-motion: reduce) {
+:is(*, *::before, *::after) {
+animation: none !important;
+transition: none !important; }
+}

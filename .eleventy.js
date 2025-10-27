@@ -9,128 +9,130 @@ const sortByDisplayOrder = require("./src/utils/sort-by-display-order.js");
 
 // Async image shortcode
 async function imageShortcode(src, alt, sizes = "(min-width: 1024px) 50vw, 100vw") {
-  let metadata = await Image(src, {
-    widths: [300, 600, 1200],
-    formats: ["webp", "jpeg"],
-    outputDir: "./dist/images/",
-    urlPath: "/images/"
-  });
+let metadata = await Image(src, {
+widths: [300, 600, 1200],
+formats: ["webp", "jpeg"],
+outputDir: "./dist/images/",
+urlPath: "/images/"
+});
 
-  let imageAttributes = {
-    alt,
-    sizes,
-    loading: "lazy",
-    decoding: "async"
-  };
+let imageAttributes = {
+alt,
+sizes,
+loading: "lazy",
+decoding: "async"
+};
 
-  return Image.generateHTML(metadata, imageAttributes);
+return Image.generateHTML(metadata, imageAttributes);
 }
 
 // CSS inlining filter for Netlify CMS
 function inlineFilter(path) {
-  const fs = require("fs");
-  const filepath = `dist${path}`;
+const fs = require("fs");
+const filepath = `dist${path}`;
 
-  if (fs.existsSync(filepath)) {
-    const buffer = fs.readFileSync(filepath);
-    return buffer.toString('utf8').replace(/^\uFEFF/, '');
-  }
-  return `/* CSS file ${path} not found */`;
+if (fs.existsSync(filepath)) {
+const buffer = fs.readFileSync(filepath);
+return buffer.toString('utf8').replace(/^\uFEFF/, '');
+}
+return `/* CSS file ${path} not found */`;
 }
 
 module.exports = function(eleventyConfig) {
-  // Filters
-  eleventyConfig.addFilter("dateFilter", dateFilter);
-  eleventyConfig.addFilter("w3DateFilter", w3DateFilter);
-  eleventyConfig.addFilter("sortByDisplayOrder", sortByDisplayOrder);
-  eleventyConfig.addFilter("inline", inlineFilter);
+// Filters
+eleventyConfig.addFilter("dateFilter", dateFilter);
+eleventyConfig.addFilter("w3DateFilter", w3DateFilter);
+eleventyConfig.addFilter("sortByDisplayOrder", sortByDisplayOrder);
+eleventyConfig.addFilter("inline", inlineFilter);
 
-  // RESOURCES FILTERS - ADD THESE
-  eleventyConfig.addFilter("filterByCategory", (resources, category) => {
-    return resources.filter(resource =>
-      resource.data.categories && resource.data.categories.includes(category)
-    );
-  });
+// RESOURCES FILTERS - ADD THESE
+eleventyConfig.addFilter("filterByCategory", (resources, category) => {
+return resources.filter(resource =>
+resource.data.categories && resource.data.categories.includes(category)
+);
+});
 
-  eleventyConfig.addFilter("filterByTag", (resources, tag) => {
-    return resources.filter(resource =>
-      resource.data.tags && resource.data.tags.includes(tag)
-    );
-  });
+eleventyConfig.addFilter("filterByTag", (resources, tag) => {
+return resources.filter(resource =>
+resource.data.tags && resource.data.tags.includes(tag)
+);
+});
 
 eleventyConfig.addFilter("searchResources", (resources, query) => {
-  if (!query) return [];
-  const searchQuery = typeof query === 'string' ? query : (query.q || '');
-  if (!searchQuery) return [];
+if (!query) return [];
+const searchQuery = typeof query === 'string' ? query : (query.q || '');
+if (!searchQuery) return [];
 
-  return resources.filter(resource => {
-    const searchText = (resource.data.title + ' ' + resource.data.summary).toLowerCase();
-    return searchText.includes(searchQuery.toLowerCase());
-  });
+return resources.filter(resource => {
+const searchText = (resource.data.title + ' ' + resource.data.summary).toLowerCase();
+return searchText.includes(searchQuery.toLowerCase());
+});
 });
 
 
 
-  // Plugins
-  eleventyConfig.addPlugin(rssPlugin);
+// Plugins
+eleventyConfig.addPlugin(rssPlugin);
 
-  // Shortcodes
-  eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
+// Shortcodes
+eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
 
-  // Passthrough copy
-  eleventyConfig.addPassthroughCopy("src/fonts");
-  eleventyConfig.addPassthroughCopy("src/admin");
-  eleventyConfig.addPassthroughCopy("._redirects");
+// Passthrough copy
+eleventyConfig.addPassthroughCopy("src/fonts");
+eleventyConfig.addPassthroughCopy("src/admin");
+eleventyConfig.addPassthroughCopy("._redirects");
+eleventyConfig.addPassthroughCopy("src/css");
+eleventyConfig.addPassthroughCopy("src/js");
 
-  // Collections
-  eleventyConfig.addCollection("blog", (collection) => {
-    return [...collection.getFilteredByGlob("./src/posts/*.md")].reverse();
-  });
+// Collections
+eleventyConfig.addCollection("blog", (collection) => {
+return [...collection.getFilteredByGlob("./src/posts/*.md")].reverse();
+});
 
-  eleventyConfig.addCollection("team", (collection) => {
-    return collection.getFilteredByGlob("./src/team/*.md");
-  });
+eleventyConfig.addCollection("team", (collection) => {
+return collection.getFilteredByGlob("./src/team/*.md");
+});
 
-  eleventyConfig.addCollection("board", (collection) => {
-    return collection.getFilteredByGlob("./src/board/*.md");
-  });
+eleventyConfig.addCollection("board", (collection) => {
+return collection.getFilteredByGlob("./src/board/*.md");
+});
 
-  eleventyConfig.addCollection("resources", (collection) => {
-    return collection.getFilteredByGlob("./src/resources/*.md").reverse();
-  });
+eleventyConfig.addCollection("resources", (collection) => {
+return collection.getFilteredByGlob("./src/resources/*.md").reverse();
+});
 
-  // RESOURCES TAXONOMY COLLECTIONS - ADD THESE
-  eleventyConfig.addCollection("resourcesCategory", (collection) => {
-    let categories = new Set();
-    collection.getFilteredByGlob("./src/resources/*.md").forEach(item => {
-      if (item.data.categories) {
-        item.data.categories.forEach(cat => categories.add(cat));
-      }
-    });
-    return Array.from(categories).sort();
-  });
+// RESOURCES TAXONOMY COLLECTIONS - ADD THESE
+eleventyConfig.addCollection("resourcesCategory", (collection) => {
+let categories = new Set();
+collection.getFilteredByGlob("./src/resources/*.md").forEach(item => {
+if (item.data.categories) {
+item.data.categories.forEach(cat => categories.add(cat));
+}
+});
+return Array.from(categories).sort();
+});
 
-  eleventyConfig.addCollection("resourcesTag", (collection) => {
-    let tags = new Set();
-    collection.getFilteredByGlob("./src/resources/*.md").forEach(item => {
-      if (item.data.tags) {
-        item.data.tags.forEach(tag => tags.add(tag));
-      }
-    });
-    return Array.from(tags).sort();
-  });
+eleventyConfig.addCollection("resourcesTag", (collection) => {
+let tags = new Set();
+collection.getFilteredByGlob("./src/resources/*.md").forEach(item => {
+if (item.data.tags) {
+item.data.tags.forEach(tag => tags.add(tag));
+}
+});
+return Array.from(tags).sort();
+});
 
-  // Use .eleventyignore, not .gitignore
-  eleventyConfig.setUseGitIgnore(false);
+// Use .eleventyignore, not .gitignore
+eleventyConfig.setUseGitIgnore(false);
 
-  // Directory structure
-  return {
-    markdownTemplateEngine: "njk",
-    dataTemplateEngine: "njk",
-    htmlTemplateEngine: "njk",
-    dir: {
-      input: "src",
-      output: "dist"
-    }
-  };
+// Directory structure
+return {
+markdownTemplateEngine: "njk",
+dataTemplateEngine: "njk",
+htmlTemplateEngine: "njk",
+dir: {
+input: "src",
+output: "dist"
+}
+};
 };
