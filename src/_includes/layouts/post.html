@@ -19,20 +19,14 @@
 {% endset %}
 
 {% block content %}
-<article class="flow">
-<div class="post-header">
-<img src="{{ featureImage }}" alt="" class="left-big" />
-<figcaption>
-<p>{{ featureImageCaption }}</p>
-<a href="/about-us/">What we do</a>
-</figcaption>
 
-</div>
-<div class="grid">
-<div class="post-content flow">
+<figure>
+<img src="{{ featureImage }}" alt="{{ featureImageCaption }}" />
+<figcaption>{{ featureImageCaption }}</figcaption>
+</figure>
+
 {{ content | safe }}
-</div>
-</div>
+
 {% if recommendedPosts %}
 <footer class="grid recommended-posts">
 {% set postListItems = recommendedPosts %}
@@ -40,11 +34,5 @@
 {% include "partials/post-list.html" %}
 </footer>
 {% endif %}
-</article>
-<article class="grid">
-<div class="center-spread">
-
-</div>
-</article>
 
 {% endblock %}
