@@ -1,54 +1,47 @@
-# 11ty2025 — Modern Eleventy Starter
+********************************************************
+Revised by: Andy Clarke • Stuff & Nonsense
+URL: https://stuffandnonsense.co.uk
+Development: Sush Kelly • Creativity & Code
+URL: https://sushkelly.co.uk
+Based on: Eleventy From Scratch by Andy Bell
+********************************************************
 
-A modern, Gulp-free Eleventy setup for 2025 — powered by Eleventy v3, Sass, and Browsersync.  
-Streamlined for performance, simplicity, and fast local development.  
+# Stuff & Nonsense Eleventy starter kit
 
----
+- **Eleventy v3** static site generator
+- **Image optimization** via `@11ty/eleventy-img`
+- **RSS feeds** using `@11ty/eleventy-plugin-rss`
+- **Hot-reload dev server** with **Browsersync**
+- Watches templates for automatic rebuilds
+- Minimal dependencies
+- Now without SCSS compilation
+- Find CSS in ‘dist/css’
+- Find JavaScript in ‘dist/js’
 
-## 🚀 Features
-
-- ⚡ **Eleventy v3** static site generator  
-- 🧶 **Sass compilation** using `npx sass`  
-  - Outputs to `_includes/css/` for inline **critical CSS**  
-- 🖼️ **Image optimization** via `@11ty/eleventy-img`  
-- 📰 **RSS feeds** using `@11ty/eleventy-plugin-rss`  
-- 💨 **Hot-reload dev server** with **Browsersync**  
-- 🔄 Watches SCSS and templates for automatic rebuilds  
-- 🧩 Per-page critical CSS with Nunjucks includes  
-- 💅 Fully Gulp-free, minimal dependencies  
-
----
-
-## 🛠️ Installation
+## Installation
 
 Clone the repo and install dependencies:
 
-npm install
+`npm install`
 
-## Running the project 
+## Development
 
-### Development Server
+`npm run start`
+Visit: http://localhost:8080
 
-Run: npm run start
-Then visit: http://localhost:8080
+## Production
 
-Features:
-- Eleventy watch + rebuild
-- Automatic Sass compilation
-- Browser reload via Browsersync
+npm run build
 
-- ### Production Build
+- Outputs to dist/*
+- Includes optimised images, and built templates
+- Ready for deployment (e.g. Netlify, Vercel, or GitHub Pages)
+- Edit any .njk, .md, or image and changes appear instantly.
 
-Run:  npm run build
-
-Outputs to dist/
-
-Includes compiled CSS, optimized images, and built templates
-Ready for deployment (e.g. Netlify, Vercel, or GitHub Pages)
-Edit any .njk, .md, .scss, or image — changes appear instantly.
-
-## Author
-
-Modernized & maintained by @maxray
-
-Originally inspired by the excellent Eleventy From Scratch starter by Andy B.
+********************************************************
+Revised by: Andy Clarke • Stuff & Nonsense
+URL: https://stuffandnonsense.co.uk
+Development: Sush Kelly • Creativity & Code
+URL: https://sushkelly.co.uk
+Based on: Eleventy From Scratch by Andy Bell
+********************************************************

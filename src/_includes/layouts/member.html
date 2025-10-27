@@ -1,0 +1,16 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+
+<img src="/images/{{ image }}" alt="{{ name }}">
+<h1>{{ name }}</h1>
+<p class="qualifications">{{ qualifications }}</p>
+<p class="location">{{ location }}</p>
+
+{{ content | safe }}
+
+<a href="{{ url }}">Website</a>
+<a href="{{ linkedin }}">LinkedIn</a>
+<a href="mailto:{{ email }}">Email</a>
+
+{% endblock %}

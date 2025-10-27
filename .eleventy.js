@@ -45,6 +45,32 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("sortByDisplayOrder", sortByDisplayOrder);
   eleventyConfig.addFilter("inline", inlineFilter);
 
+  // RESOURCES FILTERS - ADD THESE
+  eleventyConfig.addFilter("filterByCategory", (resources, category) => {
+    return resources.filter(resource =>
+      resource.data.categories && resource.data.categories.includes(category)
+    );
+  });
+
+  eleventyConfig.addFilter("filterByTag", (resources, tag) => {
+    return resources.filter(resource =>
+      resource.data.tags && resource.data.tags.includes(tag)
+    );
+  });
+
+eleventyConfig.addFilter("searchResources", (resources, query) => {
+  if (!query) return [];
+  const searchQuery = typeof query === 'string' ? query : (query.q || '');
+  if (!searchQuery) return [];
+
+  return resources.filter(resource => {
+    const searchText = (resource.data.title + ' ' + resource.data.summary).toLowerCase();
+    return searchText.includes(searchQuery.toLowerCase());
+  });
+});
+
+
+
   // Plugins
   eleventyConfig.addPlugin(rssPlugin);
 
@@ -59,6 +85,39 @@ module.exports = function(eleventyConfig) {
   // Collections
   eleventyConfig.addCollection("blog", (collection) => {
     return [...collection.getFilteredByGlob("./src/posts/*.md")].reverse();
+  });
+
+  eleventyConfig.addCollection("team", (collection) => {
+    return collection.getFilteredByGlob("./src/team/*.md");
+  });
+
+  eleventyConfig.addCollection("board", (collection) => {
+    return collection.getFilteredByGlob("./src/board/*.md");
+  });
+
+  eleventyConfig.addCollection("resources", (collection) => {
+    return collection.getFilteredByGlob("./src/resources/*.md").reverse();
+  });
+
+  // RESOURCES TAXONOMY COLLECTIONS - ADD THESE
+  eleventyConfig.addCollection("resourcesCategory", (collection) => {
+    let categories = new Set();
+    collection.getFilteredByGlob("./src/resources/*.md").forEach(item => {
+      if (item.data.categories) {
+        item.data.categories.forEach(cat => categories.add(cat));
+      }
+    });
+    return Array.from(categories).sort();
+  });
+
+  eleventyConfig.addCollection("resourcesTag", (collection) => {
+    let tags = new Set();
+    collection.getFilteredByGlob("./src/resources/*.md").forEach(item => {
+      if (item.data.tags) {
+        item.data.tags.forEach(tag => tags.add(tag));
+      }
+    });
+    return Array.from(tags).sort();
   });
 
   // Use .eleventyignore, not .gitignore

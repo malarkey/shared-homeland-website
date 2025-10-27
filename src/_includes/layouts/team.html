@@ -1,0 +1,19 @@
+{% extends "layouts/base.html" %}
+
+{% set pageHeaderTitle = title %}
+
+{% block content %}
+<h1>{{ pageHeaderTitle }}</h1>
+
+{% for member in collections.team %}
+<h2><a href="{{ member.url }}">{{ member.data.name }}</a> {{ member.data.qualifications }}</h2>
+<p class="location">{{ member.data.location }}</p>
+<p class="bio">{{ member.data.bio }}</p>
+<a href="{{ member.data.url }}">Website</a>
+<a href="{{ member.data.linkedin }}">LinkedIn</a>
+<img src="/images/{{ member.data.image }}" alt="{{ member.data.name }}">
+
+{% endfor %}
+
+
+{% endblock %}

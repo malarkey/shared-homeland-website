@@ -1,8 +1,12 @@
 {
     "items": [
         {
-            "text": "Privacy Policy",
+            "text": "Privacy policy",
             "url": "/privacy"
+        },
+        {
+            "text": "Terms",
+            "url": "/terms"
         }
     ]
 }

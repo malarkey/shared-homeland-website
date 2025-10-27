@@ -9,6 +9,18 @@
       "url": "/blog/"
     },
     {
+      "text": "Team",
+      "url": "/team/"
+    },
+    {
+      "text": "Board",
+      "url": "/board/"
+    },
+    {
+      "text": "Resources",
+      "url": "/resources/"
+    },
+    {
       "text": "Contact",
       "url": "/contact/"
     }

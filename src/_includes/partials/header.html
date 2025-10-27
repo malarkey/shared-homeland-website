@@ -3,7 +3,9 @@
 </div><!-- banner-logo -->
 
 <nav>
+<ul>
 {% for item in navigation.items %}
-<a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a>
+<li><a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a></li>
 {% endfor %}
+</ul>
 </nav>

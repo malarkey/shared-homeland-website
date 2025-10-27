@@ -1,0 +1,73 @@
+---
+layout: "layouts/base.html"
+permalink: "/resources/search/"
+---
+
+{% block content %}
+<div class="resources-layout">
+  <aside class="sidebar">
+    <h3>Categories</h3>
+    <nav>
+      {% for category in collections.resourcesCategory %}
+        <a href="/resources/category/{{ category | slug }}/">{{ category }}</a>
+      {% endfor %}
+    </nav>
+
+    <h3>Search</h3>
+    <form id="search-form">
+      <input type="search" id="search-input" placeholder="Search resources...">
+      <button type="submit">Search</button>
+    </form>
+  </aside>
+
+  <main class="resources-list">
+    <h1>Search Resources</h1>
+    <div id="search-results">
+      <p>Enter a search term to find resources.</p>
+    </div>
+  </main>
+</div>
+
+<script>
+// Client-side search
+document.getElementById('search-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const query = document.getElementById('search-input').value.toLowerCase();
+  const resources = [
+    {% for resource in collections.resources %}
+      {
+        title: "{{ resource.data.title | replace('"', '\\"') }}",
+        summary: "{{ resource.data.summary | replace('"', '\\"') }}",
+        author: "{{ resource.data.author }}",
+        date: "{{ resource.data.date }}",
+        url: "{{ resource.data.url or resource.data.file }}",
+        categories: {{ resource.data.categories | json }},
+        tags: {{ resource.data.tags | json }}
+      },
+    {% endfor %}
+  ];
+
+  const results = resources.filter(resource => {
+    const searchText = (resource.title + ' ' + resource.summary).toLowerCase();
+    return searchText.includes(query);
+  });
+
+  const resultsContainer = document.getElementById('search-results');
+
+  if (results.length === 0) {
+    resultsContainer.innerHTML = `<p>No resources found for "${query}".</p>`;
+  } else {
+    resultsContainer.innerHTML = `
+      <p>Results for "${query}":</p>
+      ${results.map(resource => `
+        <article class="resource">
+          <h2><a href="${resource.url}">${resource.title}</a></h2>
+          <p class="meta">By ${resource.author} • ${resource.date}</p>
+          <p class="summary">${resource.summary}</p>
+        </article>
+      `).join('')}
+    `;
+  }
+});
+</script>
+{% endblock %}

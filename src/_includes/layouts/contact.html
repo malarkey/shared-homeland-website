@@ -5,9 +5,35 @@
 
 {% include "partials/head.html" %}
 
-<body id="" data-theme="" >
+<body id="{{ site.siteID }}">
 
-{% include "partials/site-head.html" %}
+{% include "partials/header.html" %}
+
+<h1>Get in touch</h1>
+
+<form action="/thanks/" class="contact-form" method="POST" name="contact-form">
+
+<input type="hidden" name="form-name" value="contact-form">
+
+<label for="contact-name">Name</label>
+<input type="text" name="contact-name" id="contact-name">
+
+<label for="contact-company">Company <span>Optional</span></label>
+<input type="text" name="contact-company" id="contact-company">
+
+<label for="contact-email">Email</label>
+<input type="email" name="contact-email" id="contact-email">
+
+<label for="contact-tel">Phone</label>
+<input type="tel" named="contact-tel" id="contact-tel">
+
+<label for="contact-message">Message</label>
+<textarea name="contact-message" id="contact-message"></textarea>
+
+<button class="btn">Submit</button>
+
+</form>
+
 {% include "partials/footer.html" %}
 
 <script src="/js/scripts.js"></script>
