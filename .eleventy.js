@@ -45,31 +45,32 @@ eleventyConfig.addFilter("w3DateFilter", w3DateFilter);
 eleventyConfig.addFilter("sortByDisplayOrder", sortByDisplayOrder);
 eleventyConfig.addFilter("inline", inlineFilter);
 
-// RESOURCES FILTERS - ADD THESE
+// RESOURCES FILTERS
 eleventyConfig.addFilter("filterByCategory", (resources, category) => {
 return resources.filter(resource =>
-resource.data.categories && resource.data.categories.includes(category)
+resource.data["item-categories"] && resource.data["item-categories"].includes(category)
 );
 });
 
 eleventyConfig.addFilter("filterByTag", (resources, tag) => {
 return resources.filter(resource =>
-resource.data.tags && resource.data.tags.includes(tag)
+resource.data["item-tags"] && resource.data["item-tags"].includes(tag)
 );
 });
 
-eleventyConfig.addFilter("searchResources", (resources, query) => {
-if (!query) return [];
-const searchQuery = typeof query === 'string' ? query : (query.q || '');
-if (!searchQuery) return [];
-
-return resources.filter(resource => {
-const searchText = (resource.data.title + ' ' + resource.data.summary).toLowerCase();
-return searchText.includes(searchQuery.toLowerCase());
-});
+// BLOG FILTERS
+eleventyConfig.addFilter("filterBlogByCategory", (posts, category) => {
+return posts.filter(post =>
+post.data.postCategories && post.data.postCategories.includes(category)
+);
 });
 
-
+// ADD BLOG TAG FILTER
+eleventyConfig.addFilter("filterBlogByTag", (posts, tag) => {
+return posts.filter(post =>
+post.data.postTags && post.data.postTags.includes(tag)
+);
+});
 
 // Plugins
 eleventyConfig.addPlugin(rssPlugin);
@@ -83,10 +84,74 @@ eleventyConfig.addPassthroughCopy("src/admin");
 eleventyConfig.addPassthroughCopy("._redirects");
 eleventyConfig.addPassthroughCopy("src/css");
 eleventyConfig.addPassthroughCopy("src/js");
+eleventyConfig.addPassthroughCopy("src/images");
 
 // Collections
 eleventyConfig.addCollection("blog", (collection) => {
 return [...collection.getFilteredByGlob("./src/posts/*.md")].reverse();
+});
+
+// BLOG TAXONOMY COLLECTIONS
+eleventyConfig.addCollection("postCategories", (collection) => {
+let categories = new Set();
+collection.getFilteredByGlob("./src/posts/*.md").forEach(post => {
+if (post.data.postCategories) {
+post.data.postCategories.forEach(cat => categories.add(cat));
+}
+});
+return Array.from(categories).sort();
+});
+
+eleventyConfig.addCollection("postTags", (collection) => {
+let tags = new Set();
+collection.getFilteredByGlob("./src/posts/*.md").forEach(post => {
+if (post.data.postTags) {
+post.data.postTags.forEach(tag => tags.add(tag));
+}
+});
+return Array.from(tags).sort();
+});
+
+// GENERATE BLOG CATEGORY PAGES
+eleventyConfig.addCollection("blogCategoryPages", function(collectionApi) {
+const categories = new Set();
+const posts = collectionApi.getFilteredByGlob("./src/posts/*.md");
+
+posts.forEach(post => {
+if (post.data.postCategories) {
+post.data.postCategories.forEach(cat => categories.add(cat));
+}
+});
+
+return Array.from(categories).map(category => {
+return {
+title: `${category}`,
+category: category,
+permalink: `/blog/category/${category.toLowerCase().replace(/\s+/g, '-')}/`,
+layout: "layouts/base.html"
+};
+});
+});
+
+// ADD BLOG TAG PAGES COLLECTION
+eleventyConfig.addCollection("blogTagPages", function(collectionApi) {
+const tags = new Set();
+const posts = collectionApi.getFilteredByGlob("./src/posts/*.md");
+
+posts.forEach(post => {
+if (post.data.postTags) {
+post.data.postTags.forEach(tag => tags.add(tag));
+}
+});
+
+return Array.from(tags).map(tag => {
+return {
+title: `${tag}`,
+tag: tag,
+permalink: `/blog/tag/${tag.toLowerCase().replace(/\s+/g, '-')}/`,
+layout: "layouts/base.html"
+};
+});
 });
 
 eleventyConfig.addCollection("team", (collection) => {
@@ -97,16 +162,17 @@ eleventyConfig.addCollection("board", (collection) => {
 return collection.getFilteredByGlob("./src/board/*.md");
 });
 
+// RESOURCES COLLECTION
 eleventyConfig.addCollection("resources", (collection) => {
 return collection.getFilteredByGlob("./src/resources/*.md").reverse();
 });
 
-// RESOURCES TAXONOMY COLLECTIONS - ADD THESE
+// RESOURCES TAXONOMY COLLECTIONS
 eleventyConfig.addCollection("resourcesCategory", (collection) => {
 let categories = new Set();
 collection.getFilteredByGlob("./src/resources/*.md").forEach(item => {
-if (item.data.categories) {
-item.data.categories.forEach(cat => categories.add(cat));
+if (item.data["item-categories"]) {
+item.data["item-categories"].forEach(cat => categories.add(cat));
 }
 });
 return Array.from(categories).sort();
@@ -115,11 +181,53 @@ return Array.from(categories).sort();
 eleventyConfig.addCollection("resourcesTag", (collection) => {
 let tags = new Set();
 collection.getFilteredByGlob("./src/resources/*.md").forEach(item => {
-if (item.data.tags) {
-item.data.tags.forEach(tag => tags.add(tag));
+if (item.data["item-tags"]) {
+item.data["item-tags"].forEach(tag => tags.add(tag));
 }
 });
 return Array.from(tags).sort();
+});
+
+// GENERATE RESOURCES CATEGORY PAGES
+eleventyConfig.addCollection("categoryPages", function(collectionApi) {
+const categories = new Set();
+const resources = collectionApi.getFilteredByGlob("./src/resources/*.md");
+
+resources.forEach(resource => {
+if (resource.data["item-categories"]) {
+resource.data["item-categories"].forEach(cat => categories.add(cat));
+}
+});
+
+return Array.from(categories).map(category => {
+return {
+title: `${category}`,
+category: category,
+permalink: `/resources/category/${category.toLowerCase().replace(/\s+/g, '-')}/`,
+layout: "layouts/base.html"
+};
+});
+});
+
+// GENERATE RESOURCES TAG PAGES
+eleventyConfig.addCollection("tagPages", function(collectionApi) {
+const tags = new Set();
+const resources = collectionApi.getFilteredByGlob("./src/resources/*.md");
+
+resources.forEach(resource => {
+if (resource.data["item-tags"]) {
+resource.data["item-tags"].forEach(tag => tags.add(tag));
+}
+});
+
+return Array.from(tags).map(tag => {
+return {
+title: `${tag}`,
+tag: tag,
+permalink: `/resources/tag/${tag.toLowerCase().replace(/\s+/g, '-')}/`,
+layout: "layouts/base.html"
+};
+});
 });
 
 // Use .eleventyignore, not .gitignore

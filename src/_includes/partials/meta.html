@@ -18,10 +18,11 @@ them into the mix #}
 {% set metaDesc = summary %}
 {% endif %}
 
-
 <title>{{ pageTitle }}</title>
 <link rel="canonical" href="{{ currentUrl }}" />
+<meta name="author" content="{{ siteTitle }}" />
 
+<meta property="og:locale" content="en_GB"/>
 <meta property="og:site_name" content="{{ siteTitle }}" />
 <meta property="og:title" content="{{ pageTitle }}" />
 <meta property="og:type" content="website" />

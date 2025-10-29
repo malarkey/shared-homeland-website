@@ -4,11 +4,20 @@
 
 <h1>{{ title }}</h1>
 
-{{ content | safe }}
+<div class="layout" data-layout="yogi">
 
-<!-- FEATURE IMAGE -->
-{% if featureImage %}
-{{ featureImage | safe }}
-{% endif %}
+<div>
+{{ lede | safe }}
+{{ main | safe }}
+</div><!-- one -->
+
+<div>
+{{ aside | safe }}
+</div><!-- two -->
+
+</div><!-- layout -->
+
+<!-- CONTENT -->
+{{ content | safe }}
 
 {% endblock %}

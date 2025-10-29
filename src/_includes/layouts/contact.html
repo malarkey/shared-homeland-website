@@ -9,34 +9,73 @@
 
 {% include "partials/header.html" %}
 
-<h1>Get in touch</h1>
+{% if featureImage %}
+<figure>
+<img src="{{ featureImage }}" alt="{{ featureImageCaption }}" />
+{% if featureImageCaption %}
+<figcaption>{{ featureImageCaption }}</figcaption>
+{% endif %}
+</figure>
+{% endif %}
 
+<h1>{{ title }}</h1>
+{{ lede | safe }}
+
+<div class="layout" data-layout="yogi">
+
+<div>
 <form action="/thanks/" class="contact-form" method="POST" name="contact-form">
-
 <input type="hidden" name="form-name" value="contact-form">
 
+<div data-layout="flex">
+
+<div>
 <label for="contact-name">Name</label>
 <input type="text" name="contact-name" id="contact-name">
+</div><!-- one -->
 
+<div>
 <label for="contact-company">Company <span>Optional</span></label>
 <input type="text" name="contact-company" id="contact-company">
+</div><!-- two -->
 
+</div><!-- layout -->
+
+<div data-layout="flex">
+
+<div>
 <label for="contact-email">Email</label>
 <input type="email" name="contact-email" id="contact-email">
+</div><!-- one -->
 
+<div>
 <label for="contact-tel">Phone</label>
 <input type="tel" named="contact-tel" id="contact-tel">
+</div><!-- two -->
 
+</div><!-- layout -->
+
+<div>
 <label for="contact-message">Message</label>
 <textarea name="contact-message" id="contact-message"></textarea>
+</div>
 
+<div data-align-h="right">
 <button class="btn">Submit</button>
+</div><!-- align -->
 
 </form>
+</div><!-- one -->
+
+<div>
+{{ aside | safe }}
+</div><!-- two -->
+
+</div><!-- layout -->
 
 {% include "partials/footer.html" %}
 
-<script src="/js/scripts.js"></script>
+<script src="{{ site.url }}/js/scripts.js"></script>
 </body>
 
 </html>

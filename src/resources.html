@@ -1,0 +1,18 @@
+---
+title: "Resources"
+permalink: "/resources/"
+layout: "layouts/base.html"
+---
+
+<div class="layout" data-layout="yogi">
+
+<div>
+{% set resources = collections.resources %}
+{% include "partials/resources-list.html" %}
+</div><!-- one -->
+
+<div>
+{% include "partials/resources-nav.html" %}
+</div><!-- two -->
+
+</div>

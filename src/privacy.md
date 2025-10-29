@@ -2,7 +2,9 @@
 layout: layouts/base.html
 title: Privacy policy
 permalink: /privacy/
+
 ---
+
 <p><b>Last updated</b> October 2025</p>
 
 <h2 id="summary">Summary</h2>

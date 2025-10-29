@@ -1,12 +1,18 @@
 ---
-title: 'Stuff &#38; Nonsense blog'
+featureImage: /images/tmp-featured.svg
+featureImageCaption:
 layout: 'layouts/feed.html'
+metaDesc:
 pagination:
   data: collections.blog
-  size: 2
-permalink: 'blog{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{% endif %}/index.html'
+  size: 10
 paginationPrevText: 'Newer'
 paginationNextText: 'Older'
 paginationAnchor: '#post-list'
+permalink: 'blog{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{% endif %}/index.html'
+title: 'Quick Draw McGraw’s blog'
+
+lede: >
+ <p class="alt-lede">Quick Draw McGraw is the protagonist and title character of The Quick Draw McGraw Show.</p>
+
 ---
-[BLOG] Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

@@ -1,38 +1,29 @@
 {% extends "layouts/base.html" %}
 
-{# Grab other posts that aren't this one for the 'more from the blog' feed #}
 {% set recommendedPosts = helpers.getSiblingContent(collections.blog, page) %}
-
-{# Render post date and any tags that this post has been filed under #}
-{% set pageHeaderSummary %}
-<time datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>
-{% if tags %}
-<p class="visually-hidden" id="tags-desc">Tags that this post has been filed under.</p>
-<ul class="tags-list" aria-describedby="tags-desc">
-{% for tag in tags %}
-<li>
-<a href="/tag/{{ tag | slug }}/">#{{ tag | replace(' ', '') | capitalize }}</a>
-</li>
-{% endfor %}
-</ul>
-{% endif %}
-{% endset %}
 
 {% block content %}
 
-<figure>
-<img src="{{ featureImage }}" alt="{{ featureImageCaption }}" />
-<figcaption>{{ featureImageCaption }}</figcaption>
-</figure>
+<small class="item-meta">{{ page.date | dateFilter }}</small>
+<h1>{{ title }}</h1>
+<p>{{ postSummary }}</p>
 
 {{ content | safe }}
 
+<small>{{ postAuthor }} •
+{% for tag in postTags %}
+<span class="tag">{{ tag }}</span>{% if not loop.last %} • {% endif %}
+{% endfor %}
+</small>
+
+<hr>
+
 {% if recommendedPosts %}
-<footer class="grid recommended-posts">
 {% set postListItems = recommendedPosts %}
-{% set postListHeadline = 'More from the blog' %}
+<h2>More posts</h2>
+<div data-content="posts">
 {% include "partials/post-list.html" %}
-</footer>
+</div>
 {% endif %}
 
 {% endblock %}

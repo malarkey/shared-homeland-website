@@ -1,5 +1,7 @@
+<header role="banner">
+
 <div id="banner-logo">
-<a href="/" aria-label="{{ site.name }}" title="Home">{{ site.name }}</a>
+<a href="/" aria-label="{{ site.name }}" title="Home">{% include "partials/logo.svg" %}<span data-visibility="hidden">{{ site.name }}</span></a>
 </div><!-- banner-logo -->
 
 <nav>
@@ -9,3 +11,5 @@
 {% endfor %}
 </ul>
 </nav>
+
+</header>

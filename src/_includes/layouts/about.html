@@ -4,19 +4,22 @@
 
 {% block content %}
 
-<!-- FEATURE IMAGE -->
-{% if featureImage %}
-{{ featureImage | safe }}
-{% endif %}
-
-<!-- TITLE -->
 <h1>{{ title }}</h1>
+
+<div class="layout" data-layout="yogi">
+
+<div>
+{{ lede | safe }}
+{{ main | safe }}
+</div><!-- one -->
+
+<div>
+{{ aside | safe }}
+</div><!-- two -->
+
+</div><!-- layout -->
 
 <!-- CONTENT -->
 {{ content | safe }}
-{{ text2 | safe }}
-
-<!-- INCLUDE -->
-{% include "partials/_footer.html" %}
 
 {% endblock %}

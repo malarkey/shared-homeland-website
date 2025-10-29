@@ -1,13 +1,20 @@
 <footer role="contentinfo">
 
+<div class="layout" data-layout="pockets">
+
 <div id="footer-logo">
+<a href="#{{ site.siteID }}" title="Top">{% include "partials/logo.svg" %}<span data-visibility="hidden">{{ site.name }}</span></a>
 </div><!-- footer-logo -->
 
-<ul>
+<div>
+<ul class="alt-inline">
 {% for item in footer_navigation.items %}
 <li><a href="{{ item.url }}"{{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a></li>
 {% endfor %}
 </ul>
+</div><!-- one -->
+
+</div><!-- layout -->
 
 <small>&#169; Copyright 2025&#8211;now. Design by <a href="https://stuffandnonsense.co.uk" target="_blank">Stuff &#38; Nonsense</a></small>
 

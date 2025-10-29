@@ -1,0 +1,24 @@
+---
+pagination:
+  data: collections.categoryPages
+  size: 1
+  alias: category
+  addAllPagesToCollections: true
+permalink: "{{ category.permalink }}"
+layout: "layouts/base.html"
+---
+
+<div class="layout" data-layout="yogi">
+
+<div>
+<h1>{{ category.title }}</h1>
+{% set categoryResources = collections.resources | filterByCategory(category.category) %}
+{% set resources = categoryResources %}
+{% include "partials/resources-list.html" %}
+</div><!-- one -->
+
+<div>
+{% include "partials/resources-nav.html" %}
+</div><!-- two -->
+
+</div>

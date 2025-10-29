@@ -1,0 +1,24 @@
+---
+pagination:
+  data: collections.tagPages
+  size: 1
+  alias: tag
+  addAllPagesToCollections: true
+permalink: "{{ tag.permalink }}"
+layout: "layouts/base.html"
+---
+
+<div class="layout" data-layout="yogi">
+
+<div>
+<h1>{{ tag.title }}</h1>
+{% set tagResources = collections.resources | filterByTag(tag.tag) %}
+{% set resources = tagResources %}
+{% include "partials/resources-list.html" %}
+</div><!-- one -->
+
+<div>
+{% include "partials/resources-nav.html" %}
+</div><!-- two -->
+
+</div>

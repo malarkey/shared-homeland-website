@@ -1,0 +1,27 @@
+{% for resource in resources %}
+<article class="item-resource">
+<small class="item-meta">{{ resource.data["item-author"] }} • {{ resource.data["item-date"] | dateFilter }} • {{ resource.data["item-type"] }}</small>
+
+<h2 data-size="l">
+{% if resource.data["item-url"] %}
+<a href="{{ resource.data["item-url"] }}">{{ resource.data["item-title"] }}</a>
+{% else %}
+{{ resource.data["item-title"] }}
+{% endif %}
+</h2>
+
+<p>{{ resource.data["item-summary"] }}</p>
+
+{{ resource.templateContent | safe }}
+
+<small>
+{% for category in resource.data["item-categories"] %}
+<a href="/resources/category/{{ category | lower | replace(' ', '-') }}/" class="category">{{ category }}</a>{% if not loop.last %} • {% endif %}
+{% endfor %}
+{% if resource.data["item-categories"] and resource.data["item-tags"] %} • {% endif %}
+{% for tag in resource.data["item-tags"] %}
+<a href="/resources/tag/{{ tag | lower | replace(' ', '-') }}/" class="tag">{{ tag }}</a>{% if not loop.last %} • {% endif %}
+{% endfor %}
+</small>
+</article>
+{% endfor %}
