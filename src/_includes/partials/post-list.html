@@ -7,7 +7,7 @@
 <p data-size="s">{{ item.data.postSummary }}</p>
 
 <small>Tagged with: {% for tag in item.data.postTags %}
-<span class="tag">{{ tag }}</span>{% if not loop.last %} • {% endif %}
+{{ tag }}{% if not loop.last %} • {% endif %}
 {% endfor %}
 </small>
 </article>

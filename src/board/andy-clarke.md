@@ -1,15 +1,16 @@
 ---
+email: 'xxxx@stuffandnonsense.co.uk'
 layout: 'layouts/member.html'
+linkedin: 'https://linkedin.com/in/xxxx'
+location: 'Cymru/Wales, UK'
 name: 'Andy Clarke'
-qualifications: 'A level art stuff'
-location: 'Wales, UK'
+qualifications: 'CND GCHQ SN'
+role: 'Board chairperson'
 url: 'https://stuffandnonsense.co.uk'
-email: 'andy.clarke@stuffandnonsense.co.uk'
-linkedin: 'https://linkedin.com/in/andyclarke'
-bio: 'Founder of Stuff & Nonsense'
-image: 'andy-clarke.webp'
----
+image: tmp-img.svg
+eleventyComputed:
+  title: "{{ name }}"
 
-- Founder of Stuff & Nonsense
-- 20+ years experience
-- Passionate about design systems
+summary: Quick Draw was usually depicted as a sheriff in a series of short films set in the Old West. Quick Draw was often accompanied by his deputy, a Mexican burro called Baba Looey (also voiced by Daws Butler), who spoke with a Mexican accent and called his partner “Queeks Draw.”
+
+---

@@ -1,0 +1,62 @@
+{% extends "layouts/base.html" %}
+
+{% set pageHeaderTitle = title %}
+
+{% block content %}
+
+<div class="layout" data-layout="yak-yak">
+
+<div>
+
+<div class="alt-cta">
+<p data-size="s">
+{% if popular %}<span class="flag popular">Popular</span>{% endif %}
+{% if featured %}<span class="flag featured">Featured</span>{% endif %}
+</p>
+<a href="/lexicon/">Back</a>
+</div><!-- alt-cta -->
+
+<h1>{{ title }}</h1>
+
+<blockquote>
+<p>{{ summary }}</p>
+</blockquote>
+
+{{ content | safe }}
+
+{% if url %}
+<p data-size="s"><a href="{{ url }}">External reference</a></p>
+{% endif %}
+
+</div><!-- one -->
+</div><!-- layout -->
+
+
+{% if categories %}
+
+<hr data-function="spacer">
+
+<div class="alt-cta">
+<h2>More from</h2>
+<a href="/lexicon/">Back</a>
+</div><!-- alt-cta -->
+
+<div data-layout="flex">
+
+{% for category in categories %}
+<div>
+{% set relatedTerms = collections.lexicon | filterLexiconByCategory(category) | excludeCurrent(title) | limit(4) %}
+{% if relatedTerms.length > 0 %}
+<h3 data-size="r">{{ category }}</h3>
+<ul class="alt-">
+{% for term in relatedTerms %}<li><a href="{{ term.url }}">{{ term.data.title }}</a></li>{% endfor %}
+</ul>
+{% endif %}
+</div>
+{% endfor %}
+
+</div><!-- layout -->
+
+{% endif %}
+
+{% endblock %}

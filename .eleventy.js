@@ -45,6 +45,65 @@ eleventyConfig.addFilter("w3DateFilter", w3DateFilter);
 eleventyConfig.addFilter("sortByDisplayOrder", sortByDisplayOrder);
 eleventyConfig.addFilter("inline", inlineFilter);
 
+eleventyConfig.addFilter("filterByFeatured", function(collection) {
+  return collection.filter(term => term.data.featured === true);
+});
+
+// ADD THE GROUP BY INITIAL FILTER HERE
+eleventyConfig.addFilter("groupByInitial", function(collection) {
+  const grouped = {};
+
+  collection.forEach(term => {
+    if (term.data.title) {
+      const firstLetter = term.data.title.charAt(0).toUpperCase();
+
+      if (!grouped[firstLetter]) {
+        grouped[firstLetter] = [];
+      }
+
+      grouped[firstLetter].push(term);
+    }
+  });
+
+  // Sort the letters alphabetically and sort terms within each letter
+  const sortedGroups = {};
+  Object.keys(grouped)
+    .sort()
+    .forEach(letter => {
+      // Sort terms within this letter group by title
+      sortedGroups[letter] = grouped[letter].sort((a, b) =>
+        a.data.title.localeCompare(b.data.title)
+      );
+    });
+
+  return sortedGroups;
+});
+
+// ADD RELATED TERMS FILTERS HERE
+eleventyConfig.addFilter("filterLexiconByCategory", function(collection, category) {
+  return collection.filter(term =>
+    term.data.categories && term.data.categories.includes(category)
+  );
+});
+
+eleventyConfig.addFilter("excludeCurrent", function(collection, currentTitle) {
+  return collection.filter(term => term.data.title !== currentTitle);
+});
+
+eleventyConfig.addFilter("limit", function(collection, limit) {
+  return collection.slice(0, limit);
+});
+
+eleventyConfig.addFilter("getUniqueCategories", function(collection) {
+  const allCategories = new Set();
+  collection.forEach(term => {
+    if (term.data.categories) {
+      term.data.categories.forEach(cat => allCategories.add(cat));
+    }
+  });
+  return Array.from(allCategories).sort();
+});
+
 // RESOURCES FILTERS
 eleventyConfig.addFilter("filterByCategory", (resources, category) => {
 return resources.filter(resource =>
@@ -86,7 +145,33 @@ eleventyConfig.addPassthroughCopy("src/css");
 eleventyConfig.addPassthroughCopy("src/js");
 eleventyConfig.addPassthroughCopy("src/images");
 
-// Collections
+// COLLECTIONS
+
+eleventyConfig.addCollection("lexicon", function(collection) {
+  const terms = collection.getFilteredByGlob("./src/lexicon/*.md").map(term => {
+    // Generate slug from title if no permalink is set
+    if (!term.data.permalink) {
+      const slug = term.data.title
+        .toLowerCase()
+        .replace(/[^\w\s-]/g, '') // Remove special characters
+        .replace(/\s+/g, '-')     // Replace spaces with hyphens
+        .replace(/-+/g, '-');     // Replace multiple hyphens with single hyphen
+
+      term.data.permalink = `/lexicon/${slug}/`;
+    }
+    return term;
+  });
+
+  console.log(`Lexicon collection found ${terms.length} terms:`);
+  terms.forEach(term => {
+    console.log(`- ${term.data.title} -> ${term.url}`);
+  });
+
+  return terms.sort((a, b) => {
+    return a.data.title.localeCompare(b.data.title);
+  });
+});
+
 eleventyConfig.addCollection("blog", (collection) => {
 return [...collection.getFilteredByGlob("./src/posts/*.md")].reverse();
 });

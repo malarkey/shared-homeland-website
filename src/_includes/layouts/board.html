@@ -9,7 +9,7 @@
 <div class="layout" data-layout="boo-boo">
 
 <div>
-{% for member in collections.team %}
+{% for member in collections.board %}
 <article class="item-team">
 
 {% if member.data.image %}
@@ -41,10 +41,10 @@
 </div><!-- one -->
 
 <div>
-<h3><a href="/board">Board members</a></h3>
+<h3><a href="/team">Team members</a></h3>
 <ul>
-{% for boardmember in collections.board %}
-<li><a href="{{ boardmember.url }}">{{ boardmember.data.name }}</a></li>
+{% for teammember in collections.team %}
+<li><a href="{{ teammember.url }}">{{ teammember.data.name }}</a></li>
 {% endfor %}
 
 </div><!-- two -->

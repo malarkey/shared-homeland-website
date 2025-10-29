@@ -1,5 +1,5 @@
 ---
-layout: layouts/base.html
+layout: layouts/page.html
 title: Privacy policy
 permalink: /privacy/
 

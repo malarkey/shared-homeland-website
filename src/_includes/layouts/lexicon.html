@@ -1,0 +1,158 @@
+{% extends "layouts/base.html" %}
+
+{% set pageHeaderTitle = title %}
+
+{% block content %}
+
+<h1>{{ pageHeaderTitle }}</h1>
+
+<div class="layout" data-layout="boo-boo">
+
+<div>
+
+{% set featuredTerms = collections.lexicon | filterByFeatured %}
+{% if featuredTerms.length > 0 %}
+{% set latestFeatured = featuredTerms | reverse | first %}
+
+<div id="panel-highlight">
+
+<div class="alt-cta">
+<h2>Featured</h2>
+<a href="/lexicon-featured/">See all</a>
+</div><!-- alt-cta -->
+
+<h3><a href="{{ latestFeatured.url }}">{{ latestFeatured.data.title }}</a></h3>
+
+<blockquote>
+<p>{{ latestFeatured.data.summary }}</p>
+</blockquote>
+
+{{ latestFeatured.templateContent | safe }}
+
+{% if latestFeatured.data.url %}
+<p data-size="s"><a href="{{ latestFeatured.data.url }}">External reference</a></p>
+{% endif %}
+</div><!-- panel-highlight -->
+{% endif %}
+
+
+<ul id="letter-list">
+<li><a href="#" class="letter-link active" data-letter="all">All</a></li>
+{% set lexiconByLetter = collections.lexicon | groupByInitial %}
+{% for letter, terms in lexiconByLetter %}
+<li><a href="#letter-{{ letter }}" class="letter-link" data-letter="{{ letter }}">{{ letter }}</a></li>
+{% endfor %}
+</ul>
+
+{% set lexiconByLetter = collections.lexicon | groupByInitial %}
+{% for letter, terms in lexiconByLetter %}
+
+<section class="letter-section" id="letter-{{ letter }}" data-letter="{{ letter }}">
+<h2>{{ letter }}</h2>
+{% for term in terms %}
+
+<article class="item-lexicon">
+<h3><a href="{{ term.url }}">{{ term.data.title }}</a></h3>
+
+<blockquote>
+<p>{{ term.data.summary }}</p>
+</blockquote>
+
+{% if term.data.url %}
+<p data-size="s"><a href="{{ term.data.url }}">External reference</a></p>
+{% endif %}
+</article>
+{% endfor %}
+</section>
+{% endfor %}
+</div><!-- one -->
+
+<div>
+<h3>Popular terms</h3>
+<ul class="alt-">
+{% for term in collections.lexicon %}
+{% if term.data.popular %}
+<li><a href="{{ term.url }}">{{ term.data.title }}</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+</div><!-- two -->
+
+</div><!-- layout -->
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+const letterLinks = document.querySelectorAll('.letter-link');
+const letterSections = document.querySelectorAll('.letter-section');
+
+// Function to show all letters
+function showAllLetters() {
+// Show all sections
+letterSections.forEach(section => {
+section.classList.remove('filtered');
+section.classList.remove('active');
+});
+
+// Remove active class from all links and set "All" as active
+letterLinks.forEach(link => {
+link.classList.remove('active');
+});
+document.querySelector('.letter-link[data-letter="all"]').classList.add('active');
+
+// Clear URL hash
+history.replaceState(null, null, window.location.pathname);
+}
+
+// Function to show a specific letter section
+function showLetter(letter) {
+// Hide all sections and add filtered class
+letterSections.forEach(section => {
+section.classList.add('filtered');
+section.classList.remove('active');
+});
+
+// Remove active class from all links
+letterLinks.forEach(link => {
+link.classList.remove('active');
+});
+
+// Show the selected section and activate the link
+const targetSection = document.getElementById(`letter-${letter}`);
+const targetLink = document.querySelector(`.letter-link[data-letter="${letter}"]`);
+
+if (targetSection && targetLink) {
+targetSection.classList.add('active');
+targetLink.classList.add('active');
+}
+
+// Update URL hash without scrolling
+history.replaceState(null, null, `#letter-${letter}`);
+}
+
+// Check for hash on page load
+const initialHash = window.location.hash;
+if (initialHash && initialHash.startsWith('#letter-')) {
+const initialLetter = initialHash.replace('#letter-', '');
+showLetter(initialLetter);
+} else {
+// Show all letters by default
+showAllLetters();
+}
+
+// Add click handlers to letter links
+letterLinks.forEach(link => {
+link.addEventListener('click', function(e) {
+e.preventDefault();
+const letter = this.getAttribute('data-letter');
+
+if (letter === 'all') {
+showAllLetters();
+} else {
+showLetter(letter);
+}
+});
+});
+});
+</script>
+
+{% endblock %}

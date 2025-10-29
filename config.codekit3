@@ -36,6 +36,25 @@
       "oAP" : "\/.gitignore",
       "oF" : 0
     },
+    "\/andy-clarke.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/andy-clarke.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
     "\/dist\/about\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -82,12 +101,76 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dist\/blog\/category\/animation\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/blog\/category\/animation\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/blog\/category\/classic-cartoons\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/blog\/category\/classic-cartoons\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/blog\/el-kabong-1\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/blog\/el-kabong-1\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/blog\/el-kabong-2\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/blog\/el-kabong-2\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/blog\/el-kabong-3\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/blog\/el-kabong-3\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/blog\/el-kabong-4\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/blog\/el-kabong-4\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/blog\/el-kabong-5\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/blog\/el-kabong-5\/index.html",
+      "oF" : 0
+    },
     "\/dist\/blog\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/blog\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/blog\/NaN\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/blog\/NaN\/index.html",
       "oF" : 0
     },
     "\/dist\/blog\/page\/1\/index.html" : {
@@ -112,6 +195,30 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/blog\/post-1\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/blog\/tag\/cartoons\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/blog\/tag\/cartoons\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/blog\/tag\/hanna-barbera\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/blog\/tag\/hanna-barbera\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/blog\/tag\/quick-draw-mcgraw\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/blog\/tag\/quick-draw-mcgraw\/index.html",
       "oF" : 0
     },
     "\/dist\/blog\/test-post-1\/index.html" : {
@@ -152,6 +259,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/blog\/test-post-5\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/blog\/undefined\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/blog\/undefined\/index.html",
       "oF" : 0
     },
     "\/dist\/board\/andy-clarke\/index.html" : {
@@ -246,6 +361,32 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/dist\/images\/pig.png" : {
+      "ft" : 32768,
+      "iS" : 45753,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/pig.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/dist\/images\/poo.png" : {
+      "ft" : 32768,
+      "iS" : 25623,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/poo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/dist\/images\/qea8i6km8p-300.jpeg" : {
       "ft" : 16384,
       "iS" : 5207,
@@ -294,6 +435,39 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/dist\/images\/tigerpng.png" : {
+      "ft" : 32768,
+      "iS" : 31310,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/tigerpng.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/dist\/images\/tmp-featured.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/images\/tmp-featured.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/dist\/images\/tmp-img.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/images\/tmp-img.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/dist\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -321,12 +495,12 @@
       "oAP" : "\/dist\/privacy\/index.html",
       "oF" : 0
     },
-    "\/dist\/resources\/book copy\/index.html" : {
+    "\/dist\/resources\/another-book\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/resources\/book copy\/index.html",
+      "oAP" : "\/dist\/resources\/another-book\/index.html",
       "oF" : 0
     },
     "\/dist\/resources\/book\/index.html" : {
@@ -335,6 +509,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/resources\/book\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/resources\/category\/articles\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/resources\/category\/articles\/index.html",
       "oF" : 0
     },
     "\/dist\/resources\/category\/books\/index.html" : {
@@ -351,6 +533,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/resources\/category\/design\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/resources\/category\/development\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/resources\/category\/development\/index.html",
       "oF" : 0
     },
     "\/dist\/resources\/index.html" : {
@@ -383,6 +573,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/resources\/tag\/frontend\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/resources\/tag\/javascript\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/resources\/tag\/javascript\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/resources\/tag\/web\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/resources\/tag\/web\/index.html",
       "oF" : 0
     },
     "\/dist\/tag\/board\/index.html" : {
@@ -457,12 +663,28 @@
       "oAP" : "\/dist\/tag\/work\/index.html",
       "oF" : 0
     },
-    "\/dist\/team copy\/andy-clarke\/index.html" : {
+    "\/dist\/team\/alex-clarke copy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/team copy\/andy-clarke\/index.html",
+      "oAP" : "\/dist\/team\/alex-clarke copy\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/team\/alex-clarke\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/team\/alex-clarke\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/team\/andy-clarke copy\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/team\/andy-clarke copy\/index.html",
       "oF" : 0
     },
     "\/dist\/team\/andy-clarke\/index.html" : {
@@ -479,6 +701,54 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/team\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/team\/jon-hicks copy\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/team\/jon-hicks copy\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/team\/jon-hicks\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/team\/jon-hicks\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/team\/marcus-lillington\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/team\/marcus-lillington\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/team\/paul-boag\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/team\/paul-boag\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/team\/sue-clarke copy\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/team\/sue-clarke copy\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/team\/sue-clarke\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/team\/sue-clarke\/index.html",
       "oF" : 0
     },
     "\/dist\/terms-and-conditions\/index.html" : {
@@ -675,38 +945,6 @@
       "oAP" : "\/src\/_includes\/layouts\/post.html",
       "oF" : 0
     },
-    "\/src\/_includes\/layouts\/resources-category.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/src\/_includes\/layouts\/resources-category.html",
-      "oF" : 0
-    },
-    "\/src\/_includes\/layouts\/resources-search.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/src\/_includes\/layouts\/resources-search.html",
-      "oF" : 0
-    },
-    "\/src\/_includes\/layouts\/resources-tag.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/src\/_includes\/layouts\/resources-tag.html",
-      "oF" : 0
-    },
-    "\/src\/_includes\/layouts\/resources.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/src\/_includes\/layouts\/resources.html",
-      "oF" : 0
-    },
     "\/src\/_includes\/layouts\/team.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -739,6 +977,16 @@
       "oAP" : "\/src\/_includes\/partials\/header.html",
       "oF" : 0
     },
+    "\/src\/_includes\/partials\/logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/_includes\/partials\/logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/src\/_includes\/partials\/menu-button.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -769,6 +1017,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/src\/_includes\/partials\/post-list.html",
+      "oF" : 0
+    },
+    "\/src\/_includes\/partials\/resources-list.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/_includes\/partials\/resources-list.html",
+      "oF" : 0
+    },
+    "\/src\/_includes\/partials\/resources-nav.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/_includes\/partials\/resources-nav.html",
       "oF" : 0
     },
     "\/src\/about.md" : {
@@ -938,52 +1202,25 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/src\/images\/pig.png" : {
-      "ft" : 32768,
-      "iS" : 45753,
-      "oA" : 0,
-      "oAP" : "\/src\/images\/pig.png",
+    "\/src\/images\/tmp-featured.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/images\/tmp-featured.svg",
       "oF" : 0,
-      "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
+      "plM" : 52780316221407,
+      "prP" : 0
     },
-    "\/src\/images\/poo.png" : {
-      "ft" : 32768,
-      "iS" : 25623,
-      "oA" : 0,
-      "oAP" : "\/src\/images\/poo.png",
+    "\/src\/images\/tmp-img.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/images\/tmp-img.svg",
       "oF" : 0,
-      "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/src\/images\/tigerpng.png" : {
-      "ft" : 32768,
-      "iS" : 31310,
-      "oA" : 0,
-      "oAP" : "\/src\/images\/tigerpng.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/src\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/src\/index.html",
-      "oF" : 0
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/src\/index.md" : {
       "cB" : 0,
@@ -1015,6 +1252,14 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/src\/posts\/category.njk" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/posts\/category.njk",
+      "oF" : 0
+    },
     "\/src\/posts\/posts.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -1022,6 +1267,14 @@
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
+    },
+    "\/src\/posts\/tag.njk" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/posts\/tag.njk",
+      "oF" : 0
     },
     "\/src\/posts\/test-post-1.md" : {
       "cB" : 0,
@@ -1137,7 +1390,15 @@
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/src\/resources.md" : {
+    "\/src\/resources.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/resources.html",
+      "oF" : 0
+    },
+    "\/src\/resources\/another-book.md" : {
       "cB" : 0,
       "cS" : 0,
       "eF" : 1,
@@ -1147,7 +1408,7 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/src\/resources.html",
+      "oAP" : "\/src\/resources\/another-book.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,
@@ -1175,62 +1436,21 @@
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/src\/resources\/category.md" : {
+    "\/src\/resources\/category.njk" : {
       "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
+      "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/src\/resources\/category.html",
-      "oF" : 0,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
+      "oAP" : "\/src\/resources\/category.njk",
+      "oF" : 0
     },
-    "\/src\/resources\/search.md" : {
+    "\/src\/resources\/tag.njk" : {
       "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
+      "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/src\/resources\/search.html",
-      "oF" : 0,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/src\/resources\/tag.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/src\/resources\/tag.html",
-      "oF" : 0,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
+      "oAP" : "\/src\/resources\/tag.njk",
+      "oF" : 0
     },
     "\/src\/rss.html" : {
       "cB" : 0,
@@ -1259,6 +1479,25 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/src\/team\/alex-clarke.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/team\/alex-clarke.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
     "\/src\/team\/andy-clarke.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -1270,6 +1509,82 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/src\/team\/andy-clarke.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/team\/jon-hicks.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/team\/jon-hicks.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/team\/marcus-lillington.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/team\/marcus-lillington.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/team\/paul-boag.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/team\/paul-boag.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/team\/sue-clarke.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/team\/sue-clarke.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,

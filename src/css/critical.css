@@ -12,8 +12,8 @@
 /* Fluid font scale - scales between min/max viewports */
 /* @link https://utopia.fyi/type/calculator?c=360,14,1.2,1240,18,1.25,6,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
 
---font-size--xs: clamp(0.6076rem, 0.5617rem + 0.2043vw, 0.72rem);
---font-size--s: clamp(0.7292rem, 0.6593rem + 0.3106vw, 0.9rem);
+--font-size-xs: clamp(0.6076rem, 0.5617rem + 0.2043vw, 0.72rem);
+--font-size-s: clamp(0.7292rem, 0.6593rem + 0.3106vw, 0.9rem);
 --font-size-r: clamp(0.875rem, 0.7727rem + 0.4545vw, 1.125rem);
 --font-size-m: clamp(1.05rem, 0.9043rem + 0.6477vw, 1.4063rem);
 --font-size-l: clamp(1.26rem, 1.0563rem + 0.9051vw, 1.7578rem);
@@ -289,6 +289,9 @@ text-decoration-color: var(--color-text-link-decoration);
 text-decoration-style: solid;
 text-decoration-thickness: .5px;
 text-underline-offset: .075em; }
+
+:is(h1, h2, h3, h4) span {
+font-size: var(--font-size-s); }
 
 /* Accent color for headings */
 :heading .alt-accent { color: var(--color-accent); }
@@ -692,6 +695,71 @@ color: var(--color-text-default); }
 #banner-logo:hover path {
 color: var(--color-text-link-hover); }
 
+/* ============= CTA COMPONENT ========== */
+
+.alt-cta {
+align-items: center;
+display: flex;
+gap: var(--grid-column-gap);
+justify-content: space-between;
+margin-block-end: var(--spacing-m);
+margin-trim: block; }
+
+.alt-cta::after {
+border-top: var(--border-width-r)solid var(--color-border);
+content: "";
+display: block;
+flex: 1;
+height: 1px;
+order: 2; }
+
+.alt-cta > a {
+order: 3; }
+
+/* ============= FILTERS COMPONENT ========== */
+
+#letter-list {
+display: flex;
+flex-wrap: wrap;
+gap: var(--spacing-s);
+list-style-type: none;
+padding: 0;
+margin-block-end: var(--spacing-l); }
+
+#letter-list li:before {
+content: "";
+display: none; }
+
+.letter-link {
+background-color: var(--color-base);
+border: var(--border-width-r) solid var(--color-border);
+border-radius: var(--border-radius-s);
+color: var(--color-text-default);
+display: block;
+font-family: var(--font-family-alt);
+padding: var(--spacing-s) var(--spacing-r);
+text-decoration: none !important; }
+
+.letter-link:hover,
+.letter-link.active {
+background-color: var(--color-accent);
+color: var(--color-text-alt);
+border-color: var(--color-accent); }
+
+.letter-section {
+display: block;
+border: var(--border-width-r) solid var(--color-border);
+margin-block-end: var(--spacing-r);
+padding: var(--spacing-r); }
+
+.letter-section.filtered {
+display: none; }
+
+.letter-section.filtered.active {
+display: block; }
+
+
+
 /* ============= HEADER COMPONENT ========== */
 
 [role="banner"] {
@@ -756,12 +824,24 @@ font-family: var(--font-family-alt);
 font-size: var(--font-size-xs);
 text-transform: uppercase; }
 
+/* Blog / news */
+
+.item-team {
+border-block-end: var(--border-width-l) solid var(--color-border);
+margin-block-end: var(--spacing-l);
+padding-block-end: var(--spacing-r); }
 
 
 
+/* Panels */
 
-
-
+#panel-highlight {
+background-color: var(--color-base);
+border: var(--border-width-l) solid var(--color-border);
+margin-bottom: var(--spacing-l);
+margin-trim: block;
+padding: var(--spacing-r);
+position: relative; }
 
 
 

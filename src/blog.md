@@ -1,5 +1,5 @@
 ---
-featureImage: /images/tmp-featured.svg
+featureImage:
 featureImageCaption:
 layout: 'layouts/feed.html'
 metaDesc:

@@ -1,6 +1,6 @@
 ---
 postAuthor: Andy Clarke
-postDate: 2021-04-28
+postDate: 2025-11-20
 postSummary: |
   In certain cases, Quick Draw would also assume the identity of the Spanish masked vigilante El Kabong (a spoof of Zorro). His introduction went as follows—“Of all the heroes in legend and song, there’s none as brave as El Kabong.”
 postCategories: ['Animation', 'Classic Cartoons']

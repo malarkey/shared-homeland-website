@@ -3,10 +3,9 @@ email: 'xxxx@stuffandnonsense.co.uk'
 layout: 'layouts/member.html'
 linkedin: 'https://linkedin.com/in/xxxx'
 location: 'Cymru/Wales, UK'
-name: 'Andy Clarke'
+name: 'Jon Hicks'
 qualifications: 'CND GCHQ SN'
 role: 'Team director'
-url: 'https://stuffandnonsense.co.uk'
 image: tmp-img.svg
 eleventyComputed:
   title: "{{ name }}"
