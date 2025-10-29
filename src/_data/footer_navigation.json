@@ -1,12 +1,16 @@
 {
-    "items": [
-        {
-            "text": "Privacy policy",
-            "url": "/privacy"
-        },
-        {
-            "text": "Terms",
-            "url": "/terms"
-        }
-    ]
+  "items": [
+    {
+      "text": "Partners",
+      "url": "/partners/"
+    },
+    {
+      "text": "Privacy",
+      "url": "/privacy/"
+    },
+    {
+      "text": "Terms",
+      "url": "/terms/"
+    }
+  ]
 }
