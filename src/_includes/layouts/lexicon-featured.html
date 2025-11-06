@@ -1,0 +1,160 @@
+{% set assetHash = global.random() %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+{% include "partials/head.html" %}
+
+<body id="{{ site.siteID }}">
+
+{% include "partials/header.html" %}
+
+{% set pageHeaderTitle = title %}
+
+{% block content %}
+
+<h1>{{ pageHeaderTitle }}</h1>
+
+<p class="intro">{{ summary }}</p>
+
+<div class="layout" data-layout="softy">
+
+<div>
+
+<ul id="letter-list">
+<li><a href="#" class="letter-link active" data-letter="all">All</a></li>
+{% set lexiconByLetter = collections.lexicon | groupByInitial %}
+{% for letter, terms in lexiconByLetter %}
+<li><a href="#letter-{{ letter }}" class="letter-link" data-letter="{{ letter }}">{{ letter }}</a></li>
+{% endfor %}
+</ul>
+
+{% set featuredByLetter = collections.lexicon | filterByFeatured | groupByInitial %}
+{% for letter, terms in featuredByLetter %}  <!-- ← Changed to featuredByLetter -->
+
+<section class="letter-section" id="letter-{{ letter }}" data-letter="{{ letter }}">
+<h2>{{ letter }}</h2>
+{% for term in terms %}
+
+<article class="item-lexicon">
+<h3><a href="{{ term.url }}">{{ term.data.title }}</a></h3>
+
+<blockquote>
+<p>{{ term.data.summary }}</p>
+</blockquote>
+
+</article>
+{% endfor %}
+</section>
+{% endfor %}
+</div><!-- one -->
+
+<div>
+{% if featureImage %}
+<figure>
+<img src="{{ featureImage }}" alt="{{ featureImageCaption }}" style="margin-inline:auto; width:240px;" />
+{% if featureImageCaption %}
+<figcaption>{{ featureImageCaption }}</figcaption>
+{% endif %}
+</figure>
+{% endif %}
+
+<h3>What&#8217;s this?</h3>
+{{ aside | safe }}
+
+<hr data-function="spacer">
+
+<h3>Popular terms</h3>
+<ul class="alt-">
+{% for term in collections.lexicon %}
+{% if term.data.popular %}
+<li><a href="{{ term.url }}">{{ term.data.title }}</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+</div><!-- two -->
+
+</div><!-- layout -->
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+const letterLinks = document.querySelectorAll('.letter-link');
+const letterSections = document.querySelectorAll('.letter-section');
+
+// Function to show all letters
+function showAllLetters() {
+// Show all sections
+letterSections.forEach(section => {
+section.classList.remove('filtered');
+section.classList.remove('active');
+});
+
+// Remove active class from all links and set "All" as active
+letterLinks.forEach(link => {
+link.classList.remove('active');
+});
+document.querySelector('.letter-link[data-letter="all"]').classList.add('active');
+
+// Clear URL hash
+history.replaceState(null, null, window.location.pathname);
+}
+
+// Function to show a specific letter section
+function showLetter(letter) {
+// Hide all sections and add filtered class
+letterSections.forEach(section => {
+section.classList.add('filtered');
+section.classList.remove('active');
+});
+
+// Remove active class from all links
+letterLinks.forEach(link => {
+link.classList.remove('active');
+});
+
+// Show the selected section and activate the link
+const targetSection = document.getElementById(`letter-${letter}`);
+const targetLink = document.querySelector(`.letter-link[data-letter="${letter}"]`);
+
+if (targetSection && targetLink) {
+targetSection.classList.add('active');
+targetLink.classList.add('active');
+}
+
+// Update URL hash without scrolling
+history.replaceState(null, null, `#letter-${letter}`);
+}
+
+// Check for hash on page load
+const initialHash = window.location.hash;
+if (initialHash && initialHash.startsWith('#letter-')) {
+const initialLetter = initialHash.replace('#letter-', '');
+showLetter(initialLetter);
+} else {
+// Show all letters by default
+showAllLetters();
+}
+
+// Add click handlers to letter links
+letterLinks.forEach(link => {
+link.addEventListener('click', function(e) {
+e.preventDefault();
+const letter = this.getAttribute('data-letter');
+
+if (letter === 'all') {
+showAllLetters();
+} else {
+showLetter(letter);
+}
+});
+});
+});
+</script>
+
+{% endblock %}
+
+{% include "partials/footer.html" %}
+<script src="{{ site.url }}/js/scripts.js"></script>
+</body>
+
+</html>

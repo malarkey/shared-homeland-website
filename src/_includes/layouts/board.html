@@ -13,17 +13,16 @@
 <article class="item-team">
 
 {% if member.data.image %}
+<div>
 <img src="/images/{{ member.data.image }}" alt="{{ member.data.name }}" style="width:200px;">
+</div><!-- one -->
 {% endif %}
 
-<h2><a href="{{ member.url }}">{{ member.data.name }}</a> <span>{{ member.data.qualifications }}</span></h2>
+<div>
+<h2>{% if member.data.qualifications %}<span>{{ member.data.qualifications }}</span><br>{% endif %}<a href="{{ member.url }}">{{ member.data.name }}</a></h2>
 
 {% if member.data.role %}
-<p>{{ member.data.role }}</p>
-{% endif %}
-
-{% if member.data.location %}
-<p>{{ member.data.location }}</p>
+<p>{{ member.data.role }} {% if member.data.location %}• {{ member.data.location }}{% endif %}</p>
 {% endif %}
 
 {% if member.data.summary %}
@@ -31,10 +30,13 @@
 {% endif %}
 
 <small>
+{% if member.data.email %}<a href="{{ member.data.email }}">{{ member.data.email }}</a>{% endif %} •
 {% if member.data.url %}<a href="{{ member.data.url }}">Website</a>{% endif %}
 {% if member.data.url and member.data.linkedin %} • {% endif %}
 {% if member.data.linkedin %}<a href="{{ member.data.linkedin }}">LinkedIn</a>{% endif %}
 </small>
+
+</div><!-- two -->
 
 </article>
 {% endfor %}

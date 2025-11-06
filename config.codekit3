@@ -165,38 +165,6 @@
       "oAP" : "\/dist\/blog\/index.html",
       "oF" : 0
     },
-    "\/dist\/blog\/NaN\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/blog\/NaN\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/blog\/page\/1\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/blog\/page\/1\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/blog\/page\/2\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/blog\/page\/2\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/blog\/post-1\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/blog\/post-1\/index.html",
-      "oF" : 0
-    },
     "\/dist\/blog\/tag\/cartoons\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -219,54 +187,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/blog\/tag\/quick-draw-mcgraw\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/blog\/test-post-1\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/blog\/test-post-1\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/blog\/test-post-2\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/blog\/test-post-2\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/blog\/test-post-3\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/blog\/test-post-3\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/blog\/test-post-4\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/blog\/test-post-4\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/blog\/test-post-5\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/blog\/test-post-5\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/blog\/undefined\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/blog\/undefined\/index.html",
       "oF" : 0
     },
     "\/dist\/board\/andy-clarke\/index.html" : {
@@ -305,6 +225,62 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/dist\/faqs\/question-1\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/faqs\/question-1\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/faqs\/question-2\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/faqs\/question-2\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/faqs\/question-3\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/faqs\/question-3\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/faqs\/question-4\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/faqs\/question-4\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/faqs\/question-5\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/faqs\/question-5\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/faqs\/question-6\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/faqs\/question-6\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/faqs\/your-slug-here\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/faqs\/your-slug-here\/index.html",
+      "oF" : 0
+    },
     "\/dist\/feed.xml" : {
       "cB" : 0,
       "ft" : 8192,
@@ -313,140 +289,43 @@
       "oAP" : "\/dist\/feed.xml",
       "oF" : 0
     },
-    "\/dist\/images\/e0lUkOxKXy-300.jpeg" : {
-      "ft" : 16384,
-      "iS" : 8384,
-      "jF" : 0,
+    "\/dist\/fonts\/bankside-sans-vf.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/images\/e0lUkOxKXy-300.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
+      "oAP" : "\/dist\/fonts\/bankside-sans-vf.woff2",
+      "oF" : 0
     },
-    "\/dist\/images\/e0lUkOxKXy-300.webp" : {
-      "ft" : 8388608,
-      "iS" : 4940,
-      "oA" : 0,
-      "oAP" : "\/dist\/images\/e0lUkOxKXy-300.webp",
+    "\/dist\/images\/icon-quote-closed.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/images\/icon-quote-closed.svg",
       "oF" : 0,
-      "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
+      "plM" : 52780316221407,
+      "prP" : 0
     },
-    "\/dist\/images\/e0lUkOxKXy-600.jpeg" : {
-      "ft" : 16384,
-      "iS" : 18660,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/images\/e0lUkOxKXy-600.jpg",
+    "\/dist\/images\/icon-quote-open.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/images\/icon-quote-open.svg",
       "oF" : 0,
-      "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
+      "plM" : 52780316221407,
+      "prP" : 0
     },
-    "\/dist\/images\/e0lUkOxKXy-600.webp" : {
-      "ft" : 8388608,
-      "iS" : 9510,
-      "oA" : 0,
-      "oAP" : "\/dist\/images\/e0lUkOxKXy-600.webp",
+    "\/dist\/images\/logo-footer.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/images\/logo-footer.svg",
       "oF" : 0,
-      "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
-    "\/dist\/images\/pig.png" : {
-      "ft" : 32768,
-      "iS" : 45753,
-      "oA" : 0,
-      "oAP" : "\/dist\/images\/pig.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/images\/poo.png" : {
-      "ft" : 32768,
-      "iS" : 25623,
-      "oA" : 0,
-      "oAP" : "\/dist\/images\/poo.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/images\/qea8i6km8p-300.jpeg" : {
-      "ft" : 16384,
-      "iS" : 5207,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/images\/qea8i6km8p-300.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dist\/images\/qea8i6km8p-300.webp" : {
-      "ft" : 8388608,
-      "iS" : 2736,
-      "oA" : 0,
-      "oAP" : "\/dist\/images\/qea8i6km8p-300.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
-    "\/dist\/images\/qea8i6km8p-600.jpeg" : {
-      "ft" : 16384,
-      "iS" : 11757,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/images\/qea8i6km8p-600.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dist\/images\/qea8i6km8p-600.webp" : {
-      "ft" : 8388608,
-      "iS" : 5408,
-      "oA" : 0,
-      "oAP" : "\/dist\/images\/qea8i6km8p-600.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
-    "\/dist\/images\/tigerpng.png" : {
-      "ft" : 32768,
-      "iS" : 31310,
-      "oA" : 0,
-      "oAP" : "\/dist\/images\/tigerpng.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/dist\/images\/tmp-featured.svg" : {
       "ft" : 2097152,
@@ -457,6 +336,28 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/dist\/images\/tmp-img-1.webp" : {
+      "ft" : 8388608,
+      "iS" : 482380,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/tmp-img-1.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/tmp-img-2.webp" : {
+      "ft" : 8388608,
+      "iS" : 482002,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/tmp-img-2.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
     },
     "\/dist\/images\/tmp-img.svg" : {
       "ft" : 2097152,
@@ -486,6 +387,78 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/dist\/lexicon-featured\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/lexicon-featured\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/lexicon\/baba-looey\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/lexicon\/baba-looey\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/lexicon\/el-kabongo\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/lexicon\/el-kabongo\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/lexicon\/gaza-city\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/lexicon\/gaza-city\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/lexicon\/gaza-strip\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/lexicon\/gaza-strip\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/lexicon\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/lexicon\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/lexicon\/palestine\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/lexicon\/palestine\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/lexicon\/quick-draw\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/lexicon\/quick-draw\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/partners\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/partners\/index.html",
+      "oF" : 0
     },
     "\/dist\/privacy\/index.html" : {
       "cB" : 0,
@@ -551,14 +524,6 @@
       "oAP" : "\/dist\/resources\/index.html",
       "oF" : 0
     },
-    "\/dist\/resources\/search\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/resources\/search\/index.html",
-      "oF" : 0
-    },
     "\/dist\/resources\/tag\/design-systems\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -591,84 +556,12 @@
       "oAP" : "\/dist\/resources\/tag\/web\/index.html",
       "oF" : 0
     },
-    "\/dist\/tag\/board\/index.html" : {
+    "\/dist\/team\/adi-berkovits\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/tag\/board\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/tag\/design-systems\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/tag\/design-systems\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/tag\/frontend\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/tag\/frontend\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/tag\/play\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/tag\/play\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/tag\/resources\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/tag\/resources\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/tag\/resourcescategory\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/tag\/resourcescategory\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/tag\/resourcestag\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/tag\/resourcestag\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/tag\/team\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/tag\/team\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/tag\/work\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/tag\/work\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/team\/alex-clarke copy\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/team\/alex-clarke copy\/index.html",
+      "oAP" : "\/dist\/team\/adi-berkovits\/index.html",
       "oF" : 0
     },
     "\/dist\/team\/alex-clarke\/index.html" : {
@@ -679,14 +572,6 @@
       "oAP" : "\/dist\/team\/alex-clarke\/index.html",
       "oF" : 0
     },
-    "\/dist\/team\/andy-clarke copy\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/team\/andy-clarke copy\/index.html",
-      "oF" : 0
-    },
     "\/dist\/team\/andy-clarke\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -695,20 +580,28 @@
       "oAP" : "\/dist\/team\/andy-clarke\/index.html",
       "oF" : 0
     },
+    "\/dist\/team\/fady-khoury\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/team\/fady-khoury\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/team\/haim-yacobi\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/team\/haim-yacobi\/index.html",
+      "oF" : 0
+    },
     "\/dist\/team\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/team\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/team\/jon-hicks copy\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/team\/jon-hicks copy\/index.html",
       "oF" : 0
     },
     "\/dist\/team\/jon-hicks\/index.html" : {
@@ -727,6 +620,14 @@
       "oAP" : "\/dist\/team\/marcus-lillington\/index.html",
       "oF" : 0
     },
+    "\/dist\/team\/omar-dajani\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/team\/omar-dajani\/index.html",
+      "oF" : 0
+    },
     "\/dist\/team\/paul-boag\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -735,28 +636,12 @@
       "oAP" : "\/dist\/team\/paul-boag\/index.html",
       "oF" : 0
     },
-    "\/dist\/team\/sue-clarke copy\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/team\/sue-clarke copy\/index.html",
-      "oF" : 0
-    },
     "\/dist\/team\/sue-clarke\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/team\/sue-clarke\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/terms-and-conditions\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/terms-and-conditions\/index.html",
       "oF" : 0
     },
     "\/dist\/terms\/index.html" : {
@@ -889,6 +774,14 @@
       "oAP" : "\/src\/_includes\/layouts\/base.html",
       "oF" : 0
     },
+    "\/src\/_includes\/layouts\/board.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/_includes\/layouts\/board.html",
+      "oF" : 0
+    },
     "\/src\/_includes\/layouts\/contact.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -913,20 +806,20 @@
       "oAP" : "\/src\/_includes\/layouts\/home.html",
       "oF" : 0
     },
+    "\/src\/_includes\/layouts\/lexicon.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/_includes\/layouts\/lexicon.html",
+      "oF" : 0
+    },
     "\/src\/_includes\/layouts\/member.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/src\/_includes\/layouts\/member.html",
-      "oF" : 0
-    },
-    "\/src\/_includes\/layouts\/page-default.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/src\/_includes\/layouts\/page-default.html",
       "oF" : 0
     },
     "\/src\/_includes\/layouts\/page.html" : {
@@ -953,6 +846,14 @@
       "oAP" : "\/src\/_includes\/layouts\/team.html",
       "oF" : 0
     },
+    "\/src\/_includes\/layouts\/term.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/_includes\/layouts\/term.html",
+      "oF" : 0
+    },
     "\/src\/_includes\/partials\/footer.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -976,6 +877,16 @@
       "oA" : 0,
       "oAP" : "\/src\/_includes\/partials\/header.html",
       "oF" : 0
+    },
+    "\/src\/_includes\/partials\/logo-footer.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/_includes\/partials\/logo-footer.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/src\/_includes\/partials\/logo.svg" : {
       "ft" : 2097152,
@@ -1180,6 +1091,120 @@
       "oF" : 3,
       "pg" : 0
     },
+    "\/src\/faqs\/question-1.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/faqs\/question-1.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/faqs\/question-2.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/faqs\/question-2.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/faqs\/question-3.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/faqs\/question-3.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/faqs\/question-4.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/faqs\/question-4.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/faqs\/question-5.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/faqs\/question-5.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/faqs\/question-6.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/faqs\/question-6.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
     "\/src\/filters\/date-filter.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -1202,6 +1227,34 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/src\/fonts\/bankside-sans-vf.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/fonts\/bankside-sans-vf.woff2",
+      "oF" : 0
+    },
+    "\/src\/images\/icon-quote-closed.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/images\/icon-quote-closed.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/src\/images\/icon-quote-open.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/images\/icon-quote-open.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/src\/images\/tmp-featured.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -1211,6 +1264,28 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/src\/images\/tmp-img-1.webp" : {
+      "ft" : 8388608,
+      "iS" : 482380,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/tmp-img-1.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/tmp-img-2.webp" : {
+      "ft" : 8388608,
+      "iS" : 482002,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/tmp-img-2.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
     },
     "\/src\/images\/tmp-img.svg" : {
       "ft" : 2097152,
@@ -1251,6 +1326,120 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/src\/lexicon-featured.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/lexicon-featured.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/lexicon.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/lexicon.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/lexicon\/gaza-city.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/lexicon\/gaza-city.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/lexicon\/gaza-strip.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/lexicon\/gaza-strip.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/lexicon\/palestine.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/lexicon\/palestine.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/partners.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/partners.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
     },
     "\/src\/posts\/category.njk" : {
       "cB" : 0,
@@ -1479,7 +1668,7 @@
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/src\/team\/alex-clarke.md" : {
+    "\/src\/team\/adi-berkovits.md" : {
       "cB" : 0,
       "cS" : 0,
       "eF" : 1,
@@ -1489,7 +1678,7 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/src\/team\/alex-clarke.html",
+      "oAP" : "\/src\/team\/adi-berkovits.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,
@@ -1498,7 +1687,7 @@
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/src\/team\/andy-clarke.md" : {
+    "\/src\/team\/fady-khoury.md" : {
       "cB" : 0,
       "cS" : 0,
       "eF" : 1,
@@ -1508,7 +1697,7 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/src\/team\/andy-clarke.html",
+      "oAP" : "\/src\/team\/fady-khoury.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,
@@ -1517,7 +1706,7 @@
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/src\/team\/jon-hicks.md" : {
+    "\/src\/team\/haim-yacobi.md" : {
       "cB" : 0,
       "cS" : 0,
       "eF" : 1,
@@ -1527,7 +1716,7 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/src\/team\/jon-hicks.html",
+      "oAP" : "\/src\/team\/haim-yacobi.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,
@@ -1536,7 +1725,7 @@
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/src\/team\/marcus-lillington.md" : {
+    "\/src\/team\/omar-dajani.md" : {
       "cB" : 0,
       "cS" : 0,
       "eF" : 1,
@@ -1546,45 +1735,7 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/src\/team\/marcus-lillington.html",
-      "oF" : 0,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/src\/team\/paul-boag.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/src\/team\/paul-boag.html",
-      "oF" : 0,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/src\/team\/sue-clarke.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/src\/team\/sue-clarke.html",
+      "oAP" : "\/src\/team\/omar-dajani.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,

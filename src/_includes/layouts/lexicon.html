@@ -1,4 +1,13 @@
-{% extends "layouts/base.html" %}
+{% set assetHash = global.random() %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+{% include "partials/head.html" %}
+
+<body id="{{ site.siteID }}">
+
+{% include "partials/header.html" %}
 
 {% set pageHeaderTitle = title %}
 
@@ -6,7 +15,7 @@
 
 <h1>{{ pageHeaderTitle }}</h1>
 
-<div class="layout" data-layout="boo-boo">
+<div class="layout" data-layout="softy">
 
 <div>
 
@@ -16,22 +25,19 @@
 
 <div id="panel-highlight">
 
-<div class="alt-cta">
+<div class="alt-bordered">
 <h2>Featured</h2>
 <a href="/lexicon-featured/">See all</a>
-</div><!-- alt-cta -->
+</div><!-- alt-bordered -->
 
 <h3><a href="{{ latestFeatured.url }}">{{ latestFeatured.data.title }}</a></h3>
 
-<blockquote>
+<blockquote data-variant="bordered">
 <p>{{ latestFeatured.data.summary }}</p>
 </blockquote>
 
 {{ latestFeatured.templateContent | safe }}
 
-{% if latestFeatured.data.url %}
-<p data-size="s"><a href="{{ latestFeatured.data.url }}">External reference</a></p>
-{% endif %}
 </div><!-- panel-highlight -->
 {% endif %}
 
@@ -58,9 +64,6 @@
 <p>{{ term.data.summary }}</p>
 </blockquote>
 
-{% if term.data.url %}
-<p data-size="s"><a href="{{ term.data.url }}">External reference</a></p>
-{% endif %}
 </article>
 {% endfor %}
 </section>
@@ -68,6 +71,20 @@
 </div><!-- one -->
 
 <div>
+{% if featureImage %}
+<figure>
+<img src="{{ featureImage }}" alt="{{ featureImageCaption }}" style="margin-inline:auto; width:240px;" />
+{% if featureImageCaption %}
+<figcaption>{{ featureImageCaption }}</figcaption>
+{% endif %}
+</figure>
+{% endif %}
+
+<h3>What&#8217;s this?</h3>
+{{ aside | safe }}
+
+<hr data-function="spacer">
+
 <h3>Popular terms</h3>
 <ul class="alt-">
 {% for term in collections.lexicon %}
@@ -156,3 +173,9 @@ showLetter(letter);
 </script>
 
 {% endblock %}
+
+{% include "partials/footer.html" %}
+<script src="{{ site.url }}/js/scripts.js"></script>
+</body>
+
+</html>

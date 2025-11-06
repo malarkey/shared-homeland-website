@@ -34,43 +34,25 @@ permalink: /privacy/
 
 <p>We ask for contact information including your name, email address, and phone number, on our website so that we can reply to your enquiry.</p>
 
-<p>We ask for your email address when you sign up for one of our newsletters.</p>
-
-<p>We ask for your account and contact information when you hire or buy something from us.</p>
-
 <p>We doesn&#8217;t use cookies or scripts which were designed to track the websites you visit. We don&#8217;t use analytics or native social media &#8216;like&#8217; or &#8216;sharing&#8217; buttons which also build profiles of your internet activity.</p>
 
 <p>Occasionally, we might receive your contact information from one of our partners. If we do, we protect it in exactly the same way as if you give it to us directly.</p>
 
 <h3 id="what-information-we-store">What information we store</h3>
 
-<p>When you contact us by email or through our website, we store your name and email address, plus your phone number, social media username, and the company you work for, if you&#8217;ve given them to us.</p>
-
-<p>If you sign up for a newsletter, we store your email address.</p>
-
-<p>When you buy something from us, we store your name, email address, phone number, and a delivery address.</p>
-
-<p>If you do business with us, we store your business name and bank details and keep records of the invoices we send you and the payments you make. All purchases are processed by our ecommerce platform and we never have access to your credit card information.</p>
-
-<h3 id="where-we-store-your-information">Where we store your information</h3>
-
-<p>If you sign up for a newsletter, we store your email address in the marketing platform we prefer.</p>
-
-<p>When you buy something, your information is stored in our e-commerce platform.</p>
-
-<p>If we do business, we store your information in our accounts software.</p>
+<p>When you contact us by email or through our website, we store your name and email address, if you&#8217;ve given them to us.</p>
 
 <h3 id="how-we-use-your-information">How we use your information</h3>
 
-<p>We occasionally use your contact information to send you details of our products and services. When we do, you have the option to unsubscribe from these communications and we won&#8217;t send them to you again. We might also email or phone you about our products and services, but if you tell us not to, we won&#8217;t get in touch again. We will use your information to send you invoices, statements, or reminders.</p>
+<p>We occasionally use your contact information to send you details of our products and services. When we do, you have the option to unsubscribe from these communications and we won&#8217;t send them to you again.</p>
 
-<h3 id="who-is-responsible-for-your-information-at-our-company">Who&#8217;s responsible for your information at our company</h3>
+<h3 id="who-is-responsible-for-your-information-at-our-company">Who&#8217;s responsible for your information at our project</h3>
 
-<p>Our Secretary, is responsible for the security of your information. You can contact them by email if you have concerns about the information we store.</p>
+<p>Our Project Coordinator, is responsible for the security of your information. You can contact them by email if you have concerns about the information we store.</p>
 
 <h3 id="who-has-access-to-information-about-you">Who has access to information about you</h3>
 
-<p>When we store information in our own systems, only the people who need it have access. Our management team have access to everything you&#8217;ve provided, but individual employees have access to only what they need to do their job.</p>
+<p>When we store information in our own systems, only the people who need it have access. Our team have access to everything you&#8217;ve provided, but individuals have access to only what they need to do their job.</p>
 
 <h3 id="steps-we-take-to-keep-your-information-private">Steps we take to keep your information private</h3>
 

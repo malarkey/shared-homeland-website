@@ -1,6 +1,13 @@
-{% extends "layouts/base.html" %}
+{% set assetHash = global.random() %}
 
-{% set pageHeaderTitle = title %}
+<!DOCTYPE html>
+<html lang="en">
+
+{% include "partials/head.html" %}
+
+<body id="{{ site.siteID }}">
+
+{% include "partials/header.html" %}
 
 {% block content %}
 
@@ -14,7 +21,19 @@
 </div><!-- one -->
 
 <div>
+{% if featureImage %}
+<figure data-fill="contain">
+<img src="{{ featureImage }}" alt="{{ featureImageCaption }}" />
+{% if featureImageCaption %}
+<figcaption>{{ featureImageCaption }}</figcaption>
+{% endif %}
+</figure>
+{% endif %}
+
+<blockquote data-variant="m">
+{% include "partials/icon-quote-open.njk" %}
 {{ aside | safe }}
+</blockquote>
 </div><!-- two -->
 
 </div><!-- layout -->
@@ -23,3 +42,9 @@
 {{ content | safe }}
 
 {% endblock %}
+
+{% include "partials/footer.html" %}
+<script src="{{ site.url }}/js/scripts.js"></script>
+</body>
+
+</html>

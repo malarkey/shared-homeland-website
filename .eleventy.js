@@ -86,8 +86,9 @@ eleventyConfig.addFilter("filterLexiconByCategory", function(collection, categor
   );
 });
 
-eleventyConfig.addFilter("excludeCurrent", function(collection, currentTitle) {
-  return collection.filter(term => term.data.title !== currentTitle);
+// FIXED: Compare URLs instead of titles for more reliable exclusion
+eleventyConfig.addFilter("excludeCurrent", function(collection, currentUrl) {
+  return collection.filter(term => term.url !== currentUrl);
 });
 
 eleventyConfig.addFilter("limit", function(collection, limit) {
@@ -146,6 +147,13 @@ eleventyConfig.addPassthroughCopy("src/js");
 eleventyConfig.addPassthroughCopy("src/images");
 
 // COLLECTIONS
+
+// FAQ COLLECTION
+eleventyConfig.addCollection("faqs", (collection) => {
+  return collection.getFilteredByGlob("./src/faqs/*.md").sort((a, b) => {
+    return a.data.title.localeCompare(b.data.title);
+  });
+});
 
 eleventyConfig.addCollection("lexicon", function(collection) {
   const terms = collection.getFilteredByGlob("./src/lexicon/*.md").map(term => {

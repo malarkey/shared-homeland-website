@@ -8,11 +8,17 @@
 
 <div>
 
+<div class="alt-bordered">
 <small class="item-meta">{{ page.date | dateFilter }}</small>
+<a href="/blog/">Back</a>
+</div><!-- alt-bordered -->
+
 <h1>{{ title }}</h1>
 <p>{{ postSummary }}</p>
 
 {{ content | safe }}
+
+<hr>
 
 <small>{{ postAuthor }} •
 {% for tag in postTags %}
@@ -27,10 +33,10 @@
 
 {% if recommendedPosts %}
 {% set postListItems = recommendedPosts %}
-<h2>More posts</h2>
-<div data-content="posts">
+<h2>More news</h2>
+<div data-layout="flex" data-border="r">
 {% include "partials/post-list.html" %}
-</div>
+</div><!-- layout -->
 {% endif %}
 
 {% endblock %}

@@ -1,28 +1,24 @@
 <footer role="contentinfo">
 
-<div class="layout" data-layout="pockets">
-
 <div id="footer-logo">
-<a href="#{{ site.siteID }}" title="Top">{% include "partials/logo.svg" %}<span data-visibility="hidden">{{ site.name }}</span></a>
-</div><!-- footer-logo -->
-
-<div>
-<ul class="alt-inline">
-{% for item in footer_navigation.items %}
-<li><a href="{{ item.url }}"{{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a></li>
-{% endfor %}
-</ul>
+<a href="#{{ site.siteID }}" title="Top">{% include "partials/logo-footer.njk" %}<span data-visibility="hidden">{{ site.name }}</span></a>
 </div><!-- one -->
 
-</div><!-- layout -->
-
-<small>&#169; Copyright 2025&#8211;now. Design by <a href="https://stuffandnonsense.co.uk" target="_blank">Stuff &#38; Nonsense</a></small>
+<div>
+{% for item in footer_navigation.items %}
+<a href="{{ item.url }}"{{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a>
+{% if not loop.last %} • {% endif %}
+{% endfor %}
+</div><!-- two -->
 
 </footer>
+
+<small>&#169; The Shared Homeland Paradigm. 2025&#8211;now. <a href="https://stuffandnonsense.co.uk" target="_blank">Design</a></small>
+
 
 <!-- ********************************************************
 Design: Andy Clarke • Stuff & Nonsense
 URL: https://stuffandnonsense.co.uk
-Development: Sush Kelly • Creativity & Code
+Development assistance: Sush Kelly • Creativity & Code
 URL: https://sushkelly.co.uk
 ******************************************************** -->

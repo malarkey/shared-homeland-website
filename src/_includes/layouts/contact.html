@@ -9,15 +9,6 @@
 
 {% include "partials/header.html" %}
 
-{% if featureImage %}
-<figure>
-<img src="{{ featureImage }}" alt="{{ featureImageCaption }}" />
-{% if featureImageCaption %}
-<figcaption>{{ featureImageCaption }}</figcaption>
-{% endif %}
-</figure>
-{% endif %}
-
 <h1>{{ title }}</h1>
 {{ lede | safe }}
 
@@ -65,10 +56,50 @@
 </div><!-- align -->
 
 </form>
+
+<h2>FAQs</h2>
+
+{% for faq in collections.faqs %}
+<details>
+<summary>{{ faq.data.title }}</summary>
+<div class="faq-answer">
+{{ faq.templateContent | safe }}
+</div>
+</details>
+{% endfor %}
+
 </div><!-- one -->
 
 <div>
-{{ aside | safe }}
+{% if featureImage %}
+<figure>
+<img src="{{ featureImage }}" alt="{{ featureImageCaption }}" style="margin-inline:auto; width:240px;" />
+{% if featureImageCaption %}
+<figcaption>{{ featureImageCaption }}</figcaption>
+{% endif %}
+</figure>
+{% endif %}
+
+<h2>Our team</h2>
+
+{% for member in collections.team %}
+<article class="item-team">
+
+{% if member.data.image %}
+<div>
+<img src="/images/{{ member.data.image }}" alt="{{ member.data.name }}">
+</div><!-- one -->
+{% endif %}
+
+<div>
+<h3>{% if member.data.qualifications %}<span>{{ member.data.qualifications }}</span>{% endif %}<br>
+<a href="{{ member.url }}">{{ member.data.name }}</a></h3>
+{% if member.data.role %}<p>{{ member.data.role }}</p>{% endif %}
+</div><!-- two -->
+
+</article>
+{% endfor %}
+
 </div><!-- two -->
 
 </div><!-- layout -->

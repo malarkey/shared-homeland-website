@@ -1,6 +1,10 @@
 {% for resource in resources %}
 <article class="item-resource">
-<small class="item-meta">{{ resource.data["item-author"] }} • {{ resource.data["item-date"] | dateFilter }} • {{ resource.data["item-type"] }}</small>
+
+<div class="alt-bordered">
+<small>{{ resource.data["item-author"] }} • {{ resource.data["item-date"] | dateFilter('d MMM yyyy') }}</small>
+<small>{{ resource.data["item-type"] }}</small>
+</div><!-- alt-bordered -->
 
 <h2 data-size="l">
 {% if resource.data["item-url"] %}
