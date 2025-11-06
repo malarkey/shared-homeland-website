@@ -1007,7 +1007,8 @@ transition: min-height .5s ease-in-out; }
 
 nav ul {
 display: flex;
-gap: var(--spacing-r); }
+gap: var(--spacing-r);
+justify-content: flex-end; }
 
 nav li:last-of-type {
 grid-column: span 2; }
@@ -1017,6 +1018,7 @@ nav a:not(.btn):visited,
 nav a:not(.btn):hover {
 border-block-start: unset;
 display: inline-block;
+font-size: var(--font-size-m);
 padding-block-start: unset;
 text-transform: unset; }
 
