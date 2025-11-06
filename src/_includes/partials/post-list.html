@@ -10,6 +10,6 @@
 
 <p>{{ item.data.postSummary }}</p>
 
-<small>Tagged with: {% for tag in item.data.postTags %}{{ tag }}{% if not loop.last %} • {% endif %}{% endfor %}</small>
+<small data-visibility="large">{% for tag in item.data.postTags %}{{ tag }}{% if not loop.last %} | {% endif %}{% endfor %}</small>
 </article>
 {% endfor %}

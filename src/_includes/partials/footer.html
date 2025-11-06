@@ -7,7 +7,7 @@
 <div>
 {% for item in footer_navigation.items %}
 <a href="{{ item.url }}"{{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a>
-{% if not loop.last %} • {% endif %}
+{% if not loop.last %} | {% endif %}
 {% endfor %}
 </div><!-- two -->
 

@@ -1,6 +1,10 @@
 {
   "items": [
     {
+      "text": "Board",
+      "url": "/board/"
+    },
+    {
       "text": "Partners",
       "url": "/partners/"
     },

@@ -255,17 +255,16 @@ LINK STYLES
 :is(a, a:visited) {
 color: var(--color-text-link);
 text-decoration: underline;
+text-decoration-color: var(--color-text-link-decoration);
+text-decoration-style: solid;
+text-decoration-thickness: 1px;
+text-underline-offset: .25em;
 transform: translateY(0);
 transition: all 100ms var(--animate-function); }
 
 /* Link interaction states */
 a:is(:hover, :active, :focus-visible) {
-color: var(--color-text-link-hover);
-text-decoration: underline;
-text-decoration-color: var(--color-text-link-decoration);
-text-decoration-style: solid;
-text-decoration-thickness: .5px;
-text-underline-offset: .25em; }
+color: var(--color-text-link-hover); }
 
 a:hover { text-decoration-color: var(--color-text-link-decoration); }
 a:is(:active, :focus-visible) { outline: none; }
@@ -299,15 +298,6 @@ h2 { font-size: var(--font-size-xl); }
 h3 { font-size: var(--font-size-l); }
 h4 { font-size: var(--font-size-m); }
 
-/* Heading link styles */
-:is(h2, h3) a:is(:hover, :active) {
-color: var(--color-text-link-hover);
-text-decoration: underline;
-text-decoration-color: var(--color-text-link-decoration);
-text-decoration-style: solid;
-text-decoration-thickness: .5px;
-text-underline-offset: .075em; }
-
 /* Heading span styles */
 :is(h1, h2, h3, h4) span {
 color: var(--color-text-default);
@@ -317,8 +307,12 @@ font-variation-settings: var(--font-regular-normal);
 font-weight: normal;
 margin-inline-end: var(--spacing-s); }
 
-/* Accent color for headings */
-:heading .alt-accent { color: var(--color-accent); }
+/* Heading anchor styles */
+:is(h1, h2, h3, h4) a,
+:is(h1, h2, h3, h4) a:visited {
+color: var(--color-text-default) !important; }
+
+
 
 /*
 * PARAGRAPH STYLES
@@ -705,9 +699,6 @@ grid-template-columns: 1fr 1fr;
 font-size: var(--font-size-l);
 margin: 0; }
 
-nav li:last-of-type {
-grid-column: span 2; }
-
 nav li:before {
 content: "";
 display: none; }
@@ -753,12 +744,11 @@ text-transform: uppercase; }
 
 /* ============= BANNER COMPONENT ========== */
 
-#banner-logo {
-margin-block: var(--spacing-l) var(--spacing-r); }
-
 #banner-logo a {
 display: block;
-width: 100%; }
+margin-block-start: var(--spacing-r);
+margin-inline: auto;
+width: 100px; }
 
 #banner-index-s {
 margin: var(--spacing-r) auto;
@@ -888,7 +878,9 @@ margin-block-end: var(--spacing-l); }
 /* ============= FOOTER COMPONENT ========== */
 
 [role="contentinfo"] {
-margin-block: var(--spacing-l);
+border-block-start: var(--border-width-r) solid var(--color-border);
+margin-block: var(--spacing-r);
+padding-block-start: var(--spacing-r);
 text-align: center; }
 
 #footer-logo {
@@ -907,7 +899,8 @@ max-inline-size: 250px; }
 align-items: center;
 display: grid;
 grid-template-columns: 1fr 1fr;
-gap: var(--spacing-r); }
+gap: var(--spacing-r);
+margin-inline: var(--spacing-l); }
 
 #partners > * {
 display: block;
@@ -991,6 +984,30 @@ RESPONSIVE DESIGN - MEDIA QUERIES
 ========================================================================== */
 
 /*
+*MOBILE STYLES (32em)
+*/
+
+@media screen and (min-width: 32em) {
+
+[data-layout="sneekly"] {
+align-items: end;
+display: grid;
+grid-template-columns: 100px 1fr;
+gap: 0 var(--grid-column-gap);
+padding-block-start: var(--spacing-r); }
+
+[data-layout="sneekly"] > * {
+margin: 0; }
+
+#banner-logo a {
+margin-block-start: unset;
+margin-inline: unset;
+width: 100%; }
+}
+
+
+
+/*
 * TABLET AND DESKTOP STYLES (48em+ / 768px+)
 */
 
@@ -1005,23 +1022,6 @@ min-block-size: 12rem;
 resize: vertical;
 transition: min-height .5s ease-in-out; }
 
-nav ul {
-display: flex;
-gap: var(--spacing-r);
-justify-content: flex-end; }
-
-nav li:last-of-type {
-grid-column: span 2; }
-
-nav a:not(.btn),
-nav a:not(.btn):visited,
-nav a:not(.btn):hover {
-border-block-start: unset;
-display: inline-block;
-font-size: var(--font-size-m);
-padding-block-start: unset;
-text-transform: unset; }
-
 .item-team {
 align-items: center;
 display: grid;
@@ -1033,7 +1033,8 @@ text-align: left; }
 
 #partners {
 align-items: start;
-grid-template-columns: repeat(4, 1fr); }
+grid-template-columns: repeat(4, 1fr);
+margin-inline: unset; }
 
 #partners > * {
 text-align: left; }
@@ -1044,9 +1045,12 @@ gap: 0 var(--grid-column-gap);
 grid-template-columns: 1fr 320px; }
 
 [role="contentinfo"] {
+border-block-start: unset;
 display: grid;
 gap: 0 var(--grid-column-gap);
 grid-template-columns: var(--grid-12-col);
+margin-block: var(--spacing-l) var(--spacing-r);
+padding-block-start: unset;
 text-align: unset; }
 
 [role="contentinfo"] > *:nth-child(1) { grid-column: 1 / 5; }
@@ -1093,43 +1097,6 @@ border-inline-end: var(--border-width-r) solid var(--color-border); }
 
 /* Body padding adjustment */
 body { padding-inline: var(--spacing-l); }
-
-/* Enhanced navigation */
-nav li {
-margin: 0; }
-
-nav li:not(:last-of-type):after {
-content: " • ";
-color: var(--color-border);
-display: inline-block;
-font-size: var(--font-size-l);
-line-height: 1;
-margin: 0;
-padding-inline: var(--spacing-r);
-translate: 0 4px; }
-
-nav a:not(.btn)::after {
-background-color: var(--color-accent);
-border-radius: 3px;
-bottom: 0;
-content: '';
-height: 3px;
-left: 50%;
-position: absolute;
-transform: translateX(-50%) scaleX(0);
-transform-origin: center;
-transition: transform .5s ease;
-width: 100%; }
-
-nav a:not(.btn):hover::after,
-nav a:not(.btn):focus-visible::after {
-transform: translateX(-50%) scaleX(1); }
-
-nav a:not(.btn):focus-visible::after {
-background-color: var(--color-accent); }
-
-nav:has(a:hover) a:not(.btn):not(:hover) {
-opacity: .5; }
 
 [data-content="posts"] {
 display: grid;
@@ -1256,9 +1223,12 @@ align-self: end;
 grid-column: 5 / 8;
 padding-inline-end: var(--spacing-r); }
 
-[data-layout="sneekly"] { align-items: center; }
-[data-layout="sneekly"] > *:nth-child(1) { grid-column: 1; }
-[data-layout="sneekly"] > *:nth-child(2) { grid-column: 3 / -1; }
+[data-layout="sneekly"] {
+align-items: center;
+grid-template-columns: var(--grid-12-col); }
+
+[data-layout="sneekly"] > *:nth-child(1) { grid-column: 1 /  3; }
+[data-layout="sneekly"] > *:nth-child(2) { grid-column: 7 / -1; }
 
 [data-layout="gruesome-twosome"] > * { grid-row: 1; }
 [data-layout="gruesome-twosome"] > *:nth-child(1) { grid-column: 1 / 6; }
