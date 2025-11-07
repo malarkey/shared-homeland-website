@@ -9,12 +9,12 @@
 
 {% include "partials/header.html" %}
 
-<h1>{{ title }}</h1>
-{{ lede | safe }}
-
 <div class="layout" data-layout="yogi">
 
 <div>
+<h1>{{ title }}</h1>
+{{ lede | safe }}
+
 <form action="/thanks/" class="contact-form" method="POST" name="contact-form">
 <input type="hidden" name="form-name" value="contact-form">
 

@@ -3,15 +3,13 @@
 {% if pagination.nextPageLink %}
 {{ (pagination.pageNumber * pagination.size) + pagination.size }}
 {% else %}
-{{ collections.blog.length }}
+{{ pagination.items.length }}  <!-- Changed from collections.blog.length -->
 {% endif %}
-of {{ collections.blog.length }} results</p>
+of {{ collections.resources.length }} results</p>  <!-- Changed to resources -->
 {% endif %}
-
 
 {% if pagination.href.next or pagination.href.previous %}
 <footer>
-
 {% if pagination.href.previous %}
 <a href="{{ pagination.href.previous }}{{ paginationAnchor }}" data-direction="backwards">
 <span>{{ paginationPrevText if paginationPrevText else 'Previous' }}</span></a>
@@ -21,6 +19,5 @@ of {{ collections.blog.length }} results</p>
 <a href="{{ pagination.href.next }}{{ paginationAnchor }}" data-direction="forwards">
 <span>{{ paginationNextText if paginationNextText else 'Next' }}</span></a>
 {% endif %}
-
 </footer>
 {% endif %}

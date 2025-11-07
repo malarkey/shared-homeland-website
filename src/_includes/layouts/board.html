@@ -4,11 +4,11 @@
 
 {% block content %}
 
-<h1>{{ pageHeaderTitle }}</h1>
-
 <div class="layout" data-layout="boo-boo">
 
 <div>
+<h1>{{ pageHeaderTitle }}</h1>
+
 {% for member in collections.board %}
 <article class="item-team">
 
@@ -43,7 +43,7 @@
 </div><!-- one -->
 
 <div>
-<h2><a href="/team">Team members</a></h2>
+<h2><a href="/team">Our team</a></h2>
 <ul>
 {% for teammember in collections.team %}
 <li><a href="{{ teammember.url }}">{{ teammember.data.name }}</a></li>

@@ -36,25 +36,6 @@
       "oAP" : "\/.gitignore",
       "oF" : 0
     },
-    "\/andy-clarke.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/andy-clarke.html",
-      "oF" : 0,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
     "\/dist\/about\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -69,6 +50,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/admin\/config.yml",
+      "oF" : 0
+    },
+    "\/dist\/admin\/deepseek_html_20251106_d3a375.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/admin\/deepseek_html_20251106_d3a375.html",
+      "oF" : 0
+    },
+    "\/dist\/admin\/deepseek_html_20251106_d3a375\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/admin\/deepseek_html_20251106_d3a375\/index.html",
       "oF" : 0
     },
     "\/dist\/admin\/index.html" : {
@@ -109,12 +106,36 @@
       "oAP" : "\/dist\/blog\/category\/animation\/index.html",
       "oF" : 0
     },
+    "\/dist\/blog\/category\/articles\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/blog\/category\/articles\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/blog\/category\/books\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/blog\/category\/books\/index.html",
+      "oF" : 0
+    },
     "\/dist\/blog\/category\/classic-cartoons\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/blog\/category\/classic-cartoons\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/blog\/category\/papers\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/blog\/category\/papers\/index.html",
       "oF" : 0
     },
     "\/dist\/blog\/el-kabong-1\/index.html" : {
@@ -157,12 +178,52 @@
       "oAP" : "\/dist\/blog\/el-kabong-5\/index.html",
       "oF" : 0
     },
+    "\/dist\/blog\/from-conflict-to-partnership\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/blog\/from-conflict-to-partnership\/index.html",
+      "oF" : 0
+    },
     "\/dist\/blog\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/blog\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/blog\/mapping-a-shared-future\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/blog\/mapping-a-shared-future\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/blog\/reimagining-shared-space\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/blog\/reimagining-shared-space\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/blog\/tag\/articles\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/blog\/tag\/articles\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/blog\/tag\/books\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/blog\/tag\/books\/index.html",
       "oF" : 0
     },
     "\/dist\/blog\/tag\/cartoons\/index.html" : {
@@ -181,12 +242,28 @@
       "oAP" : "\/dist\/blog\/tag\/hanna-barbera\/index.html",
       "oF" : 0
     },
+    "\/dist\/blog\/tag\/papers\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/blog\/tag\/papers\/index.html",
+      "oF" : 0
+    },
     "\/dist\/blog\/tag\/quick-draw-mcgraw\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/blog\/tag\/quick-draw-mcgraw\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/blog\/the-power-of-language\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/blog\/the-power-of-language\/index.html",
       "oF" : 0
     },
     "\/dist\/board\/andy-clarke\/index.html" : {
@@ -395,7 +472,7 @@
     },
     "\/dist\/images\/tmp-img-1.webp" : {
       "ft" : 8388608,
-      "iS" : 482380,
+      "iS" : 482518,
       "oA" : 0,
       "oAP" : "\/dist\/images\/tmp-img-1.webp",
       "oF" : 0,
@@ -586,6 +663,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/resources\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/resources\/page-2\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/resources\/page-2\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/resources\/page-3\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/resources\/page-3\/index.html",
       "oF" : 0
     },
     "\/dist\/resources\/resource-1 copy\/index.html" : {
@@ -866,6 +959,14 @@
       "ft" : 524288,
       "oA" : 1,
       "oAP" : "\/src\/_data\/navigation-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/src\/_data\/resources.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/src\/_data\/resources-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
@@ -1720,25 +1821,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/src\/posts\/test-post-4.html",
-      "oF" : 0,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
-    },
-    "\/src\/posts\/test-post-5.md" : {
-      "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/src\/posts\/test-post-5.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,

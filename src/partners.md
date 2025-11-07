@@ -4,6 +4,9 @@ metaDesc:
 title: Our partners
 permalink: /partners/
 
+lede: >
+ <p class="alt-lede">The Shared Homeland Paradigm is a &#163;1 million UKRI-ESRC research project developed with A Land for All (ALFA), a joint Palestinian-Israeli movement. The project reimagines space, rights, and partnerships in Palestine-Israel.</p>
+
 ---
 
 <div class="layout" data-layout="dastardly">

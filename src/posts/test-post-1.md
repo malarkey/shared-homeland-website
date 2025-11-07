@@ -2,11 +2,11 @@
 postAuthor: Andy Clarke
 postDate: 2025-11-20
 postSummary: |
-  In certain cases, Quick Draw would also assume the identity of the Spanish masked vigilante El Kabong (a spoof of Zorro). His introduction went as follows—“Of all the heroes in legend and song, there’s none as brave as El Kabong.”
-postCategories: ['Animation', 'Classic Cartoons']
-postTags: ['Cartoons', 'Quick Draw McGraw', 'Hanna-Barbera']
-title: El Kabong 1
+  Explores new ways to think about geography, borders, and belonging in Israel-Palestine. The article introduces models for shared sovereignty and everyday coexistence that go beyond division—proposing frameworks where both peoples can inhabit the same land with equality and security.
+postCategories: ['Papers']
+postTags: ['Articles', 'Books', 'Papers']
+title: Reimagining Shared Space
 ---
-<p>He is an anthropomorphic white horse wearing a red Stetson cowboy hat, a red holster belt, a light blue bandana, and occasionally spurs, he was originally voiced mainly by Daws Butler from 1959 until Butler&#8217;s death in 1988. All 45 of his cartoons that originally aired between 1959 and 1961 were written by Michael Maltese, known best for his work at the Warner Bros. cartoon studio. The cartoon was nominated for an Emmy Award in 1960.</p>
+<p>For decades, conversations about Israel and Palestine have revolved around lines—lines on maps, lines of control, and lines that divide people from one another. Yet these lines, rather than resolving conflict, have often deepened it. Reimagining Shared Space begins with a simple question: what if instead of drawing new borders, we rethought what borders mean?</p>
 
- <p>Quick Draw was usually depicted as a sheriff in a series of short films set in the Old West. Quick Draw was often accompanied by his deputy, a Mexican burro called Baba Looey (also voiced by Daws Butler), who spoke with a Mexican accent and called his partner &#8220;Queeks Draw.&#8221; In the Spanish American version, Quick Draw is named Tiro Loco McGraw, while Baba Looey is named Pepe Trueno. In the Brazilian version, Quick Draw speaks in a Portuguese accent, which along with his Hispanized name (Pepe Legal) would suggest he was either a Texan-American or Mexican cowboy.</p>
+<p>The traditional “two-state” approach envisions separation as the path to peace: one side here, the other there. But separation has proven hard to achieve and harder still to maintain. The land between the Jordan River and the Mediterranean Sea is deeply intertwined—geographically, economically, and emotionally. Communities overlap; histories collide; infrastructure, water, and air are shared whether acknowledged or not. Recognising this interdependence doesn’t ignore national identities; it honours the reality that peoples are already living in one space.</p>
