@@ -1,6 +1,6 @@
-<h3>Categories</h3>
+<h2>Categories</h2>
 
-<ul class="alt-">
+<ul class="alt-" data-variant="bordered-l">
 {% for category in collections.resourcesCategory %}
 <li><a href="/resources/category/{{ category | lower | replace(' ', '-') }}/" class="{% if category == currentCategory %}active{% endif %}">{{ category }}</a></li>
 {% endfor %}
@@ -8,9 +8,9 @@
 
 <hr data-function="spacer">
 
-<h3>Tags</h3>
+<h2>Tags</h2>
 
-<ul class="alt-">
+<ul class="alt-" data-variant="bordered-l">
 {% for tag in collections.resourcesTag %}
 <li><a href="/resources/tag/{{ tag | lower | replace(' ', '-') }}/" class="{% if tag == currentTag %}active{% endif %}">
 {{ tag }}</a></li>

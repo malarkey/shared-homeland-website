@@ -6,12 +6,15 @@ location: 'United Kingdom'
 name: 'Haim Yacobi'
 qualifications: 'Professor'
 role: 'Co-Principal Investigator'
-url:
+url: https://profiles.ucl.ac.uk/62350-haim-yacobi
 image: tmp-img-2.webp
+imageLarge: tmp-img-2.webp
 eleventyComputed:
   title: "{{ name }}"
 
 summary: Professor of Development Planning at the Bartlett Development Planning Unit, UCL and the Programme Leader of the MSc Health in Urban Development. With a background in architecture, he specialised in critical urban studies and urban health.
+
+blockQuote: Our project offers a bridge for the international diplomatic community from the moribund concept of a two-state solution to one capable of realisation and grounded in values worthy of support.
 
 ---
 

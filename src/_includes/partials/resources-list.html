@@ -18,14 +18,10 @@
 
 {{ resource.templateContent | safe }}
 
-<small>
-{% for category in resource.data["item-categories"] %}
-<a href="/resources/category/{{ category | lower | replace(' ', '-') }}/" class="category">{{ category }}</a>{% if not loop.last %} • {% endif %}
-{% endfor %}
-{% if resource.data["item-categories"] and resource.data["item-tags"] %} • {% endif %}
-{% for tag in resource.data["item-tags"] %}
-<a href="/resources/tag/{{ tag | lower | replace(' ', '-') }}/" class="tag">{{ tag }}</a>{% if not loop.last %} • {% endif %}
-{% endfor %}
+<small>{% for category in resource.data["item-categories"] %}
+<a href="/resources/category/{{ category | lower | replace(' ', '-') }}/" class="alt-category">{{ category }}</a>
+{% endfor %} {% for tag in resource.data["item-tags"] %}
+<a href="/resources/tag/{{ tag | lower | replace(' ', '-') }}/" class="alt-tag">{{ tag }}</a>{% endfor %}
 </small>
 </article>
 {% endfor %}

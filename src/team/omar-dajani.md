@@ -6,7 +6,7 @@ location: 'USA'
 name: 'Omar M. Dajani'
 qualifications: 'Professor'
 role: 'Co-Principal Investigator'
-url:
+url: https://www.pacific.edu/campus-directory/omar-dajani
 image: tmp-img-2.webp
 imageLarge: tmp-img-2.webp
 eleventyComputed:

@@ -75,6 +75,8 @@ collections:
       - {label: "Author", name: "postAuthor", widget: "string"}
       - {label: "Publish Date", name: "postDate", widget: "datetime"}
       - {label: "Summary", name: "postSummary", widget: "text"}
+      - {label: "Featured Image", name: "image", widget: "image", required: false}
+      - {label: "Image Caption", name: "imageCaption", widget: "string", required: false}
       - {label: "Categories", name: "postCategories", widget: "list"}
       - {label: "Tags", name: "postTags", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}

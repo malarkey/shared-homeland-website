@@ -10,8 +10,16 @@
 
 <div class="alt-bordered">
 <small class="item-meta">{{ page.date | dateFilter }}</small>
-<a href="/blog/">Back</a>
+<a href="/blog/" class="alt-arrow"><svg class="img-icon" xmlns="http://www.w3.org/2000/svg" width="16" viewBox="0 0 16 16">
+<path fill="#000" d="M7.543 1.043a1 1 0 0 1 1.414 0l6.25 6.25a.997.997 0 0 1 0 1.415l-6.26 6.25a1 1 0 0 1-1.413-1.416L12.083 9H1a1 1 0 0 1 0-2h11.086L7.543 2.457a1 1 0 0 1 0-1.414"/></svg>Back</a>
 </div><!-- alt-bordered -->
+
+{% if image %}
+<figure>
+<img src="/images/{{ image }}" alt="{{ title }}">
+{% if imageCaption %}<figcaption>{{ imageCaption }}</figcaption>{% endif %}
+</figure>
+{% endif %}
 
 <h1>{{ title }}</h1>
 <p>{{ postSummary }}</p>

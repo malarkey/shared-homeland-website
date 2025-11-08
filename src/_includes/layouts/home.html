@@ -43,6 +43,9 @@
 {{ lede | safe }}
 {{ main | safe }}
 
+<p><a href="/about" class="alt-arrow"><svg class="img-icon" xmlns="http://www.w3.org/2000/svg" width="16" viewBox="0 0 16 16">
+<path fill="#000" d="M7.543 1.043a1 1 0 0 1 1.414 0l6.25 6.25a.997.997 0 0 1 0 1.415l-6.26 6.25a1 1 0 0 1-1.413-1.416L12.083 9H1a1 1 0 0 1 0-2h11.086L7.543 2.457a1 1 0 0 1 0-1.414"/></svg> Read more</a></p>
+
 </main><!-- three -->
 
 <div>
@@ -58,9 +61,15 @@
 
 {% endblock %}
 
+
+
+
+
 <hr data-function="spacer">
 
-<h2>Our news</h2>
+<section data-theme="inverted">
+
+<h2><a href="/news">Our news</a></h2>
 
 <div data-content="posts">
 {% set postListItems = collections.blog | limit(6) %}
@@ -79,9 +88,15 @@
 
 </div><!-- posts -->
 
-<hr data-width="l">
+</section><!-- inverted -->
 
-<h2>From the lexicon</h2>
+
+
+
+
+<hr data-function="spacer">
+
+<h2 class="alt-bg"><a href="/lexicon">From the lexicon</a></h2>
 
 <div data-layout="flex" data-border="r">
 {% set recentLexicon = collections.lexicon | sort(false, false, "date") | reverse | limit(3) %}
@@ -92,6 +107,10 @@
 </article>
 {% endfor %}
 </div><!-- layout -->
+
+
+
+
 
 <hr data-function="spacer">
 

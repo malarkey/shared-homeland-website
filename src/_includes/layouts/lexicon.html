@@ -23,7 +23,7 @@
 {% if featuredTerms.length > 0 %}
 {% set latestFeatured = featuredTerms | reverse | first %}
 
-<div id="panel-highlight">
+<div id="panel-highlight" data-theme="inverted">
 
 <div class="alt-bordered">
 <h2>Featured</h2>
@@ -32,7 +32,7 @@
 
 <h3 data-size="2xl"><a href="{{ latestFeatured.url }}">{{ latestFeatured.data.title }}</a></h3>
 
-<blockquote data-variant="bordered">
+<blockquote data-variant="bordered-l">
 <p>{{ latestFeatured.data.summary }}</p>
 </blockquote>
 
@@ -54,9 +54,12 @@
 {% for letter, terms in lexiconByLetter %}
 
 <section class="letter-section" id="letter-{{ letter }}" data-letter="{{ letter }}">
-<h2>{{ letter }}</h2>
-{% for term in terms %}
 
+<div>
+<h2>{{ letter }}</h2>
+</div><!-- one -->
+
+{% for term in terms %}
 <article class="item-lexicon">
 <h3><a href="{{ term.url }}">{{ term.data.title }}</a></h3>
 
@@ -85,8 +88,8 @@
 
 <hr data-function="spacer">
 
-<h3>Popular terms</h3>
-<ul class="alt-">
+<h2>Popular terms</h2>
+<ul class="alt-" data-variant="bordered-l">
 {% for term in collections.lexicon %}
 {% if term.data.popular %}
 <li><a href="{{ term.url }}">{{ term.data.title }}</a></li>
@@ -138,6 +141,7 @@ const targetSection = document.getElementById(`letter-${letter}`);
 const targetLink = document.querySelector(`.letter-link[data-letter="${letter}"]`);
 
 if (targetSection && targetLink) {
+targetSection.classList.remove('filtered'); // Remove filtered class to show it
 targetSection.classList.add('active');
 targetLink.classList.add('active');
 }

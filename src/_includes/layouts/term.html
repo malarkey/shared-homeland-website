@@ -13,20 +13,46 @@
 {% if popular %}<span class="flag popular">Popular</span>{% endif %}
 {% if featured %}<span class="flag featured">Featured</span>{% endif %}
 </p>
-<a href="/lexicon/">Back</a>
+<a href="/lexicon/" class="alt-arrow"><svg class="img-icon" xmlns="http://www.w3.org/2000/svg" width="16" viewBox="0 0 16 16">
+<path fill="#000" d="M7.543 1.043a1 1 0 0 1 1.414 0l6.25 6.25a.997.997 0 0 1 0 1.415l-6.26 6.25a1 1 0 0 1-1.413-1.416L12.083 9H1a1 1 0 0 1 0-2h11.086L7.543 2.457a1 1 0 0 1 0-1.414"/></svg>Back</a>
 </div><!-- alt-bordered -->
 
 <h1>{{ title }}</h1>
 
-<blockquote data-variant="bordered">
+<blockquote data-variant="bordered-l">
 <p>{{ summary }}</p>
 </blockquote>
 
 {{ content | safe }}
 
+<hr data-function="spacer">
+
+<ul class="alt-inline">
+
+<li>Share</li>
+
+<li>
+<a href="https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ page.url | url }}" title="Share on LinkedIn">
+<svg class="img-icon" xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 48 48">
+<path fill="#000" d="M43.921.48H4.08a3.42 3.42 0 0 0-3.18 2.062 3.4 3.4 0 0 0-.278 1.302v40.312A3.41 3.41 0 0 0 4.08 47.52H43.92a3.41 3.41 0 0 0 3.458-3.364V3.844A3.41 3.41 0 0 0 43.92.48M14.804 39.852H7.748V18.685h7.056zm-3.528-24.131a3.669 3.669 0 1 1 0-7.338 3.694 3.694 0 1 1 0 7.338m28.976 24.131h-7.056v-11.36c0-2.846-1.011-4.704-3.575-4.704A3.88 3.88 0 0 0 26 26.352a4.7 4.7 0 0 0-.235 1.717v11.76h-7.056V18.66h7.056v2.987a7.06 7.06 0 0 1 6.374-3.528c4.704 0 8.114 3.034 8.114 9.549z"/>
+</svg><span data-visibility="hidden">Linkedin</span></a></li>
+
+<li>
+<a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url | url }}" title="Share on Facebook">
+<svg class="img-icon" xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 48 48">
+<path fill="#000" d="M44.933.48H3.067A2.587 2.587 0 0 0 .48 3.067v41.866a2.59 2.59 0 0 0 2.587 2.587H25.6V29.292h-6.115v-7.056H25.6v-5.292a8.56 8.56 0 0 1 5.464-8.866 8.6 8.6 0 0 1 3.662-.542c1.83-.011 3.66.083 5.48.282v6.35h-3.74c-2.963 0-3.527 1.412-3.527 3.458v4.54h7.056l-.918 7.055h-6.138V47.52h11.995a2.59 2.59 0 0 0 2.39-1.597c.13-.314.197-.65.197-.99V3.067a2.59 2.59 0 0 0-1.597-2.39 2.6 2.6 0 0 0-.99-.197"/>
+</svg><span data-visibility="hidden">Facebook</span></a>
+</li>
+<li>
+<a href="https://api.whatsapp.com/send?text={{ site.url }}{{ page.url | url }}" title="Share on WhatsApp">
+<svg class="img-icon" xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 48 48">
+<path fill="#000" d="M43.921.48a3.414 3.414 0 0 1 3.458 3.364v40.312a3.41 3.41 0 0 1-3.458 3.364H4.08A3.41 3.41 0 0 1 .62 44.156V3.844A3.41 3.41 0 0 1 4.08.48ZM27.704 7.011A16.887 16.887 0 0 0 7.536 23.53a16.7 16.7 0 0 0 2.352 8.42L7.536 40.7l8.938-2.353a16.74 16.74 0 0 0 8.067 2.117A16.886 16.886 0 0 0 36.34 11.611a16.9 16.9 0 0 0-8.636-4.6m-3.187 2.313a14.112 14.112 0 1 1 0 28.224 14.1 14.1 0 0 1-7.056-1.953l-.517-.305-5.363 1.458 1.412-5.151-.33-.541A14.112 14.112 0 0 1 24.541 9.582Zm-5.221 6.491h-.659a1.53 1.53 0 0 0-1.129.517 4.7 4.7 0 0 0-1.481 3.528 8.2 8.2 0 0 0 1.717 4.352 18.8 18.8 0 0 0 7.197 6.35q1.148.518 2.352.894a5.5 5.5 0 0 0 2.634.164 4.28 4.28 0 0 0 2.846-1.999v-.07a3.7 3.7 0 0 0 .165-1.835c-.118-.188-.377-.282-.8-.494-.423-.211-2.517-1.223-2.893-1.364s-.659-.212-.94.212c-.283.423-1.106 1.458-1.341 1.646-.236.188-.494.212-.918 0a11.8 11.8 0 0 1-3.387-2.093 13 13 0 0 1-2.352-2.917c-.235-.423 0-.658.189-.846.188-.188.423-.494.635-.753q.265-.32.423-.706a.8.8 0 0 0 0-.729c-.118-.211-.988-2.399-1.317-3.128-.33-.729-.682-.729-.941-.729"/></svg><span data-visibility="hidden">WhatsApp</span></a>
+</li>
+
 {% if url %}
-<p><a href="{{ url }}">External reference</a></p>
+<li><a href="{{ url }}">{{ url }}</a></li>
 {% endif %}
+</ul>
 
 </div><!-- one -->
 </div><!-- layout -->
@@ -38,10 +64,10 @@
 
 {% set hasRelatedTerms = false %}
 {% for category in categories %}
-    {% set relatedTerms = collections.lexicon | filterLexiconByCategory(category) | excludeCurrent(page.url) %}
-    {% if relatedTerms.length > 0 %}
-        {% set hasRelatedTerms = true %}
-    {% endif %}
+{% set relatedTerms = collections.lexicon | filterLexiconByCategory(category) | excludeCurrent(page.url) %}
+{% if relatedTerms.length > 0 %}
+{% set hasRelatedTerms = true %}
+{% endif %}
 {% endfor %}
 
 {% if hasRelatedTerms %}
@@ -49,7 +75,8 @@
 
 <div class="alt-bordered">
 <h2>More from</h2>
-<a href="/lexicon/">Back</a>
+<a href="/lexicon/" class="alt-arrow"><svg class="img-icon" xmlns="http://www.w3.org/2000/svg" width="16" viewBox="0 0 16 16">
+<path fill="#000" d="M7.543 1.043a1 1 0 0 1 1.414 0l6.25 6.25a.997.997 0 0 1 0 1.415l-6.26 6.25a1 1 0 0 1-1.413-1.416L12.083 9H1a1 1 0 0 1 0-2h11.086L7.543 2.457a1 1 0 0 1 0-1.414"/></svg>Back</a>
 </div><!-- alt-bordered -->
 {% endif %}
 
@@ -59,8 +86,8 @@
 <div>
 {% set relatedTerms = collections.lexicon | filterLexiconByCategory(category) | excludeCurrent(page.url) | limit(4) %}
 {% if relatedTerms.length > 0 %}
-<h3 data-size="r">{{ category }}</h3>
-<ul class="alt-">
+<h3>{{ category }}</h3>
+<ul class="alt-" data-variant="bordered-l">
 {% for term in relatedTerms %}<li><a href="{{ term.url }}">{{ term.data.title }}</a></li>{% endfor %}
 </ul>
 {% endif %}
