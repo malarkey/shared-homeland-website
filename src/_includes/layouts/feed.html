@@ -21,7 +21,7 @@
 {% include "partials/post-list.html" %}
 </div><!-- one -->
 
-<div>
+<aside>
 <h2>Categories</h2>
 <ul class="alt-" data-variant="bordered-l">
 {% for category in collections.postCategories %}
@@ -37,7 +37,7 @@
 <li><a href="/blog/tag/{{ tag | slug }}/">{{ tag }}</a></li>
 {% endfor %}
 </ul>
-</div><!-- two -->
+</aside><!-- two -->
 
 </div><!-- layout -->
 

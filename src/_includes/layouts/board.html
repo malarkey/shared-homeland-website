@@ -54,14 +54,19 @@
 {% endfor %}
 </div><!-- one -->
 
-<div>
+<aside>
 <h2><a href="/team">Our team</a></h2>
-<ul class="alt-" data-variant="bordered-l">
-{% for teammember in collections.team %}
-<li><a href="{{ teammember.url }}">{{ teammember.data.name }}</a></li>
+
+{% for member in collections.team %}
+<div class="item-team">
+{% if member.data.image %}
+<div><img src="/images/{{ member.data.image }}" alt="{{ member.data.name }}"></div><!-- one -->
+{% endif %}
+<div><h3 data-size="m"><a href="{{ member.url }}">{{ member.data.name }}</a></h3></div><!-- two -->
+</div><!-- item-team-small -->
 {% endfor %}
 
-</div><!-- two -->
+</aside><!-- two -->
 
 </div><!-- layout -->
 

@@ -17,6 +17,13 @@
 <h1>{{ title }}</h1>
 {{ lede | safe }}
 {{ main | safe }}
+
+<hr>
+
+<h3><a href="/partners">Partners</a></h3>
+
+{% include "partials/partners.html" %}
+
 </div><!-- one -->
 
 <div>
@@ -36,9 +43,6 @@
 </div><!-- two -->
 
 </div><!-- layout -->
-
-<!-- CONTENT -->
-{{ content | safe }}
 
 {% endblock %}
 

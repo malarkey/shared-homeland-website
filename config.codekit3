@@ -390,6 +390,14 @@
       "oAP" : "\/dist\/fonts\/bankside-sans-vf.woff2",
       "oF" : 0
     },
+    "\/dist\/gallery\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/gallery\/index.html",
+      "oF" : 0
+    },
     "\/dist\/images\/icon-arrow.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -480,6 +488,61 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/dist\/images\/img-adi-berkovits-small.webp" : {
+      "ft" : 8388608,
+      "iS" : 462542,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/img-adi-berkovits-small.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/img-fady-khoury-small.webp" : {
+      "ft" : 8388608,
+      "iS" : 347196,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/img-fady-khoury-small.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/img-haim-yacobi-small.webp" : {
+      "ft" : 8388608,
+      "iS" : 394534,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/img-haim-yacobi-small.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/img-omar-dajani-large.webp" : {
+      "ft" : 8388608,
+      "iS" : 920370,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/img-omar-dajani-large.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/img-omar-dajani-small.webp" : {
+      "ft" : 8388608,
+      "iS" : 341912,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/img-omar-dajani-small.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/dist\/images\/logo-ala.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -567,6 +630,17 @@
       "iS" : 950916,
       "oA" : 0,
       "oAP" : "\/dist\/images\/tmp-img-3.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/tmp-img-4.webp" : {
+      "ft" : 8388608,
+      "iS" : 1799950,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/tmp-img-4.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -674,6 +748,54 @@
       "oAP" : "\/dist\/partners\/index.html",
       "oF" : 0
     },
+    "\/dist\/photos\/photo-1 copy\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/photos\/photo-1 copy\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/photos\/photo-1\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/photos\/photo-1\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/photos\/photo-2\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/photos\/photo-2\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/photos\/photo-3\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/photos\/photo-3\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/photos\/photo-4\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/photos\/photo-4\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/photos\/photo-5\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/photos\/photo-5\/index.html",
+      "oF" : 0
+    },
     "\/dist\/privacy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -730,12 +852,36 @@
       "oAP" : "\/dist\/resources\/category\/development\/index.html",
       "oF" : 0
     },
+    "\/dist\/resources\/category\/global-insights\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/resources\/category\/global-insights\/index.html",
+      "oF" : 0
+    },
     "\/dist\/resources\/category\/links\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/resources\/category\/links\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/resources\/category\/podcasts\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/resources\/category\/podcasts\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/resources\/category\/reports\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/resources\/category\/reports\/index.html",
       "oF" : 0
     },
     "\/dist\/resources\/index.html" : {
@@ -1140,6 +1286,22 @@
       "oAP" : "\/src\/_includes\/layouts\/page.html",
       "oF" : 0
     },
+    "\/src\/_includes\/layouts\/photo.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/_includes\/layouts\/photo.html",
+      "oF" : 0
+    },
+    "\/src\/_includes\/layouts\/photos.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/_includes\/layouts\/photos.html",
+      "oF" : 0
+    },
     "\/src\/_includes\/layouts\/post.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1260,6 +1422,14 @@
       "oAP" : "\/src\/_includes\/partials\/post-list.html",
       "oF" : 0
     },
+    "\/src\/_includes\/partials\/recent-photos.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/_includes\/partials\/recent-photos.html",
+      "oF" : 0
+    },
     "\/src\/_includes\/partials\/resources-list.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1274,14 +1444,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/src\/_includes\/partials\/resources-nav.html",
-      "oF" : 0
-    },
-    "\/src\/about.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/src\/about.html",
       "oF" : 0
     },
     "\/src\/about.md" : {
@@ -1592,6 +1754,25 @@
       "oAP" : "\/src\/fonts\/bankside-sans-vf.woff2",
       "oF" : 0
     },
+    "\/src\/gallery.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/gallery.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
     "\/src\/images\/icon-arrow.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -1661,6 +1842,61 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/src\/images\/img-adi-berkovits-small.webp" : {
+      "ft" : 8388608,
+      "iS" : 462542,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/img-adi-berkovits-small.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/img-fady-khoury-small.webp" : {
+      "ft" : 8388608,
+      "iS" : 347196,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/img-fady-khoury-small.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/img-haim-yacobi-small.webp" : {
+      "ft" : 8388608,
+      "iS" : 394534,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/img-haim-yacobi-small.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/img-omar-dajani-large.webp" : {
+      "ft" : 8388608,
+      "iS" : 920370,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/img-omar-dajani-large.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/img-omar-dajani-small.webp" : {
+      "ft" : 8388608,
+      "iS" : 341912,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/img-omar-dajani-small.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
     },
     "\/src\/images\/logo-ala.svg" : {
       "ft" : 2097152,
@@ -1739,6 +1975,17 @@
       "iS" : 950916,
       "oA" : 0,
       "oAP" : "\/src\/images\/tmp-img-3.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/tmp-img-4.webp" : {
+      "ft" : 8388608,
+      "iS" : 1799950,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/tmp-img-4.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1891,6 +2138,101 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/src\/partners.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/photos\/photo-1.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/photos\/photo-1.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/photos\/photo-2.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/photos\/photo-2.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/photos\/photo-3.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/photos\/photo-3.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/photos\/photo-4.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/photos\/photo-4.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/photos\/photo-5.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/photos\/photo-5.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,

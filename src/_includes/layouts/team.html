@@ -14,7 +14,7 @@
 
 {% if member.data.image %}
 <div>
-<img src="/images/{{ member.data.image }}" alt="{{ member.data.name }}" style="width:200px;">
+<img src="/images/{{ member.data.image }}" alt="{{ member.data.name }}">
 </div><!-- one -->
 {% endif %}
 
@@ -54,7 +54,7 @@
 {% endfor %}
 </div><!-- one -->
 
-<div>
+<aside>
 <h2>About the project</h2>
 
 {{ aside | safe }}
@@ -65,12 +65,17 @@
 <hr data-function="spacer">
 
 <h2><a href="/board">Board of directors</a></h2>
-<ul class="alt-" data-variant="bordered-l">
+
 {% for boardmember in collections.board %}
-<li><a href="{{ boardmember.url }}">{{ boardmember.data.name }}</a></li>
+<div class="item-team">
+{% if boardmember.data.image %}
+<div><img src="/images/{{ boardmember.data.image }}" alt="{{ boardmember.data.name }}"></div><!-- one -->
+{% endif %}
+<div><h3 data-size="m"><a href="{{ boardmember.url }}">{{ boardmember.data.name }}</a></h3></div><!-- two -->
+</div><!-- item-team-small -->
 {% endfor %}
 
-</div><!-- two -->
+</aside><!-- two -->
 
 </div><!-- layout -->
 

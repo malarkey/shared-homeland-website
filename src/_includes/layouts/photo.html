@@ -10,8 +10,26 @@
 
 <figure>
 <img src="/images/{{ image }}" alt="{{ imageCaption }}" style="view-transition-name: photo-zoom">
-<figcaption>{{ imageCaption }}</figcaption>
+<figcaption>{{ imageCaption }} {% if photographer %} &#169; {{ photographer }}{% endif %}</figcaption>
 </figure>
+
 {{ content | safe }}
+
+<hr>
+
+<div data-layout="flex">
+
+<ul class="alt-" data-size="s">
+{% if photographer %}<li><b>Photographer</b> {{ photographer }}</li>{% endif %}
+{% if location %}<li><b>Location</b> {{ location }}</li>{% endif %}
+{% if date %}<li><b>Date</b> {{ date | dateFilter }}</li>{% endif %}
+</ul>
+
+<ul class="alt-" data-size="s">
+{% if categories %}<li><b>Categories</b> {{ categories }}</li>{% endif %}
+{% if tags %}<li><b>Tags</b> {{ tags }}</li>{% endif %}
+</ul>
+
+</div>
 
 {% endblock %}

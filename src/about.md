@@ -1,6 +1,6 @@
 ---
 featureImage: /images/tmp-img-2.webp
-featureImageCaption: Eurasian Hoopoe and Palestine Sunbird
+featureImageCaption: "Image: Eurasian Hoopoe and Palestine Sunbird"
 layout: layouts/about.html
 metaDesc:
 permalink: /about/

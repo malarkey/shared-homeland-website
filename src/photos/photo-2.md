@@ -1,13 +1,13 @@
 ---
-title: "Sunset over Jerusalem"
+title: "Palestine Sunbird"
 image: tmp-img-4.webp
-imageCaption: "Golden hour over the Old City"
-photographer: "Jane Doe"
-location: "Jerusalem"
+imageCaption: "Native to Palestine"
+photographer: "Andy Clarke"
+location: "Cymru"
 date: 2024-03-15T17:30:00.000Z
-categories: ["Landscapes", "Cities"]
-tags: ["sunset", "jerusalem", "golden-hour"]
+categories: ["Illustrations", "Birds"]
+tags: ["illustration", "news", "birds"]
 layout: "layouts/photo.html"
 ---
 
-A beautiful spring sunset casting golden light over the Jerusalem skyline.
+The Palestine sunbird is a small passerine bird of the sunbird family, Nectariniidae. Found in parts of the Middle East and sub-Saharan Africa, it is also known as the northern orange-tufted sunbird.
