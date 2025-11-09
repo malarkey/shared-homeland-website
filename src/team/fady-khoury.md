@@ -6,8 +6,8 @@ location: 'United Kingdom'
 name: 'Fady Khoury'
 qualifications: 'Doctor'
 role: 'Post-Doctoral Fellow'
-url:
-image: tmp-img-2.webp
+url: https://hls.harvard.edu/graduate-program/sjd-program/current-s-j-d-candidates-and-recent-graduates-2/fady-khoury-2/
+image: img-fady-khoury-small.webp
 imageLarge: tmp-img-2.webp
 eleventyComputed:
   title: "{{ name }}"

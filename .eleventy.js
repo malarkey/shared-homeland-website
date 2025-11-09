@@ -46,63 +46,63 @@ eleventyConfig.addFilter("sortByDisplayOrder", sortByDisplayOrder);
 eleventyConfig.addFilter("inline", inlineFilter);
 
 eleventyConfig.addFilter("filterByFeatured", function(collection) {
-  return collection.filter(term => term.data.featured === true);
+return collection.filter(term => term.data.featured === true);
 });
 
 // ADD THE GROUP BY INITIAL FILTER HERE
 eleventyConfig.addFilter("groupByInitial", function(collection) {
-  const grouped = {};
+const grouped = {};
 
-  collection.forEach(term => {
-    if (term.data.title) {
-      const firstLetter = term.data.title.charAt(0).toUpperCase();
+collection.forEach(term => {
+if (term.data.title) {
+const firstLetter = term.data.title.charAt(0).toUpperCase();
 
-      if (!grouped[firstLetter]) {
-        grouped[firstLetter] = [];
-      }
+if (!grouped[firstLetter]) {
+grouped[firstLetter] = [];
+}
 
-      grouped[firstLetter].push(term);
-    }
-  });
+grouped[firstLetter].push(term);
+}
+});
 
-  // Sort the letters alphabetically and sort terms within each letter
-  const sortedGroups = {};
-  Object.keys(grouped)
-    .sort()
-    .forEach(letter => {
-      // Sort terms within this letter group by title
-      sortedGroups[letter] = grouped[letter].sort((a, b) =>
-        a.data.title.localeCompare(b.data.title)
-      );
-    });
+// Sort the letters alphabetically and sort terms within each letter
+const sortedGroups = {};
+Object.keys(grouped)
+.sort()
+.forEach(letter => {
+// Sort terms within this letter group by title
+sortedGroups[letter] = grouped[letter].sort((a, b) =>
+a.data.title.localeCompare(b.data.title)
+);
+});
 
-  return sortedGroups;
+return sortedGroups;
 });
 
 // ADD RELATED TERMS FILTERS HERE
 eleventyConfig.addFilter("filterLexiconByCategory", function(collection, category) {
-  return collection.filter(term =>
-    term.data.categories && term.data.categories.includes(category)
-  );
+return collection.filter(term =>
+term.data.categories && term.data.categories.includes(category)
+);
 });
 
 // FIXED: Compare URLs instead of titles for more reliable exclusion
 eleventyConfig.addFilter("excludeCurrent", function(collection, currentUrl) {
-  return collection.filter(term => term.url !== currentUrl);
+return collection.filter(term => term.url !== currentUrl);
 });
 
 eleventyConfig.addFilter("limit", function(collection, limit) {
-  return collection.slice(0, limit);
+return collection.slice(0, limit);
 });
 
 eleventyConfig.addFilter("getUniqueCategories", function(collection) {
-  const allCategories = new Set();
-  collection.forEach(term => {
-    if (term.data.categories) {
-      term.data.categories.forEach(cat => allCategories.add(cat));
-    }
-  });
-  return Array.from(allCategories).sort();
+const allCategories = new Set();
+collection.forEach(term => {
+if (term.data.categories) {
+term.data.categories.forEach(cat => allCategories.add(cat));
+}
+});
+return Array.from(allCategories).sort();
 });
 
 // RESOURCES FILTERS
@@ -148,36 +148,41 @@ eleventyConfig.addPassthroughCopy("src/images");
 
 // COLLECTIONS
 
+// PHOTOS COLLECTION
+eleventyConfig.addCollection("photos", (collection) => {
+return collection.getFilteredByGlob("./src/photos/*.md").reverse();
+});
+
 // FAQ COLLECTION
 eleventyConfig.addCollection("faqs", (collection) => {
-  return collection.getFilteredByGlob("./src/faqs/*.md").sort((a, b) => {
-    return a.data.title.localeCompare(b.data.title);
-  });
+return collection.getFilteredByGlob("./src/faqs/*.md").sort((a, b) => {
+return a.data.title.localeCompare(b.data.title);
+});
 });
 
 eleventyConfig.addCollection("lexicon", function(collection) {
-  const terms = collection.getFilteredByGlob("./src/lexicon/*.md").map(term => {
-    // Generate slug from title if no permalink is set
-    if (!term.data.permalink) {
-      const slug = term.data.title
-        .toLowerCase()
-        .replace(/[^\w\s-]/g, '') // Remove special characters
-        .replace(/\s+/g, '-')     // Replace spaces with hyphens
-        .replace(/-+/g, '-');     // Replace multiple hyphens with single hyphen
+const terms = collection.getFilteredByGlob("./src/lexicon/*.md").map(term => {
+// Generate slug from title if no permalink is set
+if (!term.data.permalink) {
+const slug = term.data.title
+.toLowerCase()
+.replace(/[^\w\s-]/g, '') // Remove special characters
+.replace(/\s+/g, '-')     // Replace spaces with hyphens
+.replace(/-+/g, '-');     // Replace multiple hyphens with single hyphen
 
-      term.data.permalink = `/lexicon/${slug}/`;
-    }
-    return term;
-  });
+term.data.permalink = `/lexicon/${slug}/`;
+}
+return term;
+});
 
-  console.log(`Lexicon collection found ${terms.length} terms:`);
-  terms.forEach(term => {
-    console.log(`- ${term.data.title} -> ${term.url}`);
-  });
+console.log(`Lexicon collection found ${terms.length} terms:`);
+terms.forEach(term => {
+console.log(`- ${term.data.title} -> ${term.url}`);
+});
 
-  return terms.sort((a, b) => {
-    return a.data.title.localeCompare(b.data.title);
-  });
+return terms.sort((a, b) => {
+return a.data.title.localeCompare(b.data.title);
+});
 });
 
 eleventyConfig.addCollection("blog", (collection) => {

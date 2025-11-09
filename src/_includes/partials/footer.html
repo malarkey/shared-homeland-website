@@ -5,15 +5,17 @@
 </div><!-- one -->
 
 <div>
+<small>
 {% for item in footer_navigation.items %}
 <a href="{{ item.url }}"{{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a>
-{% if not loop.last %} | {% endif %}
+{% if not loop.last %}&nbsp;&nbsp;|&nbsp;&nbsp;{% endif %}
 {% endfor %}
+</small>
 </div><!-- two -->
 
 </footer>
 
-<small>&#169; The Shared Homeland Paradigm. 2025&#8211;now. <a href="https://stuffandnonsense.co.uk" target="_blank">Design</a></small>
+<small>&#169; The Shared Homeland Paradigm. 2025&#8211;now. &nbsp; <a href="https://stuffandnonsense.co.uk" target="_blank">Design</a></small>
 
 
 <!-- ********************************************************

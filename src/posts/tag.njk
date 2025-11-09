@@ -19,12 +19,13 @@ layout: "layouts/base.html"
 </div><!-- one -->
 
 <div>
-<h3>All Tags</h3>
-<ul>
+<h2>All Tags</h2>
+<ul class="alt-" data-variant="bordered-l">
 {% for tag in collections.postTags %}
 <li><a href="/blog/tag/{{ tag | slug }}/">{{ tag }}</a></li>
 {% endfor %}
 </ul>
+
 </div><!-- two -->
 
 </div><!-- layout -->

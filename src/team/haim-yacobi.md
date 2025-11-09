@@ -7,7 +7,7 @@ name: 'Haim Yacobi'
 qualifications: 'Professor'
 role: 'Co-Principal Investigator'
 url: https://profiles.ucl.ac.uk/62350-haim-yacobi
-image: tmp-img-2.webp
+image: img-haim-yacobi-small.webp
 imageLarge: tmp-img-2.webp
 eleventyComputed:
   title: "{{ name }}"

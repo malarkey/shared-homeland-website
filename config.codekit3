@@ -390,6 +390,56 @@
       "oAP" : "\/dist\/fonts\/bankside-sans-vf.woff2",
       "oF" : 0
     },
+    "\/dist\/images\/icon-arrow.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/images\/icon-arrow.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/dist\/images\/icon-bluesky.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/images\/icon-bluesky.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/dist\/images\/icon-email.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/images\/icon-email.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/dist\/images\/icon-facebook.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/images\/icon-facebook.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/dist\/images\/icon-linkedin.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/images\/icon-linkedin.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/dist\/images\/icon-quote-closed.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -405,6 +455,26 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/dist\/images\/icon-quote-open.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/dist\/images\/icon-url.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/images\/icon-url.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/dist\/images\/icon-whatsapp.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/images\/icon-whatsapp.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -486,6 +556,17 @@
       "iS" : 482002,
       "oA" : 0,
       "oAP" : "\/dist\/images\/tmp-img-2.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/tmp-img-3.webp" : {
+      "ft" : 8388608,
+      "iS" : 950916,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/tmp-img-3.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1195,6 +1276,14 @@
       "oAP" : "\/src\/_includes\/partials\/resources-nav.html",
       "oF" : 0
     },
+    "\/src\/about.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/about.html",
+      "oF" : 0
+    },
     "\/src\/about.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -1503,6 +1592,76 @@
       "oAP" : "\/src\/fonts\/bankside-sans-vf.woff2",
       "oF" : 0
     },
+    "\/src\/images\/icon-arrow.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/images\/icon-arrow.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/src\/images\/icon-bluesky.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/images\/icon-bluesky.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/src\/images\/icon-email.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/images\/icon-email.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/src\/images\/icon-facebook.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/images\/icon-facebook.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/src\/images\/icon-linkedin.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/images\/icon-linkedin.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/src\/images\/icon-url.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/images\/icon-url.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/src\/images\/icon-whatsapp.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/images\/icon-whatsapp.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/src\/images\/logo-ala.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -1569,6 +1728,17 @@
       "iS" : 482002,
       "oA" : 0,
       "oAP" : "\/src\/images\/tmp-img-2.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/tmp-img-3.webp" : {
+      "ft" : 8388608,
+      "iS" : 950916,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/tmp-img-3.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,

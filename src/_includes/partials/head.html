@@ -24,9 +24,28 @@ URL: https://sushkelly.co.uk
 <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" />
 <link rel="manifest" href="/site.webmanifest" />
 <link rel="stylesheet" href="{{ site.url }}/css/critical.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+<script>
+// Fancy zoom transitions for photos
+if (document.startViewTransition) {
+document.addEventListener('click', (e) => {
+const link = e.target.closest('a');
+
+// Only intercept photo thumbnail clicks
+if (link &&
+link.href &&
+link.href.includes('/photos/photo-') &&  // Target individual photo pages
+link.querySelector('img')) {
+
+e.preventDefault();
+document.startViewTransition(() => {
+window.location.href = link.href;
+});
+}
+});
+}
+</script>
+
+
 
 </head>
