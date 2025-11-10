@@ -1,5 +1,5 @@
 ---
-email: 'h.yacobi@ucl.ac.uk'
+email:
 layout: 'layouts/member.html'
 linkedin: 'https://www.linkedin.com/in/haim-yacobi-305575319/'
 location: 'United Kingdom'

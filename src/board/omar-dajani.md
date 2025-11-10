@@ -1,5 +1,5 @@
 ---
-email: 'odajani@pacific.edu'
+email:
 layout: 'layouts/member.html'
 linkedin: 'https://www.linkedin.com/in/omar-dajani-07320532/'
 location: 'USA'

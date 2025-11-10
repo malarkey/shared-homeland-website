@@ -10,6 +10,6 @@ paginationPrevText: 'Newer'
 paginationNextText: 'Older'
 paginationAnchor: '#post-list'
 permalink: 'blog{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{% endif %}/index.html'
-title: 'Our news'
+title: 'Highlights'
 
 ---

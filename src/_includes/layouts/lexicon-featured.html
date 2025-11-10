@@ -50,15 +50,6 @@
 </div><!-- one -->
 
 <aside>
-{% if featureImage %}
-<figure>
-<img src="{{ featureImage }}" alt="{{ featureImageCaption }}" style="margin-inline:auto; width:240px;" />
-{% if featureImageCaption %}
-<figcaption>{{ featureImageCaption }}</figcaption>
-{% endif %}
-</figure>
-{% endif %}
-
 <h3>What&#8217;s this?</h3>
 {{ aside | safe }}
 

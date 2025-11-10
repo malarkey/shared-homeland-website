@@ -1,6 +1,6 @@
 ---
-image: tmp-img-3.webp
-imageCaption: Eurasian Hoopoe and Palestine Sunbird
+image: tmp-img-2.webp
+imageCaption:
 postAuthor: Andy Clarke
 postDate: 2025-11-20
 postSummary: |

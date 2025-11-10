@@ -1,5 +1,5 @@
 ---
-email: 'f.khoury@ucl.ac.uk'
+email:
 layout: 'layouts/member.html'
 linkedin:
 location: 'United Kingdom'

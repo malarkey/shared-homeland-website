@@ -98,6 +98,14 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dist\/background\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/background\/index.html",
+      "oF" : 0
+    },
     "\/dist\/blog\/category\/animation\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -828,12 +836,28 @@
       "oAP" : "\/dist\/resources\/category\/articles\/index.html",
       "oF" : 0
     },
+    "\/dist\/resources\/category\/background-papers\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/resources\/category\/background-papers\/index.html",
+      "oF" : 0
+    },
     "\/dist\/resources\/category\/books\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/resources\/category\/books\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/resources\/category\/curated-reading-list\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/resources\/category\/curated-reading-list\/index.html",
       "oF" : 0
     },
     "\/dist\/resources\/category\/design\/index.html" : {
@@ -1132,6 +1156,25 @@
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
+    },
+    "\/privacy.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/privacy.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
     },
     "\/README.md" : {
       "cB" : 0,
@@ -1502,6 +1545,25 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/src\/background.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/background.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
     },
     "\/src\/blog.md" : {
       "cB" : 0,

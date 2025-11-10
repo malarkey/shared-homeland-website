@@ -1,5 +1,5 @@
 ---
-email: 'a.berkovits@ucl.ac.uk'
+email:
 layout: 'layouts/member.html'
 linkedin: 'https://www.linkedin.com/in/adi-berkovits/'
 location: 'United Kingdom'

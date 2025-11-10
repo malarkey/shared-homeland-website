@@ -95,3 +95,90 @@ collections:
       - {label: "Summary", name: "item-summary", widget: "text"}
       - {label: "Categories", name: "item-categories", widget: "list"}
       - {label: "Tags", name: "item-tags", widget: "list"}
+
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Privacy Policy"
+        name: "privacy"
+        file: "src/privacy.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.html"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/privacy/"}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+      - label: "Our Team"
+        name: "team"
+        file: "src/team.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/team.html"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/team/"}
+          - {label: "Sidebar Content", name: "aside", widget: "markdown", required: false}
+          - {label: "Body", name: "body", widget: "markdown", required: false}
+
+      - label: "Our Partners"
+        name: "partners"
+        file: "src/partners.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.html"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/partners/"}
+          - {label: "Lede", name: "lede", widget: "markdown", required: false}
+          - {label: "Body", name: "body", widget: "markdown", required: false}
+
+      - label: "Lexicon"
+        name: "lexicon"
+        file: "src/lexicon.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/lexicon.html"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/lexicon/"}
+          - {label: "Sidebar Content", name: "aside", widget: "markdown", required: false}
+          - {label: "Body", name: "body", widget: "markdown", required: false}
+
+      - label: "Featured Lexicon Terms"
+        name: "lexicon-featured"
+        file: "src/lexicon-featured.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Summary", name: "summary", widget: "text", required: false}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/lexicon-featured.html"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/lexicon-featured/"}
+          - {label: "Sidebar Content", name: "aside", widget: "markdown", required: false}
+          - {label: "Body", name: "body", widget: "markdown", required: false}
+
+      - label: "Photo Gallery"
+        name: "photos"
+        file: "src/photos.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/photos.html"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/photos/"}
+          - {label: "Sidebar Content", name: "aside", widget: "markdown", required: false}
+          - {label: "Body", name: "body", widget: "markdown", required: false}
+
+      - label: "Background"
+        name: "background"
+        file: "src/background.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.html"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/background/"}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+      - label: "About the Project"
+        name: "about"
+        file: "src/about.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Meta Description", name: "metaDesc", widget: "string", required: false}
+          - {label: "Featured Image", name: "featureImage", widget: "image", required: false}
+          - {label: "Image Caption", name: "featureImageCaption", widget: "string", required: false}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/about.html"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/about/"}
+          - {label: "Lede", name: "lede", widget: "markdown", required: false}
+          - {label: "Main Content", name: "main", widget: "markdown", required: false}
+          - {label: "Extended Content", name: "extended", widget: "markdown", required: false}
+          - {label: "Background", name: "background", widget: "markdown", required: false}
