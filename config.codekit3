@@ -531,7 +531,7 @@
     },
     "\/dist\/images\/img-omar-dajani-large.webp" : {
       "ft" : 8388608,
-      "iS" : 920370,
+      "iS" : 920822,
       "oA" : 0,
       "oAP" : "\/dist\/images\/img-omar-dajani-large.webp",
       "oF" : 0,
@@ -613,7 +613,7 @@
     },
     "\/dist\/images\/tmp-img-1.webp" : {
       "ft" : 8388608,
-      "iS" : 482518,
+      "iS" : 70104,
       "oA" : 0,
       "oAP" : "\/dist\/images\/tmp-img-1.webp",
       "oF" : 0,
@@ -624,7 +624,7 @@
     },
     "\/dist\/images\/tmp-img-2.webp" : {
       "ft" : 8388608,
-      "iS" : 482002,
+      "iS" : 109588,
       "oA" : 0,
       "oAP" : "\/dist\/images\/tmp-img-2.webp",
       "oF" : 0,
@@ -635,7 +635,7 @@
     },
     "\/dist\/images\/tmp-img-3.webp" : {
       "ft" : 8388608,
-      "iS" : 950916,
+      "iS" : 106200,
       "oA" : 0,
       "oAP" : "\/dist\/images\/tmp-img-3.webp",
       "oF" : 0,
@@ -1885,6 +1885,26 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/src\/images\/icon-quote-closed.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/images\/icon-quote-closed.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/src\/images\/icon-quote-open.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/images\/icon-quote-open.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/src\/images\/icon-url.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -2000,16 +2020,6 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/images\/tmp-featured.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/src\/images\/tmp-featured.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
     "\/src\/images\/tmp-img-1.webp" : {
       "ft" : 8388608,
       "iS" : 482380,
@@ -2042,27 +2052,6 @@
       "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
-    },
-    "\/src\/images\/tmp-img-4.webp" : {
-      "ft" : 8388608,
-      "iS" : 1799950,
-      "oA" : 0,
-      "oAP" : "\/src\/images\/tmp-img-4.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
-    "\/src\/images\/tmp-img.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/src\/images\/tmp-img.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
     },
     "\/src\/index.md" : {
       "cB" : 0,

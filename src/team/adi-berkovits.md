@@ -8,7 +8,7 @@ qualifications:
 role: 'Project Coordinator'
 url:
 image: img-adi-berkovits-small.webp
-imageLarge: tmp-img-2.webp
+imageLarge: img-adi-berkovits-large.webp
 eleventyComputed:
   title: "{{ name }}"
 

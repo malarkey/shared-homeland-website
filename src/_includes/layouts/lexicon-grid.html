@@ -1,0 +1,227 @@
+{% set assetHash = global.random() %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+{% include "partials/head.html" %}
+
+<body id="{{ site.siteID }}" data-theme="light">
+
+{% include "partials/header.html" %}
+
+{% block content %}
+
+<div class="layout" data-layout="boo-boo">
+
+<div>
+{% set pageHeaderTitle = title %}
+<h1>{{ pageHeaderTitle }}</h1>
+
+<ul id="letter-list">
+<li><a href="#" class="letter-link active" data-letter="all">All</a></li>
+{% set lexiconByLetter = collections.lexicon | groupByInitial %}
+{% for letter, terms in lexiconByLetter %}
+<li><a href="#letter-{{ letter }}" class="letter-link" data-letter="{{ letter }}">{{ letter }}</a></li>
+{% endfor %}
+<li><a href="/lexicon-grid" class="letter-view" title="Grid view">
+<svg class="img-toolbar" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><g fill="none"><path class="img-toolbar-stroke" stroke="#afb6af" d="M43.167 1.5c.92 0 1.753.373 2.357.976.603.604.976 1.437.976 2.357v38.334c0 .92-.373 1.754-.976 2.357a3.32 3.32 0 0 1-2.357.976H4.833c-.92 0-1.753-.373-2.357-.976a3.32 3.32 0 0 1-.976-2.357V4.833c0-.92.373-1.753.976-2.357A3.32 3.32 0 0 1 4.833 1.5Z"/><path class="img-toolbar-fill" fill="#afb6af" fill-rule="evenodd" d="M10 8h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1m12 0h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1m12 0h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1M10 20h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1v-5a1 1 0 0 1 1-1m12 0h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1v-5a1 1 0 0 1 1-1m12 0h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1v-5a1 1 0 0 1 1-1M10 32h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1v-5a1 1 0 0 1 1-1m12 0h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1v-5a1 1 0 0 1 1-1m12 0h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1v-5a1 1 0 0 1 1-1"/></g>
+</svg>
+</a></li>
+<li><a href="/lexicon-list" class="letter-view" title="List view">
+<svg class="img-toolbar" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><g fill="none"><path class="img-toolbar-stroke" d="M43.167 1.5c.92 0 1.753.373 2.357.976.603.604.976 1.437.976 2.357v38.334c0 .92-.373 1.754-.976 2.357a3.32 3.32 0 0 1-2.357.976H4.833c-.92 0-1.753-.373-2.357-.976a3.32 3.32 0 0 1-.976-2.357V4.833c0-.92.373-1.753.976-2.357A3.32 3.32 0 0 1 4.833 1.5Z" stroke="#afb6af"/><path class="img-toolbar-stroke" stroke="#afb6af" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M37.417 24H10.583m26.834-11.5H10.583m26.834 23H10.583"/>
+</g></svg>
+</a></li>
+</ul>
+
+<ul class="alt-inline">
+<li>Popular terms</li>
+{% for term in collections.lexicon %}
+{% if term.data.popular %}
+<li><a href="{{ term.url }}">{{ term.data.title }}</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+</div><!-- one -->
+
+<aside>
+<h3>What&#8217;s this?</h3>
+{{ aside | safe }}
+</aside><!-- two -->
+
+</div><!-- layout -->
+
+
+
+<hr data-function="spacer">
+
+
+
+<div class="layout" data-layout="yogi" id="terms">
+
+<div class="terms-column">
+{% set lexiconByLetter = collections.lexicon | groupByInitial %}
+{% for letter, terms in lexiconByLetter %}
+{% for term in terms %}
+<div class="item-term" data-letter="{{ letter }}">
+<h2><a href="#{{ term.fileSlug }}" class="term-toggle" data-term="{{ term.fileSlug }}">{{ term.data.title }}</a></h2>
+</div><!-- item-term -->
+{% endfor %}
+{% endfor %}
+</div>
+
+<div class="content-column">
+<div class="sticky-content" aria-live="polite">
+
+{% for term in collections.lexicon %}
+<div id="{{ term.fileSlug }}" class="item-term-content" data-theme="inverted" hidden>
+<a href="#" class="close-content" title="Hide">X</a>
+<h3><a href="{{ term.url }}">{{ term.data.title }}</a></h3>
+<p>{{ term.data.summary }}</p>
+<p><a href="{{ term.url }}" class="alt-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="16" viewBox="0 0 16 16">
+<path fill="#fff" d="M7.543 1.043a1 1 0 0 1 1.414 0l6.25 6.25a.997.997 0 0 1 0 1.415l-6.26 6.25a1 1 0 0 1-1.413-1.416L12.083 9H1a1 1 0 0 1 0-2h11.086L7.543 2.457a1 1 0 0 1 0-1.414"/></svg>Read more</a></p>
+</div><!-- item-term-content -->
+{% endfor %}
+
+</div>
+</div><!-- content-column -->
+
+</div>
+
+{% endblock %}
+
+{% include "partials/footer.html" %}
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+// ===== LETTER FILTERING SCRIPT =====
+const letterLinks = document.querySelectorAll('.letter-link');
+const termItems = document.querySelectorAll('.item-term');
+
+function showAllTerms() {
+termItems.forEach(term => {
+term.style.display = 'block';
+});
+
+letterLinks.forEach(link => {
+link.classList.remove('active');
+});
+document.querySelector('.letter-link[data-letter="all"]').classList.add('active');
+history.replaceState(null, null, window.location.pathname);
+}
+
+function showLetter(letter) {
+termItems.forEach(term => {
+term.style.display = 'none';
+});
+
+letterLinks.forEach(link => {
+link.classList.remove('active');
+});
+
+const targetTerms = document.querySelectorAll(`.item-term[data-letter="${letter}"]`);
+targetTerms.forEach(term => {
+term.style.display = 'block';
+});
+
+const targetLink = document.querySelector(`.letter-link[data-letter="${letter}"]`);
+if (targetLink) {
+targetLink.classList.add('active');
+}
+
+history.replaceState(null, null, `#letter-${letter}`);
+}
+
+// Letter filtering event handlers
+letterLinks.forEach(link => {
+link.addEventListener('click', function(e) {
+e.preventDefault();
+const letter = this.getAttribute('data-letter');
+if (letter === 'all') {
+showAllTerms();
+} else {
+showLetter(letter);
+}
+});
+});
+
+// ===== TERM CONTENT TOGGLE SCRIPT =====
+const termToggles = document.querySelectorAll('.term-toggle');
+
+termToggles.forEach(link => {
+link.addEventListener('click', function(e) {
+e.preventDefault();
+
+const targetId = this.getAttribute('href').substring(1);
+const allContents = document.querySelectorAll('.item-term-content');
+
+// Hide all content and remove visible class
+allContents.forEach(content => {
+content.hidden = true;
+content.classList.remove('visible');
+});
+
+// Remove active class from all links
+termToggles.forEach(link => {
+link.classList.remove('active');
+});
+
+// Show the target content and mark link as active
+const targetContent = document.getElementById(targetId);
+if (targetContent) {
+targetContent.hidden = false;
+
+// Small delay to ensure CSS transition works
+setTimeout(() => {
+targetContent.classList.add('visible');
+}, 10);
+
+this.classList.add('active');
+history.pushState(null, null, `#${targetId}`);
+}
+});
+});
+
+// ===== CLOSE CONTENT SCRIPT =====
+const closeButtons = document.querySelectorAll('.close-content');
+
+closeButtons.forEach(button => {
+button.addEventListener('click', function(e) {
+e.preventDefault();
+
+const allContents = document.querySelectorAll('.item-term-content');
+
+// Hide all content and remove visible class
+allContents.forEach(content => {
+content.hidden = true;
+content.classList.remove('visible');
+});
+
+// Remove active class from all term toggle links
+termToggles.forEach(link => {
+link.classList.remove('active');
+});
+
+// Update URL to remove the hash
+history.replaceState(null, null, window.location.pathname);
+});
+});
+
+// Handle direct URL access for both types of hashes
+if (window.location.hash) {
+const hash = window.location.hash;
+
+if (hash.startsWith('#letter-')) {
+// Letter filtering hash
+const letter = hash.replace('#letter-', '');
+showLetter(letter);
+} else {
+// Term content hash
+const targetLink = document.querySelector(`a[href="${hash}"]`);
+if (targetLink) targetLink.click();
+}
+}
+});
+</script>
+</body>
+
+</html>

@@ -1,13 +1,13 @@
 ---
-title: "Eurasian Hoopoe"
-image: tmp-img-4.webp
-imageCaption: "National bird of Israel"
-photographer: "Andy Clarke"
-location: "Cymru"
+title: "Al-Jamal House"
+image: tmp-img-6.webp
+imageCaption: "Al-Jamal House"
+photographer: "Arab News"
+location: "Palestine"
 date: 2024-03-15T17:30:00.000Z
-categories: ["Illustrations", "Birds"]
-tags: ["illustration", "news", "birds"]
+categories: ["Photos", "History"]
+tags: ["Photos", "History"]
 layout: "layouts/photo.html"
 ---
 
-The Eurasian hoopoe is the most widespread species of the genus Upupa. It is a distinctive cinnamon coloured bird with black and white wings, a tall erectile crest, a broad white band across a black tail, and a long narrow down-curved bill. Its call is a soft "oop-oop-oop."
+This picture, believed to be taken in the late 1920s, shows Palestinian Shukri Al-Jamal and his wife, sisters and daughters in front of their home in the Talbiya neighborhood of Jerusalem. Today, Israelis live in the same property. Talbiya, officially called Komemiyut under the Israeli government, was built in the 1920s on land purchased from the Greek Orthodox Patriarchate of Jerusalem. Most of the early residents were affluent Middle Eastern Christians who built elegant homes.

@@ -1,13 +1,13 @@
 ---
-title: "Eurasian Hoopoe"
-image: tmp-img-4.webp
-imageCaption: "National bird of Israel"
-photographer: "Andy Clarke"
-location: "Cymru"
+title: "People crowd on a Jerualem street"
+image: tmp-img-8.webp
+imageCaption: "People crowd on a Jerualem street"
+photographer: "National Library of Congress"
+location: "Jerualem"
 date: 2024-03-15T17:30:00.000Z
-categories: ["Illustrations", "Birds"]
-tags: ["illustration", "news", "birds"]
+categories: ["Photos", "History"]
+tags: ["Photos", "History"]
 layout: "layouts/photo.html"
 ---
 
-The Eurasian hoopoe is the most widespread species of the genus Upupa. It is a distinctive cinnamon coloured bird with black and white wings, a tall erectile crest, a broad white band across a black tail, and a long narrow down-curved bill. Its call is a soft "oop-oop-oop."
+Despite moments of heavy tension and conflict within Palestine during British occupation, life and commerce continued. Historical photos offer a glimpse into everyday life in Palestine before the withdrawal of British troops.

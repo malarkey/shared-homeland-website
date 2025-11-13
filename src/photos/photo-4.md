@@ -1,13 +1,13 @@
 ---
-title: "Palestine Sunbird"
-image: tmp-img-4.webp
-imageCaption: "Native to Palestine"
-photographer: "Andy Clarke"
-location: "Cymru"
+title: "Ain Karem village"
+image: tmp-img-7.webp
+imageCaption: "Ain Karem village"
+photographer: "Arab News"
+location: "Palestine"
 date: 2024-03-15T17:30:00.000Z
-categories: ["Illustrations", "Birds"]
-tags: ["illustration", "news", "birds"]
+categories: ["Photos", "History"]
+tags: ["Photos", "History"]
 layout: "layouts/photo.html"
 ---
 
-The Palestine sunbird is a small passerine bird of the sunbird family, Nectariniidae. Found in parts of the Middle East and sub-Saharan Africa, it is also known as the northern orange-tufted sunbird.
+The village was an Arab Palestinian town until 1948 when it was attacked during the Nakba, and the population was forced to flee.

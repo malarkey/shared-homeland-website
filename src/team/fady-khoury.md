@@ -8,7 +8,7 @@ qualifications: 'Doctor'
 role: 'Post-Doctoral Fellow'
 url: https://hls.harvard.edu/graduate-program/sjd-program/current-s-j-d-candidates-and-recent-graduates-2/fady-khoury-2/
 image: img-fady-khoury-small.webp
-imageLarge: tmp-img-2.webp
+imageLarge: img-fady-khoury-large.webp
 eleventyComputed:
   title: "{{ name }}"
 

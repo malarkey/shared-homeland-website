@@ -1,6 +1,4 @@
 ---
-featureImage: /images/tmp-img-1.webp
-featureImageCaption:
 layout: layouts/home.html
 metaDesc:
 title: The Shared Homeland Paradigm

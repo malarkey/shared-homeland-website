@@ -1,13 +1,13 @@
 ---
-title: "Eurasian Hoopoe"
+title: "Ma'alul: The Catholic Church of Ma'alul"
 image: tmp-img-4.webp
-imageCaption: "National bird of Israel"
-photographer: "Andy Clarke"
-location: "Cymru"
+imageCaption: "Ma'alul: The Catholic Church of Ma'alul"
+photographer: "Arab News"
+location: "Palestine"
 date: 2024-03-15T17:30:00.000Z
-categories: ["Illustrations", "Birds"]
-tags: ["illustration", "news", "birds"]
+categories: ["Photos", "History"]
+tags: ["Photos", "History"]
 layout: "layouts/photo.html"
 ---
 
-The Eurasian hoopoe is the most widespread species of the genus Upupa. It is a distinctive cinnamon coloured bird with black and white wings, a tall erectile crest, a broad white band across a black tail, and a long narrow down-curved bill. Its call is a soft "oop-oop-oop."
+Ma'alul, The Catholic Church of Ma'alul—and together with a Greek Orthodox Church and a mosque—is what remains of the ancient Arab village of Ma'alul, just a few kilometers west of Nazareth. It was formed mainly by Christian Palestinians until 1948 when it was destroyed during the 1947–1949 Palestine war.
