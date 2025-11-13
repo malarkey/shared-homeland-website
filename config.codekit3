@@ -44,14 +44,6 @@
       "oAP" : "\/dist\/about\/index.html",
       "oF" : 0
     },
-    "\/dist\/admin\/config.yml" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/admin\/config.yml",
-      "oF" : 0
-    },
     "\/dist\/admin\/deepseek_html_20251106_d3a375.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -75,28 +67,6 @@
       "oA" : 0,
       "oAP" : "\/dist\/admin\/index.html",
       "oF" : 0
-    },
-    "\/dist\/admin\/previews.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/dist\/admin\/previews-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/dist\/admin\/util.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/dist\/admin\/util-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
     },
     "\/dist\/background\/index.html" : {
       "cB" : 0,
@@ -314,18 +284,6 @@
       "oAP" : "\/dist\/contact\/index.html",
       "oF" : 0
     },
-    "\/dist\/css\/critical.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/css\/critical-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
     "\/dist\/faqs\/question-1\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -390,14 +348,6 @@
       "oAP" : "\/dist\/feed.xml",
       "oF" : 0
     },
-    "\/dist\/fonts\/bankside-sans-vf.woff2" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/fonts\/bankside-sans-vf.woff2",
-      "oF" : 0
-    },
     "\/dist\/gallery\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -406,186 +356,22 @@
       "oAP" : "\/dist\/gallery\/index.html",
       "oF" : 0
     },
-    "\/dist\/images\/icon-arrow.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dist\/images\/icon-arrow.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/dist\/images\/icon-bluesky.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dist\/images\/icon-bluesky.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/dist\/images\/icon-email.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dist\/images\/icon-email.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/dist\/images\/icon-facebook.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dist\/images\/icon-facebook.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/dist\/images\/icon-linkedin.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dist\/images\/icon-linkedin.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/dist\/images\/icon-quote-closed.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dist\/images\/icon-quote-closed.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/dist\/images\/icon-quote-open.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dist\/images\/icon-quote-open.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/dist\/images\/icon-url.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dist\/images\/icon-url.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/dist\/images\/icon-whatsapp.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dist\/images\/icon-whatsapp.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/dist\/images\/img-adi-berkovits-small.webp" : {
+    "\/dist\/images\/img-fady-khoury-large.webp" : {
       "ft" : 8388608,
-      "iS" : 462542,
+      "iS" : 7120,
       "oA" : 0,
-      "oAP" : "\/dist\/images\/img-adi-berkovits-small.webp",
+      "oAP" : "\/dist\/images\/img-fady-khoury-large.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
-    },
-    "\/dist\/images\/img-fady-khoury-small.webp" : {
-      "ft" : 8388608,
-      "iS" : 347196,
-      "oA" : 0,
-      "oAP" : "\/dist\/images\/img-fady-khoury-small.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
-    "\/dist\/images\/img-haim-yacobi-small.webp" : {
-      "ft" : 8388608,
-      "iS" : 394534,
-      "oA" : 0,
-      "oAP" : "\/dist\/images\/img-haim-yacobi-small.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
-    "\/dist\/images\/img-omar-dajani-large.webp" : {
-      "ft" : 8388608,
-      "iS" : 920822,
-      "oA" : 0,
-      "oAP" : "\/dist\/images\/img-omar-dajani-large.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
-    "\/dist\/images\/img-omar-dajani-small.webp" : {
-      "ft" : 8388608,
-      "iS" : 341912,
-      "oA" : 0,
-      "oAP" : "\/dist\/images\/img-omar-dajani-small.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
-    "\/dist\/images\/logo-ala.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dist\/images\/logo-ala.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
     },
     "\/dist\/images\/logo-footer.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/dist\/images\/logo-footer.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/dist\/images\/logo-ucl.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dist\/images\/logo-ucl.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/dist\/images\/logo-ukri.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dist\/images\/logo-ukri.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -611,20 +397,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/dist\/images\/tmp-img-1.webp" : {
-      "ft" : 8388608,
-      "iS" : 70104,
-      "oA" : 0,
-      "oAP" : "\/dist\/images\/tmp-img-1.webp",
+    "\/dist\/images\/tmp-img-1.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/images\/tmp-img-1.svg",
       "oF" : 0,
-      "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/dist\/images\/tmp-img-2.webp" : {
       "ft" : 8388608,
-      "iS" : 109588,
+      "iS" : 124386,
       "oA" : 0,
       "oAP" : "\/dist\/images\/tmp-img-2.webp",
       "oF" : 0,
@@ -646,9 +431,53 @@
     },
     "\/dist\/images\/tmp-img-4.webp" : {
       "ft" : 8388608,
-      "iS" : 1799950,
+      "iS" : 390194,
       "oA" : 0,
       "oAP" : "\/dist\/images\/tmp-img-4.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/tmp-img-5.webp" : {
+      "ft" : 8388608,
+      "iS" : 425850,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/tmp-img-5.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/tmp-img-6.webp" : {
+      "ft" : 8388608,
+      "iS" : 309254,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/tmp-img-6.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/tmp-img-7.webp" : {
+      "ft" : 8388608,
+      "iS" : 369578,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/tmp-img-7.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/tmp-img-8.webp" : {
+      "ft" : 8388608,
+      "iS" : 490562,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/tmp-img-8.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -673,23 +502,28 @@
       "oAP" : "\/dist\/index.html",
       "oF" : 0
     },
-    "\/dist\/js\/scripts.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/dist\/js\/scripts-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
     "\/dist\/lexicon-featured\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/lexicon-featured\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/lexicon-grid\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/lexicon-grid\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/lexicon-list\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/lexicon-list\/index.html",
       "oF" : 0
     },
     "\/dist\/lexicon\/baba-looey\/index.html" : {
@@ -724,6 +558,14 @@
       "oAP" : "\/dist\/lexicon\/gaza-strip\/index.html",
       "oF" : 0
     },
+    "\/dist\/lexicon\/humanitarian-crisis\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/lexicon\/humanitarian-crisis\/index.html",
+      "oF" : 0
+    },
     "\/dist\/lexicon\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -732,12 +574,84 @@
       "oAP" : "\/dist\/lexicon\/index.html",
       "oF" : 0
     },
+    "\/dist\/lexicon\/israeli-occupation\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/lexicon\/israeli-occupation\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/lexicon\/israeli-settlement\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/lexicon\/israeli-settlement\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/lexicon\/oslo-accords\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/lexicon\/oslo-accords\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/lexicon\/palestine copy 2\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/lexicon\/palestine copy 2\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/lexicon\/palestine copy 3\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/lexicon\/palestine copy 3\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/lexicon\/palestine copy 4\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/lexicon\/palestine copy 4\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/lexicon\/palestine copy\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/lexicon\/palestine copy\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/lexicon\/palestine-region\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/lexicon\/palestine-region\/index.html",
+      "oF" : 0
+    },
     "\/dist\/lexicon\/palestine\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/lexicon\/palestine\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/lexicon\/palestinian-authority\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/lexicon\/palestinian-authority\/index.html",
       "oF" : 0
     },
     "\/dist\/lexicon\/quick-draw\/index.html" : {
@@ -1305,12 +1219,20 @@
       "oAP" : "\/src\/_includes\/layouts\/lexicon-featured.html",
       "oF" : 0
     },
-    "\/src\/_includes\/layouts\/lexicon.html" : {
+    "\/src\/_includes\/layouts\/lexicon-grid.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/src\/_includes\/layouts\/lexicon.html",
+      "oAP" : "\/src\/_includes\/layouts\/lexicon-grid.html",
+      "oF" : 0
+    },
+    "\/src\/_includes\/layouts\/lexicon-list.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/_includes\/layouts\/lexicon-list.html",
       "oF" : 0
     },
     "\/src\/_includes\/layouts\/member.html" : {
@@ -1409,6 +1331,14 @@
       "oAP" : "\/src\/_includes\/partials\/icon-quote-open.njk",
       "oF" : 0
     },
+    "\/src\/_includes\/partials\/img-index.njk" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/_includes\/partials\/img-index.njk",
+      "oF" : 0
+    },
     "\/src\/_includes\/partials\/logo-banner.njk" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1487,6 +1417,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/src\/_includes\/partials\/resources-nav.html",
+      "oF" : 0
+    },
+    "\/src\/_includes\/partials\/scenarios-list.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/_includes\/partials\/scenarios-list.html",
       "oF" : 0
     },
     "\/src\/about.md" : {
@@ -1855,6 +1793,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/src\/images\/icon-border.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/images\/icon-border.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/src\/images\/icon-email.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -1905,11 +1853,51 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/src\/images\/icon-theme-dark.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/images\/icon-theme-dark.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/src\/images\/icon-theme-light.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/images\/icon-theme-light.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/src\/images\/icon-url.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/src\/images\/icon-url.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/src\/images\/icon-view-grid.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/images\/icon-view-grid.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/src\/images\/icon-view-list.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/images\/icon-view-list.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -1925,6 +1913,17 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/src\/images\/img-adi-berkovits-large.webp" : {
+      "ft" : 8388608,
+      "iS" : 7120,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/img-adi-berkovits-large.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/src\/images\/img-adi-berkovits-small.webp" : {
       "ft" : 8388608,
       "iS" : 462542,
@@ -1936,11 +1935,33 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/src\/images\/img-fady-khoury-large.webp" : {
+      "ft" : 8388608,
+      "iS" : 7120,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/img-fady-khoury-large.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/src\/images\/img-fady-khoury-small.webp" : {
       "ft" : 8388608,
       "iS" : 347196,
       "oA" : 0,
       "oAP" : "\/src\/images\/img-fady-khoury-small.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/img-haim-yacobi-large.webp" : {
+      "ft" : 8388608,
+      "iS" : 7120,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/img-haim-yacobi-large.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -2020,6 +2041,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/src\/images\/tmp-img-1.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/images\/tmp-img-1.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/src\/images\/tmp-img-1.webp" : {
       "ft" : 8388608,
       "iS" : 482380,
@@ -2047,6 +2078,61 @@
       "iS" : 950916,
       "oA" : 0,
       "oAP" : "\/src\/images\/tmp-img-3.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/tmp-img-4.webp" : {
+      "ft" : 8388608,
+      "iS" : 390194,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/tmp-img-4.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/tmp-img-5.webp" : {
+      "ft" : 8388608,
+      "iS" : 425850,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/tmp-img-5.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/tmp-img-6.webp" : {
+      "ft" : 8388608,
+      "iS" : 309254,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/tmp-img-6.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/tmp-img-7.webp" : {
+      "ft" : 8388608,
+      "iS" : 369578,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/tmp-img-7.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/tmp-img-8.webp" : {
+      "ft" : 8388608,
+      "iS" : 490562,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/tmp-img-8.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -2102,7 +2188,7 @@
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/src\/lexicon.md" : {
+    "\/src\/lexicon-grid.md" : {
       "cB" : 0,
       "cS" : 0,
       "eF" : 1,
@@ -2112,7 +2198,26 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/src\/lexicon.html",
+      "oAP" : "\/src\/lexicon-grid.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/lexicon-list.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/lexicon-list.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,
@@ -2159,6 +2264,101 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/src\/lexicon\/humanitarian-crisis.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/lexicon\/humanitarian-crisis.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/lexicon\/israeli-occupation.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/lexicon\/israeli-occupation.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/lexicon\/israeli-settlement.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/lexicon\/israeli-settlement.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/lexicon\/oslo-accords.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/lexicon\/oslo-accords.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/lexicon\/palestine-region.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/lexicon\/palestine-region.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
     "\/src\/lexicon\/palestine.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -2170,6 +2370,25 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/src\/lexicon\/palestine.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/lexicon\/palestinian-authority.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/lexicon\/palestinian-authority.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,

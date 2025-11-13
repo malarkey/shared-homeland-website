@@ -33,8 +33,8 @@ extended: |
   <p>We develop scenarios that explore the practical application of the paradigm about defined clusters of issues crucial to its viability, specifically: citizenship, residency, mobility; management of urban spaces; and environmental cooperation—drawing both on comparative experience and on field research in Palestine-Israel.</p>
 
   <blockquote data-variant="m">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 53">
-  <path fill="#000" d="M0 25.175q0-13.64 7.1-19.407Q14.201 0 30.127 0h22.516v16.524H30.205q-5.884 0-8.042 1.325t-2.157 3.975V26.5h32.637V53H0z"/><path fill="#000" d="M37.357 25.175q0-13.64 7.1-19.407Q51.557 0 67.483 0H90v16.524H67.562q-5.884 0-8.042 1.325t-2.157 3.975V26.5H90V53H37.357z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63 50">
+  <path fill="#212529" d="M0 14.91Q0 6.555 3.68 3.278 7.358 0 16.007 0h8.133v4.37h-8.133q-6.454 0-8.843 2.121-2.388 2.121-2.388 8.162v27.25H24.14V50H0zm38.859 0q0-8.355 3.679-11.632Q46.217 0 54.867 0H63v4.37h-8.133q-6.455 0-8.843 2.121-2.39 2.121-2.389 8.162v27.25H63V50H38.859z"/></svg>
   <p>We develop scenarios that explore the practical application of the shared homeland paradigm across citizenship, mobility, urban space management, and environmental cooperation.</p>
   </blockquote>
 
@@ -45,8 +45,8 @@ extended: |
   <p>As the world marks the thirtieth anniversary of the Oslo Accords, the prospects for a two-state solution based on separation appear remote, and alternatives are garnering increasing attention from scholars, policy analysts, and diplomats. The idea of a Palestinian- Israeli confederation has elicited particularly substantial interest. However, research to date has tended to be under-theorized, lacking in practical detail, and/or remote from the public's eye. This project helps to address all three of these shortcomings and it works through the practical contours of the shared homeland paradigm in far greater depth than existing research, helping to rekindle political imagination among Palestinians and Israelis.</p>
 
   <blockquote data-variant="m">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 53">
-  <path fill="#000" d="M0 25.175q0-13.64 7.1-19.407Q14.201 0 30.127 0h22.516v16.524H30.205q-5.884 0-8.042 1.325t-2.157 3.975V26.5h32.637V53H0z"/><path fill="#000" d="M37.357 25.175q0-13.64 7.1-19.407Q51.557 0 67.483 0H90v16.524H67.562q-5.884 0-8.042 1.325t-2.157 3.975V26.5H90V53H37.357z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63 50">
+  <path fill="#212529" d="M0 14.91Q0 6.555 3.68 3.278 7.358 0 16.007 0h8.133v4.37h-8.133q-6.454 0-8.843 2.121-2.388 2.121-2.388 8.162v27.25H24.14V50H0zm38.859 0q0-8.355 3.679-11.632Q46.217 0 54.867 0H63v4.37h-8.133q-6.455 0-8.843 2.121-2.39 2.121-2.389 8.162v27.25H63V50H38.859z"/></svg>
   <p>This project rekindles political imagination among Palestinians and Israelis, helping to bring a new paradigm of partnership into mainstream discourse.</p>
   </blockquote>
 
