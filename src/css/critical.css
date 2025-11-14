@@ -1689,6 +1689,10 @@ text-decoration-color: var(--color-text-alt); }
 & [data-variant="bordered-l"] {
 border-color: var(--color-border); }
 }
+
+.alt-arrow path {
+fill: var(--color-text-alt); }
+
 }
 
 .theme-toggle {
@@ -1720,15 +1724,18 @@ display: none; }
 [data-theme="dark"] .dark-icon {
 display: block; }
 
-[data-theme="dark"] .alt-arrow path {
-fill: #fff !important; }
-
 [data-theme="dark"] .img-index-text {
+fill: #fff; }
+
+[data-theme="dark"] .alt-arrow path {
 fill: #fff; }
 
 [data-theme="dark"] [data-theme="inverted"] {
 background-color: #1a1d1e;
 color: var(--color-text-default);
+
+[data-theme="dark"] [data-theme="inverted"] .alt-arrow path {
+fill: var(--color-text-alt); }
 
 & :is(a, a:visited) {
 color: var(--color-text-default) !important;
