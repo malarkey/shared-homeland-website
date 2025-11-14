@@ -1412,7 +1412,7 @@ blockquote[data-variant="inverted"] path {
 fill: #f3f0f5; }
 
 blockquote[data-variant="inverted"] p {
-color: #f3f0fF5;
+color: #f3f0f5;
 margin-block-end: var(--spacing-m);
 margin-inline: var(--spacing-r);
 text-shadow: 1px 1px 5px rgba(0,0,0,.25); }
