@@ -4,6 +4,7 @@ layout: 'layouts/member.html'
 linkedin: 'https://www.linkedin.com/in/adi-berkovits/'
 location: 'United Kingdom'
 name: 'Adi Berkovits'
+order: 3
 qualifications:
 role: 'Project Coordinator'
 url:

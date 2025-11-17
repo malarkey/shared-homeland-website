@@ -4,6 +4,7 @@ layout: 'layouts/member.html'
 linkedin: 'https://www.linkedin.com/in/omar-dajani-07320532/'
 location: 'USA'
 name: 'Omar M. Dajani'
+order: 1
 qualifications: 'Professor'
 role: 'Co-Principal Investigator'
 url: https://www.pacific.edu/campus-directory/omar-dajani

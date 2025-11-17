@@ -22,3 +22,14 @@ By the late twentieth century, the Palestinian national movement had coalesced a
 One must stress that the conflict is not simply territorial or national — it also involves identity, memory, religion and narrative. Jerusalem is sacred to Jews, Muslims and Christians; displacement of Palestinians remains deeply felt; Israeli security concerns are rooted in historical trauma, including the Holocaust; Palestinian rights to self-determination and statehood remain central demands. These overlapping layers make the conflict deeply resistant to simple solutions.
 
 In recent years the focus has shifted to the specific issues of occupation, settlements, borders, Jerusalem, refugees, security and governance. Israel continues to control large parts of the West Bank, and the status of settlements and military control remains disputed in international law. Gaza has been under the control of Hamas since 2007, and it remains blockaded by Israel and Egypt — leading to repeated wars and humanitarian crises.
+
+## FAQs
+
+{% for faq in collections.faqs %}
+<details>
+<summary>{{ faq.data.title }}</summary>
+<div class="faq-answer">
+{{ faq.templateContent | safe }}
+</div>
+</details>
+{% endfor %}

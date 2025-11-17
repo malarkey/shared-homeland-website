@@ -9,7 +9,8 @@
 <div>
 <h1>{{ pageHeaderTitle }}</h1>
 
-{% for member in collections.team %}
+{% set sortedTeam = collections.team | sort(attribute="data.order") %}
+{% for member in sortedTeam %}
 <article class="item-team">
 
 {% if member.data.image %}
@@ -66,7 +67,8 @@
 
 <h2><a href="/board">Board of directors</a></h2>
 
-{% for boardmember in collections.board %}
+{% set sortedBoard = collections.board | sort(attribute="data.order") %}
+{% for boardmember in sortedBoard %}
 <div class="item-team">
 {% if boardmember.data.image %}
 <div><img src="/images/{{ boardmember.data.image }}" alt="{{ boardmember.data.name }}"></div><!-- one -->

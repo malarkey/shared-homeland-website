@@ -4,6 +4,7 @@ layout: 'layouts/member.html'
 linkedin: 'https://www.linkedin.com/in/haim-yacobi-305575319/'
 location: 'United Kingdom'
 name: 'Haim Yacobi'
+order: 2
 qualifications: 'Professor'
 role: 'Co-Principal Investigator'
 url: https://profiles.ucl.ac.uk/62350-haim-yacobi
