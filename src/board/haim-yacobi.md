@@ -1,13 +1,13 @@
 ---
 email:
 layout: 'layouts/member.html'
-linkedin: 'https://www.linkedin.com/in/haim-yacobi-305575319/'
-location: 'United Kingdom'
+linkedin:
+location:
 name: 'Haim Yacobi'
 order: 2
-qualifications: 'Professor'
+qualifications:
 role: 'Co-Principal Investigator'
-url: https://profiles.ucl.ac.uk/62350-haim-yacobi
+url:
 image: img-haim-yacobi-small.webp
 imageLarge: img-haim-yacobi-large.webp
 eleventyComputed:

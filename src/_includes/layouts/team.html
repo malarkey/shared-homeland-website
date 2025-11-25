@@ -65,7 +65,7 @@
 
 <hr data-function="spacer">
 
-<h2><a href="/board">Board of directors</a></h2>
+<h2><a href="/board">Advisory Board</a></h2>
 
 {% set sortedBoard = collections.board | sort(attribute="data.order") %}
 {% for boardmember in sortedBoard %}
@@ -76,6 +76,9 @@
 <div><h3 data-size="m"><a href="{{ boardmember.url }}">{{ boardmember.data.name }}</a></h3></div><!-- two -->
 </div><!-- item-team-small -->
 {% endfor %}
+
+<p><a href="/partners" class="alt-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="16" viewBox="0 0 16 16">
+<path fill="#000" d="M7.543 1.043a1 1 0 0 1 1.414 0l6.25 6.25a.997.997 0 0 1 0 1.415l-6.26 6.25a1 1 0 0 1-1.413-1.416L12.083 9H1a1 1 0 0 1 0-2h11.086L7.543 2.457a1 1 0 0 1 0-1.414"/></svg> Our partners</a></p>
 
 </aside><!-- two -->
 

@@ -25,11 +25,11 @@
 --font-light-normal: "wght" 300, "wdth" 100;
 --font-regular-normal: "wght" 400, "wdth" 100;
 --font-semi-normal: "wght" 500, "wdth" 100;
---font-bold-normal: "wght" 600, "wdth" 100;
+--font-bold-normal: "wght" 700, "wdth" 100;
 --font-light-condensed: "wght" 300, "wdth" 80;
 --font-regular-condensed: "wght" 400, "wdth" 80;
 --font-semi-condensed: "wght" 500, "wdth" 80;
---font-bold-condensed: "wght" 600, "wdth" 80;
+--font-bold-condensed: "wght" 700, "wdth" 80;
 --lineheight-r: 1.6;
 --lineheight-s: 1.4;
 
@@ -38,7 +38,7 @@
 * Light theme with accent colors for visual hierarchy
 */
 
---color-accent: #d6845c; /* Primary brand accent (Desert Sand) */
+--color-accent: #0aae99; /* Primary brand accent (Desert Sand) */
 --color-background-default: #faf9fb; /* Main background */
 --color-background-alt: #455254; /* Alternative background */
 --color-base: #f9ede1; /* Base colour for panels */
@@ -409,7 +409,7 @@ TEXT TREATMENT CLASSES
 
 .alt-lede {
 font-family: var(--font-family-alt);
-font-variation-settings: var(--font-semi-normal);
+font-variation-settings: var(--font-bold-condensed);
 text-transform: uppercase; }
 
 .alt-uppercase {
@@ -925,6 +925,7 @@ content: ""; }
 summary {
 anchor-name: --summary;
 border: none;
+color: var(--color-accent);
 cursor: pointer;
 font-variation-settings: var(--font-semi-normal);
 position: relative; }

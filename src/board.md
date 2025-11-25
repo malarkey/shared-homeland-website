@@ -1,5 +1,5 @@
 ---
 layout: "layouts/board.html"
-title: Board members
+title: Advisory board
 permalink: /board/
 ---

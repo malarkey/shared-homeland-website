@@ -1,6 +1,6 @@
 ---
 layout: "layouts/lexicon-list.html"
-title: Lexicon
+title: Alternative Lexicon
 permalink: /lexicon-list/
 
 aside: |

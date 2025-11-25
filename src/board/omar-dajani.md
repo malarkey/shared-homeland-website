@@ -1,13 +1,13 @@
 ---
 email:
 layout: 'layouts/member.html'
-linkedin: 'https://www.linkedin.com/in/omar-dajani-07320532/'
-location: 'USA'
+linkedin:
+location:
 name: 'Omar M. Dajani'
 order: 1
-qualifications: 'Professor'
+qualifications:
 role: 'Co-Principal Investigator'
-url: https://www.pacific.edu/campus-directory/omar-dajani
+url:
 image: img-omar-dajani-small.webp
 imageLarge: img-omar-dajani-large.webp
 eleventyComputed:

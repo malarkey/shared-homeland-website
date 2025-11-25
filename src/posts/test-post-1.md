@@ -3,7 +3,7 @@ postAuthor: Andy Clarke
 postDate: 2025-11-20
 postSummary: |
   Explores new ways to think about geography, borders, and belonging in Israel-Palestine. The article introduces models for shared sovereignty and everyday coexistence that go beyond division—proposing frameworks where both peoples can inhabit the same land with equality and security.
-postCategories: ['Papers']
+postCategories: ['Papers', 'Events']
 postTags: ['Articles', 'Books', 'Papers']
 title: Reimagining Shared Space
 ---

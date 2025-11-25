@@ -25,7 +25,8 @@ In recent years the focus has shifted to the specific issues of occupation, sett
 
 ## FAQs
 
-{% for faq in collections.faqs %}
+{% set backgroundFaqs = collections.faqs | filterFaqsByCategory("background") %}
+{% for faq in backgroundFaqs %}
 <details>
 <summary>{{ faq.data.title }}</summary>
 <div class="faq-answer">

@@ -49,6 +49,7 @@ collections:
     fields:
       - {label: "Question", name: "title", widget: "string"}
       - {label: "Answer", name: "body", widget: "markdown"}
+      - {label: "Categories", name: "categories", widget: "list", default: ["general"]}
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/base.html"}
 
   - name: "lexicon"

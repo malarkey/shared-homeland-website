@@ -1,0 +1,32 @@
+<hr data-function="spacer">
+
+<div class="layout" data-layout="pockets">
+
+<div>
+<h2 class="alt-bg" data-align-h="center"><a href="/partners">Partners</a></h2>
+</div>
+
+{% include "partials/partners.html" %}
+
+</div><!-- layout -->
+
+
+
+
+
+<hr data-function="spacer">
+
+{% include "partials/recent-photos.html" %}
+
+
+
+
+
+{% if featureImage %}
+<figure>
+<img src="{{ featureImage }}" alt="{{ featureImageCaption }}" />
+{% if featureImageCaption %}
+<figcaption>{{ featureImageCaption }}</figcaption>
+{% endif %}
+</figure>
+{% endif %}

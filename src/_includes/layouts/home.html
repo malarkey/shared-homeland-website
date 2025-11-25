@@ -58,9 +58,19 @@
 
 <hr data-function="spacer">
 
-{% endblock %}
+<h2 class="alt-bg"><a href="/lexicon-grid">Alternative Lexicon</a></h2>
 
-{% include "partials/scenarios-list.html" %}
+<div data-layout="flex" data-border="r">
+{% set recentLexicon = collections.lexicon | sort(false, false, "date") | reverse | limit(3) %}
+{% for term in recentLexicon %}
+<article class="item-lexicon">
+<h3><a href="{{ term.url }}">{{ term.data.title }}</a></h3>
+<p>{{ term.data.summary }}</p>
+</article>
+{% endfor %}
+</div><!-- layout -->
+
+
 
 
 
@@ -92,44 +102,13 @@
 
 
 
-
 <hr data-function="spacer">
 
-<h2 class="alt-bg"><a href="/lexicon-grid">From the lexicon</a></h2>
+{% endblock %}
 
-<div data-layout="flex" data-border="r">
-{% set recentLexicon = collections.lexicon | sort(false, false, "date") | reverse | limit(3) %}
-{% for term in recentLexicon %}
-<article class="item-lexicon">
-<h3><a href="{{ term.url }}">{{ term.data.title }}</a></h3>
-<p>{{ term.data.summary }}</p>
-</article>
-{% endfor %}
-</div><!-- layout -->
+{% include "partials/scenarios-list.html" %}
 
 
-
-
-
-<hr data-function="spacer">
-
-<div class="layout" data-layout="pockets">
-
-<div>
-<h2 class="alt-bg" data-align-h="center"><a href="/partners">Partners</a></h2>
-</div><!-- one -->
-
-{% include "partials/partners.html" %}
-
-</div><!-- layout -->
-
-
-
-
-
-<hr data-function="spacer">
-
-{% include "partials/recent-photos.html" %}
 
 {% include "partials/footer.html" %}
 </body>

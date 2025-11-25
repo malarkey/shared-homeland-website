@@ -2,12 +2,12 @@
 email:
 layout: 'layouts/member.html'
 linkedin:
-location: 'United Kingdom'
+location:
 name: 'Fady Khoury'
-order: 4
-qualifications: 'Doctor'
+order: 3
+qualifications:
 role: 'Post-Doctoral Fellow'
-url: https://hls.harvard.edu/graduate-program/sjd-program/current-s-j-d-candidates-and-recent-graduates-2/fady-khoury-2/
+url:
 image: img-fady-khoury-small.webp
 imageLarge: img-fady-khoury-large.webp
 eleventyComputed:

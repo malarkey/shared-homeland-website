@@ -1,10 +1,10 @@
 ---
 email:
 layout: 'layouts/member.html'
-linkedin: 'https://www.linkedin.com/in/adi-berkovits/'
-location: 'United Kingdom'
+linkedin:
+location:
 name: 'Adi Berkovits'
-order: 3
+order: 4
 qualifications:
 role: 'Project Coordinator'
 url:

@@ -49,7 +49,7 @@ eleventyConfig.addFilter("filterByFeatured", function(collection) {
 return collection.filter(term => term.data.featured === true);
 });
 
-// ADD THE GROUP BY INITIAL FILTER HERE
+// GROUP BY INITIAL FILTER
 eleventyConfig.addFilter("groupByInitial", function(collection) {
 const grouped = {};
 
@@ -79,7 +79,7 @@ a.data.title.localeCompare(b.data.title)
 return sortedGroups;
 });
 
-// ADD RELATED TERMS FILTERS HERE
+// RELATED TERMS FILTERS
 eleventyConfig.addFilter("filterLexiconByCategory", function(collection, category) {
 return collection.filter(term =>
 term.data.categories && term.data.categories.includes(category)
@@ -125,10 +125,23 @@ post.data.postCategories && post.data.postCategories.includes(category)
 );
 });
 
-// ADD BLOG TAG FILTER
+// BLOG TAG FILTER
 eleventyConfig.addFilter("filterBlogByTag", (posts, tag) => {
 return posts.filter(post =>
 post.data.postTags && post.data.postTags.includes(tag)
+);
+});
+
+// FAQ FILTERS
+eleventyConfig.addFilter("filterFaqsByCategory", (faqs, category) => {
+return faqs.filter(faq =>
+faq.data.categories && faq.data.categories.includes(category)
+);
+});
+
+eleventyConfig.addFilter("filterFaqsWithoutCategories", (faqs) => {
+return faqs.filter(faq =>
+!faq.data.categories || faq.data.categories.length === 0
 );
 });
 
@@ -157,6 +170,38 @@ return collection.getFilteredByGlob("./src/photos/*.md").reverse();
 eleventyConfig.addCollection("faqs", (collection) => {
 return collection.getFilteredByGlob("./src/faqs/*.md").sort((a, b) => {
 return a.data.title.localeCompare(b.data.title);
+});
+});
+
+// FAQ CATEGORIES COLLECTION
+eleventyConfig.addCollection("faqCategories", (collection) => {
+let categories = new Set();
+collection.getFilteredByGlob("./src/faqs/*.md").forEach(faq => {
+if (faq.data.categories) {
+faq.data.categories.forEach(cat => categories.add(cat));
+}
+});
+return Array.from(categories).sort();
+});
+
+// GENERATE FAQ CATEGORY PAGES
+eleventyConfig.addCollection("faqCategoryPages", function(collectionApi) {
+const categories = new Set();
+const faqs = collectionApi.getFilteredByGlob("./src/faqs/*.md");
+
+faqs.forEach(faq => {
+if (faq.data.categories) {
+faq.data.categories.forEach(cat => categories.add(cat));
+}
+});
+
+return Array.from(categories).map(category => {
+return {
+title: `FAQs: ${category}`,
+category: category,
+permalink: `/faqs/category/${category.toLowerCase().replace(/\s+/g, '-')}/`,
+layout: "layouts/base.html"
+};
 });
 });
 
