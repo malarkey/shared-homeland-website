@@ -578,6 +578,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/dist\/images\/img-about.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/images\/img-about.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/dist\/images\/img-adi-berkovits-large.webp" : {
       "ft" : 8388608,
       "iS" : 3288,
@@ -599,6 +609,26 @@
       "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
+    },
+    "\/dist\/images\/img-background.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/images\/img-background.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/dist\/images\/img-contact.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/images\/img-contact.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/dist\/images\/img-fady-khoury-large.webp" : {
       "ft" : 8388608,
@@ -2332,6 +2362,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/src\/images\/img-about.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/images\/img-about.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/src\/images\/img-adi-berkovits-large.webp" : {
       "ft" : 8388608,
       "iS" : 7120,
@@ -2353,6 +2393,26 @@
       "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
+    },
+    "\/src\/images\/img-background.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/images\/img-background.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/src\/images\/img-contact.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/images\/img-contact.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/src\/images\/img-fady-khoury-large.webp" : {
       "ft" : 8388608,
@@ -2481,49 +2541,6 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
-    },
-    "\/src\/images\/tmp-img-1.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/src\/images\/tmp-img-1.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/src\/images\/tmp-img-1.webp" : {
-      "ft" : 8388608,
-      "iS" : 482380,
-      "oA" : 0,
-      "oAP" : "\/src\/images\/tmp-img-1.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
-    "\/src\/images\/tmp-img-2.webp" : {
-      "ft" : 8388608,
-      "iS" : 482002,
-      "oA" : 0,
-      "oAP" : "\/src\/images\/tmp-img-2.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
-    "\/src\/images\/tmp-img-3.webp" : {
-      "ft" : 8388608,
-      "iS" : 950916,
-      "oA" : 0,
-      "oAP" : "\/src\/images\/tmp-img-3.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
     },
     "\/src\/images\/tmp-img-4.webp" : {
       "ft" : 8388608,
@@ -3246,14 +3263,6 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
-    },
-    "\/src\/team\/nour-awwad.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/src\/team\/nour-awwad.html",
-      "oF" : 0
     },
     "\/src\/team\/nour-awwad.md" : {
       "cB" : 0,
