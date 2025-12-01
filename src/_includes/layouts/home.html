@@ -9,46 +9,65 @@
 
 {% block content %}
 
-<div id="banner-index-s" data-visibility="small">
-{% include "partials/logo-banner.njk" %}
-</div><!-- visibility -->
-
-<div class="layout" data-layout="chugga-boom">
-
-<div>
-{% include "partials/img-index.njk" %}
-</div><!-- one -->
+<div class="layout" data-layout="chugga-boom" data-theme="inverted">
 
 <div id="nav-block">
 {% for item in navigation.items %}
 <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a>
 {% endfor %}
-</div><!-- two -->
-
-<main>
-
-<div data-visibility="large" style="margin-block-end: var(--spacing-l);">
-{% include "partials/logo-banner.njk" %}
-</div><!-- visibility -->
-
-<h1 data-visibility="hidden">{{ title }}</h1>
-
-{{ lede | safe }}
-{{ main | safe }}
-
-<p><a href="/about" class="alt-arrow"><svg class="img-icon" xmlns="http://www.w3.org/2000/svg" width="16" viewBox="0 0 16 16">
-<path fill="#000" d="M7.543 1.043a1 1 0 0 1 1.414 0l6.25 6.25a.997.997 0 0 1 0 1.415l-6.26 6.25a1 1 0 0 1-1.413-1.416L12.083 9H1a1 1 0 0 1 0-2h11.086L7.543 2.457a1 1 0 0 1 0-1.414"/></svg> Read more</a></p>
-
-</main><!-- three -->
+</div><!-- one -->
 
 <div>
-<blockquote>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63 50">
-<path fill="#212529" d="M0 14.91Q0 6.555 3.68 3.278 7.358 0 16.007 0h8.133v4.37h-8.133q-6.454 0-8.843 2.121-2.388 2.121-2.388 8.162v27.25H24.14V50H0zm38.859 0q0-8.355 3.679-11.632Q46.217 0 54.867 0H63v4.37h-8.133q-6.455 0-8.843 2.121-2.39 2.121-2.389 8.162v27.25H63V50H38.859z"/>
-</svg>
-{{ aside | safe }}
- </blockquote>
+{% include "partials/logo-banner.njk" %}
+<h1 data-visibility="hidden">{{ title }}</h1>
+{{ lede | safe }}
+{{ main | safe }}
+<p><a href="/about" class="alt-arrow"><svg class="img-icon" xmlns="http://www.w3.org/2000/svg" width="16" viewBox="0 0 16 16"><path fill="#000" d="M7.543 1.043a1 1 0 0 1 1.414 0l6.25 6.25a.997.997 0 0 1 0 1.415l-6.26 6.25a1 1 0 0 1-1.413-1.416L12.083 9H1a1 1 0 0 1 0-2h11.086L7.543 2.457a1 1 0 0 1 0-1.414"/></svg> Read more</a></p>
 
+<hr>
+
+<ul class="alt-inline">
+<li><a href="#section-lexicon">Alternative Lexicon</a></li>
+<li><a href="#section-highlights">Highlights</a></li>
+<li><a href="#section-scenarios">Future scenarios</a></li>
+</ul>
+
+</div><!-- two -->
+
+<div data-visibility="large">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 671 1064">
+<g fill="none" fill-rule="evenodd">
+<path fill="#20505f" d="M280 672H1V392h279z"/>
+<path fill="#28a4a4" d="M167.739 840h-167V728h167z"/>
+<path fill="#28a4a4" d="M222.6 336H.6V224h222z"/>
+<path fill="#28a4a4" d="M167.739 616h-109V504h109z"/>
+<path fill="#20505f" d="M336.26 560h280v280h-280z"/>
+<path fill="#20505f" d="M390.812 168h280.157v280H390.812z"/>
+<path fill="#28a4a4" d="M446.918 0h112.025v336H446.918z"/>
+<path fill="#28a4a4" d="M446.918 672h224.051v224H446.918z"/>
+<path fill="#28a4a4" d="M280 392h168.038v168H280z"/>
+<path fill="#28a4a4" d="M289.656 952h280.063v112H289.656z"/>
+<path fill="#05aae0" d="M373.703 840h112.063v224H373.703z"/>
+</g>
+</svg>
+</div><!-- three -->
+
+<div data-visibility="large">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 670 1064">
+<g fill="none" fill-rule="evenodd">
+<path fill="#20505f" d="M392 448h224v224H392z"/>
+<path fill="#20505f" d="M224 0h280v280H224z"/>
+<path fill="#20505f" d="M169.4 784h280v280h-280z"/>
+<path fill="#20505f" d="M0 392h280v280H0z"/>
+<path fill="#28a4a4" d="M112.262 224h279.907v112H112.262z"/>
+<path fill="#28a4a4" d="M57.4 728h279.907v112H57.4z"/>
+<path fill="#28a4a4" d="M112.262 448h279.907v112H112.262z"/>
+<path fill="#05aae0" d="M449.4 56h112v336h-112z"/>
+<path fill="#05aae0" d="M393.4 728h112v224h-112z"/>
+<path fill="#28a4a4" d="M616 672h54V504h-54z"/>
+<path fill="#28a4a4" d="M626.656 112h43V0h-43z"/>
+</g>
+</svg>
 </div><!-- four -->
 
 </div><!-- layout -->
@@ -56,7 +75,7 @@
 
 
 
-<hr data-function="spacer">
+<hr data-function="spacer" id="section-lexicon">
 
 <h2 class="alt-bg"><a href="/lexicon-grid">Alternative Lexicon</a></h2>
 
@@ -74,7 +93,7 @@
 
 
 
-<hr data-function="spacer">
+<hr data-function="spacer" id="section-highlights">
 
 <section data-theme="inverted">
 
@@ -102,7 +121,7 @@
 
 
 
-<hr data-function="spacer">
+<hr data-function="spacer" id="section-scenarios">
 
 {% endblock %}
 

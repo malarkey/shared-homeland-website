@@ -1,4 +1,5 @@
 ---
+featureImage: /images/img-background.svg
 layout: layouts/page.html
 title: Background
 permalink: /background/

@@ -138,6 +138,14 @@
       "oAP" : "\/dist\/blog\/category\/classic-cartoons\/index.html",
       "oF" : 0
     },
+    "\/dist\/blog\/category\/events\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/blog\/category\/events\/index.html",
+      "oF" : 0
+    },
     "\/dist\/blog\/category\/papers\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -242,6 +250,14 @@
       "oAP" : "\/dist\/blog\/tag\/cartoons\/index.html",
       "oF" : 0
     },
+    "\/dist\/blog\/tag\/events\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/blog\/tag\/events\/index.html",
+      "oF" : 0
+    },
     "\/dist\/blog\/tag\/hanna-barbera\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -326,6 +342,14 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/dist\/faqs\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/faqs\/index.html",
+      "oF" : 0
+    },
     "\/dist\/faqs\/question-1\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -396,6 +420,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/fonts\/bankside-sans-vf.woff2",
+      "oF" : 0
+    },
+    "\/dist\/gallery copy\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/gallery copy\/index.html",
       "oF" : 0
     },
     "\/dist\/gallery\/index.html" : {
@@ -548,7 +580,7 @@
     },
     "\/dist\/images\/img-adi-berkovits-large.webp" : {
       "ft" : 8388608,
-      "iS" : 7120,
+      "iS" : 3288,
       "oA" : 0,
       "oAP" : "\/dist\/images\/img-adi-berkovits-large.webp",
       "oF" : 0,
@@ -570,7 +602,7 @@
     },
     "\/dist\/images\/img-fady-khoury-large.webp" : {
       "ft" : 8388608,
-      "iS" : 7120,
+      "iS" : 3288,
       "oA" : 0,
       "oAP" : "\/dist\/images\/img-fady-khoury-large.webp",
       "oF" : 0,
@@ -592,7 +624,7 @@
     },
     "\/dist\/images\/img-haim-yacobi-large.webp" : {
       "ft" : 8388608,
-      "iS" : 7120,
+      "iS" : 3288,
       "oA" : 0,
       "oAP" : "\/dist\/images\/img-haim-yacobi-large.webp",
       "oF" : 0,
@@ -612,9 +644,31 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/dist\/images\/img-nour-awwad-large.webp" : {
+      "ft" : 8388608,
+      "iS" : 727718,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/img-nour-awwad-large.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/img-nour-awwad-small.webp" : {
+      "ft" : 8388608,
+      "iS" : 328814,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/img-nour-awwad-small.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/dist\/images\/img-omar-dajani-large.webp" : {
       "ft" : 8388608,
-      "iS" : 920822,
+      "iS" : 909468,
       "oA" : 0,
       "oAP" : "\/dist\/images\/img-omar-dajani-large.webp",
       "oF" : 0,
@@ -786,6 +840,17 @@
       "iS" : 490562,
       "oA" : 0,
       "oAP" : "\/dist\/images\/tmp-img-8.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/tmp-img-9.webp" : {
+      "ft" : 8388608,
+      "iS" : 1349366,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/tmp-img-9.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1317,6 +1382,22 @@
       "oAP" : "\/dist\/team\/marcus-lillington\/index.html",
       "oF" : 0
     },
+    "\/dist\/team\/nour-awwad\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/team\/nour-awwad\/index.html",
+      "oF" : 0
+    },
+    "\/dist\/team\/omar-dajani copy\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/team\/omar-dajani copy\/index.html",
+      "oF" : 0
+    },
     "\/dist\/team\/omar-dajani\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1481,6 +1562,14 @@
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
+    },
+    "\/src\/_includes\/layouts\/_scrap.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/src\/_includes\/layouts\/_scrap.html",
+      "oF" : 0
     },
     "\/src\/_includes\/layouts\/about.html" : {
       "cB" : 0,
@@ -1648,14 +1737,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/src\/_includes\/partials\/icon-quote-open.njk",
-      "oF" : 0
-    },
-    "\/src\/_includes\/partials\/img-index.njk" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/src\/_includes\/partials\/img-index.njk",
       "oF" : 0
     },
     "\/src\/_includes\/partials\/logo-banner.njk" : {
@@ -1928,6 +2009,25 @@
       "oAP" : "\/dist\/css\/critical.css",
       "oF" : 3,
       "pg" : 0
+    },
+    "\/src\/faqs.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/faqs.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
     },
     "\/src\/faqs\/question-1.md" : {
       "cB" : 0,
@@ -2298,6 +2398,28 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/src\/images\/img-nour-awwad-large.webp" : {
+      "ft" : 8388608,
+      "iS" : 727718,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/img-nour-awwad-large.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/img-nour-awwad-small.webp" : {
+      "ft" : 8388608,
+      "iS" : 369114,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/img-nour-awwad-small.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/src\/images\/img-omar-dajani-large.webp" : {
       "ft" : 8388608,
       "iS" : 920370,
@@ -2452,6 +2574,17 @@
       "iS" : 490562,
       "oA" : 0,
       "oAP" : "\/src\/images\/tmp-img-8.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/tmp-img-9.webp" : {
+      "ft" : 8388608,
+      "iS" : 1349366,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/tmp-img-9.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3106,6 +3239,33 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/src\/team\/haim-yacobi.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/team\/nour-awwad.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/team\/nour-awwad.html",
+      "oF" : 0
+    },
+    "\/src\/team\/nour-awwad.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/team\/nour-awwad.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,

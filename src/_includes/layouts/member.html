@@ -45,13 +45,15 @@
 </div><!-- two -->
 
 <div>
+
+{% if blockQuote %}
 <blockquote data-variant="inverted">
 <svg xmlns="http://www.w3.org/2000/svg" width="48" viewBox="0 0 63 50">
 <path fill="#212529" d="M0 14.91Q0 6.555 3.68 3.278 7.358 0 16.007 0h8.133v4.37h-8.133q-6.454 0-8.843 2.121-2.388 2.121-2.388 8.162v27.25H24.14V50H0zm38.859 0q0-8.355 3.679-11.632Q46.217 0 54.867 0H63v4.37h-8.133q-6.455 0-8.843 2.121-2.39 2.121-2.389 8.162v27.25H63V50H38.859z"/>
 </svg>
-
 <p>{{ blockQuote | safe }}</p>
 </blockquote>
+{% endif %}
 
 </div><!-- three -->
 

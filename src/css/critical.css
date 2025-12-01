@@ -25,11 +25,11 @@
 --font-light-normal: "wght" 300, "wdth" 100;
 --font-regular-normal: "wght" 400, "wdth" 100;
 --font-semi-normal: "wght" 500, "wdth" 100;
---font-bold-normal: "wght" 700, "wdth" 100;
+--font-bold-normal: "wght" 600, "wdth" 100;
 --font-light-condensed: "wght" 300, "wdth" 80;
 --font-regular-condensed: "wght" 400, "wdth" 80;
 --font-semi-condensed: "wght" 500, "wdth" 80;
---font-bold-condensed: "wght" 700, "wdth" 80;
+--font-bold-condensed: "wght" 600, "wdth" 80;
 --lineheight-r: 1.6;
 --lineheight-s: 1.4;
 
@@ -38,13 +38,13 @@
 * Light theme with accent colors for visual hierarchy
 */
 
---color-accent: #0aae99; /* Primary brand accent (Desert Sand) */
+--color-accent: #28a4a4; /* Primary brand accent (Green) */
 --color-background-default: #faf9fb; /* Main background */
---color-background-alt: #455254; /* Alternative background */
+--color-background-alt: #265f72; /* Alternative background */
 --color-base: #f9ede1; /* Base colour for panels */
 --color-border: #afb6af; /* Border colour */
---color-contrast: #455254; /* Contrasting colour */
---color-text-default: #455254; /* Primary text color */
+--color-contrast: #265f72; /* Contrasting colour */
+--color-text-default: #265f72; /* Primary text color */
 --color-text-alt: #faf9fb; /* Text on dark backgrounds */
 --color-text-link: var(--color-contrast);
 --color-text-link-hover: var(--color-accent);
@@ -1241,6 +1241,9 @@ RESPONSIVE DESIGN - MEDIA QUERIES
 *MOBILE STYLES (32em)
 */
 
+[data-layout="chugga-boom"] {
+margin-inline: calc(-1 * var(--spacing-r)); }
+
 @media screen and (min-width: 32em) {
 
 [data-layout="sneekly"] {
@@ -1586,28 +1589,25 @@ grid-template-columns: var(--grid-12-col); }
 [data-layout="softy"] > *:nth-child(2) { grid-column: 9 / -1; }
 
 [data-layout="chugga-boom"] {
-align-items: end;
 margin-block-end: var(--spacing-l);
+margin-inline: calc(-1 * var(--spacing-l));
 padding-block-start: var(--spacing-l); }
 
-[data-layout="chugga-boom"] > * { grid-row: 1; }
-
 [data-layout="chugga-boom"] > *:nth-child(1) {
-align-self: start;
-grid-column: 5 / -1;
-padding-top: 100px; }
+grid-column: 9 / -1;
+grid-row: 1; }
 
 [data-layout="chugga-boom"] > *:nth-child(2) {
-align-self: start;
-grid-column: 8 / -1;
-z-index: 10; }
+grid-column: 5 / 9;
+grid-row: 2; }
 
-[data-layout="chugga-boom"] > *:nth-child(3) { grid-column: 1 / 5; }
+[data-layout="chugga-boom"] > *:nth-child(3) {
+grid-column: 1 / 5;
+grid-row: 2; }
 
 [data-layout="chugga-boom"] > *:nth-child(4) {
-align-self: end;
-grid-column: 5 / 9;
-padding-inline-end: var(--spacing-r); }
+grid-column: 9 / -1;
+grid-row: 2; }
 
 [data-layout="sneekly"] {
 align-items: center;
@@ -1691,9 +1691,9 @@ text-decoration-color: var(--color-text-alt); }
 border-color: var(--color-border); }
 }
 
-.alt-arrow path {
+.alt-arrow path,
+.graphic-text-dark {
 fill: var(--color-text-alt); }
-
 }
 
 .theme-toggle {
