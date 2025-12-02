@@ -27,9 +27,9 @@
 <hr>
 
 <ul class="alt-inline">
+<li><a href="#section-scenarios">Future scenarios</a></li>
 <li><a href="#section-lexicon">Alternative Lexicon</a></li>
 <li><a href="#section-highlights">Highlights</a></li>
-<li><a href="#section-scenarios">Future scenarios</a></li>
 </ul>
 
 </div><!-- two -->
@@ -75,9 +75,18 @@
 
 
 
+<hr data-function="spacer" id="section-scenarios">
+
+{% include "partials/scenarios-list.html" %}
+
+
+
+
+<section data-theme="inverted">
+
 <hr data-function="spacer" id="section-lexicon">
 
-<h2 class="alt-bg"><a href="/lexicon-grid">Alternative Lexicon</a></h2>
+<h2><a href="/lexicon-grid">Alternative Lexicon</a></h2>
 
 <div data-layout="flex" data-border="r">
 {% set recentLexicon = collections.lexicon | sort(false, false, "date") | reverse | limit(3) %}
@@ -89,15 +98,15 @@
 {% endfor %}
 </div><!-- layout -->
 
+</section>
 
 
 
 
 <hr data-function="spacer" id="section-highlights">
 
-<section data-theme="inverted">
 
-<h2><a href="/blog">Highlights</a></h2>
+<h2 class="alt-bg"><a href="/blog">Highlights</a></h2>
 
 <div data-content="posts">
 {% set postListItems = collections.blog | limit(6) %}
@@ -109,23 +118,18 @@
 <small>{{ item.data.postDate | dateFilter('d MMM yyyy') }}</small>
 </div><!-- alt-bordered -->
 
-<h2><a href="{{ item.url }}">{{ item.data.title }}</a></h2>
+<h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
 
 </article>
 {% endfor %}
 
 </div><!-- posts -->
 
-</section><!-- inverted -->
-
-
-
-
-<hr data-function="spacer" id="section-scenarios">
 
 {% endblock %}
 
-{% include "partials/scenarios-list.html" %}
+
+<hr data-function="spacer">
 
 
 

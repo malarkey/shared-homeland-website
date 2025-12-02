@@ -6,12 +6,18 @@ layout: "layouts/base.html"
 <div class="layout" data-layout="yogi">
 
 <div>
+{% if collections.resources and collections.resources.length %}
 {% set resources = collections.resources %}
 {% include "partials/resources-list.html" %}
+{% else %}
+<p>No knowledge hub items available yet.</p>
+{% endif %}
 </div><!-- one -->
 
 <div>
+{% if collections.resources and collections.resources.length %}
 {% include "partials/resources-nav.html" %}
+{% endif %}
 </div><!-- two -->
 
 </div>

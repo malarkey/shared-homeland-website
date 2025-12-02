@@ -113,10 +113,6 @@
 --saturate-up: 1.25;
 --saturate-down: .85; }
 
-@supports (color: color(display-p3 1 1 1)) {
-:root { }
-}
-
 [data-theme="dark"] {
 --color-accent: #06aae0; /* Primary brand accent (Desert Sand) */
 --color-background-default: #232729; /* Main background */
@@ -409,6 +405,7 @@ TEXT TREATMENT CLASSES
 
 .alt-lede {
 font-family: var(--font-family-alt);
+font-size: var(--font-size-m);
 font-variation-settings: var(--font-bold-condensed);
 text-transform: uppercase; }
 

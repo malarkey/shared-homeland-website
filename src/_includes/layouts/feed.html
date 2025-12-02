@@ -18,10 +18,15 @@
 <div class="layout" data-layout="boo-boo">
 
 <div data-content="posts">
+{% if collections.blog and collections.blog.length %}
 {% include "partials/post-list.html" %}
+{% else %}
+<p>No highlights yet.</p>
+{% endif %}
 </div><!-- one -->
 
 <aside>
+{% if collections.blog and collections.blog.length %}
 <h2>Categories</h2>
 <ul class="alt-" data-variant="bordered-l">
 {% for category in collections.postCategories %}
@@ -37,6 +42,7 @@
 <li><a href="/blog/tag/{{ tag | slug }}/">{{ tag }}</a></li>
 {% endfor %}
 </ul>
+{% endif %}
 </aside><!-- two -->
 
 </div><!-- layout -->
