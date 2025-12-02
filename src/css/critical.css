@@ -1682,7 +1682,7 @@ padding: var(--spacing-r);
 color: var(--color-text-alt) !important;
 
 &:hover {
-text-decoration-color: var(--color-text-alt); }
+text-decoration-color: var(--color-text-link-hover); }
 }
 
 &:has(.alt-bordered, [data-variant="bordered-l"]) {
@@ -1733,14 +1733,14 @@ fill: #fff; }
 
 [data-theme="dark"] [data-theme="inverted"] {
 background-color: #1a1d1e;
-color: var(--color-text-default);
+color: var(--color-text-default); }
 
-[data-theme="dark"] [data-theme="inverted"] .alt-arrow path {
-fill: var(--color-text-alt); }
+[data-theme="dark"] [data-theme="inverted"] .alt-arrow path,
+[data-theme="dark"] [data-theme="inverted"] .graphic-text-dark {
+fill: var(--color-text-default); }
 
-& :is(a, a:visited) {
+[data-theme="dark"] [data-theme="inverted"] :is(a, a:visited) {
 color: var(--color-text-default) !important;
 
-&:hover {
-text-decoration-color: var(--color-text-default); }
-}
+[data-theme="dark"] [data-theme="inverted"] a:hover {
+text-decoration-color: var(--color-text-link-hover); }
