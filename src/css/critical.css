@@ -7,7 +7,6 @@
 */
 
 --font-family-default: "Bankside Sans VF", sans-serif;
---font-family-alt: "Merriweather Sans", sans-serif;
 
 /* Fluid font scale - scales between min/max viewports */
 
@@ -38,14 +37,14 @@
 * Light theme with accent colors for visual hierarchy
 */
 
---color-accent: #28a4a4; /* Primary brand accent (Green) */
---color-background-default: #faf9fb; /* Main background */
---color-background-alt: #265f72; /* Alternative background */
---color-base: #f9ede1; /* Base colour for panels */
---color-border: #afb6af; /* Border colour */
---color-contrast: #265f72; /* Contrasting colour */
---color-text-default: #265f72; /* Primary text color */
---color-text-alt: #faf9fb; /* Text on dark backgrounds */
+--color-accent: color(display-p3 0.32 0.634 0.638); /* Primary brand accent (Green) */
+--color-background-default: color(display-p3 0.98 0.977 0.984); /* Main background */
+--color-background-alt: color(display-p3 0.21 0.368 0.439); /* Alternative background */
+--color-base: color(display-p3 0.968 0.931 0.888); /* Base colour for panels */
+--color-border: color(display-p3 0.691 0.713 0.688); /* Border colour */
+--color-contrast: color(display-p3 0.21 0.368 0.439); /* Contrasting colour */
+--color-text-default: color(display-p3 0.21 0.368 0.439); /* Primary text color */
+--color-text-alt: color(display-p3 0.98 0.977 0.984); /* Text on dark backgrounds */
 --color-text-link: var(--color-contrast);
 --color-text-link-hover: var(--color-accent);
 --color-text-link-decoration: var(--color-contrast);
@@ -114,14 +113,14 @@
 --saturate-down: .85; }
 
 [data-theme="dark"] {
---color-accent: #06aae0; /* Primary brand accent (Desert Sand) */
---color-background-default: #232729; /* Main background */
---color-background-alt: #faf9fb; /* Alternative background */
---color-base: #f9ede1; /* Base colour for panels */
---color-border: #afb6af; /* Border colour */
---color-contrast: #faf9fb; /* Contrasting colour */
---color-text-default: #faf9fb; /* Primary text color */
---color-text-alt: #232729; /* Text on dark backgrounds */
+--color-accent: color(display-p3 0.299 0.657 0.859); /* Primary brand accent (Desert Sand) */
+--color-background-default: color(display-p3 0.14 0.152 0.16); /* Main background */
+--color-background-alt: color(display-p3 0.98 0.977 0.984); /* Alternative background */
+--color-base: color(display-p3 0.968 0.931 0.888); /* Base colour for panels */
+--color-border: color(display-p3 0.691 0.713 0.688); /* Border colour */
+--color-contrast: color(display-p3 0.98 0.977 0.984); /* Contrasting colour */
+--color-text-default: color(display-p3 0.98 0.977 0.984); /* Primary text color */
+--color-text-alt: color(display-p3 0.14 0.152 0.16); /* Text on dark backgrounds */
 --color-text-link: var(--color-contrast);
 --color-text-link-hover: var(--color-accent);
 --color-text-link-decoration: var(--color-contrast);
@@ -233,6 +232,7 @@ html {
 -moz-text-size-adjust: none;
 -webkit-text-size-adjust: 100%;
 background-color: var(--color-background-default);
+min-height: 100vh;
 overflow-x: hidden;
 scroll-behavior: smooth;
 text-size-adjust: none; }
@@ -404,13 +404,12 @@ TEXT TREATMENT CLASSES
 .alt-accent { color: var(--color-accent); } /* Accent color text */
 
 .alt-lede {
-font-family: var(--font-family-alt);
 font-size: var(--font-size-m);
-font-variation-settings: var(--font-bold-condensed);
+font-variation-settings: var(--font-semi-condensed);
+line-height: var(--lineheight-s);
 text-transform: uppercase; }
 
 .alt-uppercase {
-font-family: var(--font-family-alt);
 text-transform: uppercase; }
 
 /* ==========================================================================
@@ -660,7 +659,7 @@ FORM COMPONENTS
 
 /* Form base styles */
 form {
-font-family: var(--font-family-alt);
+font-family: var(--font-family-default);
 margin: 0;
 padding: 0; }
 
@@ -996,8 +995,7 @@ text-decoration: none !important; }
 background-color: var(--color-background-default);
 border: var(--border-width-r) solid var(--color-border);
 border-radius: 3px;
-color: var(--color-text-default);
-font-family: var(--font-family-alt); }
+color: var(--color-text-default); }
 
 .letter-link:nth-of-type(1) {
 padding-inline: 5px; }

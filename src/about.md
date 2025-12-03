@@ -12,6 +12,11 @@ lede: >
 main: |
   <p>The Shared Homeland Paradigm: Reimagining Space, Rights and Partnerships in Palestine-Israel is a &#163;1 million &#8220;responsive mode&#8221; grant from UK Research and Innovation (UKRI) Economic and Social Research Council (ESRC) that pursue in collaboration with A Land for All (ALFA), a political initiative advocating a vision of &#8220;two states, one homeland,&#8221; and one of the few popular movements in Palestine-Israel whose leadership and members are drawn from across both nations.</p>
 
+  <figure>
+  <img src="/images/tmp-img-10.webp" alt="">
+  <figcaption>Photograph from A Land for All</figcaption>
+  </figure>
+
   <p>The project aims to develop a new conceptual basis for configuring space and rights in Palestine-Israel and build practical scenarios that chart a path from the current &#8220;one-state reality&#8221; to a two-state confederation built upon the values of equality, mutual self-determination, liberty of movement, and genuine interethnic partnership.</p>
 
   <blockquote data-variant="m">
@@ -25,6 +30,11 @@ extended: |
   <hr>
 
   <p>The program of research, scenario development, and civil society engagement contributes to the conceptual clarity and policy depth to the platform of ALFA, by elaborating the shared homeland paradigm at the center of ALFA's vision. More broadly, our project offers a bridge for the international diplomatic community from the moribund concept of a two-state solution it has championed for several decades to one capable of realization and grounded in values worthy of support.</p>
+
+  <figure>
+  <img src="/images/tmp-img-11.webp" alt="">
+  <figcaption>Photograph from A Land for All</figcaption>
+  </figure>
 
   <p>The Shared Homeland Paradigm, Reimagining Space, Rights and Partnerships in Palestine-Israel is designed both to develop the shared homeland paradigm and to help bring it within mainstream discourse among the public in Palestine-Israel and influential policy communities elsewhere. We situate the paradigm in relation to relevant theoretical and discursive frameworks, preparing background papers that survey and analyse relevant comparative experience and introducing a lexicon that charts the meaning of related terms and proposes a vocabulary for elaborating the concept of partnership.</p>
 

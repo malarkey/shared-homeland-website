@@ -18,7 +18,7 @@
 </div><!-- one -->
 
 <div>
-{% include "partials/logo-banner.njk" %}
+<div style="max-inline-size:320px;">{% include "partials/logo-banner.njk" %}</div>
 <h1 data-visibility="hidden">{{ title }}</h1>
 {{ lede | safe }}
 {{ main | safe }}
@@ -26,7 +26,7 @@
 
 <hr>
 
-<ul class="alt-inline">
+<ul class="alt-inline" data-size="s">
 <li><a href="#section-scenarios">Future scenarios</a></li>
 <li><a href="#section-lexicon">Alternative Lexicon</a></li>
 <li><a href="#section-highlights">Highlights</a></li>

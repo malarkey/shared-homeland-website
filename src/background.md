@@ -10,6 +10,11 @@ By the late nineteenth century, the region known as Palestine (then part of the 
 
 Then came World War I and the collapse of the Ottoman Empire. Britain took control of what became known as the British Mandate for Palestine. In 1917 the British government issued the Balfour Declaration, which pledged support for a “national home for the Jewish people” in Palestine — while also stating that “nothing shall be done which may prejudice the civil and religious rights of existing non-Jewish communities in Palestine.” Over the next decades, increased Jewish immigration (especially fleeing Europe in the 1930s and post-Holocaust) changed the demographics and intensities of tensions in the territory.
 
+<figure>
+<img src="/images/tmp-img-12.webp" alt="">
+<figcaption>Photograph from A Land for All</figcaption>
+</figure>
+
 These conditions produced inter-communal violence between Jewish and Arab communities during the Mandate period. By the late 1930s, the Arab Palestinian population launched a revolt against British rule and Zionist immigration — signalling that the Arab community rejected the terms being moulded around them.
 
 Fast-forward to 1947: the United Nations Partition Plan (Resolution 181) proposed that the British Mandate territory be partitioned into separate Jewish and Arab states, with Jerusalem under international control. Arab leaders and Palestinian Arabs rejected the plan; Jewish leadership accepted it with reservations. On 14 May 1948, the State of Israel declared independence. Within hours, armies from neighbouring Arab states (Egypt, Transjordan/Jordan, Syria, Lebanon, Iraq) entered the former Mandate territory. That conflict is known as the 1948 Arab–Israeli War.
