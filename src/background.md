@@ -1,5 +1,5 @@
 ---
-featureImage: /images/img-background.svg
+featureImage: /images/img-background.webp
 layout: layouts/page.html
 title: Background
 permalink: /background/
@@ -9,11 +9,6 @@ permalink: /background/
 By the late nineteenth century, the region known as Palestine (then part of the Ottoman Empire) was home predominantly to Arab Muslim communities, with smaller numbers of Arab Christians and Jews. During the same period, the Zionist movement emerged in Europe: Jews, facing antisemitism and seeking national self-determination, argued for a return to a Jewish homeland in what they regarded as the Land of Israel. The Ottoman authorities and local Arab populations both anticipated problems from the growing immigrant Jewish population and land purchases.
 
 Then came World War I and the collapse of the Ottoman Empire. Britain took control of what became known as the British Mandate for Palestine. In 1917 the British government issued the Balfour Declaration, which pledged support for a “national home for the Jewish people” in Palestine — while also stating that “nothing shall be done which may prejudice the civil and religious rights of existing non-Jewish communities in Palestine.” Over the next decades, increased Jewish immigration (especially fleeing Europe in the 1930s and post-Holocaust) changed the demographics and intensities of tensions in the territory.
-
-<figure>
-<img src="/images/tmp-img-12.webp" alt="">
-<figcaption>Photograph from A Land for All</figcaption>
-</figure>
 
 These conditions produced inter-communal violence between Jewish and Arab communities during the Mandate period. By the late 1930s, the Arab Palestinian population launched a revolt against British rule and Zionist immigration — signalling that the Arab community rejected the terms being moulded around them.
 

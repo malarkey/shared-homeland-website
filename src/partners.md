@@ -50,7 +50,19 @@ lede: >
 
 <p>They are a generative source of ideas and expertise for policymakers and peace-builders seeking to advance a two-state solution that is not only equitable in theory but workable in practice, for both peoples. Their model rejects zero-sum thinking on complex issues like Jerusalem, settlements, and refugees, and instead promotes creative and fair solutions.</p>
 
-<p>Since 2012, they have brought together activists, academics, diplomats, and thought leaders around a simple and powerful truth: this land is home to two peoples. Any lasting resolution must affirm the equal right of both nations to self-determination, while honoring their unique identities, histories, and needs. Their lives are already inextricably intertwined, not only emotionally and historically, but in the most basic, everyday ways: through shared aquifers, electricity grids, labor markets, and security realities. A shared peaceful future requires a political framework that reflects their interdependence, alongside their separate needs. Without it, they remain trapped in the cycles of fear, violence, and loss.</p>
+  <figure>
+  <img src="/images/tmp-img-10.webp" alt="">
+  <figcaption>Photograph from A Land for All</figcaption>
+  </figure>
+
+<p>Since 2012, they have brought together activists, academics, diplomats, and thought leaders around a simple and powerful truth: this land is home to two peoples. Any lasting resolution must affirm the equal right of both nations to self-determination, while honoring their unique identities, histories, and needs.
+
+  <figure>
+  <img src="/images/tmp-img-11.webp" alt="">
+  <figcaption>Photograph from A Land for All</figcaption>
+  </figure>
+
+<p>Their lives are already inextricably intertwined, not only emotionally and historically, but in the most basic, everyday ways: through shared aquifers, electricity grids, labor markets, and security realities. A shared peaceful future requires a political framework that reflects their interdependence, alongside their separate needs. Without it, they remain trapped in the cycles of fear, violence, and loss.</p>
 </div>
 
 </div><!-- layout -->

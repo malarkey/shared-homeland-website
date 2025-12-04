@@ -1,5 +1,5 @@
 ---
-featureImage: /images/img-contact.svg
+featureImage: /images/img-contact.webp
 featureImageCaption:
 layout: 'layouts/contact.html'
 metaDesc:

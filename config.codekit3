@@ -154,46 +154,6 @@
       "oAP" : "\/dist\/blog\/category\/papers\/index.html",
       "oF" : 0
     },
-    "\/dist\/blog\/el-kabong-1\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/blog\/el-kabong-1\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/blog\/el-kabong-2\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/blog\/el-kabong-2\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/blog\/el-kabong-3\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/blog\/el-kabong-3\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/blog\/el-kabong-4\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/blog\/el-kabong-4\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/blog\/el-kabong-5\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/blog\/el-kabong-5\/index.html",
-      "oF" : 0
-    },
     "\/dist\/blog\/from-conflict-to-partnership\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -588,6 +548,17 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/dist\/images\/img-about.webp" : {
+      "ft" : 8388608,
+      "iS" : 465812,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/img-about.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/dist\/images\/img-adi-berkovits-large.webp" : {
       "ft" : 8388608,
       "iS" : 3288,
@@ -620,6 +591,17 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/dist\/images\/img-background.webp" : {
+      "ft" : 8388608,
+      "iS" : 853726,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/img-background.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/dist\/images\/img-contact.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -629,6 +611,17 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/dist\/images\/img-contact.webp" : {
+      "ft" : 8388608,
+      "iS" : 316370,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/img-contact.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
     },
     "\/dist\/images\/img-fady-khoury-large.webp" : {
       "ft" : 8388608,
@@ -674,9 +667,42 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/dist\/images\/img-index-1.webp" : {
+      "ft" : 8388608,
+      "iS" : 581230,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/img-index-1.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/img-index-2.webp" : {
+      "ft" : 8388608,
+      "iS" : 262876,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/img-index-2.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/img-index-3.webp" : {
+      "ft" : 8388608,
+      "iS" : 455334,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/img-index-3.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/dist\/images\/img-nour-awwad-large.webp" : {
       "ft" : 8388608,
-      "iS" : 727718,
+      "iS" : 726504,
       "oA" : 0,
       "oAP" : "\/dist\/images\/img-nour-awwad-large.webp",
       "oF" : 0,
@@ -698,7 +724,7 @@
     },
     "\/dist\/images\/img-omar-dajani-large.webp" : {
       "ft" : 8388608,
-      "iS" : 909468,
+      "iS" : 909122,
       "oA" : 0,
       "oAP" : "\/dist\/images\/img-omar-dajani-large.webp",
       "oF" : 0,
@@ -881,6 +907,39 @@
       "iS" : 1349366,
       "oA" : 0,
       "oAP" : "\/dist\/images\/tmp-img-9.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/tmp-img-10.webp" : {
+      "ft" : 8388608,
+      "iS" : 1894288,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/tmp-img-10.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/tmp-img-11.webp" : {
+      "ft" : 8388608,
+      "iS" : 2674272,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/tmp-img-11.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/images\/tmp-img-12.webp" : {
+      "ft" : 8388608,
+      "iS" : 1989386,
+      "oA" : 0,
+      "oAP" : "\/dist\/images\/tmp-img-12.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -2362,15 +2421,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/images\/img-about.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/src\/images\/img-about.svg",
+    "\/src\/images\/img-about.webp" : {
+      "ft" : 8388608,
+      "iS" : 180912,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/img-about.webp",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "ou" : "lpckwebp-default",
+      "rq" : 75
     },
     "\/src\/images\/img-adi-berkovits-large.webp" : {
       "ft" : 8388608,
@@ -2385,7 +2445,7 @@
     },
     "\/src\/images\/img-adi-berkovits-small.webp" : {
       "ft" : 8388608,
-      "iS" : 462542,
+      "iS" : 43414,
       "oA" : 0,
       "oAP" : "\/src\/images\/img-adi-berkovits-small.webp",
       "oF" : 0,
@@ -2394,25 +2454,27 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/src\/images\/img-background.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/src\/images\/img-background.svg",
+    "\/src\/images\/img-background.webp" : {
+      "ft" : 8388608,
+      "iS" : 332810,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/img-background.webp",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "ou" : "lpckwebp-default",
+      "rq" : 75
     },
-    "\/src\/images\/img-contact.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/src\/images\/img-contact.svg",
+    "\/src\/images\/img-contact.webp" : {
+      "ft" : 8388608,
+      "iS" : 130920,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/img-contact.webp",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "ou" : "lpckwebp-default",
+      "rq" : 75
     },
     "\/src\/images\/img-fady-khoury-large.webp" : {
       "ft" : 8388608,
@@ -2427,7 +2489,7 @@
     },
     "\/src\/images\/img-fady-khoury-small.webp" : {
       "ft" : 8388608,
-      "iS" : 347196,
+      "iS" : 19096,
       "oA" : 0,
       "oAP" : "\/src\/images\/img-fady-khoury-small.webp",
       "oF" : 0,
@@ -2449,7 +2511,7 @@
     },
     "\/src\/images\/img-haim-yacobi-small.webp" : {
       "ft" : 8388608,
-      "iS" : 394534,
+      "iS" : 46302,
       "oA" : 0,
       "oAP" : "\/src\/images\/img-haim-yacobi-small.webp",
       "oF" : 0,
@@ -2458,9 +2520,42 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/src\/images\/img-index-1.webp" : {
+      "ft" : 8388608,
+      "iS" : 581230,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/img-index-1.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/img-index-2.webp" : {
+      "ft" : 8388608,
+      "iS" : 255374,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/img-index-2.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/img-index-3.webp" : {
+      "ft" : 8388608,
+      "iS" : 232222,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/img-index-3.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/src\/images\/img-nour-awwad-large.webp" : {
       "ft" : 8388608,
-      "iS" : 727718,
+      "iS" : 21036,
       "oA" : 0,
       "oAP" : "\/src\/images\/img-nour-awwad-large.webp",
       "oF" : 0,
@@ -2471,7 +2566,7 @@
     },
     "\/src\/images\/img-nour-awwad-small.webp" : {
       "ft" : 8388608,
-      "iS" : 369114,
+      "iS" : 12210,
       "oA" : 0,
       "oAP" : "\/src\/images\/img-nour-awwad-small.webp",
       "oF" : 0,
@@ -2482,7 +2577,7 @@
     },
     "\/src\/images\/img-omar-dajani-large.webp" : {
       "ft" : 8388608,
-      "iS" : 920370,
+      "iS" : 55630,
       "oA" : 0,
       "oAP" : "\/src\/images\/img-omar-dajani-large.webp",
       "oF" : 0,
@@ -2493,7 +2588,7 @@
     },
     "\/src\/images\/img-omar-dajani-small.webp" : {
       "ft" : 8388608,
-      "iS" : 341912,
+      "iS" : 26498,
       "oA" : 0,
       "oAP" : "\/src\/images\/img-omar-dajani-small.webp",
       "oF" : 0,
@@ -2602,6 +2697,39 @@
       "iS" : 1349366,
       "oA" : 0,
       "oAP" : "\/src\/images\/tmp-img-9.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/tmp-img-10.webp" : {
+      "ft" : 8388608,
+      "iS" : 1894288,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/tmp-img-10.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/tmp-img-11.webp" : {
+      "ft" : 8388608,
+      "iS" : 2674272,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/tmp-img-11.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/src\/images\/tmp-img-12.webp" : {
+      "ft" : 8388608,
+      "iS" : 1989386,
+      "oA" : 0,
+      "oAP" : "\/src\/images\/tmp-img-12.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
