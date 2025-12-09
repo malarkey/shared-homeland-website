@@ -6,6 +6,7 @@ popular: false
 title: 'Palestine region'
 summary: 'The Palestine region refers to the historical area between the Mediterranean Sea and the Jordan River, encompassing modern Israel, the West Bank, and Gaza, long contested by overlapping national, religious, and cultural claims.'
 url: 'https://en.wikipedia.org/wiki/Palestine'
+pdf: 'https://en.wikipedia.org/wiki/Palestine'
 ---
 The Palestine region is a geographic and cultural area located between the Mediterranean Sea and the Jordan River. Historically known as a crossroads of civilisations, it has been home to diverse peoples and faiths for thousands of years. The name “Palestine” has referred to different territories over time, from ancient provinces under empires to the British Mandate of Palestine established after World War I.
 

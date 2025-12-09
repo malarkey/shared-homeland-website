@@ -6,6 +6,7 @@ popular: false
 title: 'Palestinian Authority'
 summary: 'The Palestinian Authority (PA) is a semi-autonomous governing body established by the 1994 Oslo Accords to administer parts of the West Bank and Gaza until a final peace agreement is reached.'
 url: 'https://en.wikipedia.org/wiki/Palestine'
+pdf: 'https://en.wikipedia.org/wiki/Palestine'
 ---
 The Palestinian Authority (PA) was created in 1994 following the Oslo Accords between Israel and the Palestine Liberation Organization (PLO). It was intended as an interim self-governing body responsible for administering parts of the West Bank and Gaza Strip until a final peace settlement could be achieved.
 

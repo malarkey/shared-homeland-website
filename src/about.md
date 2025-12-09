@@ -1,5 +1,5 @@
 ---
-featureImage: /images/img-about.webp
+featureImage: /images/img-contact.webp
 featureImageCaption:
 layout: layouts/about.html
 metaDesc: "About the Shared Homeland Paradigm research project"

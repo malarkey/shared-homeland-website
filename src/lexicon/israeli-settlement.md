@@ -6,6 +6,7 @@ popular: false
 title: 'Israeli settlement'
 summary: 'Israeli settlements are communities built by Israel in territories occupied since 1967, including the West Bank and East Jerusalem. They’re widely considered illegal under international law and a major obstacle to peace.'
 url: 'https://en.wikipedia.org/wiki/Palestine'
+pdf: 'https://en.wikipedia.org/wiki/Palestine'
 ---
 Israeli settlements refer to civilian communities established by Israel in territories captured during the 1967 Six-Day War, primarily the West Bank and East Jerusalem. These areas are regarded by most of the international community as occupied territories, and the construction of settlements there is considered a violation of the Fourth Geneva Convention, which prohibits an occupying power from transferring its population into occupied land.
 

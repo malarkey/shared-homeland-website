@@ -15,7 +15,7 @@ eleventyComputed:
 
 summary: Holds a BA in Sociology and Anthropology from the Hebrew University of Jerusalem and an MSc in Human Rights from the London School of Economics.
 
-blockQuote: Our project offers a bridge for the international diplomatic community from the moribund concept of a two-state solution to one capable of realisation and grounded in values worthy of support.
+blockQuote:
 
 ---
 

@@ -6,6 +6,7 @@ popular: false
 title: 'Israeli occupation'
 summary: 'The Israeli occupation refers to Israel’s control over Palestinian territories captured in 1967, including the West Bank and East Jerusalem, marked by military rule, settlements, and restrictions on Palestinian movement and sovereignty.'
 url: 'https://en.wikipedia.org/wiki/Palestine'
+pdf: 'https://en.wikipedia.org/wiki/Palestine'
 ---
 The term Israeli occupation describes Israel’s ongoing control of territories captured during the 1967 Six-Day War, including the West Bank and East Jerusalem. Although Israel withdrew from Gaza in 2005, it continues to control Gaza’s borders, airspace, and sea access, leading many to argue that the occupation effectively persists there too.
 

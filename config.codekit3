@@ -382,14 +382,6 @@
       "oAP" : "\/dist\/fonts\/bankside-sans-vf.woff2",
       "oF" : 0
     },
-    "\/dist\/gallery copy\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/gallery copy\/index.html",
-      "oF" : 0
-    },
     "\/dist\/gallery\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -794,59 +786,6 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/dist\/images\/tmp-featured.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dist\/images\/tmp-featured.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/dist\/images\/tmp-img-1.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dist\/images\/tmp-img-1.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/dist\/images\/tmp-img-1.webp" : {
-      "ft" : 8388608,
-      "iS" : 184940,
-      "oA" : 0,
-      "oAP" : "\/dist\/images\/tmp-img-1.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
-    "\/dist\/images\/tmp-img-2.webp" : {
-      "ft" : 8388608,
-      "iS" : 124386,
-      "oA" : 0,
-      "oAP" : "\/dist\/images\/tmp-img-2.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
-    "\/dist\/images\/tmp-img-3.webp" : {
-      "ft" : 8388608,
-      "iS" : 106200,
-      "oA" : 0,
-      "oAP" : "\/dist\/images\/tmp-img-3.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
     "\/dist\/images\/tmp-img-4.webp" : {
       "ft" : 8388608,
       "iS" : 390194,
@@ -945,16 +884,6 @@
       "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
-    },
-    "\/dist\/images\/tmp-img.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dist\/images\/tmp-img.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
     },
     "\/dist\/index.html" : {
       "cB" : 0,

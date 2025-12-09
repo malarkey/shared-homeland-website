@@ -15,7 +15,7 @@ eleventyComputed:
 
 summary: The Carol Olson Professor of International Law at McGeorge School of Law, University of the Pacific. The son of a Palestinian refugee from Jaffa, Omar served as a legal adviser to the Palestinian negotiating team in peace talks with Israel from 1999 to 2001, participating in the summits at Camp David and Taba.
 
-blockQuote: Our project offers a bridge for the international diplomatic community from the moribund concept of a two-state solution to one capable of realisation and grounded in values worthy of support.
+blockQuote:
 
 ---
 

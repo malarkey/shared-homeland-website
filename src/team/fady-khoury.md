@@ -15,7 +15,7 @@ eleventyComputed:
 
 summary: A legal scholar interested in public law, human rights law, constitutional design, post-conflict constitutionalism, political/legal sociology and legal history.
 
-blockQuote: Our project offers a bridge for the international diplomatic community from the moribund concept of a two-state solution to one capable of realisation and grounded in values worthy of support.
+blockQuote:
 
 ---
 

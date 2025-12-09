@@ -2,7 +2,7 @@
 item-title: "From Conflict to Partnership"
 item-author: "Andy Clarke"
 item-date: 2025-11-20
-item-type: Website
+item-type: English
 item-url: "https://stuffandnonsense.co.uk"
 item-categories: ["Articles", "Background papers", "Books", "Podcasts", "Reports" ]
 item-tags: ["Israel", "Occupation", "Palestine"]

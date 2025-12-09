@@ -2,9 +2,11 @@
 categories: ['States']
 featured: true
 layout: 'layouts/term.html'
-popular: true
+popular: false
 title: 'Gaza Strip'
 summary: 'The Gaza Strip, also known simply as Gaza, is the smaller of the two Palestinian territories (the other being the West Bank) that make up the State of Palestine.'
+url: 'https://en.wikipedia.org/wiki/Palestine'
+pdf: 'https://en.wikipedia.org/wiki/Palestine'
 ---
 The Gaza Strip, also known simply as Gaza, is the smaller of the two Palestinian territories (the other being the West Bank) that make up the State of Palestine.
 

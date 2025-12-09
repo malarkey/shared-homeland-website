@@ -5,7 +5,8 @@ layout: 'layouts/term.html'
 popular: false
 title: 'Humanitarian crisis'
 summary: 'A humanitarian crisis is a severe situation threatening large populations’ health, safety, or survival, often caused by conflict, natural disaster, or political collapse, demanding urgent international aid and coordinated response.'
-url:
+url: 'https://en.wikipedia.org/wiki/Palestine'
+pdf: 'https://en.wikipedia.org/wiki/Palestine'
 ---
 A humanitarian crisis occurs when large numbers of people face serious threats to their lives, health, or dignity, and when local systems are unable to cope. These crises may be triggered by armed conflict, natural disasters such as earthquakes or floods, or political and economic collapse that leads to widespread displacement, hunger, or disease.
 

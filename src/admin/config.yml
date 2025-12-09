@@ -58,13 +58,15 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Term", name: "title", widget: "string"}
-      - {label: "Summary", name: "summary", widget: "text"}
-      - {label: "Detailed Description", name: "body", widget: "markdown"}
-      - {label: "Categories", name: "categories", widget: "list"}
-      - {label: "Featured Term", name: "featured", widget: "boolean", default: false}
-      - {label: "Popular Term", name: "popular", widget: "boolean", default: false}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/term.html"}
+    - {label: "Term", name: "title", widget: "string"}
+    - {label: "Summary", name: "summary", widget: "text"}
+    - {label: "Detailed Description", name: "body", widget: "markdown"}
+    - {label: "Categories", name: "categories", widget: "list"}
+    - {label: "Featured Term", name: "featured", widget: "boolean", default: false}
+    - {label: "Popular Term", name: "popular", widget: "boolean", default: false}
+    - {label: "Wikipedia URL", name: "url", widget: "string", required: false}
+    - {label: "PDF URL", name: "pdf", widget: "string", required: false}
+    - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/term.html"}
 
   - name: "blog"
     label: "Blog Posts"

@@ -2,7 +2,7 @@
 item-title: "The Power of Language"
 item-author: "Andy Clarke"
 item-date: 2025-11-20
-item-type: PDF
+item-type: Arabic
 item-url: "https://stuffandnonsense.co.uk"
 item-categories: ["Articles", "Books", "Podcasts", "Reports" ]
 item-tags: ["Israel", "Occupation", "Palestine"]

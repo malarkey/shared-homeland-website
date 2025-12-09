@@ -15,7 +15,7 @@ eleventyComputed:
 
 summary: Professor of Development Planning at the Bartlett Development Planning Unit, UCL and the Programme Leader of the MSc Health in Urban Development. With a background in architecture, he specialised in critical urban studies and urban health.
 
-blockQuote: Our project offers a bridge for the international diplomatic community from the moribund concept of a two-state solution to one capable of realisation and grounded in values worthy of support.
+blockQuote:
 
 ---
 

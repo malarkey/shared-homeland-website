@@ -2,7 +2,7 @@
 item-title: "Reimagining Shared Space"
 item-author: "Andy Clarke"
 item-date: 2025-11-20
-item-type: PDF
+item-type: Hebrew
 item-url: "https://stuffandnonsense.co.uk"
 item-categories: ["Global Insights", "Curated reading list" ]
 item-tags: ["Israel", "Occupation", "Palestine"]

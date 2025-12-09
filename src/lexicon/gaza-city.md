@@ -2,9 +2,11 @@
 categories: ['Cities']
 featured: false
 layout: 'layouts/term.html'
-popular: true
+popular: false
 title: 'Gaza City'
 summary: 'Gaza City, is a city in the Gaza Strip, Palestine, and the capital of the Gaza Governorate. Located on the Mediterranean coast, it was home to Palestine’s only port.'
+url: 'https://en.wikipedia.org/wiki/Palestine'
+pdf: 'https://en.wikipedia.org/wiki/Palestine'
 ---
 Gaza City, is a city in the Gaza Strip, Palestine, and the capital of the Gaza Governorate. Located on the Mediterranean coast, it was home to Palestine's only port. With a population of 590,481 people as of 2017, Gaza City was the most populous city in Palestine until the Gaza war caused most of the population to be displaced.
 

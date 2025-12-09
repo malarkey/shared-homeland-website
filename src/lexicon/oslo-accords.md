@@ -2,10 +2,11 @@
 categories: ['States', 'Cities']
 featured: true
 layout: 'layouts/term.html'
-popular: true
+popular: false
 title: 'Oslo Accords'
 summary: 'The Oslo Accords were 1990s agreements between Israel and the Palestine Liberation Organization (PLO) aimed at achieving peace, creating the Palestinian Authority, and outlining steps toward a two-state solution.'
 url: 'https://en.wikipedia.org/wiki/Palestine'
+pdf: 'https://en.wikipedia.org/wiki/Palestine'
 ---
 The Oslo Accords were a series of agreements signed between Israel and the Palestine Liberation Organization (PLO) in the 1990s, beginning with the first accord in 1993. Negotiated secretly in Norway, the accords marked the first formal, direct recognition between the two sides: Israel recognised the PLO as the legitimate representative of the Palestinian people, and the PLO recognised Israel’s right to exist in peace and security.
 

@@ -1,7 +1,6 @@
 ---
-featureImage: /images/img-background.webp
 layout: layouts/page.html
-title: Background
+title: Project background
 permalink: /background/
 
 ---

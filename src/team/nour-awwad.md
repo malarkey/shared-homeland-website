@@ -15,6 +15,8 @@ eleventyComputed:
 
 summary: Holds a B.Sc. in Soil and Water Sciences from the Hebrew University and an M.Sc. in Hydrology and Water Quality from Ben-Gurion University.
 
+blockQuote:
+
 ---
 
 She works in the water and environmental sector, with experience in desalination, wastewater treatment, drinking-water infrastructure, groundwater assessment and mapping, and related policy and health considerations.
