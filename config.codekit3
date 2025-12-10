@@ -52,22 +52,6 @@
       "oAP" : "\/dist\/admin\/config.yml",
       "oF" : 0
     },
-    "\/dist\/admin\/deepseek_html_20251106_d3a375.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/admin\/deepseek_html_20251106_d3a375.html",
-      "oF" : 0
-    },
-    "\/dist\/admin\/deepseek_html_20251106_d3a375\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/admin\/deepseek_html_20251106_d3a375\/index.html",
-      "oF" : 0
-    },
     "\/dist\/admin\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -106,14 +90,6 @@
       "oAP" : "\/dist\/background\/index.html",
       "oF" : 0
     },
-    "\/dist\/blog\/category\/animation\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/blog\/category\/animation\/index.html",
-      "oF" : 0
-    },
     "\/dist\/blog\/category\/articles\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -128,14 +104,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/blog\/category\/books\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/blog\/category\/classic-cartoons\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/blog\/category\/classic-cartoons\/index.html",
       "oF" : 0
     },
     "\/dist\/blog\/category\/events\/index.html" : {
@@ -202,30 +170,6 @@
       "oAP" : "\/dist\/blog\/tag\/books\/index.html",
       "oF" : 0
     },
-    "\/dist\/blog\/tag\/cartoons\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/blog\/tag\/cartoons\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/blog\/tag\/events\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/blog\/tag\/events\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/blog\/tag\/hanna-barbera\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/blog\/tag\/hanna-barbera\/index.html",
-      "oF" : 0
-    },
     "\/dist\/blog\/tag\/papers\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -234,28 +178,12 @@
       "oAP" : "\/dist\/blog\/tag\/papers\/index.html",
       "oF" : 0
     },
-    "\/dist\/blog\/tag\/quick-draw-mcgraw\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/blog\/tag\/quick-draw-mcgraw\/index.html",
-      "oF" : 0
-    },
     "\/dist\/blog\/the-power-of-language\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/blog\/the-power-of-language\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/board\/andy-clarke\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/board\/andy-clarke\/index.html",
       "oF" : 0
     },
     "\/dist\/board\/haim-yacobi\/index.html" : {
@@ -356,14 +284,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/faqs\/question-6\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/faqs\/your-slug-here\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/faqs\/your-slug-here\/index.html",
       "oF" : 0
     },
     "\/dist\/feed.xml" : {
@@ -530,19 +450,9 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/dist\/images\/img-about.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dist\/images\/img-about.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
     "\/dist\/images\/img-about.webp" : {
       "ft" : 8388608,
-      "iS" : 180912,
+      "iS" : 153536,
       "oA" : 0,
       "oAP" : "\/dist\/images\/img-about.webp",
       "oF" : 0,
@@ -553,7 +463,7 @@
     },
     "\/dist\/images\/img-adi-berkovits-large.webp" : {
       "ft" : 8388608,
-      "iS" : 3288,
+      "iS" : 35424,
       "oA" : 0,
       "oAP" : "\/dist\/images\/img-adi-berkovits-large.webp",
       "oF" : 0,
@@ -564,7 +474,7 @@
     },
     "\/dist\/images\/img-adi-berkovits-small.webp" : {
       "ft" : 8388608,
-      "iS" : 43414,
+      "iS" : 369122,
       "oA" : 0,
       "oAP" : "\/dist\/images\/img-adi-berkovits-small.webp",
       "oF" : 0,
@@ -573,19 +483,9 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/dist\/images\/img-background.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dist\/images\/img-background.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
     "\/dist\/images\/img-background.webp" : {
       "ft" : 8388608,
-      "iS" : 332810,
+      "iS" : 656918,
       "oA" : 0,
       "oAP" : "\/dist\/images\/img-background.webp",
       "oF" : 0,
@@ -593,16 +493,6 @@
       "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
-    },
-    "\/dist\/images\/img-contact.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dist\/images\/img-contact.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
     },
     "\/dist\/images\/img-contact.webp" : {
       "ft" : 8388608,
@@ -617,7 +507,7 @@
     },
     "\/dist\/images\/img-fady-khoury-large.webp" : {
       "ft" : 8388608,
-      "iS" : 3288,
+      "iS" : 86274,
       "oA" : 0,
       "oAP" : "\/dist\/images\/img-fady-khoury-large.webp",
       "oF" : 0,
@@ -628,7 +518,7 @@
     },
     "\/dist\/images\/img-fady-khoury-small.webp" : {
       "ft" : 8388608,
-      "iS" : 19096,
+      "iS" : 391554,
       "oA" : 0,
       "oAP" : "\/dist\/images\/img-fady-khoury-small.webp",
       "oF" : 0,
@@ -639,7 +529,7 @@
     },
     "\/dist\/images\/img-haim-yacobi-large.webp" : {
       "ft" : 8388608,
-      "iS" : 3288,
+      "iS" : 206150,
       "oA" : 0,
       "oAP" : "\/dist\/images\/img-haim-yacobi-large.webp",
       "oF" : 0,
@@ -650,7 +540,7 @@
     },
     "\/dist\/images\/img-haim-yacobi-small.webp" : {
       "ft" : 8388608,
-      "iS" : 46302,
+      "iS" : 44128,
       "oA" : 0,
       "oAP" : "\/dist\/images\/img-haim-yacobi-small.webp",
       "oF" : 0,
@@ -672,7 +562,7 @@
     },
     "\/dist\/images\/img-index-2.webp" : {
       "ft" : 8388608,
-      "iS" : 255374,
+      "iS" : 7936,
       "oA" : 0,
       "oAP" : "\/dist\/images\/img-index-2.webp",
       "oF" : 0,
@@ -683,7 +573,7 @@
     },
     "\/dist\/images\/img-index-3.webp" : {
       "ft" : 8388608,
-      "iS" : 232222,
+      "iS" : 8970,
       "oA" : 0,
       "oAP" : "\/dist\/images\/img-index-3.webp",
       "oF" : 0,
@@ -694,7 +584,7 @@
     },
     "\/dist\/images\/img-nour-awwad-large.webp" : {
       "ft" : 8388608,
-      "iS" : 21036,
+      "iS" : 19174,
       "oA" : 0,
       "oAP" : "\/dist\/images\/img-nour-awwad-large.webp",
       "oF" : 0,
@@ -705,7 +595,7 @@
     },
     "\/dist\/images\/img-nour-awwad-small.webp" : {
       "ft" : 8388608,
-      "iS" : 12210,
+      "iS" : 11176,
       "oA" : 0,
       "oAP" : "\/dist\/images\/img-nour-awwad-small.webp",
       "oF" : 0,
@@ -716,7 +606,7 @@
     },
     "\/dist\/images\/img-omar-dajani-large.webp" : {
       "ft" : 8388608,
-      "iS" : 55630,
+      "iS" : 52148,
       "oA" : 0,
       "oAP" : "\/dist\/images\/img-omar-dajani-large.webp",
       "oF" : 0,
@@ -727,7 +617,7 @@
     },
     "\/dist\/images\/img-omar-dajani-small.webp" : {
       "ft" : 8388608,
-      "iS" : 26498,
+      "iS" : 24764,
       "oA" : 0,
       "oAP" : "\/dist\/images\/img-omar-dajani-small.webp",
       "oF" : 0,
@@ -741,16 +631,6 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/dist\/images\/logo-ala.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/dist\/images\/logo-footer.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dist\/images\/logo-footer.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -928,22 +808,6 @@
       "oAP" : "\/dist\/lexicon-list\/index.html",
       "oF" : 0
     },
-    "\/dist\/lexicon\/baba-looey\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/lexicon\/baba-looey\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/lexicon\/el-kabongo\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/lexicon\/el-kabongo\/index.html",
-      "oF" : 0
-    },
     "\/dist\/lexicon\/gaza-city\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -966,14 +830,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/lexicon\/humanitarian-crisis\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/lexicon\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/lexicon\/index.html",
       "oF" : 0
     },
     "\/dist\/lexicon\/israeli-occupation\/index.html" : {
@@ -1000,38 +856,6 @@
       "oAP" : "\/dist\/lexicon\/oslo-accords\/index.html",
       "oF" : 0
     },
-    "\/dist\/lexicon\/palestine copy 2\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/lexicon\/palestine copy 2\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/lexicon\/palestine copy 3\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/lexicon\/palestine copy 3\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/lexicon\/palestine copy 4\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/lexicon\/palestine copy 4\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/lexicon\/palestine copy\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/lexicon\/palestine copy\/index.html",
-      "oF" : 0
-    },
     "\/dist\/lexicon\/palestine-region\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1056,28 +880,12 @@
       "oAP" : "\/dist\/lexicon\/palestinian-authority\/index.html",
       "oF" : 0
     },
-    "\/dist\/lexicon\/quick-draw\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/lexicon\/quick-draw\/index.html",
-      "oF" : 0
-    },
     "\/dist\/partners\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/partners\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/photos\/photo-1 copy\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/photos\/photo-1 copy\/index.html",
       "oF" : 0
     },
     "\/dist\/photos\/photo-1\/index.html" : {
@@ -1128,22 +936,6 @@
       "oAP" : "\/dist\/privacy\/index.html",
       "oF" : 0
     },
-    "\/dist\/resources\/another-book\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/resources\/another-book\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/resources\/book\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/resources\/book\/index.html",
-      "oF" : 0
-    },
     "\/dist\/resources\/category\/articles\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1176,36 +968,12 @@
       "oAP" : "\/dist\/resources\/category\/curated-reading-list\/index.html",
       "oF" : 0
     },
-    "\/dist\/resources\/category\/design\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/resources\/category\/design\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/resources\/category\/development\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/resources\/category\/development\/index.html",
-      "oF" : 0
-    },
     "\/dist\/resources\/category\/global-insights\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/resources\/category\/global-insights\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/resources\/category\/links\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/resources\/category\/links\/index.html",
       "oF" : 0
     },
     "\/dist\/resources\/category\/podcasts\/index.html" : {
@@ -1232,30 +1000,6 @@
       "oAP" : "\/dist\/resources\/index.html",
       "oF" : 0
     },
-    "\/dist\/resources\/page-2\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/resources\/page-2\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/resources\/page-3\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/resources\/page-3\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/resources\/resource-1 copy\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/resources\/resource-1 copy\/index.html",
-      "oF" : 0
-    },
     "\/dist\/resources\/resource-1\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1280,36 +1024,12 @@
       "oAP" : "\/dist\/resources\/resource-3\/index.html",
       "oF" : 0
     },
-    "\/dist\/resources\/tag\/design-systems\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/resources\/tag\/design-systems\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/resources\/tag\/frontend\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/resources\/tag\/frontend\/index.html",
-      "oF" : 0
-    },
     "\/dist\/resources\/tag\/israel\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/resources\/tag\/israel\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/resources\/tag\/javascript\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/resources\/tag\/javascript\/index.html",
       "oF" : 0
     },
     "\/dist\/resources\/tag\/occupation\/index.html" : {
@@ -1328,36 +1048,12 @@
       "oAP" : "\/dist\/resources\/tag\/palestine\/index.html",
       "oF" : 0
     },
-    "\/dist\/resources\/tag\/web\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/resources\/tag\/web\/index.html",
-      "oF" : 0
-    },
     "\/dist\/team\/adi-berkovits\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/team\/adi-berkovits\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/team\/alex-clarke\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/team\/alex-clarke\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/team\/andy-clarke\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/team\/andy-clarke\/index.html",
       "oF" : 0
     },
     "\/dist\/team\/fady-khoury\/index.html" : {
@@ -1384,22 +1080,6 @@
       "oAP" : "\/dist\/team\/index.html",
       "oF" : 0
     },
-    "\/dist\/team\/jon-hicks\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/team\/jon-hicks\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/team\/marcus-lillington\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/team\/marcus-lillington\/index.html",
-      "oF" : 0
-    },
     "\/dist\/team\/nour-awwad\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1408,44 +1088,12 @@
       "oAP" : "\/dist\/team\/nour-awwad\/index.html",
       "oF" : 0
     },
-    "\/dist\/team\/omar-dajani copy\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/team\/omar-dajani copy\/index.html",
-      "oF" : 0
-    },
     "\/dist\/team\/omar-dajani\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/team\/omar-dajani\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/team\/paul-boag\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/team\/paul-boag\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/team\/sue-clarke\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/team\/sue-clarke\/index.html",
-      "oF" : 0
-    },
-    "\/dist\/terms\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/terms\/index.html",
       "oF" : 0
     },
     "\/gulpfile.js" : {
