@@ -404,7 +404,7 @@ TEXT TREATMENT CLASSES
 .alt-accent { color: var(--color-accent); } /* Accent color text */
 
 .alt-lede {
-font-size: var(--font-size-l);
+font-size: var(--font-size-m);
 font-variation-settings: var(--font-regular-condensed);
 line-height: var(--lineheight-s);
 text-transform: uppercase; }
@@ -1248,6 +1248,10 @@ RESPONSIVE DESIGN - MEDIA QUERIES
 */
 
 [data-layout="chugga-boom"] {
+background-image: url(/images/img-index-1.webp);
+background-position: 50%;
+background-repeat: no-repeat;
+background-size: cover;
 margin-inline: calc(-1 * var(--spacing-r)); }
 
 @media screen and (min-width: 32em) {
@@ -1577,10 +1581,6 @@ grid-template-columns: var(--grid-12-col); }
 
 [data-layout="chugga-boom"] {
 grid-template-columns: 1fr 1.5fr 1fr;
-background-image: url(/images/img-index-1.webp);
-background-position: 50%;
-background-repeat: no-repeat;
-background-size: cover;
 margin-block-end: var(--spacing-l);
 margin-inline: calc(-1 * var(--spacing-l));
 padding-block-start: var(--spacing-l); }
