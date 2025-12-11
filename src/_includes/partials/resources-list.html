@@ -14,7 +14,7 @@
 {% endif %}
 </h2>
 
-<p>{{ resource.data["item-summary"] }}</p>
+<p>{{ resource.data["item-summary"] | safe }}</p>
 
 {{ resource.templateContent | safe }}
 
