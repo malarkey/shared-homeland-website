@@ -4,7 +4,7 @@ featureImageCaption:
 layout: 'layouts/contact.html'
 metaDesc:
 permalink: '/contact/'
-title: 'Let’s connect'
+title: 'Reach out'
 
 aside: |
 

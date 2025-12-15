@@ -4,11 +4,11 @@ metaDesc:
 title: The Shared Homeland Paradigm
 
 main: |
- <p class="alt-lede">Reimagining Space, Rights and Partnerships in Palestine-Israel</p>
+ <p class="alt-lede">Reimagining Space, Rights, and Partnership in Palestine-Israel</p>
 
- <p>Aims to develop a new conceptual basis for configuring space and rights in Palestine-Israel and build practical scenarios that chart a path from the current &#8220;one-state reality&#8221; to a two-state confederation built upon  values of equality, mutual self-determination, and liberty of movement.</p>
+ <p>At a time when despair about the possibility of a peaceful future in Palestine-Israel is fuelling the horrific violence on the ground, the project helps meet the urgent need for a fresh vision grounded in defensible values and elaborated through careful research and sober policy analysis.</p>
 
 aside: |
- <p>Our project offers a bridge for the international diplomatic community from the moribund concept of a two-state solution to one capable of realisation and grounded in values worthy of support.</p>
+ <p>A three-year project funded by a &#163;1 million responsive mode grant from UK Research and Innovation Economic and Social Research Council, and pursued in collaboration with our partner, A Land for All.</p>
 
 ---

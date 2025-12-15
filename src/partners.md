@@ -1,11 +1,11 @@
 ---
 layout: layouts/page.html
 metaDesc:
-title: Our partners
+title: Our partner
 permalink: /partners/
 
 lede: >
- <p class="alt-lede">The Shared Homeland Paradigm is a &#163;1 million UKRI-ESRC research project developed with A Land for All (ALFA), a joint Palestinian-Israeli movement. The project reimagines space, rights, and partnerships in Palestine-Israel.</p>
+ <p class="alt-lede">A Land for All: Two States One Homeland is a joint Israeli-Palestinian political initiative promoting a future that is not only equitable in theory but workable in practice—for both peoples.</p>
 
 ---
 
@@ -28,31 +28,36 @@ lede: >
 </div><!-- one -->
 
 <div>
-<p><a href="https://www.2s1h.org/en" target="_blank">A Land for All</a> is a joint Israeli-Palestinian political initiative rooted in the lived reality of this land. It was founded by people who know the conflict not from headlines but from daily life. Together, they have dared to imagine a different future and have crafted a shared political vision grounded in dignity, equality, and belonging for both peoples.</p>
+<p><a href="https://www.2s1h.org/en" target="_blank">A Land for All</a> promotes a vision of two democratic, sovereign states—Israel and Palestine—linked together in a confederation with gradual steps toward freedom of movement and residence for all Israelis and Palestinians across the shared homeland. By rejecting zero-sum thinking on complex issues like Jerusalem, settlements, and refugees, A Land for All’s model offers national self-determination without separation, shared governance without erasing identity, and security without subjugation.</p>
 </div><!-- two -->
 
 </div><!-- layout -->
 
 <figure>
 <img src="/images/tmp-img-9.webp" alt="A Land for All">
-<figcaption>Behind our vision is a committed group of Israeli and Palestinian leaders, including journalists, policy experts, community organizers, and faith leaders, working together to turn vision into policy.</figcaption>
+  <figcaption>Photograph from A Land for All</figcaption>
 </figure>
 
- <p>They are a generative source of ideas and expertise for policymakers and peace-builders seeking to advance a two-state solution that is not only equitable in theory but workable in practice, for both peoples. Their model rejects zero-sum thinking on complex issues like Jerusalem, settlements, and refugees, and instead promotes creative and fair solutions.</p>
+ <p>A Land for All&#8217;s work spans three main areas.</p>
+
+ <h2>Public engagement in Israel and Palestine</h2>
+
+ <p>Since 2012, A Land for All has held thousands of grassroots events across the homeland, inspiring Palestinians and Israelis to work with us in shaping the collective future we seek. A Land for All’s vision has been adopted by prominent Israeli-Palestinian movements, and is increasingly featured in local media and policy discussions as a viable alternative to the two-state v. one-state deadlock.</p>
+
+ <h2>Research and policy development</h2>
+
+ <p>By collaborating with global academic institutions, local think tanks, and civil society leaders, A Land for All produces practical, informed policy proposals that bridge theory and implementation, tailoring existing research on confederal models to the unique context of Israel-Palestine and to the challenges of our current moment.</p>
+
+ <h2>Regional and international advocacy</h2>
+
+ <p>Through strategic partnerships and investment in international outreach, A Land for All’s vision has attracted support from governments, senior diplomats, and global leaders across the region, as well as in Europe and North America. In 2025, A Land for All received the Global Pluralism Award in recognition of our work.</p>
 
   <figure>
   <img src="/images/tmp-img-10.webp" alt="">
   <figcaption>Photograph from A Land for All</figcaption>
   </figure>
 
-  <p>Since 2012, they have brought together activists, academics, diplomats, and thought leaders around a simple and powerful truth: this land is home to two peoples. Any lasting resolution must affirm the equal right of both nations to self-determination, while honoring their unique identities, histories, and needs.
-
-  <figure>
-  <img src="/images/tmp-img-11.webp" alt="">
-  <figcaption>Photograph from A Land for All</figcaption>
-  </figure>
-
-<p>Their lives are already inextricably intertwined, not only emotionally and historically, but in the most basic, everyday ways: through shared aquifers, electricity grids, labor markets, and security realities. A shared peaceful future requires a political framework that reflects their interdependence, alongside their separate needs. Without it, they remain trapped in the cycles of fear, violence, and loss.</p>
+<p>Visit <a href="https://www.2s1h.org/en" target="_blank">A Land for All</a> to learn more.</p>
 </div>
 
 </div><!-- layout -->

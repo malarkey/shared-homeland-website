@@ -26,29 +26,16 @@
 </div><!-- one -->
 
 <div>
-<label for="contact-company">Company <span>Optional</span></label>
-<input type="text" name="contact-company" id="contact-company">
-</div><!-- two -->
-
-</div><!-- layout -->
-
-<div data-layout="flex">
-
-<div>
 <label for="contact-email">Email</label>
 <input type="email" name="contact-email" id="contact-email">
-</div><!-- one -->
-
-<div>
-<label for="contact-tel">Phone</label>
-<input type="tel" named="contact-tel" id="contact-tel">
 </div><!-- two -->
 
 </div><!-- layout -->
 
 <div>
 <label for="contact-message">Message</label>
-<p>We read every message that comes in, though we can&#8217;t promise to reply to each one.</p>
+<p>We appreciate and read all messages, but our workload prevents us from replying to every inquiry.</p>
+
 <textarea name="contact-message" id="contact-message"></textarea>
 </div>
 
@@ -74,9 +61,9 @@
 {{ aside | safe }}
 
 <ul class="alt-" data-variant="bordered-l">
-<li><a href="/team">Our team</a></li>
+<li><a href="/team">The team</a></li>
 <li><a href="/board">Advisory board</a></li>
-<li><a href="/partners">Partners</a></li>
+<li><a href="/partners">Our partner</a></li>
 </ul>
 
 </div><!-- two -->
@@ -91,7 +78,9 @@
 <div class="layout" data-layout="yogi">
 
 <div>
-<h2>FAQs</h2>
+<h2>Frequently asked questions</h2>
+
+<p>Review our FAQs section as this often provides the fastest answers to your questions.</p>
 
 {% set contactFaqs = collections.faqs | filterFaqsByCategory("contact") %}
 {% for faq in contactFaqs %}

@@ -13,7 +13,7 @@ imageLarge: img-nour-awwad-large.webp
 eleventyComputed:
   title: "{{ name }}"
 
-summary: Holds a B.Sc. in Soil and Water Sciences from the Hebrew University and an M.Sc. in Hydrology and Water Quality from Ben-Gurion University.
+summary: Nour Awwad holds a B.Sc. in Soil and Water Sciences from the Hebrew University and an M.Sc. in Hydrology and Water Quality from Ben-Gurion University.
 
 blockQuote:
 

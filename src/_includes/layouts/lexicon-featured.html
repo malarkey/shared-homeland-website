@@ -55,14 +55,14 @@
 
 <hr data-function="spacer">
 
+{% if term.data.popular %}
 <h2>Popular terms</h2>
 <ul class="alt-" data-variant="bordered-l">
 {% for term in collections.lexicon %}
-{% if term.data.popular %}
 <li><a href="{{ term.url }}">{{ term.data.title }}</a></li>
-{% endif %}
 {% endfor %}
 </ul>
+{% endif %}
 </aside><!-- two -->
 
 </div><!-- layout -->
