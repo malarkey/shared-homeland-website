@@ -13,7 +13,7 @@ imageLarge: img-board-wendy-pullan-large.webp
 eleventyComputed:
   title: "{{ name }}"
 
-summary: Professor Emerita of architecture and urban studies at the University of Cambridge, where she is founding director of the Centre for Urban Conflicts Research.
+summary: Professor Emerita of architecture and urban studies at the University of Cambridge, where she is a founding director of the Centre for Urban Conflicts Research.
 
 blockQuote:
 
