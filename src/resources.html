@@ -12,10 +12,10 @@ summary: The Shared Homeland Paradigm project is continuing a long research path
 
 <div>
 {% if collections.resources and collections.resources.length %}
-{% set resources = collections.resources %}
-{% include "partials/resources-list.html" %}
+  {% set resources = collections.resources | sort(false, false, "data.item-date") | reverse %}
+  {% include "partials/resources-list.html" %}
 {% else %}
-<p>No knowledge hub items available yet.</p>
+  <p>No knowledge hub items available yet.</p>
 {% endif %}
 </div><!-- one -->
 
