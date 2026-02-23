@@ -167,6 +167,13 @@ eleventyConfig.addCollection("photos", (collection) => {
 return collection.getFilteredByGlob("./src/photos/*.md").reverse();
 });
 
+// SCENARIOS COLLECTION
+eleventyConfig.addCollection("scenarios", (collection) => {
+return collection.getFilteredByGlob("./src/scenarios/*.md").sort((a, b) => {
+return (a.data.order || 0) - (b.data.order || 0);
+});
+});
+
 // FAQ COLLECTION
 eleventyConfig.addCollection("faqs", (collection) => {
 return collection.getFilteredByGlob("./src/faqs/*.md").sort((a, b) => {

@@ -1,20 +1,11 @@
 <h2>Future scenarios</h2>
 
 <div data-layout="flex" data-border="r">
-
+{% for scenario in collections.scenarios %}
 <div>
-<h3>Citizenship, mobility, and residency</h3>
-<small>Coming in 2026</small>
-</div><!-- one -->
-
-<div>
-<h3>Environmental partnership</h3>
-<small>Coming in 2026</small>
-</div><!-- two -->
-
-<div>
-<h3>Transboundary urban areas</h3>
-<small>Coming in 2026</small>
-</div><!-- three -->
+<h3>{{ scenario.data.title }}</h3>
+<small>{{ scenario.data.summary }}</small>
+</div>
+{% endfor %}
 
 </div><!-- layout -->
