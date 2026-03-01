@@ -70,6 +70,7 @@ collections:
     slug: "{{slug}}"
     fields:
     - {label: "Term", name: "title", widget: "string"}
+    - {label: "Author", name: "author", widget: "string", required: false}
     - {label: "Summary", name: "summary", widget: "text"}
     - {label: "Detailed Description", name: "body", widget: "markdown"}
     - {label: "Categories", name: "categories", widget: "list"}
@@ -186,6 +187,18 @@ collections:
           - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.html"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/background/"}
           - {label: "Body", name: "body", widget: "markdown"}
+
+      - label: "Resource Category Summaries"
+        name: "resource_category_summaries"
+        file: "src/_data/resource-category-summaries.json"
+        fields:
+          - label: "Categories"
+            name: "categories"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - {label: "Category", name: "name", widget: "string", hint: "Must match the resource category exactly."}
+              - {label: "Summary", name: "summary", widget: "text"}
 
       - label: "About the Project"
         name: "about"

@@ -6,6 +6,13 @@ const Image = require("@11ty/eleventy-img");
 const dateFilter = require("./src/filters/date-filter.js");
 const w3DateFilter = require("./src/filters/w3-date-filter.js");
 const sortByDisplayOrder = require("./src/utils/sort-by-display-order.js");
+const resourceCategorySummariesData = require("./src/_data/resource-category-summaries.json");
+const resourceCategorySummaries = Object.fromEntries(
+  (resourceCategorySummariesData.categories || []).map((item) => [
+    (item.name || "").trim(),
+    item.summary || ""
+  ])
+);
 
 // Async image shortcode
 async function imageShortcode(src, alt, sizes = "(min-width: 1024px) 50vw, 100vw") {
@@ -44,6 +51,24 @@ eleventyConfig.addFilter("dateFilter", dateFilter);
 eleventyConfig.addFilter("w3DateFilter", w3DateFilter);
 eleventyConfig.addFilter("sortByDisplayOrder", sortByDisplayOrder);
 eleventyConfig.addFilter("inline", inlineFilter);
+eleventyConfig.addFilter("json", function(value) {
+return JSON.stringify(value ?? "");
+});
+eleventyConfig.addFilter("toAbsoluteUrl", function(url, base) {
+if (!url) {
+return "";
+}
+
+if (/^https?:\/\//i.test(url)) {
+return url;
+}
+
+if (url.startsWith("/")) {
+return `${base}${url}`;
+}
+
+return `${base}/${url}`.replace(/([^:]\/)\/+/g, "$1");
+});
 
 eleventyConfig.addFilter("filterByFeatured", function(collection) {
 return collection.filter(term => term.data.featured === true);
@@ -116,6 +141,10 @@ eleventyConfig.addFilter("filterByTag", (resources, tag) => {
 return resources.filter(resource =>
 resource.data["item-tags"] && resource.data["item-tags"].includes(tag)
 );
+});
+
+eleventyConfig.addFilter("getResourceCategorySummary", (category) => {
+return resourceCategorySummaries[(category || "").trim()] || "";
 });
 
 // BLOG FILTERS
@@ -354,6 +383,7 @@ return Array.from(categories).map(category => {
 return {
 title: `${category}`,
 category: category,
+summary: resourceCategorySummaries[category.trim()] || "",
 permalink: `/resources/category/${category.toLowerCase().replace(/\s+/g, '-')}/`,
 layout: "layouts/base.html"
 };

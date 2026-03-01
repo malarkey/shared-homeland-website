@@ -37,26 +37,6 @@
 
 <div>
 
-{% set featuredTerms = collections.lexicon | filterByFeatured %}
-{% if featuredTerms.length > 0 %}
-{% set latestFeatured = featuredTerms | reverse | first %}
-
-<div id="panel-highlight" data-theme="inverted">
-
-<div class="alt-bordered">
-<h2>Featured</h2>
-<a href="/lexicon-featured/">See all</a>
-</div><!-- alt-bordered -->
-
-<h3 data-size="2xl"><a href="{{ latestFeatured.url }}">{{ latestFeatured.data.title }}</a></h3>
-
-<blockquote data-variant="bordered-l">
-<p>{{ latestFeatured.data.summary }}</p>
-</blockquote>
-
-</div><!-- panel-highlight -->
-{% endif %}
-
 {% set lexiconByLetter = collections.lexicon | groupByInitial %}
 {% for letter, terms in lexiconByLetter %}
 
@@ -69,6 +49,7 @@
 {% for term in terms %}
 <article class="item-lexicon">
 <h3><a href="{{ term.url }}">{{ term.data.title }}</a></h3>
+{% if term.data.author %}<small>{{ term.data.author }}</small>{% endif %}
 
 <blockquote>
 <p>{{ term.data.summary }}</p>

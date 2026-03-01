@@ -4,25 +4,67 @@ layout: "layouts/base.html"
 summary: The Shared Homeland Paradigm project is continuing a long research path of thinkers and initiatives that have worked to promote partnership-based models for Palestine-Israel. If you are interested in deepening your understanding of the field of Palestinian-Israeli confederation, we recommend exploring the following resources.
 ---
 
+{% include "partials/schema/resources-hub.json.njk" %}
+
 <p>{{ summary }}</p>
 
 <hr data-function="spacer">
 
-<div class="layout" data-layout="yogi">
+{% set backgroundPapers = collections.resources | filterByCategory("Background papers") | sort(false, false, "data.item-date") | reverse | limit(3) %}
+{% set otherCategories = collections.resourcesCategory %}
 
-<div>
-{% if collections.resources and collections.resources.length %}
-  {% set resources = collections.resources | sort(false, false, "data.item-date") | reverse %}
-  {% include "partials/resources-list.html" %}
+<section>
+<h2 data-size="2xl"><a href="/resources/category/background-papers/">Background papers</a></h2>
+
+{% if backgroundPapers.length %}
+<div data-layout="flex" data-border="r">
+{% for resource in backgroundPapers %}
+<article class="item-resource">
+{% if resource.data["item-author"] %}<small>{{ resource.data["item-author"] }}</small>{% endif %}
+<h3 data-size="xl">{% if resource.data["item-url"] %}<a href="{{ resource.data["item-url"] }}" target="_blank">{{ resource.data["item-title"] }}</a>
 {% else %}
-  <p>No knowledge hub items available yet.</p>
+{{ resource.data["item-title"] }}
 {% endif %}
-</div><!-- one -->
+</h3>
 
-<div>
-{% if collections.resources and collections.resources.length %}
-{% include "partials/resources-nav.html" %}
+{% if resource.data["item-summary"] %}
+<p>{{ resource.data["item-summary"] | safe }}</p>
 {% endif %}
-</div><!-- two -->
+</article>
+{% endfor %}
 
-</div>
+</div><!-- layout -->
+
+{% else %}
+<p>No background papers available.</p>
+{% endif %}
+</section>
+
+
+
+<hr>
+
+
+
+<section>
+<h2 data-size="2xl">Other categories</h2>
+
+{% if otherCategories.length %}
+<div data-layout="flex" data-border="r">
+{% for category in otherCategories %}
+{% set categoryName = category | trim %}
+{% if categoryName != "Background papers" %}
+<article>
+<h3><a href="/resources/category/{{ categoryName | lower | replace(' ', '-') }}/">{{ categoryName }}</a></h3>
+{% set categorySummary = categoryName | getResourceCategorySummary %}
+{% if categorySummary %}
+<p>{{ categorySummary }}</p>
+{% endif %}
+</article>
+{% endif %}
+{% endfor %}
+</div><!-- layout -->
+{% else %}
+<p>No categories available yet.</p>
+{% endif %}
+</section>

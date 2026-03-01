@@ -45,7 +45,6 @@
 </div><!-- two -->
 
 <div>
-
 {% if blockQuote %}
 <blockquote data-variant="inverted">
 <svg xmlns="http://www.w3.org/2000/svg" width="48" viewBox="0 0 63 50">
@@ -58,5 +57,37 @@
 </div><!-- three -->
 
 </div><!-- layout -->
+
+{% set isTeamMember = '/team/' in page.filePathStem %}
+{% set isBoardMember = '/board/' in page.filePathStem %}
+{% if isTeamMember %}
+{% set peerHeading = 'More team members' %}
+{% set peerCollection = collections.team | sort(attribute="data.order") %}
+{% elif isBoardMember %}
+{% set peerHeading = 'More board members' %}
+{% set peerCollection = collections.board | sort(attribute="data.order") %}
+{% endif %}
+
+{% if peerCollection %}
+
+<hr>
+
+<h2>{{ peerHeading }}</h2>
+
+<div id="peers">
+{% for boardmember in peerCollection %}
+{% if boardmember.url != page.url %}
+<div class="item-peer">
+{% if boardmember.data.image %}
+<div><img src="/images/{{ boardmember.data.image }}" alt="{{ boardmember.data.name }}"></div><!-- one -->
+{% endif %}
+<div><h3 data-size="m"><a href="{{ boardmember.url }}">{{ boardmember.data.name }}</a></h3></div><!-- two -->
+</div><!-- item-peer -->
+{% endif %}
+{% endfor %}
+</div><!-- peers -->
+{% endif %}
+
+
 
 {% endblock %}

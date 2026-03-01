@@ -1,0 +1,38 @@
+{% set categorySummary = category.category | getResourceCategorySummary %}
+{% set categoryResources = collections.resources | filterByCategory(category.category) %}
+{% set categoryUrl = site.url + page.url %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": {{ category.title | json }},
+  "url": {{ categoryUrl | json }},
+  "isPartOf": {
+    "@type": "CollectionPage",
+    "name": "Knowledge Hub",
+    "url": {{ (site.url + "/resources/") | json }}
+  }{% if categorySummary %},
+  "description": {{ categorySummary | striptags | trim | json }}{% endif %},
+  "mainEntity": {
+    "@type": "ItemList",
+    "name": {{ category.title | json }},
+    "numberOfItems": {{ categoryResources.length }},
+    "itemListElement": [
+      {% for resource in categoryResources %}
+      {
+        "@type": "ListItem",
+        "position": {{ loop.index }},
+        "url": {{ (resource.data["item-url"] or (site.url + resource.url)) | toAbsoluteUrl(site.url) | json }},
+        "item": {
+          "@type": "CreativeWork",
+          "name": {{ resource.data["item-title"] | json }},
+          "url": {{ (resource.data["item-url"] or (site.url + resource.url)) | toAbsoluteUrl(site.url) | json }}{% if resource.data["item-summary"] %},
+          "description": {{ resource.data["item-summary"] | striptags | trim | json }}{% endif %}{% if resource.data["item-date"] %},
+          "datePublished": {{ resource.data["item-date"] | json }}{% endif %}
+        }
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  }
+}
+</script>

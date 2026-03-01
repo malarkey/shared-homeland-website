@@ -1,0 +1,45 @@
+{% set hubUrl = site.url + page.url %}
+{% set backgroundPapers = collections.resources | filterByCategory("Background papers") | sort(false, false, "data.item-date") | reverse | limit(3) %}
+{% set otherCategories = collections.resourcesCategory %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": {{ title | json }},
+  "description": {{ summary | striptags | trim | json }},
+  "url": {{ hubUrl | json }},
+  "hasPart": [
+    {% for category in otherCategories %}
+    {% set categoryName = category | trim %}
+    {% if not loop.first %},{% endif %}
+    {
+      "@type": "CollectionPage",
+      "name": {{ categoryName | json }},
+      "url": {{ (site.url + "/resources/category/" + (categoryName | lower | replace(' ', '-')) + "/") | json }}{% set categorySummary = categoryName | getResourceCategorySummary %}{% if categorySummary %},
+      "description": {{ categorySummary | striptags | trim | json }}{% endif %}
+    }
+    {% endfor %}
+  ],
+  "mainEntity": {
+    "@type": "ItemList",
+    "name": "Background papers",
+    "numberOfItems": {{ backgroundPapers.length }},
+    "itemListElement": [
+      {% for resource in backgroundPapers %}
+      {
+        "@type": "ListItem",
+        "position": {{ loop.index }},
+        "url": {{ (resource.data["item-url"] or (site.url + resource.url)) | toAbsoluteUrl(site.url) | json }},
+        "item": {
+          "@type": "CreativeWork",
+          "name": {{ resource.data["item-title"] | json }},
+          "url": {{ (resource.data["item-url"] or (site.url + resource.url)) | toAbsoluteUrl(site.url) | json }}{% if resource.data["item-summary"] %},
+          "description": {{ resource.data["item-summary"] | striptags | trim | json }}{% endif %}{% if resource.data["item-date"] %},
+          "datePublished": {{ resource.data["item-date"] | json }}{% endif %}
+        }
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  }
+}
+</script>

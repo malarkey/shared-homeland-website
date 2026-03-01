@@ -7,5 +7,9 @@ item-url: "/files/SHP-Transformative-Border-Zones.pdf"
 item-categories: ["Background papers"]
 item-tags:
 
-item-summary: 2026. Christou, Georgina and Demetriou, Olga
+item-summary: >
+  This background paper focuses on the interconnected organizations
+  Association for Historical Dialogue and Research (AHDR) and Home for
+  Cooperation (H4C) as successful outcomes of a local bicommunal movement
+  for peace and reconciliation.
 ---

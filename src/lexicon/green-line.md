@@ -1,6 +1,7 @@
 ---
+author: 'Stephan Stetter'
 categories: ['Lexicon']
-featured: false
+featured: true
 layout: 'layouts/term.html'
 popular: false
 title: 'The Green Line'

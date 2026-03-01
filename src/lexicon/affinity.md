@@ -1,6 +1,7 @@
 ---
+author: 'David Borabeck'
 categories: ['Lexicon']
-featured: false
+featured: true
 layout: 'layouts/term.html'
 popular: false
 title: 'Affinity'

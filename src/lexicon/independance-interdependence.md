@@ -1,6 +1,7 @@
 ---
+author: 'Nathan Marom'
 categories: ['Lexicon']
-featured: false
+featured: true
 layout: 'layouts/term.html'
 popular: false
 title: 'In/dependence / Interdependence'

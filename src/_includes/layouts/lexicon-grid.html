@@ -15,7 +15,9 @@
 
 <div>
 {% set pageHeaderTitle = title %}
-<h1>{{ pageHeaderTitle }}</h1>
+<h1 style="margin-block-end:0;">{{ pageHeaderTitle }}</h1>
+{{ aside | safe }}
+<hr data-function="spacer">
 
 {% if collections.lexicon and collections.lexicon.length %}
 <ul id="letter-list">
@@ -55,8 +57,6 @@
 </div><!-- one -->
 
 <aside>
-<h3>What&#8217;s this?</h3>
-{{ aside | safe }}
 </aside><!-- two -->
 
 </div><!-- layout -->
@@ -84,6 +84,7 @@
 <div id="{{ term.fileSlug }}" class="item-term-content" data-theme="inverted" hidden>
 <a href="#" class="close-content" title="Hide">X</a>
 <h3><a href="{{ term.url }}">{{ term.data.title }}</a></h3>
+{% if term.data.author %}<small>{{ term.data.author }}</small>{% endif %}
 <p>{{ term.data.summary }}</p>
 <p><a href="{{ term.url }}" class="alt-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="16" viewBox="0 0 16 16">
 <path fill="#fff" d="M7.543 1.043a1 1 0 0 1 1.414 0l6.25 6.25a.997.997 0 0 1 0 1.415l-6.26 6.25a1 1 0 0 1-1.413-1.416L12.083 9H1a1 1 0 0 1 0-2h11.086L7.543 2.457a1 1 0 0 1 0-1.414"/></svg>Read more</a></p>
@@ -99,7 +100,6 @@
 
 <div>
 <hr>
-
 {{ content | safe }}
 </div>
 

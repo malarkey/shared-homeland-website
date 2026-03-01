@@ -49,6 +49,8 @@
 
 <hr data-function="spacer" id="section-scenarios">
 
+<h2>Future scenarios</h2>
+
 {% include "partials/scenarios-list.html" %}
 
 
@@ -61,10 +63,11 @@
 <h2><a href="/lexicon-grid">Alternative Lexicon</a></h2>
 
 <div data-layout="flex" data-border="r">
-{% set recentLexicon = collections.lexicon | sort(false, false, "date") | reverse | limit(3) %}
+{% set recentLexicon = collections.lexicon | filterByFeatured | sort(false, false, "date") | reverse | limit(3) %}
 {% for term in recentLexicon %}
 <article class="item-lexicon">
 <h3><a href="{{ term.url }}">{{ term.data.title }}</a></h3>
+{% if term.data.author %}<small>{{ term.data.author }}</small>{% endif %}
 <p>{{ term.data.summary }}</p>
 </article>
 {% endfor %}
@@ -74,9 +77,8 @@
 
 
 
-
+<!--
 <hr data-function="spacer" id="section-highlights">
-
 
 <h2 class="alt-bg"><a href="/blog">Highlights</a></h2>
 
@@ -85,18 +87,15 @@
 
 {% for item in postListItems %}
 <article class="item-post">
-
 <div class="alt-bordered">
 <small>{{ item.data.postDate | dateFilter('d MMM yyyy') }}</small>
-</div><!-- alt-bordered -->
+</div>
 
 <h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
-
 </article>
 {% endfor %}
 
-</div><!-- posts -->
-
+</div> -->
 
 {% endblock %}
 
