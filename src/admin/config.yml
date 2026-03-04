@@ -272,6 +272,14 @@ collections:
           - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/scenarios.html"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/scenarios/"}
 
+      - label: "Knowledge Hub"
+        name: "knowledge_hub"
+        file: "src/resources.html"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/base.html"}
+          - {label: "Summary", name: "summary", widget: "text", required: false}
+
       - label: "Resource Category Summaries"
         name: "resource_category_summaries"
         file: "src/_data/resource-category-summaries.json"
