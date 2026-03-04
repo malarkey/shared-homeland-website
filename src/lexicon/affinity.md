@@ -1,13 +1,9 @@
 ---
 title: Affinity
 author: David Borabeck
-summary: >-
-  "The transcendent can help cultivate a shared appreciation for the land and
-  its significant
-
-  sacred sites, rather than the sectarian divisions created by the zero-sum game of
-
-  colonialism and nationalism."
+summary: '"The transcendent can help cultivate a shared appreciation for the
+  land and its significant sacred sites, rather than the sectarian divisions
+  created by the zero-sum game of colonialism and nationalism."'
 categories:
   - Lexicon
 featured: true
