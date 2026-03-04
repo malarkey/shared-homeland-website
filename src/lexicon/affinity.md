@@ -7,7 +7,7 @@ summary: >-
 
   sacred sites, rather than the sectarian divisions created by the zero-sum game of
 
-  colonialism and nationalism."
+  colonialism and nationalism.״
 categories:
   - Lexicon
 featured: true
