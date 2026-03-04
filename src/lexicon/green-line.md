@@ -7,7 +7,7 @@ popular: false
 title: 'The Green Line'
 summary: 'A pen with green ink was used in order to demarcate - on the two-dimensional space of a cartographic map - the ceasefire lines between several Arab states and the State of Israel following the first Arab-Israeli war of 1948/1949.'
 url: ''
-pdf: 'the-green-line.pdf'
+pdf: '/files/the-green-line.pdf'
 ---
 A pen with green ink was used in order to demarcate - on the two-dimensional space
 of a cartographic map - the ceasefire lines between several Arab states and the State of

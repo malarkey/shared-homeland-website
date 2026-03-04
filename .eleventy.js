@@ -133,13 +133,15 @@ return Array.from(allCategories).sort();
 // RESOURCES FILTERS
 eleventyConfig.addFilter("filterByCategory", (resources, category) => {
 return resources.filter(resource =>
-resource.data["item-categories"] && resource.data["item-categories"].includes(category)
+resource.data["item-categories"] &&
+resource.data["item-categories"].some(cat => cat.trim() === category.trim())
 );
 });
 
 eleventyConfig.addFilter("filterByTag", (resources, tag) => {
 return resources.filter(resource =>
-resource.data["item-tags"] && resource.data["item-tags"].includes(tag)
+resource.data["item-tags"] &&
+resource.data["item-tags"].some(resourceTag => resourceTag.trim() === tag.trim())
 );
 });
 
@@ -352,7 +354,7 @@ eleventyConfig.addCollection("resourcesCategory", (collection) => {
 let categories = new Set();
 collection.getFilteredByGlob("./src/resources/*.md").forEach(item => {
 if (item.data["item-categories"]) {
-item.data["item-categories"].forEach(cat => categories.add(cat));
+item.data["item-categories"].forEach(cat => categories.add(cat.trim()));
 }
 });
 return Array.from(categories).sort();
@@ -362,7 +364,7 @@ eleventyConfig.addCollection("resourcesTag", (collection) => {
 let tags = new Set();
 collection.getFilteredByGlob("./src/resources/*.md").forEach(item => {
 if (item.data["item-tags"]) {
-item.data["item-tags"].forEach(tag => tags.add(tag));
+item.data["item-tags"].forEach(tag => tags.add(tag.trim()));
 }
 });
 return Array.from(tags).sort();
@@ -375,7 +377,7 @@ const resources = collectionApi.getFilteredByGlob("./src/resources/*.md");
 
 resources.forEach(resource => {
 if (resource.data["item-categories"]) {
-resource.data["item-categories"].forEach(cat => categories.add(cat));
+resource.data["item-categories"].forEach(cat => categories.add(cat.trim()));
 }
 });
 
@@ -384,7 +386,7 @@ return {
 title: `${category}`,
 category: category,
 summary: resourceCategorySummaries[category.trim()] || "",
-permalink: `/resources/category/${category.toLowerCase().replace(/\s+/g, '-')}/`,
+permalink: `/resources/category/${category.trim().toLowerCase().replace(/\s+/g, '-')}/`,
 layout: "layouts/base.html"
 };
 });
@@ -397,7 +399,7 @@ const resources = collectionApi.getFilteredByGlob("./src/resources/*.md");
 
 resources.forEach(resource => {
 if (resource.data["item-tags"]) {
-resource.data["item-tags"].forEach(tag => tags.add(tag));
+resource.data["item-tags"].forEach(tag => tags.add(tag.trim()));
 }
 });
 
@@ -405,7 +407,7 @@ return Array.from(tags).map(tag => {
 return {
 title: `${tag}`,
 tag: tag,
-permalink: `/resources/tag/${tag.toLowerCase().replace(/\s+/g, '-')}/`,
+permalink: `/resources/tag/${tag.trim().toLowerCase().replace(/\s+/g, '-')}/`,
 layout: "layouts/base.html"
 };
 });

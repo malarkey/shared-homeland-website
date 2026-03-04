@@ -26,14 +26,15 @@
     "numberOfItems": {{ backgroundPapers.length }},
     "itemListElement": [
       {% for resource in backgroundPapers %}
+      {% set resourceLink = resource.data["item-file"] or resource.data["item-url"] or (site.url + resource.url) %}
       {
         "@type": "ListItem",
         "position": {{ loop.index }},
-        "url": {{ (resource.data["item-url"] or (site.url + resource.url)) | toAbsoluteUrl(site.url) | json }},
+        "url": {{ resourceLink | toAbsoluteUrl(site.url) | json }},
         "item": {
           "@type": "CreativeWork",
           "name": {{ resource.data["item-title"] | json }},
-          "url": {{ (resource.data["item-url"] or (site.url + resource.url)) | toAbsoluteUrl(site.url) | json }}{% if resource.data["item-summary"] %},
+          "url": {{ resourceLink | toAbsoluteUrl(site.url) | json }}{% if resource.data["item-summary"] %},
           "description": {{ resource.data["item-summary"] | striptags | trim | json }}{% endif %}{% if resource.data["item-date"] %},
           "datePublished": {{ resource.data["item-date"] | json }}{% endif %}
         }

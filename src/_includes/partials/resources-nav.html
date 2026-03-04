@@ -2,7 +2,8 @@
 
 <ul class="alt-" data-variant="bordered-l">
 {% for category in collections.resourcesCategory %}
-<li><a href="/resources/category/{{ category | lower | replace(' ', '-') }}/" class="{% if category == currentCategory %}active{% endif %}">{{ category }}</a></li>
+{% set categoryName = category | trim %}
+<li><a href="/resources/category/{{ categoryName | lower | replace(' ', '-') }}/" class="{% if currentCategory and categoryName == (currentCategory | trim) %}active{% endif %}">{{ categoryName }}</a></li>
 {% endfor %}
 </ul>
 
@@ -12,7 +13,8 @@
 
 <ul class="alt-" data-variant="bordered-l">
 {% for tag in collections.resourcesTag %}
-<li><a href="/resources/tag/{{ tag | lower | replace(' ', '-') }}/" class="{% if tag == currentTag %}active{% endif %}">
-{{ tag }}</a></li>
+{% set tagName = tag | trim %}
+<li><a href="/resources/tag/{{ tagName | lower | replace(' ', '-') }}/" class="{% if currentTag and tagName == (currentTag | trim) %}active{% endif %}">
+{{ tagName }}</a></li>
 {% endfor %}
 </ul>

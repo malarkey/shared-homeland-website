@@ -7,7 +7,7 @@ popular: false
 title: 'Affinity'
 summary: 'In his discussion of religion and sovereignty in various contexts, Robert Yelle (2019) stresses the ambivalent relationship between the modern state and transcendence.'
 url: ''
-pdf: 'affinity.pdf'
+pdf: '/files/affinity.pdf'
 ---
 In his discussion of religion and sovereignty in various contexts, Robert Yelle (2019)
 stresses the ambivalent relationship between the modern state and

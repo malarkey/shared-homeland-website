@@ -8,6 +8,6 @@ item-categories: ["Policy Reports"]
 item-tags:
 
 item-summary: |
- <p>2025. Economic Cooperation Foundation.</p>
+ <p>2026. Economic Cooperation Foundation.</p>
 
 ---
