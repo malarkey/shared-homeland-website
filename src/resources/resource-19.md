@@ -20,7 +20,7 @@ item-summary: >-
 
   models around the world have emerged that aim to meet the urgent medical needs
 
-  of affected populations. This paper aims to explore five models of healthcare systems, that differ by the circumstances in which they were built, all with some parallels to the IsraeliPalestinian conflict and relevance to a future Palestinian-Israeli Union.
+  of affected populations. This paper aims to explore five models of healthcare systems, that differ by the circumstances in which they were built, all with some parallels to the Israeli-Palestinian conflict and relevance to a future Palestinian-Israeli Union.
 item-categories:
   - Background papers
 item-tags: null
