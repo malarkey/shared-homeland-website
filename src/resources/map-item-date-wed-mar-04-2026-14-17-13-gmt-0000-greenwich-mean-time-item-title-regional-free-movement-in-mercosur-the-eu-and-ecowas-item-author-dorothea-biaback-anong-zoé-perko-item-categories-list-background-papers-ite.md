@@ -13,6 +13,5 @@ item-summary: >-
   arrangements between Israel and Palestine.
 item-categories:
   - Background papers
-item-tags:
-  - "null"
+item-tags: []
 ---
