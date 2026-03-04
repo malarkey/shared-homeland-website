@@ -17,13 +17,7 @@ item-summary: >-
 
   urban center of Nicosia into a space of community formation, exchange and conflict
 
-  resolution from below. Moreover, we suggest that their foundation and sustenance
-
-  provide an overall good example for identifying important lessons of local and
-
-  international factors that enable the transformation of border zones into spaces of
-
-  encounter and, why not, into potential commons. 
+  resolution from below.
 item-categories:
   - Background papers
 item-tags: null
