@@ -1,13 +1,16 @@
 ---
-author: 'David Borabeck'
-categories: ['Lexicon']
+title: Affinity
+author: David Borabeck
+summary: '"The transcendent can help cultivate a shared appreciation for the
+  land and its significant sacred sites, rather than the sectarian divisions
+  created by the zero-sum game of colonialism and nationalism."'
+categories:
+  - Lexicon
 featured: true
-layout: 'layouts/term.html'
 popular: false
-title: 'Affinity'
-summary: 'In his discussion of religion and sovereignty in various contexts, Robert Yelle (2019) stresses the ambivalent relationship between the modern state and transcendence.'
-url: ''
-pdf: '/files/affinity.pdf'
+url: ""
+pdf: /files/affinity.pdf
+layout: layouts/term.html
 ---
 In his discussion of religion and sovereignty in various contexts, Robert Yelle (2019)
 stresses the ambivalent relationship between the modern state and
