@@ -1,7 +1,7 @@
 {
   "categories": [
     {
-      "name": "Articles and books",
+      "name": "Articles & Books",
       "summary": "Long-form essays, articles, and books that deepen the intellectual and historical context for shared homeland thinking."
     },
     {
@@ -10,14 +10,14 @@
     },
     {
       "name": "Podcasts",
-      "summary": "Audio conversations and interviews that explore the ideas, politics, and lived realities surrounding a shared homeland paradigm."
+      "summary": "."
     },
     {
       "name": "Policy Reports",
-      "summary": "Research and policy papers exploring confederation, shared governance, and practical institutional proposals for Palestine-Israel."
+      "summary": "."
     },
     {
-      "name": "Videos and events",
+      "name": "Videos & Events",
       "summary": "Recorded talks, panels, interviews, and public events featuring researchers, practitioners, and partner organisations."
     }
   ]
