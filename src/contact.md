@@ -1,11 +1,9 @@
 ---
+title: Reach Out
+metaDesc: null
 featureImage: /images/img-contact.webp
-featureImageCaption:
-layout: 'layouts/contact.html'
-metaDesc:
-permalink: '/contact/'
-title: 'Reach out'
-
-aside: |
-
+featureImageCaption: null
+layout: layouts/contact.html
+permalink: /contact/
+aside: ""
 ---
