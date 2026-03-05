@@ -1,5 +1,5 @@
 ---
-title: Will be available here shortly.
+title: Will be available here shortly
 categories:
   - about
 ---
