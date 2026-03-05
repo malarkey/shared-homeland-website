@@ -1,5 +1,5 @@
 ---
-title: Future scenarios
+title: Future Scenarios
 layout: layouts/scenarios.html
 permalink: /scenarios/
 ---
