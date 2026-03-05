@@ -65,9 +65,5 @@ extended: >-
 
 
   <p>Recognizing that addressing all dimensions of the situation in Palestine-Israel is infeasible in a project of this scale, The Shared Homeland Paradigm focuses on three issue clusters that enable deep exploration of features that distinguish the shared homeland paradigm from other models: (1) citizenship, residency and mobility (CRM); (2) transnational/transboundary urban territories (TUT); and (3) environmental cooperation (EC.)</p>
-background: >
-  <p data-size="s">Explores the historical roots of the Israel-Palestine
-  conflict, tracing key events, political developments, and territorial changes
-  that shaped today's realities, providing essential context for understanding
-  current challenges and perspectives.</p>
+background: '<p data-size="s">Research In Progress: Content Arriving Soon</p>'
 ---
