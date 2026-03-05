@@ -49,7 +49,18 @@ collections:
     fields:
       - {label: "Question", name: "title", widget: "string"}
       - {label: "Answer", name: "body", widget: "markdown"}
-      - {label: "Categories", name: "categories", widget: "list", default: ["general"]}
+      - label: "Categories"
+        name: "categories"
+        widget: "list"
+        default: ["general"]
+        field:
+          label: "Category"
+          name: "category"
+          widget: "select"
+          options:
+            - "about"
+            - "contact"
+            - "general"
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/base.html"}
 
   - name: "scenarios"
@@ -66,7 +77,7 @@ collections:
   - name: "lexicon"
     label: "Lexicon Terms"
     folder: "src/lexicon"
-    media_folder: "/src/files"
+    media_folder: "src/files"
     public_folder: "/files"
     create: true
     slug: "{{slug}}"
@@ -75,7 +86,15 @@ collections:
     - {label: "Author", name: "author", widget: "string", required: false}
     - {label: "Summary", name: "summary", widget: "text"}
     - {label: "Detailed Description", name: "body", widget: "markdown"}
-    - {label: "Categories", name: "categories", widget: "list"}
+    - label: "Categories"
+      name: "categories"
+      widget: "list"
+      field:
+        label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - "Lexicon"
     - {label: "Featured Term", name: "featured", widget: "boolean", default: false}
     - {label: "Popular Term", name: "popular", widget: "boolean", default: false}
     - {label: "Wikipedia URL", name: "url", widget: "string", required: false}
@@ -83,7 +102,7 @@ collections:
       name: "pdf"
       widget: "file"
       required: false
-      media_folder: "/src/files"
+      media_folder: "src/files"
       public_folder: "/files"
       hint: "Use PDF File for uploaded documents."
     - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/term.html"}
@@ -100,14 +119,35 @@ collections:
       - {label: "Summary", name: "postSummary", widget: "text"}
       - {label: "Featured Image", name: "image", widget: "image", required: false}
       - {label: "Image Caption", name: "imageCaption", widget: "string", required: false}
-      - {label: "Categories", name: "postCategories", widget: "list"}
-      - {label: "Tags", name: "postTags", widget: "list"}
+      - label: "Categories"
+        name: "postCategories"
+        widget: "list"
+        field:
+          label: "Category"
+          name: "category"
+          widget: "select"
+          options:
+            - "Articles"
+            - "Books"
+            - "Events"
+            - "Papers"
+      - label: "Tags"
+        name: "postTags"
+        widget: "list"
+        field:
+          label: "Tag"
+          name: "tag"
+          widget: "select"
+          options:
+            - "Articles"
+            - "Books"
+            - "Papers"
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "resources"
     label: "Resources"
     folder: "src/resources"
-    media_folder: "/src/files"
+    media_folder: "src/files"
     public_folder: "/files"
     create: true
     slug: "{{slug}}"
@@ -120,13 +160,34 @@ collections:
         name: "item-file"
         widget: "file"
         required: false
-        media_folder: "/src/files"
+        media_folder: "src/files"
         public_folder: "/files"
         hint: "Use PDF File for uploaded documents."
       - {label: "External URL", name: "item-url", widget: "string", required: false, hint: "Use External URL only for off-site links."}
       - {label: "Summary", name: "item-summary", widget: "text"}
-      - {label: "Categories", name: "item-categories", widget: "list"}
-      - {label: "Tags", name: "item-tags", widget: "list"}
+      - label: "Categories"
+        name: "item-categories"
+        widget: "list"
+        hint: "Choose one or more from the existing categories."
+        field:
+          label: "Category"
+          name: "category"
+          widget: "select"
+          options:
+            - "Background papers"
+            - "Policy Reports"
+            - "Articles and books"
+            - "Videos and events"
+            - "Podcasts"
+      - label: "Tags"
+        name: "item-tags"
+        widget: "list"
+        field:
+          label: "Tag"
+          name: "tag"
+          widget: "select"
+          options:
+            - "A Land for All"
 
   - name: "pages"
     label: "Pages"

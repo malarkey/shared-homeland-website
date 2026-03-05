@@ -8,9 +8,11 @@ const dateFilter = require("./src/filters/date-filter.js");
 const w3DateFilter = require("./src/filters/w3-date-filter.js");
 const sortByDisplayOrder = require("./src/utils/sort-by-display-order.js");
 const resourceCategorySummariesData = require("./src/_data/resource-category-summaries.json");
+const normalizeCategoryKey = (value) =>
+  String(value || "").trim().toLowerCase();
 const resourceCategorySummaries = Object.fromEntries(
   (resourceCategorySummariesData.categories || []).map((item) => [
-    (item.name || "").trim(),
+    normalizeCategoryKey(item.name),
     item.summary || ""
   ])
 );
@@ -174,7 +176,7 @@ resource.data["item-tags"].some(resourceTag => resourceTag.trim() === tag.trim()
 });
 
 eleventyConfig.addFilter("getResourceCategorySummary", (category) => {
-return resourceCategorySummaries[(category || "").trim()] || "";
+return resourceCategorySummaries[normalizeCategoryKey(category)] || "";
 });
 
 // BLOG FILTERS
@@ -218,6 +220,10 @@ eleventyConfig.addPassthroughCopy("src/css");
 eleventyConfig.addPassthroughCopy("src/js");
 eleventyConfig.addPassthroughCopy("src/images");
 eleventyConfig.addPassthroughCopy("src/files");
+// Decap CMS may resolve per-collection file uploads under collection folders.
+// Publish those to /files too so resource/lexicon file links remain valid.
+eleventyConfig.addPassthroughCopy({ "src/resources/src/files": "files" });
+eleventyConfig.addPassthroughCopy({ "src/lexicon/src/files": "files" });
 
 // COLLECTIONS
 
@@ -413,7 +419,7 @@ return Array.from(categories).map(category => {
 return {
 title: `${category}`,
 category: category,
-summary: resourceCategorySummaries[category.trim()] || "",
+summary: resourceCategorySummaries[normalizeCategoryKey(category)] || "",
 permalink: `/resources/category/${category.trim().toLowerCase().replace(/\s+/g, '-')}/`,
 layout: "layouts/base.html"
 };
