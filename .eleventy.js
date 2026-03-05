@@ -20,6 +20,26 @@ const markdownRenderer = new MarkdownIt({
 html: true,
 linkify: true
 });
+const convertMarkdownLinks = (value) => {
+  const input = String(value || "");
+
+  // Some CMS edits can escape existing anchor tags as `\<a ...>`.
+  const withUnescapedAnchors = input.replace(/\\(<\/?a\b[^>]*>)/g, "$1");
+
+  return withUnescapedAnchors.replace(
+    /(?<!!)(\\*)\[([^\]]+)\]\(([^)]*)\)/g,
+    (_match, _slashes, text, href) => {
+      const url = String(href || "").trim();
+
+      // Do not emit empty href anchors for incomplete markdown links.
+      if (!url) {
+        return text;
+      }
+
+      return `<a href="${url}">${text}</a>`;
+    }
+  );
+};
 
 // Async image shortcode
 async function imageShortcode(src, alt, sizes = "(min-width: 1024px) 50vw, 100vw") {
@@ -66,21 +86,15 @@ if (!value) {
 return "";
 }
 
-// Convert markdown-style links inside rich-text HTML blocks.
-return String(value).replace(
-/\[([^\]]+)\]\(([^)\s]+)\)/g,
-'<a href="$2">$1</a>'
-);
+// Convert markdown-style links (including escaped `\[...](...)`) inside rich text.
+return convertMarkdownLinks(value);
 });
 eleventyConfig.addFilter("renderRichMarkdown", function(value) {
 if (!value) {
 return "";
 }
 
-const withLinksConverted = String(value).replace(
-/\[([^\]]+)\]\(([^)\s]+)\)/g,
-'<a href="$2">$1</a>'
-);
+const withLinksConverted = convertMarkdownLinks(value);
 
 return markdownRenderer.render(withLinksConverted);
 });
