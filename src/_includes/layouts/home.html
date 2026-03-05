@@ -29,7 +29,7 @@
 <ul class="alt-inline" data-size="s">
 <li><a href="#section-scenarios">Future scenarios</a></li>
 <li><a href="#section-lexicon">Alternative Lexicon</a></li>
-<li><a href="#section-highlights">Highlights</a></li>
+<!-- <li><a href="#section-highlights">Highlights</a></li> -->
 </ul>
 
 </div><!-- two -->
@@ -49,7 +49,7 @@
 
 <hr data-function="spacer" id="section-scenarios">
 
-<h2>Future scenarios</h2>
+<h2>Future Scenarios</h2>
 
 {% include "partials/scenarios-list.html" %}
 
@@ -60,7 +60,7 @@
 
 <hr data-function="spacer" id="section-lexicon">
 
-<h2><a href="/lexicon-grid">Alternative Lexicon</a></h2>
+<h2><a href="/lexicon-grid">From the Alternative Lexicon</a></h2>
 
 <div data-layout="flex" data-border="r">
 {% set recentLexicon = collections.lexicon | filterByFeatured | sort(false, false, "date") | reverse | limit(3) %}
