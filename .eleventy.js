@@ -1,6 +1,7 @@
 const { execSync } = require("child_process");
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
 const Image = require("@11ty/eleventy-img");
+const MarkdownIt = require("markdown-it");
 
 // Filters
 const dateFilter = require("./src/filters/date-filter.js");
@@ -13,6 +14,10 @@ const resourceCategorySummaries = Object.fromEntries(
     item.summary || ""
   ])
 );
+const markdownRenderer = new MarkdownIt({
+html: true,
+linkify: true
+});
 
 // Async image shortcode
 async function imageShortcode(src, alt, sizes = "(min-width: 1024px) 50vw, 100vw") {
@@ -53,6 +58,29 @@ eleventyConfig.addFilter("sortByDisplayOrder", sortByDisplayOrder);
 eleventyConfig.addFilter("inline", inlineFilter);
 eleventyConfig.addFilter("json", function(value) {
 return JSON.stringify(value ?? "");
+});
+eleventyConfig.addFilter("markdownLinksToHtml", function(value) {
+if (!value) {
+return "";
+}
+
+// Convert markdown-style links inside rich-text HTML blocks.
+return String(value).replace(
+/\[([^\]]+)\]\(([^)\s]+)\)/g,
+'<a href="$2">$1</a>'
+);
+});
+eleventyConfig.addFilter("renderRichMarkdown", function(value) {
+if (!value) {
+return "";
+}
+
+const withLinksConverted = String(value).replace(
+/\[([^\]]+)\]\(([^)\s]+)\)/g,
+'<a href="$2">$1</a>'
+);
+
+return markdownRenderer.render(withLinksConverted);
 });
 eleventyConfig.addFilter("toAbsoluteUrl", function(url, base) {
 if (!url) {

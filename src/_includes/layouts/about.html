@@ -15,8 +15,8 @@
 
 <div>
 <h1>{{ title }}</h1>
-{{ lede | safe }}
-{{ main | safe }}
+{{ lede | markdownLinksToHtml | safe }}
+{{ main | markdownLinksToHtml | safe }}
 
 {% if extended %}
 <p>
@@ -32,7 +32,7 @@ Read more
 
 <div id="extended-content" class="extended-content" hidden aria-labelledby="extended-heading">
 <h2 id="extended-heading" data-visibility="hidden">Extended content</h2>
-{{ extended | safe }}
+{{ extended | markdownLinksToHtml | safe }}
 </div><!-- extended-content -->
 {% endif %}
 
@@ -44,7 +44,7 @@ Read more
 <details>
 <summary>{{ faq.data.title }}</summary>
 <div class="faq-answer">
-{{ faq.templateContent | safe }}
+{{ faq.templateContent | markdownLinksToHtml | safe }}
 </div>
 </details>
 {% endfor %}
@@ -66,7 +66,7 @@ Read more
 {% if background %}
 <div class="alt-box">
 <h2>Project background</h2>
-{{ background | safe }}
+{{ background | renderRichMarkdown | safe }}
 <!-- <p><a href="/background" class="alt-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="16" viewBox="0 0 16 16">
 <path fill="#000" d="M7.543 1.043a1 1 0 0 1 1.414 0l6.25 6.25a.997.997 0 0 1 0 1.415l-6.26 6.25a1 1 0 0 1-1.413-1.416L12.083 9H1a1 1 0 0 1 0-2h11.086L7.543 2.457a1 1 0 0 1 0-1.414"/></svg> Read more</a></p> -->
 <hr>

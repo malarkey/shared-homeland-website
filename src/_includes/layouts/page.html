@@ -13,8 +13,8 @@ w{% extends "layouts/base.html" %}
 <h1>{{ title }}</h1>
 {% endif %}
 
-{{ lede | safe }}
-{{ content | safe }}
+{{ lede | markdownLinksToHtml | safe }}
+{{ content | markdownLinksToHtml | safe }}
 
 </div><!-- one -->
 </div><!-- layout -->

@@ -15,9 +15,9 @@
 {% endif %}
 </h2>
 
-<p>{{ resource.data["item-summary"] | safe }}</p>
+<p>{{ resource.data["item-summary"] | markdownLinksToHtml | safe }}</p>
 
-{{ resource.templateContent | safe }}
+{{ resource.templateContent | markdownLinksToHtml | safe }}
 
 <small>{% for category in resource.data["item-categories"] %}
 {% set categoryName = category | trim %}

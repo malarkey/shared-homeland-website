@@ -3,6 +3,9 @@
 {% block content %}
 
 <h1>Future scenarios</h1>
+{% if content %}
+{{ content | markdownLinksToHtml | safe }}
+{% endif %}
 
 {% include "partials/scenarios-list.html" %}
 

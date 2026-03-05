@@ -29,7 +29,7 @@ summary: The Shared Homeland Paradigm project is continuing a long research path
 </h3>
 
 {% if resource.data["item-summary"] %}
-<p>{{ resource.data["item-summary"] | safe }}</p>
+<p>{{ resource.data["item-summary"] | markdownLinksToHtml | safe }}</p>
 {% endif %}
 </article>
 {% endfor %}

@@ -16,7 +16,7 @@
 <div>
 {% set pageHeaderTitle = title %}
 <h1 style="margin-block-end:0;">{{ pageHeaderTitle }}</h1>
-{{ aside | safe }}
+{{ aside | markdownLinksToHtml | safe }}
 <hr data-function="spacer">
 
 {% if collections.lexicon and collections.lexicon.length %}
@@ -100,7 +100,7 @@
 
 <div>
 <hr>
-{{ content | safe }}
+{{ content | markdownLinksToHtml | safe }}
 </div>
 
 </div><!-- layout -->

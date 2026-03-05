@@ -13,7 +13,7 @@
 
 <div>
 <h1>{{ title }}</h1>
-{{ lede | safe }}
+{{ lede | markdownLinksToHtml | safe }}
 
 <form action="/" class="contact-form" method="POST" name="contact-form" netlify>
 <input type="hidden" name="form-name" value="contact-form">
@@ -58,7 +58,7 @@
 </figure>
 {% endif %}
 
-{{ aside | safe }}
+{{ aside | markdownLinksToHtml | safe }}
 
 <ul class="alt-" data-variant="bordered-l">
 <li><a href="/team">The team</a></li>
@@ -87,7 +87,7 @@
 <details>
 <summary>{{ faq.data.title }}</summary>
 <div class="faq-answer">
-{{ faq.templateContent | safe }}
+{{ faq.templateContent | markdownLinksToHtml | safe }}
 </div>
 </details>
 {% endfor %}

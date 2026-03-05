@@ -12,7 +12,7 @@ aside: >
 <details>
 <summary>{{ faq.data.title }}</summary>
 <div class="faq-answer">
-{{ faq.templateContent | safe }}
+{{ faq.templateContent | markdownLinksToHtml | safe }}
 </div>
 </details>
 {% endfor %}
