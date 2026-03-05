@@ -1,11 +1,11 @@
 ---
-item-title: "A Two-State Solution That Can Work"
-item-author: "Omar M. Dajani"
-item-date: 2025-11-20
+item-title: A Two-State Solution That Can Work
+item-author: Omar M. Dajani
+item-date: 2024-09-18T23:00:00.000Z
 item-type: English
-item-url: "https://www.foreignaffairs.com/israel/two-state-solution-can-work"
-item-categories: ["Articles and books "]
-item-tags:
-
-item-summary: 2024. Omar M. Dajani, Dahlia Scheindlin, and Limor Yehuda
+item-url: https://www.foreignaffairs.com/israel/two-state-solution-can-work
+item-summary: Omar M. Dajani and Limor Yehuda
+item-categories:
+  - "Articles and books "
+item-tags: null
 ---
