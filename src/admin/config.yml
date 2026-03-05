@@ -77,8 +77,6 @@ collections:
   - name: "lexicon"
     label: "Lexicon Terms"
     folder: "src/lexicon"
-    media_folder: "src/files"
-    public_folder: "/files"
     create: true
     slug: "{{slug}}"
     fields:
@@ -102,7 +100,7 @@ collections:
       name: "pdf"
       widget: "file"
       required: false
-      media_folder: "src/files"
+      media_folder: "../files"
       public_folder: "/files"
       hint: "Use PDF File for uploaded documents."
     - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/term.html"}
@@ -147,8 +145,6 @@ collections:
   - name: "resources"
     label: "Resources"
     folder: "src/resources"
-    media_folder: "src/files"
-    public_folder: "/files"
     create: true
     slug: "{{slug}}"
     fields:
@@ -160,7 +156,7 @@ collections:
         name: "item-file"
         widget: "file"
         required: false
-        media_folder: "src/files"
+        media_folder: "../files"
         public_folder: "/files"
         hint: "Use PDF File for uploaded documents."
       - {label: "External URL", name: "item-url", widget: "string", required: false, hint: "Use External URL only for off-site links."}
