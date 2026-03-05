@@ -12,7 +12,7 @@ url: ""
 pdf: /files/affinity.pdf
 layout: layouts/term.html
 ---
-In his discussion of religion and sovereignty in various contexts, Robert Yelle (2019)
+TEST: In his discussion of religion and sovereignty in various contexts, Robert Yelle (2019)
 stresses the ambivalent relationship between the modern state and
 transcendence. Despite Max Weber's argument that modernity disenchanted the
 world of its gods and demons, modernity is actually obsessed with transcendence,
