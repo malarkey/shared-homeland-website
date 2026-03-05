@@ -1,5 +1,5 @@
 ---
-title: Alternative Lexicon
+title: The Alternative Lexicon
 layout: layouts/lexicon-list.html
 permalink: /lexicon-list/
 aside: >-
