@@ -1,13 +1,16 @@
 ---
-author: 'Nathan Marom'
-categories: ['Lexicon']
+title: In/dependence / Interdependence
+author: Nathan Marom
+summary: '"Dependence can become interdependence when it is symmetrical, just,
+  and sustainable. This is a continued process, perhaps never fully achieved,
+  rather than a fixed objective or endgame."'
+categories:
+  - Lexicon
 featured: true
-layout: 'layouts/term.html'
 popular: false
-title: 'In/dependence / Interdependence'
-summary: 'The struggle for national independence has been at the core of the Israeli-Palestinian conflict from its earliest days.'
-url: ''
-pdf: '/files/independence-Interdependence.pdf'
+url: ""
+pdf: /files/independence-Interdependence.pdf
+layout: layouts/term.html
 ---
 During the first half of the 20th century, both sides have gradually developed a distinct national awareness and a desire for political independence. The two national independence movements grew and hardened in tandem, in opposition to each other despite a reality on the ground of porous boundaries and social mixing, especially in the large “mixed” cities such as Jerusalem and Jaffa – namely, a reality of interdependence.
 
