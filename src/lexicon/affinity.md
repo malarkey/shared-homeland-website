@@ -1,9 +1,9 @@
 ---
 title: Affinity
 author: David Borabeck
-summary: TESTING! In his discussion of religion and sovereignty in various
-  contexts, Robert Yelle (2019) stresses the ambivalent relationship between the
-  modern state and transcendence.
+summary: In his discussion of religion and sovereignty in various contexts,
+  Robert Yelle (2019) stresses the ambivalent relationship between the modern
+  state and transcendence.
 categories:
   - Lexicon
 featured: true
