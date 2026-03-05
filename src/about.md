@@ -49,16 +49,16 @@ extended: >-
   <p>Although the vision The Shared Homeland Paradigm is developing contemplates achieving self-determination for both peoples through the establishment of a Palestinian state alongside Israel with borders based on the 1967 line, it is premised upon the paradigm of a shared homeland, rather than one of separation. What that means, at a basic level, is that all Israelis and Palestinians would enjoy freedom of movement and residence across both states—their common homeland. The paradigm also assumes the erection of a confederal framework encompassing joint institutions robust enough to guarantee individual and collective rights and facilitate cooperative management of issues of mutual concern. This fundamental reimagination of the two-state solution offers a path around longstanding deadlocks regarding the issues of borders, Jerusalem, settlements, and refugees.</p>
 
 
-  <h2>Our first phase</h2>
+  <h2>The First Phase</h2>
 
 
-  <p>During the The Shared Homeland Paradigm&#8217;s first phase, our project team has commissioned studies analyzing comparative experience in other relevant contexts from experts in a range of fields. We are also in the process of developing an \[alternative lexicon](https://sharedhomeland.com/lexicon-grid/) to guide how we use language—in the context of the project and, more broadly, in discourse about the future of Palestine-Israel.</p>
+  <p>During the The Shared Homeland Paradigm&#8217;s first phase, our project team has commissioned studies analyzing comparative experience in other relevant contexts from experts in a range of fields. We are also in the process of developing an \\[alternative lexicon](https://sharedhomeland.com/lexicon-grid/) to guide how we use language—in the context of the project and, more broadly, in discourse about the future of Palestine-Israel.</p>
 
 
-  <p>This work, along with research undertaken by our team regarding current circumstances in and proposals for Palestine-Israel, will serve as the foundation for the project’s second phase—\[scenario development](https://sharedhomeland.com/scenarios/). The scenarios will explore how a shared homeland paradigm would operate in practical detail, giving particular attention to the lived reality of Israelis and Palestinians. Although The Shared Homeland Paradigm is not intended to be a utopian exercise, the scenario development process will focus initially on developing a vision for the future. At a later stage of the scenario development process, a transition plan outlining necessary legal, institutional, and infrastructural changes will be developed.</p>
+  <p>This work, along with research undertaken by our team regarding current circumstances in and proposals for Palestine-Israel, will serve as the foundation for the project’s second phase—\\[scenario development](https://sharedhomeland.com/scenarios/). The scenarios will explore how a shared homeland paradigm would operate in practical detail, giving particular attention to the lived reality of Israelis and Palestinians. Although The Shared Homeland Paradigm is not intended to be a utopian exercise, the scenario development process will focus initially on developing a vision for the future. At a later stage of the scenario development process, a transition plan outlining necessary legal, institutional, and infrastructural changes will be developed.</p>
 
 
-  <h2>The third phase</h2>
+  <h2>The Third Phase</h2>
 
 
   <p>The third phase of the project will focus on engagement with policy audiences and civil society. Our aim is both to elicit critical feedback that can help refine our work and to broaden and deepen the conversation about how to build a just and inclusive future in Palestine-Israel.</p>
