@@ -4,7 +4,7 @@ item-title: "Searching for Mutual Partnership Beyond Borders through an Embrace
 item-author: Diane E. Davis
 item-date: 2026-03-09T11:34:59.970Z
 item-type: English
-item-file: /files/searching-for-mutual-partnership-beyond-borders-bp.pdf
+item-file: /files/shp-searching-for-mutual-partnership-beyond-borders.pdf
 item-summary: This essay asks whether and how ecological conditions can form the
   basis for cooperation across social, spatial, and political borders and
   boundaries. Using case study materials from various parts of the world, and
