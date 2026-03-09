@@ -3,7 +3,7 @@ item-title: Overcoming Natural Resource Inequalities
 item-author: David Simon & Joseph Rabie
 item-date: 2026-03-09T13:50:51.055Z
 item-type: English
-item-file: /files/overcoming-natural-resource-inequalities-bp.pdf
+item-file: /files/shp-overcoming-natural-resource-inequalities-bp.pdf
 item-summary: "Underlying – literally – the fractured and conflicted geopolitics
   of Israel-Palestine are the various elements of the shared natural
   environment, namely topography, hydrography, vegetation and natural resources.
