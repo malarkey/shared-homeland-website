@@ -3,7 +3,7 @@ item-title: Urban Political Institutions in Contested Territories
 item-author: Nathan Marom
 item-date: 2026-03-09T14:52:01.815Z
 item-type: English
-item-file: /files/urban-political-institutions-in-contested-territories-bp.pdf
+item-file: /files/shp-urban-political-institutions-in-contested-territories.pdf
 item-summary: "In the last few decades, post-conflict cities have become focal
   points for political reconstruction, social reconciliation, and institutional
   innovation. These cities, often divided along ethnic, religious, or national
