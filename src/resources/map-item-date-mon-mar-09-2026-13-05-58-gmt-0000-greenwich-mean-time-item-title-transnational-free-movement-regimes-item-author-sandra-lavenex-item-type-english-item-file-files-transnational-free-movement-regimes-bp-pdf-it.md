@@ -3,7 +3,7 @@ item-title: Transnational Free Movement Regimes
 item-author: Sandra Lavenex
 item-date: 2026-03-09T13:05:58.088Z
 item-type: English
-item-file: /files/transnational-free-movement-regimes-bp.pdf
+item-file: /files/shp-transnational-free-movement-regimes.pdf
 item-summary: This background paper introduces a novel typology of mobility
   arrangements between sovereign states distinguishing between their scale,
   scope and motives and examines selected cases with regard to their legal basis
