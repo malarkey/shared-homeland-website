@@ -7,6 +7,11 @@
 <small>{{ resource.data["item-type"] }}</small>
 </div><!-- alt-bordered -->
 
+{% set categoriesText = (resource.data["item-categories"] or []) | join("||") | lower %}
+{% if "background papers" in categoriesText and resource.data["item-author"] %}
+<small>{{ resource.data["item-author"] }}</small>
+{% endif %}
+
 <h2 data-size="l">
 {% if resourceLink %}
 <a href="{{ resourceLink }}" target="_blank">{{ resource.data["item-title"] }}</a>
