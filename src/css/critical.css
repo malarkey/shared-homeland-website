@@ -1191,6 +1191,18 @@ scale: 1.05; }
 
 /*Terms */
 
+#author-info {
+margin-block-end: var(--spacing-r);
+margin-trim: block; }
+
+#author-info p {
+margin-block: var(--spacing-xs) 0; }
+
+#author-info p + p {
+font-size: var(--font-size-xs); }
+
+
+
 #terms {
 position: relative; }
 

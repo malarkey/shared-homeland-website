@@ -1,6 +1,7 @@
 ---
 title: The Green Line
 author: Stephan Stetter
+bio:
 summary: '"The Green Line can play a prominent role under an “emancipatory
   peacebuilding” paradigm (ibid.) by being a border between two
   internationallyrecognized states, on the one hand, and a porous membrane in

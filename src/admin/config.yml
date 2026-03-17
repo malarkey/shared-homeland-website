@@ -82,6 +82,7 @@ collections:
     fields:
     - {label: "Term", name: "title", widget: "string"}
     - {label: "Author", name: "author", widget: "string", required: false}
+    - {label: "Short biography", name: "bio", widget: "string", required: false}
     - {label: "Summary", name: "summary", widget: "text"}
     - {label: "Detailed Description", name: "body", widget: "markdown"}
     - label: "Categories"
