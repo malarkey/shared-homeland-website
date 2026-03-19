@@ -1,7 +1,10 @@
 ---
 title: In/dependence / Interdependence
 author: Nathan Marom
-bio:
+bio: "Nathan Marom is an urban scholar writing on urban sustainability,
+  political ecology, and socio-spatial inequalities. The ideas for this lexical
+  entry were developed during his fellowship at the Paris Institute for Advanced
+  Study (2024). "
 summary: '"Dependence can become interdependence when it is symmetrical, just,
   and sustainable. This is a continued process, perhaps never fully achieved,
   rather than a fixed objective or endgame."'
