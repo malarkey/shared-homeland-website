@@ -3,7 +3,7 @@ item-title: "Making Common Place in Israel-Palestine: Lessons from Northern Irel
 item-author: Frank Gaffikin
 item-date: 2026-03-19T17:31:40.167Z
 item-type: English
-item-file: /files/shp-making-common-place-in-israel-palestine-bp.docx-copy.docx
+item-file: /files/shp-making-common-place-in-israel-palestine.docx-copy.pdf
 item-summary: No two conflicts are the same. While this paper concentrates on
   Northern Ireland, it poses the question as to whether its experience in recent
   decades of pursuing the formal policy of creating a more shared society bears
