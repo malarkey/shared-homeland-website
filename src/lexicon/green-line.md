@@ -1,7 +1,12 @@
 ---
 title: The Green Line
 author: Stephan Stetter
-bio:
+bio: Stephan Stetter is professor of International Politics and Conflict Studies
+  at the University of the Bundeswehr Munich, He is founding speaker and current
+  vice-speaker of the Scientific Steering Committee of the Bavarian Research
+  Alliance for Peace, Conflict and Security Studies. Since the mid 1990s, he has
+  been and is involved in manifold second-track and civil society activities in
+  Israeli and in Palestine - and in relation to Israeli-Palestinian relations.
 summary: '"The Green Line can play a prominent role under an “emancipatory
   peacebuilding” paradigm (ibid.) by being a border between two
   internationallyrecognized states, on the one hand, and a porous membrane in
