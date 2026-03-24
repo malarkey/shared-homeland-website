@@ -1,7 +1,10 @@
 ---
 item-title: Urban Political Institutions in Contested Territories
 item-author: Nathan Marom
-item-author-bio: Dr. Nathan Marom was (until 2022) a Senior Lecturer at the School of Sustainability, Reichman University (Interdisciplinary Center) Israel, and currently teaches at the Urban School, Sciences Po, Paris. He is an urban scholar and sociologist specializing in the urban environment, its planning, politics, and social transformations, and its socio-ecological sustainability.
+item-author-bio: "Nathan Marom is an urban scholar writing on urban
+  sustainability, political ecology, and socio-spatial inequalities. The ideas
+  for this lexical entry were developed during his fellowship at the Paris
+  Institute for Advanced Study (2024). "
 item-date: 2026-03-09T14:52:01.815Z
 item-type: English
 item-file: /files/shp-urban-political-institutions-in-contested-territories.pdf
