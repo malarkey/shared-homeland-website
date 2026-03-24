@@ -1,17 +1,11 @@
 ---
 title: The Green Line
 author: Stephan Stetter
-bio: Stephan Stetter is professor of International Politics and Conflict Studies
-  at the University of the Bundeswehr Munich, He is founding speaker and current
-  vice-speaker of the Scientific Steering Committee of the Bavarian Research
-  Alliance for Peace, Conflict and Security Studies. Since the mid 1990s, he has
-  been and is involved in manifold second-track and civil society activities in
-  Israeli and in Palestine - and in relation to Israeli-Palestinian relations.
-summary: '"The Green Line can play a prominent role under an “emancipatory
-  peacebuilding” paradigm (ibid.) by being a border between two
-  internationallyrecognized states, on the one hand, and a porous membrane in
-  everyday nation- and state-building on a local, national and supranational
-  level, on the other."'
+
+bio: Stephan Stetter is professor of International Politics and Conflict Studies at the University of the Bundeswehr Munich, He is founding speaker and current vice-speaker of the Scientific Steering Committee of the Bavarian Research Alliance for Peace, Conflict and Security Studies. Since the mid 1990s, he has been and is involved in manifold second-track and civil society activities in Israeli and in Palestine - and in relation to Israeli-Palestinian relations.
+
+summary: 'The Green Line can play a prominent role under an “emancipatory peacebuilding” paradigm (ibid.) by being a border between two internationallyrecognized states, on the one hand, and a porous membrane in everyday nation- and state-building on a local, national and supranational level, on the other.'
+
 categories:
   - Lexicon
 featured: true
@@ -20,6 +14,7 @@ url: ""
 pdf: /files/the-green-line.pdf
 layout: layouts/term.html
 ---
+
 A pen with green ink was used in order to demarcate - on the two-dimensional space
 of a cartographic map - the ceasefire lines between several Arab states and the State of
 Israel following the first Arab-Israeli war of 1948/1949. Palestinians were notably

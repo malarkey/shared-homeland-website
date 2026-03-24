@@ -1192,14 +1192,16 @@ scale: 1.05; }
 /*Terms */
 
 #author-info {
+border: var(--border-width-r) solid var(--color-border);
 margin-block-end: var(--spacing-r);
-margin-trim: block; }
+margin-trim: block;
+padding: var(--spacing-s); }
 
 #author-info p {
-margin-block: var(--spacing-xs) 0; }
+margin-block: 0; }
 
 #author-info p + p {
-font-size: var(--font-size-xs); }
+font-size: var(--font-size-s); }
 
 
 

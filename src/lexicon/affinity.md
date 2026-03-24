@@ -1,10 +1,10 @@
 ---
 title: Affinity
 author: David Borabeck
-bio:
-summary: '"The transcendent can help cultivate a shared appreciation for the
-  land and its significant sacred sites, rather than the sectarian divisions
-  created by the zero-sum game of colonialism and nationalism."'
+bio: David Borabeck is a postdoctoral research fellow at the Oxford School of Global and Area Studies and St. Antony’s College, where he examines the intersections of nationalism, colonialism, religion, and ethnicity.
+
+summary: 'The transcendent can help cultivate a shared appreciation for the land and its significant sacred sites, rather than the sectarian divisions created by the zero-sum game of colonialism and nationalism.'
+
 categories:
   - Lexicon
 featured: true

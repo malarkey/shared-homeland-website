@@ -1,13 +1,11 @@
 ---
 title: In/dependence / Interdependence
 author: Nathan Marom
-bio: "Nathan Marom is an urban scholar writing on urban sustainability,
-  political ecology, and socio-spatial inequalities. The ideas for this lexical
-  entry were developed during his fellowship at the Paris Institute for Advanced
-  Study (2024). "
-summary: '"Dependence can become interdependence when it is symmetrical, just,
-  and sustainable. This is a continued process, perhaps never fully achieved,
-  rather than a fixed objective or endgame."'
+
+bio: "Nathan Marom is an urban scholar writing on urban sustainability, political ecology, and socio-spatial inequalities. The ideas for this lexical entry were developed during his fellowship at the Paris Institute for Advanced Study (2024)."
+
+summary: 'Dependence can become interdependence when it is symmetrical, just, and sustainable. This is a continued process, perhaps never fully achieved, rather than a fixed objective or endgame.'
+
 categories:
   - Lexicon
 featured: true
@@ -16,6 +14,7 @@ url: ""
 pdf: /files/independence-Interdependence.pdf
 layout: layouts/term.html
 ---
+
 During the first half of the 20th century, both sides have gradually developed a distinct national awareness and a desire for political independence. The two national independence movements grew and hardened in tandem, in opposition to each other despite a reality on the ground of porous boundaries and social mixing, especially in the large “mixed” cities such as Jerusalem and Jaffa – namely, a reality of interdependence.
 
 In sociological terms, one could say that the growing aspiration for national independence – and its manifestation through geographical separation – were the result of competing “principles of vision and division” (Bourdieu, 1989). So that “nationality”, which was hardly a credible vision for the motely communities of Ottoman Palestine at the beginning of the century, quickly overcame other possible social divisions based on class, religion, education, urbanity, etc. (see Marom, 2014). After all, a bourgeois Jew living in Rothschild Boulevard in Tel Aviv and a bourgeois Muslim living in King George’s Avenue in Jaffa probably had more in common with each other than each of

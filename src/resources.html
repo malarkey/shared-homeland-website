@@ -21,7 +21,6 @@ summary: The Shared Homeland Paradigm project is continuing a long research path
 {% for resource in backgroundPapers %}
 {% set resourceLink = resource.data["item-file"] or resource.data["item-url"] %}
 <article class="item-resource">
-{% if resource.data["item-author"] %}<small>{{ resource.data["item-author"] }}</small>{% endif %}
 <h3 data-size="xl">{% if resourceLink %}<a href="{{ resourceLink }}" target="_blank">{{ resource.data["item-title"] }}</a>
 {% else %}
 {{ resource.data["item-title"] }}
@@ -31,6 +30,16 @@ summary: The Shared Homeland Paradigm project is continuing a long research path
 {% if resource.data["item-summary"] %}
 <p>{{ resource.data["item-summary"] | markdownLinksToHtml | safe }}</p>
 {% endif %}
+
+{% if resource.data["item-author-bio"] %}
+<div id="author-info">
+{% if resource.data["item-author"] %}<p><b>{{ resource.data["item-author"] }}</b></p>{% endif %}
+<p>{{ resource.data["item-author-bio"] | truncateText(256, "…") }}</p>
+</div><!-- author-info -->
+{% endif %}
+
+
+
 </article>
 {% endfor %}
 

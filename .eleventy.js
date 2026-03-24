@@ -113,6 +113,21 @@ return `${base}${url}`;
 
 return `${base}/${url}`.replace(/([^:]\/)\/+/g, "$1");
 });
+eleventyConfig.addFilter("truncateText", function(value, limit = 256, suffix = "...") {
+if (!value) {
+return "";
+}
+
+const text = String(value).trim();
+const maxLength = Number(limit);
+
+if (!Number.isFinite(maxLength) || text.length <= maxLength) {
+return text;
+}
+
+const trimmedLength = Math.max(0, maxLength - suffix.length);
+return `${text.slice(0, trimmedLength).trimEnd()}${suffix}`;
+});
 
 eleventyConfig.addFilter("filterByFeatured", function(collection) {
 return collection.filter(term => term.data.featured === true);

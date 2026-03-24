@@ -151,6 +151,7 @@ collections:
     fields:
       - {label: "Title", name: "item-title", widget: "string"}
       - {label: "Author", name: "item-author", widget: "string"}
+      - {label: "Author Bio", name: "item-author-bio", widget: "text", required: false}
       - {label: "Publication Date", name: "item-date", widget: "datetime"}
       - {label: "Resource Type", name: "item-type", widget: "string"}
       - label: "PDF File"
