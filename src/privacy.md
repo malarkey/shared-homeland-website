@@ -1,6 +1,7 @@
 ---
 layout: layouts/page.html
 title: Privacy policy
+metaDesc:
 permalink: /privacy/
 
 ---

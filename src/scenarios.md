@@ -1,5 +1,6 @@
 ---
 title: Future Scenarios
+metaDesc:
 layout: layouts/scenarios.html
 permalink: /scenarios/
 ---

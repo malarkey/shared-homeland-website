@@ -1,5 +1,6 @@
 ---
 title: The Alternative Lexicon
+metaDesc:
 layout: layouts/lexicon-grid.html
 permalink: /lexicon-grid/
 aside: >-

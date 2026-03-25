@@ -1,5 +1,6 @@
 ---
 title: Frequently Asked Questions
+metaDesc:
 featureImage: /images/img-background.svg
 layout: layouts/page.html
 permalink: /faqs/

@@ -1,5 +1,6 @@
 ---
 title: "Photo gallery"
+metaDesc:
 layout: "layouts/photos.html"
 
 aside: |

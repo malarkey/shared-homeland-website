@@ -1,5 +1,6 @@
 ---
 title: Project Background
+metaDesc:
 layout: layouts/page.html
 permalink: /background/
 ---

@@ -195,6 +195,7 @@ collections:
         file: "src/privacy.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Meta Description", name: "metaDesc", widget: "string", required: false}
           - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.html"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/privacy/"}
           - {label: "Body", name: "body", widget: "markdown"}
@@ -204,6 +205,7 @@ collections:
         file: "src/team.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Meta Description", name: "metaDesc", widget: "string", required: false}
           - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/team.html"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/team/"}
           - {label: "Sidebar Content", name: "aside", widget: "markdown", required: false}
@@ -244,6 +246,7 @@ collections:
         file: "src/board.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Meta Description", name: "metaDesc", widget: "string", required: false}
           - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/board.html"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/board/"}
 
@@ -264,6 +267,7 @@ collections:
         file: "src/faqs.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Meta Description", name: "metaDesc", widget: "string", required: false}
           - {label: "Featured Image", name: "featureImage", widget: "image", required: false}
           - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.html"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/faqs/"}
@@ -274,6 +278,7 @@ collections:
         file: "src/partners.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Meta Description", name: "metaDesc", widget: "string", required: false}
           - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.html"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/partners/"}
           - {label: "Lede", name: "lede", widget: "markdown", required: false}
@@ -284,6 +289,7 @@ collections:
         file: "src/lexicon-grid.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Meta Description", name: "metaDesc", widget: "string", required: false}
           - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/lexicon-grid.html"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/lexicon-grid/"}
           - {label: "Sidebar Content", name: "aside", widget: "markdown", required: false}
@@ -294,6 +300,7 @@ collections:
         file: "src/lexicon-featured.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Meta Description", name: "metaDesc", widget: "string", required: false}
           - {label: "Summary", name: "summary", widget: "text", required: false}
           - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/lexicon-featured.html"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/lexicon-featured/"}
@@ -305,6 +312,7 @@ collections:
         file: "src/lexicon-list.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Meta Description", name: "metaDesc", widget: "string", required: false}
           - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/lexicon-list.html"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/lexicon-list/"}
           - {label: "Sidebar Content", name: "aside", widget: "markdown", required: false}
@@ -314,6 +322,7 @@ collections:
         file: "src/gallery.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Meta Description", name: "metaDesc", widget: "string", required: false}
           - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/photos.html"}
           - {label: "Sidebar Content", name: "aside", widget: "markdown", required: false}
           - {label: "Body", name: "body", widget: "markdown", required: false}
@@ -323,6 +332,7 @@ collections:
         file: "src/background.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Meta Description", name: "metaDesc", widget: "string", required: false}
           - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.html"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/background/"}
           - {label: "Body", name: "body", widget: "markdown"}
@@ -332,6 +342,7 @@ collections:
         file: "src/scenarios.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Meta Description", name: "metaDesc", widget: "string", required: false}
           - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/scenarios.html"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/scenarios/"}
           - {label: "Body", name: "body", widget: "markdown", required: false}
@@ -341,6 +352,7 @@ collections:
         file: "src/resources.html"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Meta Description", name: "metaDesc", widget: "string", required: false}
           - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/base.html"}
           - {label: "Summary", name: "summary", widget: "text", required: false}
 

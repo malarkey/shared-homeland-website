@@ -1,5 +1,6 @@
 ---
 title: Our Team
+metaDesc:
 layout: layouts/team.html
 permalink: /team/
 aside: >
