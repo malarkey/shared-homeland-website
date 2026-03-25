@@ -1,9 +1,10 @@
 ---
 item-title: Healthcare
 item-author: Yasmeen Abu Fraiha
-item-author-bio: Dr. Abu Fraiha is a medical doctor specialized in internal and
-  critical care medicine, as well as a public health expert. Her research
-  examines how policy and politics drive health inequalities in underserved
+item-author-bio: Dr. Yasmeen Abu Fraiha is a medical doctor with a specialty in
+  internal medicine and critical care medicine, and a public health expert. Her
+  research focuses on the intersection between health policy and politics that
+  create inequalities in health services and outcomes for underserved
   communities.
 item-date: 2026-01-01
 item-type: English
