@@ -1,6 +1,10 @@
 ---
 item-title: Transnational Free Movement Regimes
 item-author: Sandra Lavenex
+item-author-bio: Sandra Lavenex is professor of European and International
+  Politics at the University of Geneva and Visiting Professor at the College of
+  Europe. Her research focuses on international migration governance, EU
+  external relations and transgovernmental cooperation.
 item-date: 2026-03-09T13:05:58.088Z
 item-type: English
 item-file: /files/shp-transnational-free-movement-regimes.pdf
