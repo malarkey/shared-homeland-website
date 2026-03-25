@@ -3,7 +3,7 @@ title: Affinity
 author: David Borabeck
 bio: David Borabeck is a postdoctoral research fellow in Israel Studies at the
   Oxford School of Global and Area Studies and a fellow at St. Antony's College,
-  University of Oxford
+  University of Oxford.
 summary: The transcendent can help cultivate a shared appreciation for the land
   and its significant sacred sites, rather than the sectarian divisions created
   by the zero-sum game of colonialism and nationalism.
