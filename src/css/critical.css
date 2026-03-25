@@ -1191,16 +1191,19 @@ scale: 1.05; }
 
 /*Terms */
 
-#author-info {
+#author-info,
+.author-info {
 border: var(--border-width-r) solid var(--color-border);
 margin-block-end: var(--spacing-r);
 margin-trim: block;
 padding: var(--spacing-s); }
 
-#author-info p {
+#author-info p,
+.author-info p {
 margin-block: 0; }
 
-#author-info p + p {
+#author-info p + p,
+.author-info p + p {
 font-size: var(--font-size-s); }
 
 

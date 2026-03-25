@@ -31,15 +31,6 @@ summary: The Shared Homeland Paradigm project is continuing a long research path
 <p>{{ resource.data["item-summary"] | markdownLinksToHtml | safe }}</p>
 {% endif %}
 
-{% if resource.data["item-author-bio"] %}
-<div id="author-info">
-{% if resource.data["item-author"] %}<p><b>{{ resource.data["item-author"] }}</b></p>{% endif %}
-<p>{{ resource.data["item-author-bio"] | truncateText(256, "…") }}</p>
-</div><!-- author-info -->
-{% endif %}
-
-
-
 </article>
 {% endfor %}
 
