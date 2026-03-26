@@ -8,7 +8,7 @@ item-author-bio: Dr. Yasmeen Abu Fraiha is a medical doctor with a specialty in
   communities.
 item-date: 2026-01-01
 item-type: English
-item-file: /files/shp-healthcare.pdf
+item-file: /files/shp-healthcare-bp.pdf
 item-url: null
 item-summary: In regions marked by protracted conflict, healthcare systems are
   often among the first institutions to suffer and the last to recover. The
