@@ -10,6 +10,7 @@ item-author-bio: >
   activism in Greece, Cyprus and the broader Mediterranean region.
 
 
+
   Olga Demetriou is Professor in Political Anthropology at Durham University and Director of the Durham Global Security Institute. She has a long-standing interests in borders and conflict legacies that straddle anthropology and politics/IR. Her current work focuses on activism in refugee reception sites in Spain, Italy, Greece, and Cyprus. 
 item-date: 2026-01-01
 item-type: English
