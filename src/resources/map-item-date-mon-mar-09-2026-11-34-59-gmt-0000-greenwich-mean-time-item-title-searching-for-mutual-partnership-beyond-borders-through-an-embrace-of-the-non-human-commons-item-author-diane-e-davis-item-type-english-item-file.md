@@ -2,6 +2,12 @@
 item-title: "Searching for Mutual Partnership Beyond Borders through an Embrace
   of the Non-human Commons "
 item-author: Diane E. Davis
+item-author-bio: "Diane E. Davis is the Charles Dyer Norton Professor of
+  Regional Development and former Chair of the Department of Urban Planning and
+  Design at Harvard’s Graduate School of Design (GSD). Before joining Harvard in
+  2011, Davis served as the head of the International Development Group in the
+  Department of Urban Studies and Planning at MIT, where she was also Associate
+  Dean of the School of Architecture and Planning.  "
 item-date: 2026-03-09T11:34:59.970Z
 item-type: English
 item-file: /files/shp-searching-for-mutual-partnership-beyond-borders.pdf
