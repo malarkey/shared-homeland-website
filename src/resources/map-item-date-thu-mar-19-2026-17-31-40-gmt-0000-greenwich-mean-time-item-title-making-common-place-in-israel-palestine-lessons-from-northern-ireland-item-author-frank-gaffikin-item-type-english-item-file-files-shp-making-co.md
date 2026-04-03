@@ -1,6 +1,12 @@
 ---
 item-title: "Making Common Place in Israel-Palestine: Lessons from Northern Ireland"
 item-author: Frank Gaffikin
+item-author-bio: "Professor Frank Gaffikin has had a research specialism in the
+  issue of contested space and contested states for many decades. This focus on
+  the links among themes of territory, identity and sovereignty is captured in
+  his co-authored book: Planning in Divided Cities (Blackwell) and his attempt
+  to locate the issue within the context of contemporary turbulent geopolitics
+  is the subject of a recent book: The Human Paradox (Routledge)."
 item-date: 2026-03-19T17:31:40.167Z
 item-type: English
 item-file: /files/shp-making-common-place-in-israel-palestine.docx-copy.pdf
