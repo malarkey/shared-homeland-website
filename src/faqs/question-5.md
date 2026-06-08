@@ -1,8 +1,10 @@
 ---
-title: 'What do you mean by a "shared homeland"? '
+title: "Why are the website and project developed in English? "
 categories:
   - about
 ---
-The concept of a “shared homeland” starts from the recognition of a fact: the land Palestinians call Palestine (فلسطين) and Israeli-Jews call the Land of Israel (ארץ ישראל) is the same place. Both peoples live across its valleys, hillsides, and coastlines, and both feel its length and breadth as home. Calling it a "shared homeland" is partly a recognition of that shared attachment. But it is also a normative and political claim: any just future for this land must be built for both peoples who call it home, not by separating them and not by erasing one or the other. 
+The project's research is hosted at two English-speaking institutions (the Bartlett DPU at University College London and the McGeorge School of Law at the University of the Pacific) and involves researchers based in those countries as well as in the wider academic world. English is the working language because it is the lingua franca across the team, drawing collaborators from Palestine-Israel and from around the world. 
 
-That recognition does not flatten history. The status quo in Palestine-Israel was shaped by settler-colonialism, dispossession, ethnic cleansing, cultural erasure, and the current genocide in Gaza. A shared homeland does not mean equal historical claims. It means that decolonisation cannot take the form of one people supplanting another and that justice for Palestinians and dignity for Israeli Jews are not in tension; both require dismantling the existing structures of domination that have precluded an equal shared life, and building new institutions that can sustain it. What those institutions and that reorganisation of space would actually look like is the work of the Shared Homeland Paradigm (SHP) project.
+That comes with a real limitation. Many amongst the two peoples for whom this project is intended for, Palestinian and Israeli publics, read Arabic and Hebrew rather than English. Producing research first in English risks holding it at one remove from those publics. The project's plan is to address this in stage three, the public outreach phase. The most important outputs, including policy briefs, key scenarios, and video summaries, will be translated and made accessible in Arabic and Hebrew, in formats designed for non-academic audiences. The web platform is intended to host materials in all three languages. 
+
+We do not pretend this fully closes the gap. Working in English can shape the questions that get asked and the frameworks that get used. However, it allows the team to work together and to create meaningful collaboration worldwide.
