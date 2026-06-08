@@ -1,0 +1,13 @@
+---
+title: "Are you advocating a one-state or a two-state solution? "
+categories:
+  - about
+layout: layouts/base.html
+---
+Based on our study and analysis of the current conditions, and similar to our partner organization A Land for All's vision, the SHP advocates a vision of “two states, one homeland”, an approach distinct from both conventional one-state and two-state solutions. We urge the establishment of a sovereign Palestinian state alongside the State of Israel, with borders based on the 1967 line. The two states, Palestine and Israel, would be linked together by joint institutions strong enough to protect the rights of all persons in the territory and to manage common interests.  
+
+We aim to offer a practical and compelling alternative to the moribund separation-based two-state solution that the international community has championed for several decades, and to one-state models that have yet to command broad-based support. The starting point is a recognition that both peoples share an aspiration to national self-determination, including the ability to govern themselves and shape their collective future. The SHP takes that aspiration seriously on both sides. Where it parts company with conventional two-state thinking is in rejecting the assumption that mutual self-determination requires separation, the idea that security, prosperity and self-determination are best secured by maximising physical distance between the two peoples. After three decades, that approach has deepened occupation, impoverished Palestinians, and left everyone less secure. The SHP starts from the opposite premise: that justice and security in a land both peoples claim as home can only be built through partnership and equal rights.  
+
+Like one-state proposals, the SHP embraces freedom of movement and residence across the whole land. At the same time, it provides robust protection for something that one-state models tend to neglect: both peoples' group identity and their ability to sustain their political, cultural, and institutional life as national communities.  
+
+The mechanism through which self-determination is reconciled with freedom of movement is the decoupling of two legal statuses: citizenship and residency. Citizens may participate in national-level politics, allowing each state to retain its own demos; residents may participate in local politics (e.g., in municipal elections), giving them voice in matters affecting their lives without changing the composition of the national polity.
