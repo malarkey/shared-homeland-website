@@ -1,7 +1,7 @@
 ---
 title: "What happens to Israeli settlers in the West Bank? "
 categories:
-  - general
+  - about
 layout: layouts/base.html
 ---
 This is one of the most challenging questions the project is addressing. The settlements in the West Bank were established and have been maintained and expanded in patent violation of international law. They are an Israeli state colonial project, built and sustained through decades of governmental policy, military protection and financial support, and designed explicitly to make Palestinian self-determination harder to achieve. They sit at the heart of the system of occupation and Jewish supremacy that the SHP directly challenges. At the same time, they are home to some 700,000 Israelis whose forced relocation would present formidable political, security, economic, and human costs. Forced relocation on that scale could also reinforce a logic of separation, reprising the catastrophic population transfers of the 20th century and deepening rather than diminishing ethnic conflict. 
