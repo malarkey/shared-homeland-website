@@ -1,0 +1,11 @@
+---
+title: "Is this project, and the vision it advocates, a form of normalisation? "
+categories:
+  - about
+layout: layouts/base.html
+---
+Normalisation, according to [one influential definition from the BDS movement](https://bdsmovement.net/news/bds-movement-anti-normalization-guidelines), means dealing with or presenting something that is inherently abnormal, such as oppression and injustice, as if it were normal. Anti-normalisation is a serious framework that emerges from anti-colonial commitments the SHP project shares. Indeed, SHP was developed to challenge the status quo in Palestine-Israel, not to normalise it.  
+
+The project's substantive aims include ending Israel's occupation, dismantling the structures of inequality and supremacy that have constrained Palestinian citizens of Israel, and enabling Palestinian refugees to realise their right of return while respecting the rootedness of Israeli Jews in the places they now call home. These are not goals that can be achieved by treating the present as if it were normal; they require its radical transformation. We pursue them by developing practical and principled models that respond to an array of challenges that have impeded progress in the past, drawing on comparative experience from elsewhere and on deep familiarity with the distinctive features of Palestine-Israel. 
+
+The project engages both Palestinians and Israelis committed to these goals, ensuring that researchers from among both peoples shape its direction. The SHP team recognizes the lack of symmetry between Israeli and Palestinian history, power, and circumstances, and we strive to work in a way that mitigates the impact of structural inequalities.  Additionally, the project is structured to minimize normalisation concerns. It is hosted by two academic institutions outside the region, the Bartlett Development Planning Unit at University College London and the McGeorge School of Law at the University of the Pacific, and it is neither affiliated with nor funded by Israeli state institutions in any way.
