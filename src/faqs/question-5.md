@@ -2,6 +2,7 @@
 title: "Why are the website and project developed in English? "
 categories:
   - about
+  - contact
 ---
 The project's research is hosted at two English-speaking institutions (the Bartlett DPU at University College London and the McGeorge School of Law at the University of the Pacific) and involves researchers based in those countries as well as in the wider academic world. English is the working language because it is the lingua franca across the team, drawing collaborators from Palestine-Israel and from around the world. 
 
