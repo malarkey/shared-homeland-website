@@ -2,6 +2,7 @@
 title: "Are you advocating a one-state or a two-state solution? "
 categories:
   - about
+  - contact
 layout: layouts/base.html
 ---
 Based on our study and analysis of the current conditions, and similar to our partner organization A Land for All's vision, the SHP advocates a vision of “two states, one homeland”, an approach distinct from both conventional one-state and two-state solutions. We urge the establishment of a sovereign Palestinian state alongside the State of Israel, with borders based on the 1967 line. The two states, Palestine and Israel, would be linked together by joint institutions strong enough to protect the rights of all persons in the territory and to manage common interests.  
