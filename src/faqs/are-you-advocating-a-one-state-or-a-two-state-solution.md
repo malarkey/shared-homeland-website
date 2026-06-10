@@ -3,6 +3,7 @@ title: "How can this project have a real-world impact and not remain just
   another academic exercise? "
 categories:
   - about
+  - contact
 layout: layouts/base.html
 ---
 Scholarly work on Palestine-Israel can struggle to reach beyond its primary readership due to the political reality on the ground. However, the SHP builds on a growing body of work by scholars and political thinkers, in Palestine-Israel and elsewhere, who have been developing the paradigm of partnership over recent years. What the project tries to add is reach: ensuring the work lands beyond academic circles and into the conversations and decisions that actually shape the region's future. 
