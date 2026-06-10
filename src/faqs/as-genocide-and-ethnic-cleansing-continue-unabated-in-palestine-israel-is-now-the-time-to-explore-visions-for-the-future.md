@@ -3,6 +3,7 @@ title: "As genocide and ethnic cleansing continue unabated in Palestine-Israel,
   is now the time to explore visions for the future? "
 categories:
   - about
+  - contact
 layout: layouts/base.html
 ---
 After decades of failed peace processes and now in the midst of a genocide, the very vocabulary of "solutions" and "visions" has come to feel suspect to many Palestinians and to others working in solidarity with them. The concern is understandable: when bodies are being pulled from rubble in Gaza, when settler violence is displacing communities in the West Bank, East Jerusalem and the Naqab/Negev, when the catastrophe is ongoing, what business does anyone have writing about some distant future? 
