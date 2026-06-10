@@ -2,6 +2,7 @@
 title: "Is your vision consistent with international law? "
 categories:
   - about
+  - contact
 layout: layouts/base.html
 ---
 Yes. The SHP is built on principles that international law has long affirmed, and in several important respects it gives those principles fuller effect than existing peace frameworks have managed. 
