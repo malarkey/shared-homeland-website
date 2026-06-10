@@ -2,6 +2,7 @@
 title: "Is this project, and the vision it advocates, a form of normalisation? "
 categories:
   - about
+  - contact
 layout: layouts/base.html
 ---
 Normalisation, according to [one influential definition from the BDS movement](https://bdsmovement.net/news/bds-movement-anti-normalization-guidelines), means dealing with or presenting something that is inherently abnormal, such as oppression and injustice, as if it were normal. Anti-normalisation is a serious framework that emerges from anti-colonial commitments the SHP project shares. Indeed, SHP was developed to challenge the status quo in Palestine-Israel, not to normalise it.  
