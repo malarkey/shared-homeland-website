@@ -1,7 +1,17 @@
 ---
 title: Democracy
 author: Lev Grinberg
-summary: .
+summary: >-
+  Democracy is a set of formally agreed rules and institutions designed to
+  contain internal
+
+  conflicts peacefully within the borders of a state. The concept of two separate autonomous
+
+  democratic states, coordinated through parity-based confederal institutions, is suggested
+
+  here as a democratic institutional framework for containing conflicts between Israelis and
+
+  Palestinians in their shared Land, and as a viable path toward decolonization.
 featured: false
 popular: false
 pdf: /files/al-democracy.pdf
