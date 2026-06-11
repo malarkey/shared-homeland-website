@@ -1,5 +1,6 @@
 ---
 title: "What happens to Israeli settlers in the West Bank? "
+order: 5
 categories:
   - about
   - contact
