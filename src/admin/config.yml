@@ -48,6 +48,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Question", name: "title", widget: "string"}
+      - {label: "Display Order", name: "order", widget: "number", value_type: "int", min: 1, default: 1}
       - {label: "Answer", name: "body", widget: "markdown"}
       - label: "Categories"
         name: "categories"
@@ -355,6 +356,10 @@ collections:
           - {label: "Meta Description", name: "metaDesc", widget: "string", required: false}
           - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/base.html"}
           - {label: "Summary", name: "summary", widget: "text", required: false}
+          - {label: "Background Papers Title", name: "backgroundPapersTitle", widget: "string", required: false}
+          - {label: "Background Papers Summary", name: "backgroundPapersSummary", widget: "text", required: false}
+          - {label: "Other Categories Title", name: "otherCategoriesTitle", widget: "string", required: false}
+          - {label: "Other Categories Summary", name: "otherCategoriesSummary", widget: "text", required: false}
 
       - label: "Resource Category Summaries"
         name: "resource_category_summaries"

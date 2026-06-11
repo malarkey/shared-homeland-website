@@ -2,6 +2,10 @@
 title: "Knowledge Hub"
 layout: "layouts/base.html"
 summary: The Shared Homeland Paradigm project is continuing a long research path of thinkers and initiatives that have worked to promote partnership-based models for Palestine-Israel. If you are interested in deepening your understanding of the field of Palestinian-Israeli confederation, we recommend exploring the following resources.
+backgroundPapersTitle: "Background papers"
+backgroundPapersSummary: ""
+otherCategoriesTitle: "Other categories"
+otherCategoriesSummary: "You’ll find more information in these sections, including articles and books, podcasts, policy papers, events and videos."
 ---
 
 {% include "partials/schema/resources-hub.json.njk" %}
@@ -14,7 +18,9 @@ summary: The Shared Homeland Paradigm project is continuing a long research path
 {% set otherCategories = collections.resourcesCategory %}
 
 <section>
-<h2 data-size="2xl"><a href="/resources/category/background-papers/">Background papers</a></h2>
+<h2 data-size="2xl"><a href="/resources/category/background-papers/">{{ backgroundPapersTitle }}</a></h2>
+
+{% if backgroundPapersSummary %}<p>{{ backgroundPapersSummary }}</p>{% endif %}
 
 {% if backgroundPapers.length %}
 <div data-layout="flex" data-border="r">
@@ -48,7 +54,9 @@ summary: The Shared Homeland Paradigm project is continuing a long research path
 
 
 <section>
-<h2 data-size="2xl">Other categories</h2>
+<h2 data-size="2xl">{{ otherCategoriesTitle }}</h2>
+
+{% if otherCategoriesSummary %}<p>{{ otherCategoriesSummary }}</p>{% endif %}
 
 {% if otherCategories.length %}
 <div data-layout="flex" data-border="r">

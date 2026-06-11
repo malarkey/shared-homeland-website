@@ -271,6 +271,13 @@ return (a.data.order || 0) - (b.data.order || 0);
 // FAQ COLLECTION
 eleventyConfig.addCollection("faqs", (collection) => {
 return collection.getFilteredByGlob("./src/faqs/*.md").sort((a, b) => {
+const orderA = Number.isFinite(Number(a.data.order)) ? Number(a.data.order) : 9999;
+const orderB = Number.isFinite(Number(b.data.order)) ? Number(b.data.order) : 9999;
+
+if (orderA !== orderB) {
+return orderA - orderB;
+}
+
 return a.data.title.localeCompare(b.data.title);
 });
 });
