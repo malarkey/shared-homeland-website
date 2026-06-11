@@ -1,5 +1,6 @@
 ---
 title: "Is this project, and the vision it advocates, a form of normalisation? "
+order: 3
 categories:
   - about
   - contact
