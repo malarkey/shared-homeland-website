@@ -1,6 +1,7 @@
 ---
 title: "How can this project have a real-world impact and not remain just
   another academic exercise? "
+order: 8
 categories:
   - about
   - contact
