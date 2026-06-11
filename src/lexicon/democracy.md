@@ -1,6 +1,12 @@
 ---
 title: Democracy
 author: Lev Grinberg
+bio: Lev Grinberg is Professor Emeritus and founding Chair of the Department of
+  Sociology and Anthropology at BGU. He served as President of the ISS and is
+  currently a Visiting Professor at Dartmouth College. His publications focus on
+  the political economy of Labor Zionism, the historical sociology of
+  Israeli–Palestinian relations, and comparative resistance movements. He has
+  also served as an advisor of institutional reforms within the Histadrut.
 summary: >-
   Democracy is a set of formally agreed rules and institutions designed to
   contain internal
