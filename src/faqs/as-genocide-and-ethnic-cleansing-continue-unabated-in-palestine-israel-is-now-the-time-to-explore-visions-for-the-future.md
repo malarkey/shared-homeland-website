@@ -1,6 +1,7 @@
 ---
 title: "As genocide and ethnic cleansing continue unabated in Palestine-Israel,
   is now the time to explore visions for the future? "
+order: 4
 categories:
   - about
   - contact
