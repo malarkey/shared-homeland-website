@@ -31,7 +31,7 @@ collections:
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Role", name: "role", widget: "string"}
       - {label: "Qualifications", name: "qualifications", widget: "string", required: false}
-      - {label: "Location", name: "location", widget: "string"}
+      - {label: "Location", name: "location", widget: "string", required: false}
       - {label: "Email", name: "email", widget: "string", required: false}
       - {label: "LinkedIn", name: "linkedin", widget: "string", required: false}
       - {label: "Image", name: "image", widget: "image", required: false}
