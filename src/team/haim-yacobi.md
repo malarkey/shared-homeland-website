@@ -1,22 +1,21 @@
 ---
-email:
-layout: 'layouts/member.html'
-linkedin:
-location:
-name: 'Haim Yacobi'
-order: 2
-qualifications:
-role: 'Co-Principal Investigator'
-url:
+name: Haim Yacobi
+role: Co-Principal Investigator
+qualifications: null
+location: null
+email: null
+linkedin: null
 image: img-haim-yacobi-small.webp
 imageLarge: img-haim-yacobi-large.webp
+summary: Haim Yacobi is a Professor of Development Planning at the Bartlett
+  Development Planning Unit, UCL. With a background in architecture, he
+  specialised in critical urban studies and urban health.
+layout: layouts/member.html
+order: 2
+url: null
+blockQuote: null
 eleventyComputed:
   title: "{{ name }}"
-
-summary: Haim Yacobi is a Professor of Development Planning at the Bartlett Development Planning Unit, UCL and the Programme Leader of the MSc Health in Urban Development. With a background in architecture, he specialised in critical urban studies and urban health.
-
-blockQuote:
-
 ---
 
 In 1997, he graduated the M.Sc. in Housing in Development with an overall distinction and with the support of the British Council Chevening Award. Between 2006–2007 he was a Fulbright Post-doctorate fellow at the Center for Middle Eastern Studies, University of California, Berkeley, and then joined the Department of Politics and Government at BGU.
