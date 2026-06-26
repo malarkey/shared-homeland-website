@@ -9,7 +9,11 @@ const w3DateFilter = require("./src/filters/w3-date-filter.js");
 const sortByDisplayOrder = require("./src/utils/sort-by-display-order.js");
 const resourceCategorySummariesData = require("./src/_data/resource-category-summaries.json");
 const normalizeCategoryKey = (value) =>
-  String(value || "").trim().toLowerCase();
+  String(value || "")
+    .trim()
+    .toLowerCase()
+    .replace(/\s*&\s*/g, " and ")
+    .replace(/\s+/g, " ");
 const resourceCategorySummaries = Object.fromEntries(
   (resourceCategorySummariesData.categories || []).map((item) => [
     normalizeCategoryKey(item.name),
