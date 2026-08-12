@@ -1,7 +1,13 @@
 ---
 title: Flag
 author: "Yara Shahine Gharablé "
-summary: .
+bio: Yara Shahine Gharablé is a social and political activist from Yaffa, raised
+  in the Ajami neighbourhood. She is a member of Academia for Equality and a
+  DPhil candidate in Criminology at the University of Oxford.
+summary: '"Flag" examines the Israeli flag as an instrument of settler-colonial
+  power that inscribes ownership and exclusion onto space, and proposes a
+  temporal, practice-based alternative; grounded in time, naming, and silence,
+  for a shared homeland beyond the territorial logic of flags.'
 featured: false
 popular: false
 pdf: /files/al-flag.pdf
