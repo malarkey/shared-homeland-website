@@ -1,7 +1,18 @@
 ---
 title: Academic Space
 author: Ayat Abou Shmeiss
-summary: .
+bio: Ayat Abou Shmeiss is a poet, op-ed writer, and lecturer, born and raised in
+  Yaffa. She is the director of Mit’an Publishing House and recently moved to
+  London to pursue her PhD in Politics and International Studies at SOAS
+  University of London.
+summary: This article examines academic space in Israel/Palestine as shaped by
+  political separation, unequal power relations, and the exclusion of
+  Palestinian knowledge, language, and presence. Drawing on the Shared Homeland
+  Paradigm, it reimagines academic space through language and identity,
+  knowledge production, political climate and militarization, and epistemic
+  exile and mobility. It also offers a preliminary exploration of the “Academic
+  Right of Return” as a way of thinking about a shared academic space in which
+  Palestinians are recognized as active producers and shapers of knowledge.
 featured: false
 popular: false
 pdf: /files/al-academic-space.pdf
