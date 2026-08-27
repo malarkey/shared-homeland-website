@@ -1,17 +1,17 @@
 ---
 title: Israeli / Post-Israeli
-author: "Tamar Ben David "
+author: Tamar Ben David
 bio: Tamar Ben David is a CHASE funded doctoral researcher at Birkbeck,
   University of London, researching contemporary trans-lesbian fiction in
   English. She has also recently co-published articles critically analysing
   framings of violence against women in Palestine-Israel, and is a board member
   of the Gila Project for Trans Empowerment.
-summary: Following October 7 and the genocide in Gaza, Israeli identity has
+summary: "Following October 7 and the genocide in Gaza, Israeli identity has
   reached a breaking point. Instead of the expansionist and recyclical modes of
   self-preservation, its decomposition might be an opportunity for
   (Post-)Israelis to negotiate their preconditioned identity with a real
   investment in a just future in Palestine / Eretz-Yisrael, recomposing
-  themselves towards a shared homeland.
+  themselves towards a shared homeland. "
 featured: false
 popular: false
 pdf: /files/al-israeli-post-israeli.pdf
