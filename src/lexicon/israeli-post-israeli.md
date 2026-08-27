@@ -1,6 +1,6 @@
 ---
 title: Israeli / Post-Israeli
-author: Tamar Ben David
+author: "Tamar Ben David "
 bio: Tamar Ben David is a CHASE funded doctoral researcher at Birkbeck,
   University of London, researching contemporary trans-lesbian fiction in
   English. She has also recently co-published articles critically analysing
